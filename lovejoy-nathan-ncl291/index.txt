@@ -5,5 +5,7 @@
 <title> ISAW GA3024</title>
 </head>
 <body>
+<a href="http://isaw.nyu.edu">ISAW</a>
 <p>The Hittite language was a distinct member of the Anatolian branch of the Indo-European language family, the oldest attested language of that family. They referred to their native land as Hatti. The conventional name "Hittites" is due to their initial identification with the Biblical Hittites in 19th century archaeology. Despite their use of the name Hatti for their core territory, the Hittites should be distinguished from the Hattians, an earlier people who inhabited the same region (until the beginning of the 2nd millennium BC) and spoke an unrelated language known as Hattic.</p>
+<img src="https://en.wikipedia.org/wiki/Hittites#/media/File:AlterOrient2.png">
 </body>
