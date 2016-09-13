@@ -53,7 +53,30 @@
         <body>
             <div type="edition">
                 <ab>
-                    <lb n="1"/>Greek or Latin (etc.) text here
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName>Vettius Agorius Praetextatus 
+                    <lb n="3"/>augur p[o]ntifex Vestae
+                    <lb n="4"/>pontifex Sol[is] quindecemvir
+                    <lb n="5"/>curialis Herc[u]lis sacratus
+                    <lb n="6"/>Libero et Eleusiniis hierophanta
+                    <lb n="7"/>neocorus tauroboliatus
+                    <lb n="8"/>pater patrum in [r]e publica vero
+                    <lb n="9"/>quaestor candidatus
+                    <lb n="10"/>pr(a)etor urbanus
+                    <lb n="11"/>corrector Tusciae et Umbriae
+                    <lb n="12"/>consularis Lusitaniae
+                    <lb n="13"/>proconsule Achaiae
+                    <lb n="14"/>praefectus urbi
+                    <lb n="15"/>legatus a senatu missus V
+                    <lb n="16"/>praefectus praetorio II Italiae
+                    <lb n="17"/>et Illyrici
+                    <lb n="18"/>consul ordinarius
+                    <lb n="19"/>designatus</persName>
+                    <lb n="20"/>et <persName>Aconia Fabia Paulina c(larissima) f(emina)
+                    <lb n="21"/>sacrata Cereri et Eleusiniis
+                    <lb n="22"/>sacrata apud (A)eginam Hecatae
+                    <lb n="23"/>tauroboliata hierophantria</persName>
+                    <lb n="24"/>hi coniuncti simul vixerunt <expan><abbr>ann</abbr><ex>os</ex></expan> XL
                 </ab>
             </div>
             <div type="apparatus">
