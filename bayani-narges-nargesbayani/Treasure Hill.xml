@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Treasure Hill</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://exorientelux.org/wp-content/uploads/2016/03/sc-762x1030.gif"/>
+    </facsimile> 
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"> 
+                <ab>
+                    <lb n="1"/>Treasure Hill is the easternmost mound of Tepe Hissar (fig.1). Schmidt originally excavated two squares in this area, plots DH05 and CH95 (Fig. 2), during the first excavation season in 1931. Upon returning to the squares in season two in an attempt to reach “Painted Ware levels “ (Schmidt 1937: 171), he came across a hoard of objects in DH05, which prompted him to further expand the excavations in this part of the site and gave the mound its name. In the course of two seasons, 16 squares of 10x10m were excavated, resulting in the discovery of a second hoard – in DH07 – and over 200 burials, many of which were attributed to IIIC. No other team ever revisited Treasure Hill again, save for Dyson (Bovington et al. 1974) collecting a carbon sample for radiocarbon dating in 1971 from square CH86. By and large, the finds from Treasure Hill (architecture, grave goods and ceramics) have not been incorporated into the revised chronology and periodization of the site due to partial publication of this mound. Only the two hoards and a handful of burials were published in the 1937 volume.
+	In order to understand the nature of BMAC presence at Tepe Hissar, we revisited the legacy data from the University of Pennsylvania’s two expeditions to Tepe Hissar, housed in the UPM Archives and Collections storage. The data concerning Treasure Hill consists of burial sheets, object cards, drawn plans, photographs, illustrations, unpublished field notes, surveyor’s notebook, and field journals. It must be noted that there are a number of known concerns with Schmidt’s excavation records of Treasure Hill. For instance, it appears that only a handful of objects were recovered from non-funerary contexts, with the exception of the two hoards. It is not clear whether this reflects a real absence of objects outside funerary contexts, or that lone objects were not recorded. It is certain, however, that ceramic grave goods and skeletons that were deemed too fragmentary were discarded right away; the burial sheets are full of descriptions of mortuary vessels marked as “discarded”. Moreover, in the case of Treasure Hill, the datum was set at the center-east limit of DH05. Yet an unpublished notebook of E. White (expedition’s surveyor) mentions a second datum on Treasure Hill, set at the center-east limit of CH95, and .50m lower than the initial datum. An accompanying note explains that only the elevations provided for the four corners of CH95 were taken from the secondary datum in CH95. However, it is not clear whether this issue is limited to the records from the second season, or if it affects records from the first season as well. The horizontal location of finds within each plot is also a matter of approximation. No systematic notation was used to record the horizontal location of finds within 10x10 m plots. A rather vague system of numerical “plot records” (or “p.rec.”) seems to have been introduced in the second season as a mechanism for micro-control. Unfortunately, the notebook containing the clues as to what the plot records refer is now lost. In short, due to inconsistencies in methods of recording elevation, stratigraphy and horizontal distribution, the recorded position of the finds and architectural remains are not fully dependable. However, by comparing the data with daily journals and field survey notes, an approximate context can be constructed.
+
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+ 
