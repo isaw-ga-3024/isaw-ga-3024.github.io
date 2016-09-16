@@ -50,18 +50,21 @@
         <graphic url="photograph of text or monument"/>
     </facsimile>
     <text>
+        <figure>
+ <head>The Map of the Parthian Empire</head>
+ <graphic url="http://www.iranpoliticsclub.net/maps/images/076%20Parthian%20Empire%202%20Map.jpg"/> </figure>
+       
         <body>
             <div type="edition" xml:space="preserve">
                 <ab>
-                    <lb n="1"/>ŠNT <date>IIIC</date> YRH’ ’rwtt MZBNW <persName>ptspk</persName> BRY <persName>tyryn</persName>
-                    <lb n="2"/>ZY MN <placeName>bwdy</placeName> KRM’ <placeName >’smk</placeName> MH ’bykškn PLG y’t
-                    <lb n="3"/>W ZBNW ’wyl BRY bšnyn KZY ’HY KL’ ZWZN <num>XXX/XXX IIIII</num>
-                    <lb n="4"/>MH MN bwmhwt[y] ’(py)h(w)z hmy ’KLW QDMTH
-                    <lb n="5"/>ŠHDYN tyrk BRY ’pyn (m..g) BRY ršnw ’rštt
-                    <lb n="6"/>B(RY) ’bny grypnhy B(RY) mtrpry synk BRY m’tbwg
-                    <lb n="7"/>[       ] (.) KRM’ <placeName>’smkn</placeName> KRM’ ZBNt ’wyl MN
-                    <lb n="8"/><persName>ptspk</persName> (K)L’ ZWZN <num>XXX/XXX IIIII</num>
-                </ab>
+                    <lb n="1"/>Az, mazdēzn <rs type="divine">baγ</rs> <persName>Šābuhr</persName>, <rs type="royal">šāhān šāh</rs> <placeName>Ērān</placeName> ud <placeName>Anēran</placeName>, kē čihr až yazdān, puhr mazdēzn <rs type="divine">baγ</rs> <persName>Ardašīr</persName>, <rs type="royal">šāhān šāh</rs> <placeName>Ērān</placeName>, kē čihr až yazdān, puhrēpuhr <rs type="divine">baγ</rs> <persName>Pābag</persName> <rs type="royal">šāh</rs>, <placeName>Ērānšahr</placeName> xwadāy ahēm
+                    <lb n="2"/>ud dārām <placeName>[šahr P]ārs, *[Parθaw, Xūzestān, Mēšān, A[sūrestān, Nōdšīragān, Arbāyes]tān, Ādu[r]bādegān, Armin, Wiržān, Sīgān, Ardān, Balāsagān yad fraxš ō Kaf kōf ud Alānān bar, ud hamag Parišxwār kōf</placeName>
+                    <lb n="6"/>ud kaδ naxwišt pad šahr awištād ahēm, <persName>Gōrdanyos</persName> <rs type="royal">Kēsar</rs> až hamag <placeName>Frōm</placeName>, <placeName>Gōt</placeName> ud <placeName>Garmāniyā</placeName> šahr zāwar hangāwišn kerd; ud ō <placeName>Asūrestān</placeName> abar <placeName>Ērānšahr</placeName> ud amā āγ[a]d, ud pad <placeName>Asūrestān</placeName> m[arz] pad <placeName>Mišīk</placeName> paddēmān wuzurg zambag būd.
+                    <lb n="7"/><persName>Gōrdanyos</persName> <rs type="royal">Kēsar</rs> ōžad, Frōmāyīn zāwar *wānād, ud Frōmāyīn <persName>Filip(p)os</persName> <rs type="royal">kēsar</rs> kerd.
+                    <lb n="8"/>Ud <persName>Filip(p)os</persName> <rs type="royal">Kēsar</rs> amā ō nemastīg āγad, ud gyān goxn (?) <rs type="currency">dēnār</rs> 500 hazār ō amā dād, pad bāž awestād, ud amā Mišik až ēd kerd Pērōz-Šābuhr nām awestād.
+
+
+       </ab>
             </div>
             <div type="apparatus">
                 <p>external apparatus criticus (if applicable)</p>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>title of document</title>
+                <title>The Parthian “Centralization”</title>
             </titleStmt>
             <publicationStmt>
                 <authority></authority>
@@ -47,20 +47,17 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="photograph of text or monument"/>
+        <graphic url="http://www.iranpoliticsclub.net/maps/images/076%20Parthian%20Empire%202%20Map.jpg"/>
+        <!-- Map of the Parthian Empire -->
+  
+        <graphic url="https://cdn.globalauctionplatform.com/fd16fcf5-be42-4a97-8c4f-a56700f6dc9d/e84a384f-7d8d-40b4-d906-6f83b7445271/540x360.jpg"></graphic>
+     
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve">
                 <ab>
-                    <lb n="1"/>ŠNT <date>IIIC</date> YRH’ ’rwtt MZBNW <persName>ptspk</persName> BRY <persName>tyryn</persName>
-                    <lb n="2"/>ZY MN <placeName>bwdy</placeName> KRM’ <placeName >’smk</placeName> MH ’bykškn PLG y’t
-                    <lb n="3"/>W ZBNW ’wyl BRY bšnyn KZY ’HY KL’ ZWZN <num>XXX/XXX IIIII</num>
-                    <lb n="4"/>MH MN bwmhwt[y] ’(py)h(w)z hmy ’KLW QDMTH
-                    <lb n="5"/>ŠHDYN tyrk BRY ’pyn (m..g) BRY ršnw ’rštt
-                    <lb n="6"/>B(RY) ’bny grypnhy B(RY) mtrpry synk BRY m’tbwg
-                    <lb n="7"/>[       ] (.) KRM’ <placeName>’smkn</placeName> KRM’ ZBNt ’wyl MN
-                    <lb n="8"/><persName>ptspk</persName> (K)L’ ZWZN <num>XXX/XXX IIIII</num>
+                   
                 </ab>
             </div>
             <div type="apparatus">
@@ -78,3 +75,4 @@
         </body>
     </text>
 </TEI>
+
