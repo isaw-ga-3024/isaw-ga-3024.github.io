@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Canopus Decree</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Cairo</settlement>
+                        <repository>Egyptian Museum</repository>
+                        <idno>CG 22187</idno>
+                        <altIdentifier>
+                            <idno type="URL">www.trismegistos.org/text/55659</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Limestone </material><objectType>stela </objectType> with illustrated lunette </support></supportDesc>
+                            <layoutDesc>
+                                <layout>Hieroglyphic text first, Greek text below, Demotic text on the left side of the stela</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate when-custom="-0238" datingMethod="#julian">238 B.C.E.</origDate>
+                        </origin>
+                        <provenance xml:id="findspot" type="found">Tanis,
+                        </provenance>
+                        <provenance type="modern"> San el-Hagar
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://c8.alamy.com/comp/E8APRM/italy-piedmont-turin-egyptian-museum-decree-of-canopus-decree-dated-E8APRM.jpg">
+        <desc>Photograph of monument</desc></graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <ab>
+                    <lb n="1"/><date>Βασιλεύοντος <persName type="king">Πτολεμαίου </persName> τοῦ <persName type="king">Πτολεμαίου</persName> καὶ <persName type="queen">Ἀρσινόης</persName>, θεῶν Ἀδελφῶν, ἔτους <num>ἐνάτου</num>, ἐφ' ἱερέως <persName type="priest">Ἀπολλωνίδου</persName> τοῦ
+                    <lb n="2"/><persName type="priest">Μοσχίωνος</persName> <persName type="king">Ἀλεξάνδρου</persName> καὶ θεῶν Ἀδελφῶν καὶ θεῶν Εὐεργετῶν, κανηφόρου <persName type="queen">Ἀρσινόη<supplied reason="lost">ς</supplied></persName> <persName type="priestess">Φιλαδέλφου Μενεκρατείας</persName>
+                    <lb n="3"/>τῆς <persName>Φιλάμμονος</persName>, μηνὸς Ἀπελλαίου <num>ἑβδόμηι</num>, </date>Αἰγυπτίων δὲ Τυβὶ <num>ἑπτακαι<del rend="erasure"><gap reason="ellipsis" quantity="3" unit="character"/></del>δεκάτηι </num>
+                </ab>
+            </div>
+            <div type="translation">
+                <p>Reign of Ptolemy, son of Ptolemy and Arsinoe, Theadelphoi, year 9, under the priest Apollonidos, son of </p>
+                <p>Moschionos, of Alexander and the Theadelphoi and Theoi Euergetes the kanophoros of Arsinoe, Philadelphos Menekrateia,</p>
+                <p>the daughter of Philamonos, month Apellaios, seventh day, also of the Egyptians Tubi 17.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
