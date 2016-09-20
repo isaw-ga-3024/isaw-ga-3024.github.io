@@ -35,7 +35,7 @@
                         The kommos of the Choephoroe is the longest extant choral lyric and plays an important role in Orestes' and Elektra's characterization in the play and trilogy.
                         The chorus whip up the so-far relatively placid Orestes and Elektra into killing their mother to avenge their father.
                         I am interested in how the chorus persuade Orestes and Elektra to kill their mother through their emotional manipulation.
-                        To that end, I have marked up the meter (@met); the terms used for emotions (@rs type="emotion") or organs of the body where emotions originate (@rs type="organ"); and words that indicate an emotional circumstance such as "mourning" (@rs type="emotioncirc").
+                        To that end, I have marked up the meter (rs met=""); the terms used for emotions (rs type="emotion") or organs of the body where emotions originate (rs type="organ"); and words that indicate an emotional circumstance such as "mourning" (rs type="emotioncirc").
                         I have no idea if this is a useful markup, but I thought I'd give it a try.
                     </ab>
                 </interpretation>
