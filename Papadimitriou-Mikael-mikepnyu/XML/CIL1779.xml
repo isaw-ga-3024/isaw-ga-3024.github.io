@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>title of document</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName><name type="praenomen">Vettius</name> <name type="gentilicium">Agorius</name> <name type="cognomen">Praetextatus</name> 
+                    <lb n="3"/><rs type="religious" key="augur">augur</rs> <rs type="religious" key="pontifexvestae">p<supplied reason="lost">o</supplied>ntifex <persName type="divine">Vestae</persName></rs>
+                    <lb n="4"/><rs type="religious" key="pontifexsolis">pontifex Sol<supplied reason="lost">is</supplied></rs><g type="leaf"/><rs type="religious" key="quindecemvir">quindecemvir</rs>
+                    <lb n="5"/>curialis Herc<supplied reason="lost">u</supplied>lis <g type="leaf"/>sacratus
+                    <lb n="6"/><persName type="divine">Libero</persName> et Eleusi<supplied reason="lost">n</supplied>is <g type="leaf"/><rs type="religious" key="hierophanta">hierophanta</rs>
+                    <lb n="7"/><rs type="religious" key="neocorus">neocorus</rs> <rs type="religious" key="tauroboliatus">tauroboliatus</rs>
+                    <lb n="8"/><rs type="religious" key="paterpatrum">pater patrum</rs> <g type="leaf"/>in <supplied reason="lost">r</supplied>e publica ver<supplied reason="lost">o</supplied>
+                    <lb n="9"/><rs type="official" key="quaestor">quaestor candidatus</rs>
+                    <lb n="10"/><rs type="official" key="urbanpraetor">pr<supplied reason="omitted">a</supplied>etor urbanus</rs>
+                    <lb n="11"/><rs type="official" key="governor">corrector <placeName>Tusciae</placeName> et <placeName>Umbriae</placeName></rs>
+                    <lb n="12"/><rs type="official" key="governor">consularis <placeName>Lusitaniae</placeName></rs>
+                    <lb n="13"/><rs type="official" key="proconsul">proconsule <placeName>Achaiae</placeName></rs>
+                    <lb n="14"/><rs type="official" key="urbanprefect">praefectus urbi</rs>
+                    <lb n="15"/><rs type="official" key="legate">legatus a senatu missus V</rs>
+                    <lb n="16"/><rs type="official" key="praetorianprefect">praefectus praetorio II <placeName>Italiae</placeName>
+                    <lb n="17"/>et <placeName>Illyrici</placeName></rs>
+                    <lb n="18"/><rs type="official" key="consul">consul ordinarius
+                    <lb n="19"/>designatus</rs></persName>
+                    <lb n="20"/>et <persName><name type="praenomen">Aconia</name> <name type="gentilicium">Fabia</name> <name type="cognomen">Paulina</name> <expan><abbr>C</abbr><ex>larissima</ex></expan> <expan><abbr>F</abbr><ex>emina</ex></expan>
+                    <lb n="21"/>sacrata <persName type="divine">Cereri</persName> et Eleusiniis
+                    <lb n="22"/>sacrata apud <supplied reason="omitted">A</supplied>eginam <persName type="divine">Hecatae</persName>
+                    <lb n="23"/><rs type="religious" key="tauroboliatus">tauroboliata</rs> <rs type="religious" key="hierophantria">hierophantria</rs></persName>
+                    <lb n="24"/>hi coniuncti simul vixerunt <expan><abbr>ann</abbr><ex>os</ex></expan> XL
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

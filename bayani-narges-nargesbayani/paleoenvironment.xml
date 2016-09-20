@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>title of document</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <ab>
+                    <lb n="1"/>The longest, uninterrupted records of past climatic and environmental variability in Iran come from lake records in the north and west (Fig. 2.1). The long record from Urmia (Djamali et al. 2008), which spans the last 200,000 years, shows changes in vegetation through glacial-interglacial time scales, with glacials characterized by an upland steppe dominated by Artemisia and Poaceae and interglacial vegetation dominated by increased tree cover, including oak and juniper. Pollen evidence also suggests the last, Sahand, interglacial (equivalent to marine isotope stage 5e) was different in nature to the Holocene, possibly with milder winters and increased spring or summer rainfall (Djamali et al. 2006). There is also significant evidence of glacial activity in the Zagros although the exact age of this is unknown (Wright 1962; Brookes 1982).
+                    Lake deposits in large basins in the south and east of the country, for example, in the Sistan Basin (Fig. 2.1) (Smith 1974), may also be Pleistocene in age, as with other Near Eastern Pleistocene mega lakes, such as Konya (Roberts 1983) and Van (Landmann et al. 1996) in Turkey, however robust dating of these records is still required to place these sites correctly into the regional chronological framework. There is, therefore, evidence that environmental conditions in Iran changed on glacial-interglacial timescales (see also Kehl 2009), although the chronological evidence to look at leads and lags in Iran compared to regional or global records is not currently available and detailed evidence of the environmental conditions during these changes comes only from the northwest of the country.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
