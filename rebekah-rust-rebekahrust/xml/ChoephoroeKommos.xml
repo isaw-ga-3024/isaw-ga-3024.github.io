@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sample of the Choephori Kommos</title>  
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Clarendon Press</publisher>
+                <pubPlace>Oxford</pubPlace>
+                <date>January 11, 1973</date>
+                <idno type="ISBN">978-0198145707</idno>
+                <availability>
+                    <ab>Copyright 1972, Oxford University Press</ab>
+                </availability>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <notesStmt>
+                <note source="http://stephanus.tlg.uci.edu">
+                    Also available on the TLG: Aeschylus, Choephoroe {0085.016}.
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    Aeschyli Septem Quae Supersunt Tragoedias, ed. Page, Denys. (Oxford, 1973).
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+           <editorialDecl>
+                <interpretation>
+                    <ab>
+                        The kommos of the Choephoroe is the longest extant choral lyric and plays an important role in Orestes' and Elektra's characterization in the play and trilogy.
+                        The chorus whip up the so-far relatively placid Orestes and Elektra into killing their mother to avenge their father.
+                        I am interested in how the chorus persuade Orestes and Elektra to kill their mother through their emotional manipulation.
+                        To that end, I have marked up the meter (rs met=""); the terms used for emotions (rs type="emotion") or organs of the body where emotions originate (rs type="organ"); and words that indicate an emotional circumstance such as "mourning" (rs type="emotioncirc").
+                        I have no idea if this is a useful markup, but I thought I'd give it a try.
+                    </ab>
+                </interpretation>
+                <segmentation>
+                    <ab>
+                        The strophe and antistrophe structure represented in Page have been observed.
+                        The meter of each line has been marked on each line according to West (Aeschyli Choephoroe. West, M. L. Stuttgart 1991.).
+                        According to the TEI guidelines, '+' is for a stressed syllable and '-' for an unstressed so for Greek I've used '+' to indicate a 'long syllable' and '-' to indicate a 'short syllable'.
+                        It is important for a metrical scheme to differntiate between (a) two shorts and (b) when a long has been resolved into two shorts, but I could not figure out how according to the guidelines to indicate this so I chose to use parentheses to indicate when a long has been resolved into two shorts, for example '(--)'.
+                        Also, I know it is better to specify attributes at the highest level possible, but with how great the metrical variance is in choral lyric, the best way seemed to me to be line by line.
+                    </ab>
+                </segmentation>
+            </editorialDecl>
+        </encodingDesc>   
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lg type="chorallyric">
+                       <lg type="antistrophe" n="epsilon">
+                         <l met="-+++-+-+-+"><lb n="410"/>πέπαλται δαὖτέ μοι φίλον <rs type="organ">κῆρ</rs>.</l>
+                         <l met="+--+-++">τόνδε κλύουσαν <rs type="emotioncirc">οἶκτον</rs>·</l>
+                         <l met="+--+|-++">καὶ τότε μὲν δύσελπις,</l>
+                         <l met="+--+|-++"><rs type="organ">σπλάγχνα</rs> δέ μοι κελαινοῦ-</l>
+                         <l met="+|--+-++"><lb break="no"/>ται πρὸς ἔπος κλυούσαι·</l>
+                         <l met="-++|-++-++"><lb n="415"/>ὅταν δ’ αὖτ’ ἐπαλκὲς θραρέ</l>
+                         <l met="+--++--+"><gap reason="lost">  </gap> ἀπέστασεν ἄχος</l>
+                         <l met="+-+-+-+">πρὸς τὸ φανεῖσθαι μοι καλῶς. </l>
+                       </lg>
+                       <lg type="antistrophe" n="zeta">
+                         <l met="-+++-+-+-+">τί δ’ ἂν φάντες τύχοιμεν; ἦ τάπερ</l>
+                         <l met="-(--)(--)-+-+(--)-+"><rs type="emotion">πάθομεν</rs> ἄχεα πρός γε τῶν τεκομένων;</l>
+                         <l met="-+-++|-+-+-+"><lb n="420"/>πάρεστι σαίνειν, τὰ δ’ οὔτι θέλγεται·</l>
+                         <l met="-+-++-+">λύκος γὰρ ὥστ’ ὠμόφρων ἄσαντος ἐκ</l>
+                         <l met="-+-++-+-++">ματρός ἐστι <rs type="organ"><rs type="emotion">θυμός</rs></rs>.</l>
+                       </lg>
+                       <lg type="strophe" n="eta">
+                         <l met="-+-++|(--)-+-+-+">ἔκοψα <rs type="emotioncirc">κομμὸν</rs> Ἄριον ἔν τε Κισσίας</l>
+                         <l met="-+-+-+-+">νόμοις <rs type="emotioncirc">ἰηλεμιστρίας</rs>·</l>
+                         <l met="-+-++|(--)-+-+-+"><lb n="425"/>ἀπρικτόπληκτα πολυπάλακτα δ’ ἦν ἰδεῖν</l>
+                         <l met="-+-(--)-+-(--)-+-+">ἐπασσυτεροτριβῆ τὰ χερὸς ὀρέγματα</l>
+                         <l met="-+-(--)-+|-+-+-+">ἄνωθεν ἀνέκαθεν, κτύπωι δ’ ἐπερρόθει</l>
+                         <l met="-+-++|-+-+-+">κροτητὸν ἀμὸν καὶ πανάθλιον κάρα.</l>
+                       </lg>
+                       <lg type="strophe" n="theta">
+                         <l met="-+-++-+">ἰὼ ἰὼ δαΐα</l>
+                         <l met="-+-++|+-+-+-+"><lb n="430"/>πάντολμε μᾶτερ, <rs type="emotioncirc">δαΐαις</rs> ἐν ἐκφοραῖς</l>
+                         <l met="-+-++-+">ἄνευ πολιτᾶν ἄνακτ’</l>
+                         <l met="-+-++-+">ἄνευ δὲ <rs type="emotioncirc">πενθημάτων</rs></l>
+                         <l met="-+-++-+-++">ἔτλας ἀνοίμωκτον ἄνδρα θάψαι.</l>
+                        </lg>
+                        <lg type="strophe" n="iota">
+                          <l met="-+-++|-+-++">τὸ πᾶν ἀτίμως ἔρεξας, <rs type="emotioncirc">οἴμοι</rs>,</l>
+                          <l met="-+-++-+-++"><lb n="435"/>πατρὸς δ’ ἀτίμωσιν ἆρα τείσεις</l>
+                          <l met="-+-++-+">ἕκατι μὲν δαιμόνων,</l>
+                          <l met="-+-++-+">ἕκατι δ’ ἀμᾶν χερῶν·</l>
+                          <l met="-+-++-+-++">ἔπειτ’ ἐγὼ νοσφίσας <supplied reason="omitted">σ’</supplied> ὀλοίμαν.</l>
+                        </lg>
+                        <lg type="antistrophe" n="iota">
+                          <l met="-+-++|-+-++">ἐμασχαλίσθη δέ γ’, ὡς τόδ’ εἰδῆις·</l>
+                          <l met="-+-++-+-++"><lb n="440"/>ἔπρασσε δ’ ἅπερ νιν ὧδε θάπτει,</l>
+                          <l met="-+-++-+">μόρον κτίσαι μωμένα</l>
+                          <l met="-+-++-+">ἄφερτον αἰῶνι σῶι·</l>
+                          <l met="-+-++-+-++">κλύεις πατρώιους δύας ἀτίμους.</l>
+                        </lg>
+                        <lg type="antistrophe" n="eta">
+                          <l met="-+-+-|(--)-+-+-+">λέγεις πατρῶιον μόρον· ἐγὼ δ’ ἀπεστάτουν</l>
+                          <l met="-+-+-|---+-+-+"><lb n="445"/>ἄτιμος, οὐδὲν ἀξία,</l>
+                          <l met="-+-+-+-+">μυχῶι δ’ ἄφερκτος πολυσινοῦς κυνὸς δίκαν</l>
+                          <l met="-+-+-|(--)-+-+-+">ἑτοιμότερα γέλωτος ἀνέφερον λίβη</l>
+                          <l met="-+-(--)-+|-+-+-+">χέουσα <rs type="emotioncirc">πολύδακρυν</rs> <rs type="emotioncirc">γόον</rs> κεκρυμμένα.</l>
+                          <l met="-+-++|-+-+-+"><lb n="450"/>τοιαῦτ’ ἀκούων <gap reason="lost">  </gap> ἐν <rs type="organ">φρεσὶν</rs> γράφου.</l>
+                        </lg>
+                        <lg type="antistrophe" n="eta">
+                          <l met="-+-++-+"> <supplied reason="omitted">γράφου</supplied>, δι’ ὤτων δὲ συν-</l>
+                          <l met="-+-+-|+-+-+-+"><lb break="no"/>τέτραινε μῦθον ἡσύχωι <rs type="organ">φρενῶν</rs> βάσει·</l>
+                          <l met="-+-++-+">τὰ μὲν γὰρ οὕτως ἔχει,</l>
+                          <l met="-+-++-+">τὰ δ’ αὐτὸς <rs type="emotion">ὄργα</rs> μαθεῖν·</l>
+                          <l met="-+-++-+-++"><lb n="455"/>πρέπει δ’ ἀκάμπτωι μένει καθήκειν.</l>
+                        </lg>   
+                    </lg>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

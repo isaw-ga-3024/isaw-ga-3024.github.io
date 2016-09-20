@@ -51,67 +51,10 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="grc">
+            <div type="edition">
                 <ab>
-                    <lb n="1"/>᾿Επὶ 
-                    <foreign xml:lang="ar-grc">
-                        <persName>᾿Αβδάλλα Μαάυια</persName>
-                        <rs type="religious">ἀμήρα
-                    <lb n="2"/>ἀλουμενὴν</rs></foreign> 
-                        ἀπελ<supplied reason="omitted">ο</supplied>ύθη
-                            <expan>
-                                <abbr>κ</abbr>
-                                <ex>αὶ</ex>
-                            </expan> ἀνε
-                    <lb n="3" break="no"/>νεώθη ὁ κλίβανος τῶν ἐνταῦ
-                    <lb n="4" break="no"/>θα διὰ 
-                        <foreign xml:lang="ar-grc">
-                            <persName type="religious">Ἀβδάλλα</persName>
-                        </foreign> υἱοῦ 
-                        <foreign xml:lang="ar">
-                            <persName>Ἀβουασέμου</persName>
-                        </foreign>
-                    <lb n="5"/>
-                        <rs type="governor">
-                            συμβούλου
-                        </rs>
-                        , ἐν μηνὴ Δεκεμβρίῳ
-                    <lb n="6"/>πέμπτῃ, ἡμέρᾳ δευτέρᾳ, 
-                        <expan>
-                            ἰνδ
-                            <ex>
-                                ικτιῶνος
-                            </ex>
-                            ς’
-                        </expan>        
-                    <lb n="7"/>ἔτους τῆς 
-                        <expan>
-                            κολων
-                                <ex>
-                                    ίας
-                                </ex>
-                        </expan>
-                        <num value ="726">ςκψ</num>
-                        , κατὰ 
-                        <expan>
-                            Ἀράβα
-                                <ex>
-                                    ς
-                                </ex>
-                        </expan>
-                    <lb n="8"/>ἔτους <num value="42">μβ’</num>
-                        , εἰς ἴασην τῶν νοσούν
-                    <lb n="9"/>τῶν, σπουδῇ 
-                                <persName>Ἰωάννου</persName> 
-                                <rs type="official">
-                                    <expan>
-                                   <abbr>μ</abbr>
-                                <ex>ειζοτέρου</ex>
-                                </expan>
-                                </rs>
-                    <placeName type="ancient">Γαδαρηνοῦ</placeName>                                        
+                    <lb n="1"/>Greek or Latin (etc.) text here
                 </ab>
-                
             </div>
             <div type="apparatus">
                 <p>external apparatus criticus (if applicable)</p>

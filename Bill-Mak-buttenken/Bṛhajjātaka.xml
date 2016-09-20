@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Gospel of Mark</title>
+                <title>title of document</title>
             </titleStmt>
             <publicationStmt>
-                <authority>Unknown</authority>
-                <idno type="filename">nt-epidoc.xml</idno>
+                <authority></authority>
+                <idno type="filename"></idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -35,11 +35,11 @@
                     <history>
                         <origin>
                             <origPlace>Place of origin</origPlace>
-                            <origDate>60 A.D.</origDate>
+                            <origDate>Date of origin</origDate>
                         </origin>
-                        <provenance type="found">Various
+                        <provenance type="found"> Findspot and circumstances/context
                         </provenance>
-                        <provenance type="observed">Various
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
                         </provenance>
                     </history>
                 </msDesc>
@@ -47,15 +47,30 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://new.rejesus.co.uk/images/area_uploads/the_passion/original_story.jpg"/>
+        <graphic url="photograph of text or monument"/>
     </facsimile>
     <text>
         <body>
             <div type="edition">
-                
-                <p>Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ [a]χριστοῦ.</p>
-                <p>]Καθὼς γέγραπται ἐν [c]τῷ Ἠσαΐᾳ τῷ προφήτῃ· [d]Ἰδοὺ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν [e]σου· 3 φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Ἑτοιμάσατε τὴν ὁδὸν κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ, 4 ἐγένετο Ἰωάννης [f]ὁ βαπτίζων ἐν τῇ [g]ἐρήμῳ κηρύσσων βάπτισμα μετανοίας εἰς ἄφεσιν ἁμαρτιῶν. 5 καὶ ἐξεπορεύετο πρὸς αὐτὸν πᾶσα ἡ Ἰουδαία χώρα καὶ οἱ Ἱεροσολυμῖται [h]πάντες, καὶ ἐβαπτίζοντο [i]ὑπ’ αὐτοῦ ἐν τῷ Ἰορδάνῃ ποταμῷ ἐξομολογούμενοι τὰς ἁμαρτίας αὐτῶν. 6 [j]καὶ ἦν ὁ Ἰωάννης ἐνδεδυμένος τρίχας καμήλου καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ, καὶ ἔσθων ἀκρίδας καὶ μέλι ἄγριον. 7 καὶ ἐκήρυσσεν λέγων· Ἔρχεται ὁ ἰσχυρότερός μου ὀπίσω μου, οὗ οὐκ εἰμὶ ἱκανὸς κύψας λῦσαι τὸν ἱμάντα τῶν ὑποδημάτων αὐτοῦ· 8 [k]ἐγὼ ἐβάπτισα [l]ὑμᾶς ὕδατι, αὐτὸς δὲ βαπτίσει ὑμᾶς [m]ἐν πνεύματι ἁγίῳ.</p>
-            
+                <ab>
+                    <l n="1"> <lb/>brahmājaśaṅkararavīndukujajñajīvaśukrārkaputragaṇanāthagurūn praṇamya
+                        <lb/>yaḥ saṃgraho 'rkavaralābhavivṛddhabuddher āvantikasya tam ahaṃ vivṛṇomi kṛtsnam
+                    </l>
+                    <l n="2"> <lb/>yac chāstraṃ savitā cakāra vipulaiḥ skandhais tribhir jyautiṣaṃ
+                        <lb/>tasyocchittibhayāt punaḥ kaliyuge saṃsṛtya yo bhūtalam
+                        <lb/>bhūyaḥ svalpataraṃ varāhamihiravyājena sarvaṃ vyadhād
+                        <lb/>itthaṃ yaṃ pravadanti mokṣakuśalās tasmai namo bhāsvate
+                    </l>
+                    <l n="3">
+                        <lb/>varāhamihirodadhau subahubhedatoyākule
+                        <lb/>graharkṣagaṇayādasi pracurayogaratnojjvale
+                        <lb/>bhramanti parito yato laghudhiyo 'rthalubdhās tataḥ
+                        <lb/>karomi vivṛtiplavaṃ nijadhiyā+ham atrotpalaḥ
+                    </l>
+              </ab>
+                <p>
+                    iha śāstre saṃbandhābhidheyaprayojanāni  bhavantīty ucyate - vācyavācakalakṣaṇaḥ saṃbandhaḥ / vācyo 'rtho vācakaḥ śabdaḥ /athavopāyopeyalakṣaṇaḥ saṃbandhaḥ / upāyasti vadaṃ śāstram upeyaṃ jñānam / athavā ābrahmādiviniḥsṛtaṃ vedāṅgam iti saṃbandhaḥ / anena śāstreṇa ca yad grahanakṣatrotthānāṃ śubhāśubhānāṃ divyāntarikṣabhaumānām utpātānāṃ phalajñānaṃ tad abhidheyam / jagataḥ śubhāśubhakathanaṃ prayojanaṃ samyagjñānān mokṣāvāptir iti ca prayojanam / kim ebhir uktair ity atrocyate - śrotṛṇāṃ saṃbandhābhidheyaprayojanakathanāc chāstraviṣaye śraddhā jāyata iti / tathā coktam atrārthe -
+                </p>
             </div>
             <div type="apparatus">
                 <p>external apparatus criticus (if applicable)</p>
