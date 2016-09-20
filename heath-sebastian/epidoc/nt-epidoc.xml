@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>title of document</title>
+                <title>Gospel of Mark</title>
             </titleStmt>
             <publicationStmt>
-                <authority></authority>
-                <idno type="filename"></idno>
+                <authority>Unknown</authority>
+                <idno type="filename">nt-epidoc.xml</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -35,11 +35,11 @@
                     <history>
                         <origin>
                             <origPlace>Place of origin</origPlace>
-                            <origDate>Date of origin</origDate>
+                            <origDate>60 A.D.</origDate>
                         </origin>
-                        <provenance type="found"> Findspot and circumstances/context
+                        <provenance type="found">Various
                         </provenance>
-                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        <provenance type="observed">Various
                         </provenance>
                     </history>
                 </msDesc>
@@ -47,14 +47,15 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="photograph of text or monument"/>
+        <graphic url="http://new.rejesus.co.uk/images/area_uploads/the_passion/original_story.jpg"/>
     </facsimile>
     <text>
         <body>
             <div type="edition">
-                <ab>
-                    <lb n="1"/>
-                </ab>
+                
+                <p>Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ [a]χριστοῦ.</p>
+                <p>]Καθὼς γέγραπται ἐν [c]τῷ Ἠσαΐᾳ τῷ προφήτῃ· [d]Ἰδοὺ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν [e]σου· 3 φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Ἑτοιμάσατε τὴν ὁδὸν κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ, 4 ἐγένετο Ἰωάννης [f]ὁ βαπτίζων ἐν τῇ [g]ἐρήμῳ κηρύσσων βάπτισμα μετανοίας εἰς ἄφεσιν ἁμαρτιῶν. 5 καὶ ἐξεπορεύετο πρὸς αὐτὸν πᾶσα ἡ Ἰουδαία χώρα καὶ οἱ Ἱεροσολυμῖται [h]πάντες, καὶ ἐβαπτίζοντο [i]ὑπ’ αὐτοῦ ἐν τῷ Ἰορδάνῃ ποταμῷ ἐξομολογούμενοι τὰς ἁμαρτίας αὐτῶν. 6 [j]καὶ ἦν ὁ Ἰωάννης ἐνδεδυμένος τρίχας καμήλου καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ, καὶ ἔσθων ἀκρίδας καὶ μέλι ἄγριον. 7 καὶ ἐκήρυσσεν λέγων· Ἔρχεται ὁ ἰσχυρότερός μου ὀπίσω μου, οὗ οὐκ εἰμὶ ἱκανὸς κύψας λῦσαι τὸν ἱμάντα τῶν ὑποδημάτων αὐτοῦ· 8 [k]ἐγὼ ἐβάπτισα [l]ὑμᾶς ὕδατι, αὐτὸς δὲ βαπτίσει ὑμᾶς [m]ἐν πνεύματι ἁγίῳ.</p>
+            
             </div>
             <div type="apparatus">
                 <p>external apparatus criticus (if applicable)</p>

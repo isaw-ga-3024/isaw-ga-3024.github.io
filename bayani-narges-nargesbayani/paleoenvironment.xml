@@ -5,11 +5,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Gospel of Mark</title>
+                <title>title of document</title>
             </titleStmt>
             <publicationStmt>
-                <authority>Unknown</authority>
-                <idno type="filename">nt-epidoc.xml</idno>
+                <authority></authority>
+                <idno type="filename"></idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -35,11 +35,11 @@
                     <history>
                         <origin>
                             <origPlace>Place of origin</origPlace>
-                            <origDate>60 A.D.</origDate>
+                            <origDate>Date of origin</origDate>
                         </origin>
-                        <provenance type="found">Various
+                        <provenance type="found"> Findspot and circumstances/context
                         </provenance>
-                        <provenance type="observed">Various
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
                         </provenance>
                     </history>
                 </msDesc>
@@ -47,15 +47,15 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://new.rejesus.co.uk/images/area_uploads/the_passion/original_story.jpg"/>
+        <graphic url="photograph of text or monument"/>
     </facsimile>
     <text>
         <body>
             <div type="edition">
-                
-                <p>Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ [a]χριστοῦ.</p>
-                <p>]Καθὼς γέγραπται ἐν [c]τῷ Ἠσαΐᾳ τῷ προφήτῃ· [d]Ἰδοὺ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν [e]σου· 3 φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Ἑτοιμάσατε τὴν ὁδὸν κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ, 4 ἐγένετο Ἰωάννης [f]ὁ βαπτίζων ἐν τῇ [g]ἐρήμῳ κηρύσσων βάπτισμα μετανοίας εἰς ἄφεσιν ἁμαρτιῶν. 5 καὶ ἐξεπορεύετο πρὸς αὐτὸν πᾶσα ἡ Ἰουδαία χώρα καὶ οἱ Ἱεροσολυμῖται [h]πάντες, καὶ ἐβαπτίζοντο [i]ὑπ’ αὐτοῦ ἐν τῷ Ἰορδάνῃ ποταμῷ ἐξομολογούμενοι τὰς ἁμαρτίας αὐτῶν. 6 [j]καὶ ἦν ὁ Ἰωάννης ἐνδεδυμένος τρίχας καμήλου καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ, καὶ ἔσθων ἀκρίδας καὶ μέλι ἄγριον. 7 καὶ ἐκήρυσσεν λέγων· Ἔρχεται ὁ ἰσχυρότερός μου ὀπίσω μου, οὗ οὐκ εἰμὶ ἱκανὸς κύψας λῦσαι τὸν ἱμάντα τῶν ὑποδημάτων αὐτοῦ· 8 [k]ἐγὼ ἐβάπτισα [l]ὑμᾶς ὕδατι, αὐτὸς δὲ βαπτίσει ὑμᾶς [m]ἐν πνεύματι ἁγίῳ.</p>
-            
+                <ab>
+                    <lb n="1"/>The longest, uninterrupted records of past climatic and environmental variability in Iran come from lake records in the north and west (Fig. 2.1). The long record from Urmia (Djamali et al. 2008), which spans the last 200,000 years, shows changes in vegetation through glacial-interglacial time scales, with glacials characterized by an upland steppe dominated by Artemisia and Poaceae and interglacial vegetation dominated by increased tree cover, including oak and juniper. Pollen evidence also suggests the last, Sahand, interglacial (equivalent to marine isotope stage 5e) was different in nature to the Holocene, possibly with milder winters and increased spring or summer rainfall (Djamali et al. 2006). There is also significant evidence of glacial activity in the Zagros although the exact age of this is unknown (Wright 1962; Brookes 1982).
+                    Lake deposits in large basins in the south and east of the country, for example, in the Sistan Basin (Fig. 2.1) (Smith 1974), may also be Pleistocene in age, as with other Near Eastern Pleistocene mega lakes, such as Konya (Roberts 1983) and Van (Landmann et al. 1996) in Turkey, however robust dating of these records is still required to place these sites correctly into the regional chronological framework. There is, therefore, evidence that environmental conditions in Iran changed on glacial-interglacial timescales (see also Kehl 2009), although the chronological evidence to look at leads and lags in Iran compared to regional or global records is not currently available and detailed evidence of the environmental conditions during these changes comes only from the northwest of the country.
+                </ab>
             </div>
             <div type="apparatus">
                 <p>external apparatus criticus (if applicable)</p>

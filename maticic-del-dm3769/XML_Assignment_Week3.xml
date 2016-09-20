@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ovid's <title rend="italic">Metamorphoses</title> 1.5-35</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" met="-oo|-oo|-oo|-oo|-oo|--">
+                <ab>
+<seg xml:id="Chaos"><lb n="5" rend="-oo|--|--|-oo|-oo|--"/>Ante mare et terras et quod tegit omnia caelum 
+<lb n="6" rend="-oo|--|-oo|-oo|-oo|--"/>unus erat toto naturae vultus in orbe,
+<lb n="7" rend="--|-oo|-oo|--|-oo|--"/>quem dixere chaos: rudis indigestaque moles
+<lb n="8" rend="--|-oo|-oo|-oo|-oo|--"/>nec quicquam nisi pondus iners congestaque eodem
+<lb n="9" rend="-oo|--|--|-oo|-oo|--"/>non bene iunctarum discordia semina rerum.
+<note type="imitation" place="bottom" anchored="false"><bibl>Lucr. DRN 1.54-61</bibl>
+<quote> <lb/>nam tibi de summa caeli ratione deumque 
+<lb/>disserere incipiam et rerum primordia pandam, 
+<lb/>unde omnis natura creet res, auctet alatque, 
+<lb/>quove eadem rursum natura perempta resolvat, 
+<lb/>quae nos materiem et genitalia corpora rebus 
+<lb/>reddunda in ratione vocare et <seg rend="bold">semina rerum</seg> 
+<lb/>appellare suemus et haec eadem usurpare 
+<lb/>corpora prima, quod ex illis sunt omnia primis.</quote> </note>
+<note type="imitation" place="bottom" anchored="false"><bibl>Ov. AA 3.219-20</bibl>
+<quote><lb/>quae nunc nomen habent operosi signa Myronis,
+pondus iners quondam duraque massa fuit.</quote></note>.
+<note type="commentary" place="bottom" anchored="false"><bibl>Wheeler (1995: 105)</bibl>
+<quote>"Ovid makes a pun on <seg rend="italic">iners</seg>,meaning both sluggish and lacking art, which clarifies the absence of <seg rend="italic">ars</seg>
+in <seg rend="italic">rudis indigestaque moles</seg>. The phrase pondus iners itself derives from
+Ars Amatoria, where Ovid describes the formless stone that is improved
+by the sculptor's art: <bibl>Ov. AA 3.219-20</bibl><quote><seg rend="italic"><lb/>quae nunc nomen habent operosi signa Myronis,
+<lb/>pondus iners quondam duraque massa fuit</seg>.</quote> What distinguishes 
+chaos from cosmos, then, is the ameliorating influence of art.</quote></note>.                    
+<lb n="10" rend="--|--|--|-oo|-oo|--"/>nullus adhuc mundo praebebat lumina <persName>Titan</persName>,
+<lb n="11" rend="-oo|--|-oo|--|-oo|--"/>nec nova crescendo reparabat cornua <persName>Phoebe</persName>,
+<lb n="12" rend="--|--|--|-oo|-oo|--"/>nec circumfuso pendebat in aere tellus
+<lb n="13" rend="-oo|--|-oo|--|-oo|--"/>ponderibus librata suis, nec bracchia longo
+<lb n="14" rend="-oo|--|--|-oo|--|--"/>margine terrarum porrexerat <persName>Amphitrite</persName>;
+<lb n="15" rend="-oo|--|--|--|-oo|--"/>utque erat et tellus illic et pontus et aer,
+<lb n="16" rend="-oo|-oo|--|--|-oo|--"/>sic erat instabilis tellus, innabilis unda,
+<lb n="17" rend="-oo|--|--|-oo|-oo|--"/>lucis egens aer; nulli sua forma manebat,
+<lb n="18" rend="--|-oo|-oo|-oo|-oo|--"/>obstabatque aliis aliud,quia corpore in uno
+<lb n="19" rend="-oo|--|-oo|--|-oo|--"/>frigida pugnabant calidis, umentia siccis,
+<lb n="20" rend="-oo|--|-oo|-oo|-oo|--"/>mollia cum duris, sine pondere, habentia pondus. </seg>
+<seg xml:id="cosmogony1"><lb n="21" rend="-oo|-oo|--|--|-oo|--"/>Hanc <seg xml:id="ARTIFEX">deus</seg> et melior litem natura diremit.
+<lb n="22" rend="--|--|--|--|-oo|--"/>nam caelo terras et terris abscidit undas
+<lb n="23" rend="-oo|--|-oo|--|-oo|--"/>et liquidum spisso secrevit ab aere caelum.
+<lb n="24" rend="--|--|--|--|-oo|--"/>quae postquam evolvit caecoque exemit acervo
+<lb n="25" rend="-oo|-oo|--|--|-oo|--"/>dissociata locis concordi pace ligavit:
+<lb n="26" rend="-oo|--|--|-oo|-oo|--"/>ignea convexi vis et sine pondere caeli
+<lb n="27" rend="-oo|--|-oo|-oo|-oo|--"/>emicuit summaque locum sibi fecit in arce;
+<lb n="28" rend="-oo|-oo|--|--|-oo|--"/>proximus est aer illi levitate locoque;
+<lb n="29" rend="-oo|--|-oo|-oo|-oo|--"/>densior his tellus elementaque grandia traxit
+<lb n="30" rend="--|-oo|-oo|--|-oo|--"/>et pressa est gravitate sua; circumfluus umor
+<lb n="31" rend="-oo|--|-oo|-oo|-oo|--"/>ultima possedit solidumque coercuit orbem.
+<lb n="32" rend="-oo|-oo|--|-oo|-oo|--"/>Sic ubi dispositam <seg corresp="#ARTIFEX" xml:id="DEUS">quisquis</seg> fuit ille deorum
+<lb n="33" rend="-oo|-oo|--|-oo|-oo|--"/>congeriem secuit sectamque in membra coegit,
+<lb n="34" rend="-oo|--|--|--|-oo|--"/>principio terram, ne non aequalis ab omni
+<lb n="35" rend="-oo|--|-oo|-oo|-oo|--"/>parte foret, magni speciem glomeravit in orbis.
+<note type="commentary" place="bottom" anchored="false"><bibl>Wheeler (1995: 106)</bibl>
+<quote>"The verb <seg rend="italic">glomero</seg> suggests the image of wool gathered into a ball, particularly if we
+remember the earlier idea of <seg rend="italic">rudis indigestaque moles</seg>. Comparison with the wool-gathering of Arachne, 
+<bibl>Ov. Met. 6.18-19</bibl><quote><seg rend="italic"><lb/>quae nunc nomen habent operosi signa Myronis,
+pondus iners quondam duraque massa fuit</seg>.</quote>, confirms this interpretation
+of <seg rend="italic">glomero</seg>.</quote></note></seg></ab></div>            
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p><persName>Wheeler, S.</persName> <date>1995</date>. <title><seg rend="italic">Imago Mundi</seg>: Another View of the Creation in Ovid's <title rend="italic">Metamorphoses</title></title>. AJP 116: 95-121</p>
+            </div>
+        </body>
+    </text>
+</TEI>
