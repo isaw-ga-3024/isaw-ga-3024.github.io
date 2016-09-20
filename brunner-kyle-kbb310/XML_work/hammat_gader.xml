@@ -56,19 +56,17 @@
                     <lb n="1"/>᾿Επὶ 
                     <foreign xml:lang="ar-grc">
                         <persName>᾿Αβδάλλα Μαάυια</persName>
-                        <rs type="religious">ἀμήρα
+                        <rs type="Caliph">ἀμήρα
                     <lb n="2"/>ἀλουμενὴν</rs></foreign> 
                         ἀπελ<supplied reason="omitted">ο</supplied>ύθη
                             <expan>
                                 <abbr>κ</abbr>
                                 <ex>αὶ</ex>
                             </expan> ἀνε
-                    <lb n="3" break="no"/>νεώθη ὁ 
-                        <objectType type="water system">κλίβανος</objectType> 
-                        τῶν ἐνταῦ
+                    <lb n="3" break="no"/>νεώθη ὁ κλίβανος τῶν ἐνταῦ
                     <lb n="4" break="no"/>θα διὰ 
                         <foreign xml:lang="ar-grc">
-                            <persName type="religious">Ἀβδάλλα</persName>
+                            <persName>Ἀβδάλλα</persName>
                         </foreign> υἱοῦ 
                         <foreign xml:lang="ar">
                             <persName>Ἀβουασέμου</persName>
