@@ -51,22 +51,67 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition">
+            <div type="edition" xml:space="preserve" xml:lang="grc">
                 <ab>
-                    <l rend="left-to-right"><lb n="1"/><hi rend="supraline"><rs type="titulature" key="sun">SOL2</rs></hi> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="labarna">IUDEX-LA</rs> <persName>MONS-tu</persName> <rs type="titulature" key="labarna">IUDEX-LA</rs> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="hero">HEROS</rs> <persName>HATTI+li</persName> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="hero">HEROS</rs> INFANS <persName>URBS+RA-li</persName> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="hero">HEROS</rs></l>
-                    <l rend="left-to-right"><lb n="2"/>tu-pi
-                        <lb n="3"/>wa-mu-a VIR2-*418-wa-<unclear>ni</unclear>-sa <placeName>LINGUA+CLAVUS-tu-sa-URBS</placeName> <unclear>POST</unclear>-a URBS-MI-a <rs type="titulature" key="labarna">IUDEX-LA-ti</rs>
-                        <lb n="4"/>wa-mu-a <persName>DEUS.TONITRUS</persName></l>
-                    <l rend="left-to-right"><lb n="5"/>NEG-wa a-sa-ta
-                        <lb n="6"/>REL-ti-pa-<damage>wa-<supplied reason="lost" cert="low">mu</supplied> VIA-<gap reason="lost" extent="unknown" unit="character"/> PRAE-<supplied reason="lost" cert="low">na-</supplied> <gap reason="lost" extent="unknown" unit="character"/>a+ra-<gap reason="lost" extent="unknown" unit="character"/>
-                        <lb n="7"/>a-<gap reason="lost" extent="unknown" unit="character"/> ta-<gap reason="lost" extent="unknown" unit="character"/></damage></l>
-                    <l rend="left-to-right"><lb n="8"/>PRAE-na <placeName>MONS-pa-tara</placeName> <unclear>pi</unclear>-i-ha
-                       <lb n="9"/><unclear>DARE.DARE</unclear>-nu-wa-ha
-                       <lb n="10"/>SCALPRUM-CRUS-<unclear>TERRA</unclear> i-zi-ha-zi
-                       <lb n="11"/>zi-ta-zi-pa-wa REGIO-ni-zi <rs type="titulature" key="great king">MAGNUS.REX-zi</rs> <placeName>HATTI-REGIO</placeName> a-mi-zi (VIR2)-ta-AVUS-zi NEG-a REL-i-sa-ha hwi-i-<damage>ta</damage>
-                       <lb n="12"/>mu-pa-wa-a <persName>DEUS.TONITRUS</persName> <rs type="titulature" key="lord">DOMINUS-na</rs> a-zi-ta
-                       <lb n="13"/>a-wa-zi-i REGIO-ni-i</l>
+                    <lb n="1"/>᾿Επὶ 
+                    <foreign xml:lang="ar-grc">
+                        <persName>᾿Αβδάλλα Μαάυια</persName>
+                        <rs type="religious">ἀμήρα
+                    <lb n="2"/>ἀλουμενὴν</rs></foreign> 
+                        ἀπελ<supplied reason="omitted">ο</supplied>ύθη
+                            <expan>
+                                <abbr>κ</abbr>
+                                <ex>αὶ</ex>
+                            </expan> ἀνε
+                    <lb n="3" break="no"/>νεώθη ὁ κλίβανος τῶν ἐνταῦ
+                    <lb n="4" break="no"/>θα διὰ 
+                        <foreign xml:lang="ar-grc">
+                            <persName type="religious">Ἀβδάλλα</persName>
+                        </foreign> υἱοῦ 
+                        <foreign xml:lang="ar">
+                            <persName>Ἀβουασέμου</persName>
+                        </foreign>
+                    <lb n="5"/>
+                        <rs type="governor">
+                            συμβούλου
+                        </rs>
+                        , ἐν μηνὴ Δεκεμβρίῳ
+                    <lb n="6"/>πέμπτῃ, ἡμέρᾳ δευτέρᾳ, 
+                        <expan>
+                            ἰνδ
+                            <ex>
+                                ικτιῶνος
+                            </ex>
+                            ς’
+                        </expan>        
+                    <lb n="7"/>ἔτους τῆς 
+                        <expan>
+                            κολων
+                                <ex>
+                                    ίας
+                                </ex>
+                        </expan>
+                        <num value ="726">ςκψ</num>
+                        , κατὰ 
+                        <expan>
+                            Ἀράβα
+                                <ex>
+                                    ς
+                                </ex>
+                        </expan>
+                    <lb n="8"/>ἔτους <num value="42">μβ’</num>
+                        , εἰς ἴασην τῶν νοσούν
+                    <lb n="9"/>τῶν, σπουδῇ 
+                                <persName>Ἰωάννου</persName> 
+                                <rs type="official">
+                                    <expan>
+                                   <abbr>μ</abbr>
+                                <ex>ειζοτέρου</ex>
+                                </expan>
+                                </rs>
+                    <placeName type="ancient">Γαδαρηνοῦ</placeName>                                        
                 </ab>
+                
             </div>
             <div type="apparatus">
                 <p>external apparatus criticus (if applicable)</p>

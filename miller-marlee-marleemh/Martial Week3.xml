@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>title of document</title>
+                <title>Liber Spectaculorum</title>
             </titleStmt>
             <publicationStmt>
                 <authority></authority>
@@ -34,10 +34,10 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace>Place of origin</origPlace>
-                            <origDate>Date of origin</origDate>
+                            <origPlace>Rome</origPlace>
+                            <origDate>AD 81</origDate>
                         </origin>
-                        <provenance type="found"> Findspot and circumstances/context
+                        <provenance type="found"> Written for the inauguration of the Flavian Amphitheatre 
                         </provenance>
                         <provenance type="observed">Modern location(s) (if different from repository, above)
                         </provenance>
@@ -51,34 +51,37 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition">
-                <ab>
-                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                    <lb n="2"/><persName>Vettius Agorius Praetextatus 
-                    <lb n="3"/>augur p[o]ntifex Vestae
-                    <lb n="4"/>pontifex Sol[is] quindecemvir
-                    <lb n="5"/>curialis Herc[u]lis sacratus
-                    <lb n="6"/>Libero et Eleusiniis hierophanta
-                    <lb n="7"/>neocorus tauroboliatus
-                    <lb n="8"/>pater patrum in [r]e publica vero
-                    <lb n="9"/>quaestor candidatus
-                    <lb n="10"/>pr(a)etor urbanus
-                    <lb n="11"/>corrector Tusciae et Umbriae
-                    <lb n="12"/>consularis Lusitaniae
-                    <lb n="13"/>proconsule Achaiae
-                    <lb n="14"/>praefectus urbi
-                    <lb n="15"/>legatus a senatu missus V
-                    <lb n="16"/>praefectus praetorio II Italiae
-                    <lb n="17"/>et Illyrici
-                    <lb n="18"/>consul ordinarius
-                    <lb n="19"/>designatus</persName>
-                    <lb n="20"/>et <persName>Aconia Fabia Paulina c(larissima) f(emina)
-                    <lb n="21"/>sacrata Cereri et Eleusiniis
-                    <lb n="22"/>sacrata apud (A)eginam Hecatae
-                    <lb n="23"/>tauroboliata hierophantria</persName>
-                    <lb n="24"/>hi coniuncti simul vixerunt <expan><abbr>ann</abbr><ex>os</ex></expan> XL
-                </ab>
-            </div>
+            <div type="edition" xml:space="preserve">
+                <ab> </ab>
+                    <l> Barbara <placeName type="monument">pyramidum</placeName> sileat miracula <placeName>Memphis,</placeName></l> 
+                    <l> Assyrius iactet nec <placeName>Babylona</placeName> labor;</l>
+                    <l> nec Triuiae templo molles laudentur Iones,</l>
+                    <l> dissimulet <placeName>Delon</placeName> cornibus ara frequens</l> 
+                    <l>aere nec uacuo pendentia <placeName type="monument">Mausolea</placeName></l>                             
+                    <l>laudibus inmodicis Cares in astra ferant.</l>
+                    <l>Omnis <Persname type="Caesar">Caesareo</Persname> cedit labor <placeName ="monument">Amphitheatro,</placeName></l>
+                     <l>unum pro cunctis fama loquetur opus.</l>
+
+
+
+<l> Hic ubi sidereus propius uidet astra <placeName type="monument">Colossus</placeName> </l>
+    <l>et crescunt media pegmata celsa uia,</l> 
+<l>inuidiosa feri radiabant atria regis</l>
+   <l>  unaque iam tota stabat in urbe domus;</l>
+<l>hic ubi conspicui uenerabilis Amphitheatri</l>                
+  <l> erigitur moles, stagna <name>Neronis</name> erant;</l> 
+<l>hic ubi miramur uelocia munera thermas,</l>
+     <l>abstulerat miseris tecta superbus ager;</l>
+<l><name>Claudia</name> diffusas ubi porticus explicat umbras,</l>
+  <l>ultima pars aulae deficientis erat.</l>              
+<l>Reddita Roma sibi est et sunt te preside, <Persname type="Caesar">Caesar,</Persname></l>
+   <l> deliciae populi, quae fuerant domini.</l> 
+
+
+                </div> 
+        </body>
+        </ab> 
+
             <div type="apparatus">
                 <p>external apparatus criticus (if applicable)</p>
             </div>
