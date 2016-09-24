@@ -54,7 +54,7 @@
             <div type="edition" xml:space="preserve">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                    <lb n="2"/><persName type="human" key="Praetextatus"><name type="praenomen">Vettius</name> <name type="gentilicium">Agorius</name> <name type="cognomen">Praetextatus</name> 
+                    <lb n="2"/><persName type="human" key="Vettius Agorius Praetextatus"><name type="praenomen">Vettius</name> <name type="gentilicium">Agorius</name> <name type="cognomen">Praetextatus</name> 
                     <lb n="3"/><rs type="religious" key="augur">augur</rs> <rs type="religious" key="pontifexvestae">p<supplied reason="lost">o</supplied>ntifex <persName type="divine">Vestae</persName></rs>
                     <lb n="4"/><rs type="religious" key="pontifexsolis">pontifex Sol<supplied reason="lost">is</supplied></rs><g type="leaf"/><rs type="religious" key="quindecemvir">quindecemvir</rs>
                     <lb n="5"/>curialis Herc<supplied reason="lost">u</supplied>lis <g type="leaf"/>sacratus
@@ -72,7 +72,7 @@
                     <lb n="17"/>et <placeName>Illyrici</placeName></rs>
                     <lb n="18"/><rs type="official" key="consul">consul ordinarius
                     <lb n="19"/>designatus</rs></persName>
-                    <lb n="20"/>et <persName type="human" key="Paulina"><name type="praenomen">Aconia</name> <name type="gentilicium">Fabia</name> <name type="cognomen">Paulina</name> <expan><abbr>C</abbr><ex>larissima</ex></expan> <expan><abbr>F</abbr><ex>emina</ex></expan>
+                    <lb n="20"/>et <persName type="human" key="Fabia Aconia Paulina"><name type="praenomen">Aconia</name> <name type="gentilicium">Fabia</name> <name type="cognomen">Paulina</name> <expan><abbr>C</abbr><ex>larissima</ex></expan> <expan><abbr>F</abbr><ex>emina</ex></expan>
                     <lb n="21"/>sacrata <persName type="divine">Cereri</persName> et Eleusiniis
                     <lb n="22"/>sacrata apud <supplied reason="omitted">A</supplied>eginam <persName type="divine">Hecatae</persName>
                     <lb n="23"/><rs type="religious" key="tauroboliatus">tauroboliata</rs> <rs type="religious" key="hierophantria">hierophantria</rs></persName>
