@@ -54,10 +54,9 @@
             <div type="edition" xml:space="preserve" xml:lang="grc">
                 <ab>
                     <lb n="1"/>᾿Επὶ 
-                    <foreign xml:lang="ar-grc">
-                        <persName>᾿Αβδάλλα Μαάυια</persName>
+                        <persName type='foreign'>᾿Αβδάλλα Μαάυια</persName>
                         <rs type="Caliph">ἀμήρα
-                    <lb n="2"/>ἀλουμενὴν</rs></foreign> 
+                    <lb n="2"/>ἀλουμενὴν</rs> 
                         ἀπελ<supplied reason="omitted">ο</supplied>ύθη
                             <expan>
                                 <abbr>κ</abbr>
@@ -65,17 +64,14 @@
                             </expan> ἀνε
                     <lb n="3" break="no"/>νεώθη ὁ κλίβανος τῶν ἐνταῦ
                     <lb n="4" break="no"/>θα διὰ 
-                        <foreign xml:lang="ar-grc">
-                            <persName>Ἀβδάλλα</persName>
-                        </foreign> υἱοῦ 
-                        <foreign xml:lang="ar">
-                            <persName>Ἀβουασέμου</persName>
-                        </foreign>
+                            <persName type='foreign'>Ἀβδάλλα</persName>
+                         υἱοῦ 
+                            <persName type='foreign'>Ἀβουασέμου</persName>
                     <lb n="5"/>
                         <rs type="governor">
                             συμβούλου
                         </rs>
-                        , ἐν μηνὴ Δεκεμβρίῳ
+                        <date>, ἐν μηνὴ Δεκεμβρίῳ
                     <lb n="6"/>πέμπτῃ, ἡμέρᾳ δευτέρᾳ, 
                         <expan>
                             ἰνδ
@@ -100,6 +96,7 @@
                                 </ex>
                         </expan>
                     <lb n="8"/>ἔτους <num value="42">μβ’</num>
+                            </date>
                         , εἰς ἴασην τῶν νοσούν
                     <lb n="9"/>τῶν, σπουδῇ 
                                 <persName>Ἰωάννου</persName> 
