@@ -54,7 +54,7 @@
             <div type="edition" xml:space="preserve" xml:lang="grc">
                 <ab>
                     <lb n="1"/>᾿Επὶ 
-                        <persName type='foreign'>᾿Αβδάλλα Μαάυια</persName>
+                        <persName type="foreign">᾿Αβδάλλα Μαάυια</persName>
                         <rs type="Caliph">ἀμήρα
                     <lb n="2"/>ἀλουμενὴν</rs> 
                         ἀπελ<supplied reason="omitted">ο</supplied>ύθη
@@ -64,9 +64,9 @@
                             </expan> ἀνε
                     <lb n="3" break="no"/>νεώθη ὁ κλίβανος τῶν ἐνταῦ
                     <lb n="4" break="no"/>θα διὰ 
-                            <persName type='foreign'>Ἀβδάλλα</persName>
+                            <persName type="foreign">Ἀβδάλλα</persName>
                          υἱοῦ 
-                            <persName type='foreign'>Ἀβουασέμου</persName>
+                            <persName type="foreign">Ἀβουασέμου</persName>
                     <lb n="5"/>
                         <rs type="governor">
                             συμβούλου
