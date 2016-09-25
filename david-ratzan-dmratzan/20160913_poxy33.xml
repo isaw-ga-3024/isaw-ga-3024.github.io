@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>title of document</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="column" n="1">
+                <ab>
+                    <lb n="1"/>μ̣ήτε χρείαν [...]σ.[.....]α̣ι 
+<lb n="2"/>[..]σ..δεισ[...]..[...].υ̣πε  
+<lb n="3"/>[.....]..αμε[....]νοσ.[.]ε̣ν κἀ-  
+<lb n="4"/>γὼ γὰρ κα[......]ν[...] αὐτοῦ    
+<lb n="5"/>γε ταῦτα λέ̣γ̣ον[το]ς, στρ[α]φεὶς καὶ 
+<lb n="6"/>ἰδὼν Ἡλιόδωρον εἶπεν· Ἡλιό- 
+<lb n="7"/>δωρε, ἀπαγομένου μου οὐδὲν 
+<lb n="8"/>λαλεῖς; Ἡλιόδωρος εἶπεν·  
+<lb n="9"/>καὶ τίνι ἔχομεν λαλῆσαι μὴ ἔχον-     
+<lb n="10"/>[τ]ες τὸν ἀκούοντα; τρέχε, τέκνον, 
+<lb n="11"/>τελεύτα. κλέος σοί ἐστιν  
+<lb n="12"/>ὑπὲρ τῆς γλυκυτάτης σου πατρί- 
+<lb n="13"/>δος τελευτῆσαι. μὴ ἀγωνία·</ab></div>
+                
+  <div type="textpart" subtype="column" n="2">
+                <ab>
+καὶ [........] κ̣α̣ι̣.[..]ας σε διώκω 
+ἐκ π̣.[.........]ανω̣ αὐτοκράτωρ με- 
+τεκ[α]λέσατο αὐτόν. αὐτοκράτωρ εἶπεν·  
+ν̣ῦ̣ν οὐκ οἶδας τίνι [λα]λεῖς; Ἀππιανός· 
+ἐπίσταμαι· Ἀπ[πι]ανὸς τυράννῳ.    
+αὐτοκράτωρ· [οὔκ,] ἀλλὰ βασιλεῖ. Ἀππια-  
+νός· τοῦτο μὴ λέγε· τῷ γὰρ θεῷ 
+Ἀντωνείνῳ [τ]ῷ π[ατ]ρί σου ἔπρεπε  
+αὐτοκρατορεύειν. ἄκουε, τὸ μὲν  
+πρῶτον ἦ[ν] φιλόσοφος, τὸ δεύτερον
+ἀφιλάργυρος, τ[ὸ] τρίτον φιλάγαθος· σοὶ 
+τούτων τὰ ἐναντία ἔνκειται, τυραν-  
+νία ἀφιλοκαγαθία ἀπαιδία. Καῖσαρ ἐ- 
+κέλευσεν αὐτὸν ἀπαχθῆναι. Ἀππι-  
+ανὸς ἀπαγόμενος εἶπεν· καὶ τοῦτο</ab></div>
+
+<div type="textpart" subtype="column" n="3">
+            <ab>
+ἡμῖν χάρ[ισ]αι, κύριε Καῖσαρ. 
+αὐτοκράτωρ· τί; Ἀππιανός· κέλευ- 
+σόν με ἐν τῇ εὐγενείᾳ μου ἀπα-  
+χθῆναι. αὐτοκράτωρ· ἔχε. 
+Ἀππιανὸς λαβὼν τὸ στρόφιον     
+ἐπὶ τῆς κεφα[λ]ῆς ἔθηκεν, καὶ τὸ  
+φαικάσ[ιο]ν ἐπὶ τοὺς πόδας θεὶς ἀνε- 
+βόησεν [μ]έσης Ῥώμης· συνδράμε- 
+τε, Ῥωμ[α]ῖοι· θεωρήσατε ἕνα ἀπ’ αἰῶ-  
+νος ἀπαγόμ[ενο]ν γυμνασίαρχον καὶ    
+πρεσβευτὴν Ἀλεξανδρέων. ὁ ἠβο-  
+[κᾶτο]ς εὐθὺς δρ̣α̣μὼν παρέθετο  
+[τῷ] κυρίῳ λέγων· κύριε, κάθῃ; Ῥωμαῖ-  
+οι γονγύζο[υσ]ι. αὐτοκράτωρ· περὶ 
+τίνος; ὁ ὕπατος· περὶ τῆς ἀπάξεως   </ab></div>
+
+<div type="textpart" subtype="column" n="4">
+                <ab>
+τοῦ Ἀλεξανδρέως. αὐτοκράτωρ·  
+μεταπεμφθήτω. Ἀππιανὸς  
+εἰσελθὼν εἶπεν· τίς ἤδη τὸν δεύ- 
+τερόν μου ᾅδην προσκυνοῦντα  
+καὶ τοὺς πρὸ ἐμοῦ τελευτήσαντας,     
+Θέωνά τε καὶ Ἰσίδωρον καὶ Λάμ-  
+πωνα, μετεκαλέσατο; ἆρα ἡ 
+σύνκλητος ἢ σὺ ὁ λῄσταρχος;  
+αὐτοκράτωρ· Ἀππιανέ, <ε>ἰώθα-  
+μεν καὶ ἡμεῖς μαινομένους καὶ     
+ἀπονενοημένους σωφρονίζειν·  
+λαλεῖς ἐφ’ ὅσον ἐγώ σε θέλω λα-  
+λεῖν. Ἀππιανός· νὴ τὴν σὴν τύ-  
+χην οὔτε μαίνομαι οὔτε ἀπονενό-  
+ημαι, ἀλλ’ ὑπὲρ τῆς ἐμαυτοῦ εὐγε-</ab></div>
+                
+<div type="textpart" subtype="column" n="5">
+                <ab>
+νείας καὶ τῶν ἐ[μοὶ προσηκόντων]  
+ἀπαγγέλλω. αὐτ[οκράτωρ· πῶς; ] 
+Ἀππι̣ανός· ὡς εὐγ[ενὴς καὶ γυμνασί-]
+αρχος. αὐτοκράτω[ρ· φὴς οὖν ὅτι ἡμεῖς ]  
+ἀγενεῖς ἐσμεν; [Ἀππιανός· τοῦτο μὲν ]    
+οὐκ ο[ἶ]δα· ἐγὼ [ὑπὲρ τῆς ἐμαυτοῦ ] 
+εὐγενείας καὶ τῶν [ἐμοὶ προσηκόν-] 
+των ἀπαγγέλλ[ω. αὐτοκράτωρ· ] 
+νῦν οὐκ οἶδας ὅτι [    c. 12   ]  
+Ἀππιανός· τοῦτο μ[ὲν εἰ ἀληθῶς οὐκ οἶ-]  
+δας, διδάξω σε. π̣[ρῶτον μὲν Καῖσαρ ἔ-]  
+σωσε Κλεοπάτρ[αν    c. 10   ] 
+ἐκράτησεν βασι[λείας, καὶ ὡς λέγου-]
+σ̣ί τινες, ἐδανεί[σατο     c. 8     ]  
+                </ab></div>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

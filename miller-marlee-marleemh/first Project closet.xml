@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Groceries> 
+    <TraderJoes> </TraderJoes> 
+        <Pantry> 
+           bread 
+          avocado oil
+          fig butter 
+          popcorn 
+          strawberry preserves 
+        </Pantry>
+        <Meat> 
+        chicken sausage 
+        rack of lamb
+        rosemary chicken 
+        </Meat>
+        <Frozen> 
+        mac and cheese 
+        butter chicken 
+        pizza 
+        green beans 
+        rice 
+        </Frozen>
+</Groceries>
+
+
+

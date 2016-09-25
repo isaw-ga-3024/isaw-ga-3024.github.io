@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Posthumous honorary decree of Plarasa and Aphrodisias (?) for Hermogenestitle of document</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Museum of  Aphrodisias</repository>
+                        <idno>Ι 98.001</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Marble</material>
+                                    <objectType>block</objectType>.
+                                        <dimensions unit="cm">
+                                             <height>58.5</height>
+                                             <width>90.4</width>
+                                             <depth>39</depth>
+                                       </dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>2</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Found during Museum excavations in the field of Mehmet Coban, in the location called Balkar Mevkii at Cayin Karsisi, south of Aphrodisias (southof the Morsynos river).</origPlace>
+                            <date calendar="AD" notBefore="0100" notAfter="0001" cert="low">First century B.C.</date>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <ab>
+                    <lb/><supplied reason="lost">Ἔ</supplied>δοξεν <unclear reason="damage">τ</unclear>ῆι βουλῆι καὶ τῶι <w part="I">δ<unclear reason="damage">ήμ</unclear><supplied reason="lost" extent="9-10">ωι</supplied></w><orig>τη</orig><supplied reason="lost" extent="5"></supplied><orig>ι</orig> Μα-
+                    <lb/><supplied reason="lost">ρσ</supplied><unclear reason="damage">ύ</unclear>ου τοῦ Ἀπολλωνίου τοῦ Μαρσύ<unclear reason="damage">ου γ</unclear>ρα<unclear reason="damage">μμα</unclear>τέως δήμου καὶ
+                    <lb/><supplied reason="lost" extent="1"></supplied><orig>αυ</orig> ἐπὶ τῆς χώρας στρατηγοῦ· ἐπεὶ Ἑρμογένης Ἡφαιστίωνος
+                    <lb n="4"/><unclear reason="damage">Θ</unclear>εόδοτος, τῶν πρώτων καὶ ἐνδοξοτάτων πολειτῶν, προγόνων
+                    <lb/>ὑπάρχων τῶν μεγίστων καὶ συνεκτικότων τὸν δῆμον καὶ ἐν ἀ-
+                    <lb/><unclear reason="damage">ρ</unclear>ετῆι καὶ φιλοδοξίαις καὶ ἐπανγελίαις πλείσταις καὶ τοῖς καλ-
+                    <lb/>λίστοις ἔργοις πρὸς τὴν πατρίδα βε<supplied reason="omitted">βι</supplied>ωκότων, καὶ αὐτὸς γεγο-
+                    <lb n="8"/>νὼς ἀνὴρ καλὸς καὶ ἀγαθὸς καὶ φιλόπατρις καὶ κτίστης καὶ εὐερ-
+                    <lb/><unclear reason="damage">γ</unclear>έτης τῆς πόλεως καὶ σωτὴρ καὶ εὐνόως καὶ σωφρόνως ἀνεσ-
+                    <lb/>τραμμένος πρός τε τὸν σύνπαντα δῆμον καὶ τοὺς καθένα τῶν πο-
+                    <lb/><unclear reason="damage">λ</unclear>ειτῶν καὶ πρὸς θεοὺς εὐσεβέστατα διακείμενος καὶ πρὸς τὴν
+                    <lb n="12"/><supplied reason="lost">π</supplied>ατρίδα, φιλοδοξότατα κοσμήσας αὐτὴν ἐπανγελίαις καλλίσ-
+                    <lb/><supplied reason="lost">τ</supplied><unclear reason="damage">α</unclear>ις καὶ ἀναθήμασιν, εἰς πολλὰς δὲ πρεσβήας καὶ ἀνανκαιοτάτας
+                    <lb/><supplied reason="lost">πρ</supplied>οχειρισθεὶς καὶ εἰς ἀγῶνας κατὰ τὸ κάλλιστον ἐτέλεσεν
+                    <lb/><supplied reason="lost">π</supplied>άντα, τάς τε ἀρχὰς πάσας ἐπιδεξάμενος καὶ χιροτονηθεὶς
+                    <lb n="16"/><unclear reason="damage">π</unclear>λεονάκις ἐπισήμως ἀνεστράφη δικαίως καὶ καθαρῶς, παρά τε
+                    <lb/>ταῖς ἐξουσίαις καὶ τοῖς ἡγουμένοις πλείστην γνῶσιν καὶ σύστ-
+                    <lb/><supplied reason="lost">α</supplied>σιν σχὼν εὐεργέτησεν καὶ διὰ τούτων μέγιστα τὴν πόλιν· αἱρε-
+                    <lb/>θεὶς δὲ καὶ στεφανηφόρος ἐτέλεσεν καὶ αὐτὴν τὴν λειτουργίαν
+                    <lb n="20"/><supplied reason="lost">ἱ</supplied>εροπρεπῶς καὶ κοσμίως· ἐφ’ οἷς πᾶσιν ἀποδεξάμενος αὐτὸν ὁ
+                    <lb/>δῆμος ἀπέδωκεν αὐτῶι τὰς καταξίας χάριτας· τὰ δὲ νῦν με-
+                    <lb/>τ<unclear reason="damage">ή</unclear>λ<unclear reason="damage">λ</unclear>ακχεν τὸν βίον, καθήκει δὲ ἐπίσημον καὶ τὴν ἐκκομιδὴν γενέσ-
+                    <lb/><unclear reason="damage">θ</unclear>αι αὐτοῦ· δεδόχθαι τῇ βουλῇ καὶ τῶι δήμωι ἐπῃνῆσθαι αὐτὸν καὶ μετηλ-
+                    <lb n="24"/><unclear reason="damage">λα</unclear>χότα καὶ στεφανωθῆναι ὑπὸ τῆς βουλῆς καὶ τοῦ δήμου
+                    <lb/><space quantity="3" unit="character"/>στεφάνωι ἀριστήωι ἀπὸ χρυσῶν ἑκατόν·<space quantity="12" unit="character"/>
+                    <lb/><space quantity="4" unit="character"/>Ἑρμογένη Ἡφαιστίωνος Θεόδοτε, χαῖρε<space quantity="10" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>Decision of the council and the people [proposed by the strategoi ? (and)] Ma[rs]yas, son of Apollonios, grandson of Marsyas, secretary of the people and (?) general in charge of the territory. Since Hermogenes Theodotos, son of Hephaistion, one of the first and most illustrious citizens, a man who has as his ances-tors men among the greatest and among those who built together the community and have lived in vir-tue, love of glory, many promises (of benefactions), and the fairest deeds for the fatherland; a man who has been himself good and virtuous, a lover of the fatherland, a constructor, a benefactor of the polis, and a savior; a man who has shown benevolence and prudence/moderation in his conduct toward the entire people and toward each one of the citizens; a man who has always shown the utmost reverence for the gods and the fatherland; who has adorned the fatherland most generously by (the execution of) the most noble promises and with dedications; who has been elected to many and most crucial embassies and contests and has accomplished everything in the best possible way; a man who having accepted all the mag-istracies and having been elected in an outstanding way many times has shown a just and pure/honest conduct; a man who has established relationships and has received appreciation (recommendation) by the authorities and the commanders becoming a great benefactor of the polis through these as well; who having been elected as a stephanephoros has fulfilled this liturgy as well in the manner appropriate to a religious office and in decency; whom the people has acknowledged for all these (services) rewarding him with appropriate acts of gratitude; (since) he has now passed away and it is the proper thing to conduct his funeral as well in an outstanding manner, let the coun-cil and the people resolve that he is to be praised also after his death and that he is to be crowned by the council and the demos with the crown of merit, at an expense of one hundred golden coins. Hermogenes Theodotos, son of Hephaistion, fare-well !</p>
+            </div>
+            <div type="commentary">
+                <p>The decree does not give any details about the Hermogenes’ embassy, but it reports that he benefited to the maximum extent the city ‘ταῖς ἐξουσίαις καὶ τοῖς ἡγουμένοις πλείστην γνῶσιν καὶ σύστ[α]σιν σχὼν’ (having made acquaintances with the authorities and being highly estimated by the commanders), which allows us to safely conclude that it was embassies to the Roman authorities. The term ἡγούμενος τοῦ ἔθνους or τῆς ἐπαρχίας during the imperial period usually indicates the provincial governor, while in the republican period the (military) authority or generally the Romans.43 Moreover, two other inscriptions preserved from Aphrodisias are referring to ἡγούμενος: the first is a decree of the Koinon of Asia regarding the problem of publicani (I.Aphr 2.503) and the second is a posthumous honorary inscription for a citizen of Aphrodisias (I.Aphr. 12.103). However, both for the purpose of the embassy and for its historical context, only assumptions can be made. Hermogenes’ γνῶσις (acquaintances and appreciation) and σύστασις (recognition of services) by the Romans enabled him to act in the interest of the city.</p>
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl type="abbr" n="Chaniotis">Chaniotis, A. 2004. "New Inscriptions from Aphrodisias (1995-2001)." AJA 108: 377-416, no. 1</bibl> 
+                    <bibl type="abbr" n="SEG">SEG</bibl>
+                    54
+                    1020</p>
+            </div>
+        </body>
+    </text>
+</TEI>

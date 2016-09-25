@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>title of document</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <ab>
+                    <l rend="left-to-right"><lb n="1"/><hi rend="supraline"><rs type="titulature" key="sun">SOL2</rs></hi> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="labarna">IUDEX-LA</rs> <persName>MONS-tu</persName> <rs type="titulature" key="labarna">IUDEX-LA</rs> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="hero">HEROS</rs> <persName>HATTI+li</persName> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="hero">HEROS</rs> INFANS <persName>URBS+RA-li</persName> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="hero">HEROS</rs></l>
+                    <l rend="left-to-right"><lb n="2"/>tu-pi
+                        <lb n="3"/>wa-mu-a VIR2-*418-wa-<unclear>ni</unclear>-sa <placeName>LINGUA+CLAVUS-tu-sa-URBS</placeName> <unclear>POST</unclear>-a URBS-MI-a <rs type="titulature" key="labarna">IUDEX-LA-ti</rs>
+                        <lb n="4"/>wa-mu-a <persName>DEUS.TONITRUS</persName></l>
+                    <l rend="left-to-right"><lb n="5"/>NEG-wa a-sa-ta
+                        <lb n="6"/>REL-ti-pa-<damage>wa-<supplied reason="lost" cert="low">mu</supplied> VIA-<gap reason="lost" extent="unknown" unit="character"/> PRAE-<supplied reason="lost" cert="low">na-</supplied> <gap reason="lost" extent="unknown" unit="character"/>a+ra-<gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="7"/>a-<gap reason="lost" extent="unknown" unit="character"/> ta-<gap reason="lost" extent="unknown" unit="character"/></damage></l>
+                    <l rend="left-to-right"><lb n="8"/>PRAE-na <placeName>MONS-pa-tara</placeName> <unclear>pi</unclear>-i-ha
+                       <lb n="9"/><unclear>DARE.DARE</unclear>-nu-wa-ha
+                       <lb n="10"/>SCALPRUM-CRUS-<unclear>TERRA</unclear> i-zi-ha-zi
+                       <lb n="11"/>zi-ta-zi-pa-wa REGIO-ni-zi <rs type="titulature" key="great king">MAGNUS.REX-zi</rs> <placeName>HATTI-REGIO</placeName> a-mi-zi (VIR2)-ta-AVUS-zi NEG-a REL-i-sa-ha hwi-i-<damage>ta</damage>
+                       <lb n="12"/>mu-pa-wa-a <persName>DEUS.TONITRUS</persName> <rs type="titulature" key="lord">DOMINUS-na</rs> a-zi-ta
+                       <lb n="13"/>a-wa-zi-i REGIO-ni-i</l>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

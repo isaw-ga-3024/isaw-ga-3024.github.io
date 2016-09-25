@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>title of document</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>Az, mazdēzn <rs type="divine">baγ</rs> <persName>Šābuhr</persName>, <rs type="royal">šāhān šāh</rs> <placeName>Ērān</placeName> ud <placeName>Anēran</placeName>, kē čihr až yazdān, puhr mazdēzn <rs type="divine">baγ</rs> <persName>Ardašīr</persName>, <rs type="royal">šāhān šāh</rs> <placeName>Ērān</placeName>, kē čihr až yazdān, puhrēpuhr <rs type="divine">baγ</rs> <persName>Pābag</persName> <rs type="royal">šāh</rs>, <placeName>Ērānšahr</placeName> xwadāy ahēm
+                    <lb n="2"/>ud dārām <placeName>[šahr P]ārs, *[Parθaw, Xūzestān, Mēšān, A[sūrestān, Nōdšīragān, Arbāyes]tān, Ādu[r]bādegān, Armin, Wiržān, Sīgān, Ardān, Balāsagān yad fraxš ō Kaf kōf ud Alānān bar, ud hamag Parišxwār kōf</placeName>
+                    <lb n="6"/>ud kaδ naxwišt pad šahr awištād ahēm, <persName>Gōrdanyos</persName> <rs type="royal">Kēsar</rs> až hamag <placeName>Frōm</placeName>, <placeName>Gōt</placeName> ud <placeName>Garmāniyā</placeName> šahr zāwar hangāwišn kerd; ud ō <placeName>Asūrestān</placeName> abar <placeName>Ērānšahr</placeName> ud amā āγ[a]d, ud pad <placeName>Asūrestān</placeName> m[arz] pad <placeName>Mišīk</placeName> paddēmān wuzurg zambag būd.
+                    <lb n="7"/><persName>Gōrdanyos</persName> <rs type="royal">Kēsar</rs> ōžad, Frōmāyīn zāwar *wānād, ud Frōmāyīn <persName>Filip(p)os</persName> <rs type="royal">kēsar</rs> kerd.
+                    <lb n="8"/>Ud <persName>Filip(p)os</persName> <rs type="royal">Kēsar</rs> amā ō nemastīg āγad, ud gyān goxn (?) <rs type="currency">dēnār</rs> <num>500 hazār</num> ō amā dād, pad bāž awestād, ud amā <placeName>Mišik</placeName> až ēd kerd <placeName>Pērōz-Šābuhr</placeName> nām awestād.
+                    <lb n="9"/>Ud <persName>Kēsar</persName> bid druxt ō <placeName>Armin</placeName> winās kerd, ud amā abar Frōmāyīn šahr wihišt ahēm, ud Frōmāyīn zāwar 60,000 pad <placeName>Bēbāliš</placeName> ōžad
+                    <lb n="18"/>Hridīg yāwar kaδ amā abar <placeName>Harrān</placeName> ud <placeName>Urhā</placeName> wihišt ahēm ud <placeName>Harrān</placeName> ud <placeName>Urhā</placeName> *parrūδīd, <persName>Wālaraniyos</persName> <rs type="royal">Kēsar</rs> abar amā āγad
+                    <lb n="19"/>ud būd aδ až <placeName>Garmāniyā</placeName> šahr, až <placeName>Rēšiyā</placeName> šahr, až <placeName>Nīrakos</placeName> šahr, až <placeName>Dākiyā</placeName> šahr, až <placeName>Pannaniyā</placeName> šahr, až <placeName>Mōsiyā</placeName> šahr, až <placeName>Astriyā(?)</placeName> šahr, až <placeName>Ispaniyā</placeName> šahr, až <placeName>Afrikiyā</placeName> šahr,
+                    <lb n="21"/>až <placeName>Fonikāyā</placeName> šahr, až <placeName>Yūdāyā</placeName> šahr, až <placeName>Arabiyā</placeName> šahr, až <placeName>Mōrān</placeName> šahr, až <placeName>Garmāniyā</placeName> šahr, až <placeName>Rōdōs</placeName> šahr, až —-(?) šahr, až <placeName>Maδyānrōdān</placeName> šahr zāwar <num>70 hazār</num>.
+                    <lb n="22"/>Ud až hō ārag <placeName>Harrān</placeName> ud <placeName>Urhā</placeName> aδ <persName>Wālaraniyos</persName> <rs type="royal">Kēsar</rs> wuzurg raf būd, ud <persName>Wālaraniyos</persName> <rs type="royal">Kēsar</rs> wxad pad wxēbeh dast dastgraβ kerd ud <rs type="military">*ōyādag</rs>, <rs type="official">*rabēsēf</rs>, <rs type="official">sānatōr</rs> ud <rs type="official">hēgemōn</rs> kē hō zāwar sārār būd, harw dastgraβ kerd, ud bē ō <placeName>Pārs</placeName> wāst ahēnd.
+                    <lb n="23"/>Ud <placeName>Sūriyā</placeName> šahr, <placeName>Kīlikiyā</placeName> šahr, ud <placeName>Kap(p)ōdakiyā</placeName> šahr ādurwaxt, awērān ud wardyāz kerd.
+                    <lb n="32"/>Ud *ēd-rāδ {kaδ} kū yazad amā až ēd gōnag dastgerd karēnd ud pad <rs type="deities">yazdān</rs> pušt im āwand šahr wxāzām ud dārām, ōh amā-ž šahr ō šahr was ādur <rs type="deity">Warhrān</rs> nišāst ud was <rs type="religious">moγmard</rs> kirbagīf kerd ud wuzurg yazdān windārišn kerd.
+                    <lb n="33"/>Ud ēd-iž pad nibušt nišāyām: <placeName type="temple">ādur</placeName> ēw <placeName>Husraw-Šābuhr</placeName> nām, pad amā arwān ud pāšnām; <placeName type="temple">ādur</placeName> ēw <placeName>Husraw-Ādur-Anāhīd</placeName> nām, pad <placeName>Ādur-Anāhīd</placeName> bāmbišnan bāmbišn amā duxt arwān ud pāšnām; <placeName type="temple">ādur</placeName> ēw <placeName>Husraw-Ohrmezd-Ardašīr</placeName> nām, pad <placeName>Ohrmezd-Ardašīr</placeName> <persName>wuzurg</persName> <rs type="royal">šāh</rs> <placeName type="land">Arminīn</placeName> amā puhr arwān ud pāšnām.
+                    <lb n="35"/>Ud hō, čē imīn ādurān dahām ud čē aβδēn awestād (?), ōh-iž harw abar pādixšīr nibišt. Ud až hō akbrīd <num>1,000 čē</num> až <rs type="animal">*tarkafišn</rs> ō amā aβδēn būd ud amā imīn ādurān dād, hō ubdēsām kū hēb *kirihēd.
+                    <lb n="36"/>pad amā arwān rōž ō rōž <rs type="animal">akbrīd</rs> ēw, nān ēw grīw ud 5 hōfan, maδ 4 pās; pad <persName>Sāsān</persName> <rs type="religious">xwadāy</rs>, ud <persName>Pābag</persName> <rs type="royal">šāh</rs>, ud <persName>Šābuhr</persName> <rs type="royal">šāh</rs> Pābagān, ud <persName>Ardašīr</persName> <rs type="royal">šāhān šāh</rs>, <persName>Xwar(r)ā̆nzēm</persName> <placeName>šahr</placeName> <rs type="royal">bāmbišn</rs>, <placeName>Ādur-Anāhīd</placeName> <rs type="royal">bāmbišnān bāmbišn</rs>, <persName>Dēnag</persName> <rs type="royal">bāmbišn</rs>, <persName>Warhrām</persName> <rs type="royal">Gēlān šāh</rs>, <persName>Šābuhr</persName> <rs type="royal">Mēšān šāh</rs>.
+                    
+                    
+
+
+       </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

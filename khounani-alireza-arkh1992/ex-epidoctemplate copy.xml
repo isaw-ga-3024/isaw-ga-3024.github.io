@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>title of document</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <figure>
+ <head>The Map of the Parthian Empire</head>
+ <graphic url="http://www.iranpoliticsclub.net/maps/images/076%20Parthian%20Empire%202%20Map.jpg"/> </figure>
+       
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>The classical influence on Hatra is not surprising considering the city’s appreciation of the Western civilization-notably Greek and Roman art. For instance, both the relief Image of Allat (fig. 36) and the embossed Images of the Four Deities (fig. 37) wear imitations of Roman costumes in their undergarments and coats. However, these figures are supplemented by non-Greek motifs such as camels, snakes, lions or banners. A marble statuette of a seated goddess wears a crown, two garments, a collar-like necklace and part of her garment is rendered in a roll around her hips (fig. 38). The treatment of the eyes goes back to the Near Eastern prototype and the drapery is somewhat similar to Palmyrene sculpture. Another seated goddess holds a ball in her left hand and a ring-like object in her upraised right hand (fig. 39). She wears two garments belted under the breast by a knotted double cord. Again the eyes are large and protruding in the Mesopotamian fashion. A seated statue of a god with right hand placed on his chest and left hand palm upward on his knee wears Parthian tunic, embroidered shirt and trousers (fig. 39). Two models (fig. 40), of a square four-columned temple with a standing goddess holding fruit and grain exhibit strong Hellenistic influence (Ahmed, 1972: 107). There are, however, works in Hatra that have been almost completely executed based on classical traditions. Although, the standing Heracles (Fig. 41) and the bronze head of Dionysus (fig. 42), totally Greek in execution, show the greatest classical influence, they might have been imported. The greatest religious and artistic connection to Hatra is the city of Palmyra. The contributions of Palmyra is best seen in costumes, for instance in the tightening of the lower part of the trousers. A small relief was found in the pronaos of Temple XIII, the thirteenth small temple that was unearthed in Hatra (fig. 43). This shrine is located about 300 m to the east of the great temenos. The small rectangular stele measures 34 cm by 21 cm and represents two figures stand facing full front. A Palmyrene inscription on the plinth identifies the man on the right as Obaihan, freedman of Addai. He wears a long-sleeved tunic, mantle and trousers, and carries an olive branch in his raised right hand. A woman with a staff or spear in her left hand stands on the left hand side. The Palmyrene inscription on the plinth identifies her as Allat, a well-known Arab goddess. She wears a long-sleeved tunic and a mantle that covers her head. In addition to the Palmyrene inscription on the plinth, there are various texts inscribed in the stone between the two figures. At best, the stele from Temple XIII testifies to contacts on a small-scale between people from Palmyra and Hatra. (Dirven, 2013b: 50).
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
