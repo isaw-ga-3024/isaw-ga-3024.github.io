@@ -54,7 +54,7 @@
             <div type="edition" xml:space="preserve" met="-oo|-oo|-oo|-oo|-oo|--">
                 <ab>
 <seg xml:id="Chaos"><lb n="5" rend="-oo|--|--|-oo|-oo|--"/>Ante mare et terras et quod tegit omnia caelum 
-<lb n="6" rend="-oo|--|-oo|-oo|-oo|--"/><rs n="6" ana="body metaphor">unus erat toto naturae vultus in orbe</rs>,
+<lb n="6" rend="-oo|--|-oo|-oo|-oo|--"/><rs n="ln. 6: unus erat toto naturae vultus in orbe" ana="body metaphor">unus erat toto naturae vultus in orbe</rs>,
 <lb n="7" rend="--|-oo|-oo|--|-oo|--"/>quem dixere chaos: rudis indigestaque moles
 <lb n="8" rend="--|-oo|-oo|-oo|-oo|--"/>nec quicquam nisi pondus iners congestaque eodem
 <lb n="9" rend="-oo|--|--|-oo|-oo|--"/>non bene iunctarum discordia semina rerum.
@@ -80,8 +80,8 @@ chaos from cosmos, then, is the ameliorating influence of art.</quote></note>.
 <lb n="10" rend="--|--|--|-oo|-oo|--"/>nullus adhuc mundo praebebat lumina <persName>Titan</persName>,
 <lb n="11" rend="-oo|--|-oo|--|-oo|--"/>nec nova crescendo reparabat cornua <persName>Phoebe</persName>,
 <lb n="12" rend="--|--|--|-oo|-oo|--"/>nec circumfuso pendebat in aere tellus
-<lb n="13" rend="-oo|--|-oo|--|-oo|--"/>ponderibus librata suis, <rs n="13" ana="body metaphor">nec bracchia longo</rs>
-<lb n="14" rend="-oo|--|--|-oo|--|--"/><rs n="14" ana="body metaphor">margine terrarum porrexerat <persName>Amphitrite</persName></rs>;
+<lb n="13" rend="-oo|--|-oo|--|-oo|--"/>ponderibus librata suis, <rs n="lns. 13-14: nec bracchia longo / margine terrarum porrexerat Amphitrite" ana="body metaphor">nec bracchia longo
+<lb n="14" rend="-oo|--|--|-oo|--|--"/>margine terrarum porrexerat <persName>Amphitrite</persName></rs>;
 <lb n="15" rend="-oo|--|--|--|-oo|--"/>utque erat et tellus illic et pontus et aer,
 <lb n="16" rend="-oo|-oo|--|--|-oo|--"/>sic erat instabilis tellus, innabilis unda,
 <lb n="17" rend="-oo|--|--|-oo|-oo|--"/>lucis egens aer; nulli sua forma manebat,
@@ -100,7 +100,7 @@ chaos from cosmos, then, is the ameliorating influence of art.</quote></note>.
 <lb n="30" rend="--|-oo|-oo|--|-oo|--"/>et pressa est gravitate sua; circumfluus umor
 <lb n="31" rend="-oo|--|-oo|-oo|-oo|--"/>ultima possedit solidumque coercuit orbem.
 <lb n="32" rend="-oo|-oo|--|-oo|-oo|--"/>Sic ubi dispositam <seg corresp="#ARTIFEX" xml:id="DEUS">quisquis</seg> fuit ille deorum
-<lb n="33" rend="-oo|-oo|--|-oo|-oo|--"/><rs n="33" ana="body metaphor">congeriem secuit sectamque in membra coegit,</rs>
+<lb n="33" rend="-oo|-oo|--|-oo|-oo|--"/><rs n="ln. 33: congeriem secuit sectamque in membra coegit" ana="body metaphor">congeriem secuit sectamque in membra coegit,</rs>
 <lb n="34" rend="-oo|--|--|--|-oo|--"/>principio terram, ne non aequalis ab omni
 <lb n="35" rend="-oo|--|-oo|-oo|-oo|--"/>parte foret, magni speciem glomeravit in orbis.
 <note type="commentary" place="bottom" anchored="false"><bibl>Wheeler (1995: 106)</bibl>
