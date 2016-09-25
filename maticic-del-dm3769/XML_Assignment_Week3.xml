@@ -54,7 +54,7 @@
             <div type="edition" xml:space="preserve" met="-oo|-oo|-oo|-oo|-oo|--">
                 <ab>
 <seg xml:id="Chaos"><lb n="5" rend="-oo|--|--|-oo|-oo|--"/>Ante mare et terras et quod tegit omnia caelum 
-<lb n="6" rend="-oo|--|-oo|-oo|-oo|--"/>unus erat toto naturae vultus in orbe,
+<lb n="6" rend="-oo|--|-oo|-oo|-oo|--"/><rs n="body metaphor">unus erat toto naturae vultus in orbe</rs>,
 <lb n="7" rend="--|-oo|-oo|--|-oo|--"/>quem dixere chaos: rudis indigestaque moles
 <lb n="8" rend="--|-oo|-oo|-oo|-oo|--"/>nec quicquam nisi pondus iners congestaque eodem
 <lb n="9" rend="-oo|--|--|-oo|-oo|--"/>non bene iunctarum discordia semina rerum.
@@ -80,8 +80,8 @@ chaos from cosmos, then, is the ameliorating influence of art.</quote></note>.
 <lb n="10" rend="--|--|--|-oo|-oo|--"/>nullus adhuc mundo praebebat lumina <persName>Titan</persName>,
 <lb n="11" rend="-oo|--|-oo|--|-oo|--"/>nec nova crescendo reparabat cornua <persName>Phoebe</persName>,
 <lb n="12" rend="--|--|--|-oo|-oo|--"/>nec circumfuso pendebat in aere tellus
-<lb n="13" rend="-oo|--|-oo|--|-oo|--"/>ponderibus librata suis, nec bracchia longo
-<lb n="14" rend="-oo|--|--|-oo|--|--"/>margine terrarum porrexerat <persName>Amphitrite</persName>;
+<lb n="13" rend="-oo|--|-oo|--|-oo|--"/>ponderibus librata suis, <rs n="body metaphor">nec bracchia longo
+<lb n="14" rend="-oo|--|--|-oo|--|--"/>margine terrarum porrexerat <persName>Amphitrite</persName></rs>;
 <lb n="15" rend="-oo|--|--|--|-oo|--"/>utque erat et tellus illic et pontus et aer,
 <lb n="16" rend="-oo|-oo|--|--|-oo|--"/>sic erat instabilis tellus, innabilis unda,
 <lb n="17" rend="-oo|--|--|-oo|-oo|--"/>lucis egens aer; nulli sua forma manebat,
@@ -99,8 +99,8 @@ chaos from cosmos, then, is the ameliorating influence of art.</quote></note>.
 <lb n="29" rend="-oo|--|-oo|-oo|-oo|--"/>densior his tellus elementaque grandia traxit
 <lb n="30" rend="--|-oo|-oo|--|-oo|--"/>et pressa est gravitate sua; circumfluus umor
 <lb n="31" rend="-oo|--|-oo|-oo|-oo|--"/>ultima possedit solidumque coercuit orbem.
-<lb n="32" rend="-oo|-oo|--|-oo|-oo|--"/>Sic ubi dispositam <seg corresp="#ARTIFEX" xml:id="DEUS">quisquis</seg> fuit ille deorum
-<lb n="33" rend="-oo|-oo|--|-oo|-oo|--"/>congeriem secuit sectamque in membra coegit,
+<lb n="32" rend="-oo|-oo|--|-oo|-oo|--"/><rs n="body metaphor">Sic ubi dispositam <seg corresp="#ARTIFEX" xml:id="DEUS">quisquis</seg> fuit ille deorum
+<lb n="33" rend="-oo|-oo|--|-oo|-oo|--"/>congeriem secuit sectamque in membra coegit,</rs>
 <lb n="34" rend="-oo|--|--|--|-oo|--"/>principio terram, ne non aequalis ab omni
 <lb n="35" rend="-oo|--|-oo|-oo|-oo|--"/>parte foret, magni speciem glomeravit in orbis.
 <note type="commentary" place="bottom" anchored="false"><bibl>Wheeler (1995: 106)</bibl>
@@ -108,7 +108,7 @@ chaos from cosmos, then, is the ameliorating influence of art.</quote></note>.
 remember the earlier idea of <seg rend="italic">rudis indigestaque moles</seg>. Comparison with the wool-gathering of Arachne, 
 <bibl>Ov. Met. 6.18-19</bibl><quote><seg rend="italic"><l>quae nunc nomen habent operosi signa Myronis,</l>
 <l>pondus iners quondam duraque massa fuit</l></seg>.</quote>, confirms this interpretation
-of <seg rend="italic">glomero</seg>.</quote></note></seg></ab></div>  
+of <seg rend="italic">glomero</seg>.</quote></note></seg></ab></div>            
             <div type="apparatus">
                 <p>external apparatus criticus (if applicable)</p>
             </div>
@@ -119,7 +119,9 @@ of <seg rend="italic">glomero</seg>.</quote></note></seg></ab></div>
                 <p>commentary</p>
             </div>
             <div type="bibliography">
-                <p><persName>Wheeler, S.</persName> <date>1995</date>. <title><seg rend="italic">Imago Mundi</seg>: Another View of the Creation in Ovid's <title rend="italic">Metamorphoses</title></title>. AJP 116: 95-121</p>
+                <p>Anderson, W. (ed.). 1998. <seg rend="italic">Ovid's</seg> Metamorphoses<seg rend="italic">Books 1-5</seg>. Norman.</p>
+                <p>Bailey, C. (ed.) 1920. <seg rend="italic"> Lucreti De Rerum Natura Libri Sex</seg>. Oxford.</p>
+                <p>Wheeler, S. 1995. <seg rend="italic">Imago Mundi</seg>: Another View of the Creation in Ovid's <seg rend="italic">Metamorphoses</seg>. <seg rend="italic"> AJP</seg> 116: 95-121</p>
             </div>
         </body>
     </text>
