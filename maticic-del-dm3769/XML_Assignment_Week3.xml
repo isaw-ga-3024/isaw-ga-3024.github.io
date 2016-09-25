@@ -59,7 +59,7 @@
 <lb n="8" rend="--|-oo|-oo|-oo|-oo|--"/>nec quicquam nisi pondus iners congestaque eodem
 <lb n="9" rend="-oo|--|--|-oo|-oo|--"/>non bene iunctarum discordia semina rerum.
 <note type="imitation" place="bottom" anchored="false"><bibl>Lucr. DRN 1.54-61</bibl>
-<quote> Line 9 Note: With semina rerum, Ovid loosely alludes to Lucretiuss. Cf. De Rerum Natura 1.54-6: 
+<quote>Line 9 Note: With semina rerum, Ovid loosely alludes to Lucretiuss. Cf. De Rerum Natura 1.54-6: 
 nam tibi de summa caeli ratione deumque
 disserere incipiam et rerum primordia pandam,
 unde omnis natura creet res, auctet alatque,
@@ -74,7 +74,8 @@ corpora prima, quod ex illis sunt omnia primis.</quote> </note>
 <lb n="11" rend="-oo|--|-oo|--|-oo|--"/>nec nova crescendo reparabat cornua <persName>Phoebe</persName>,
 <lb n="12" rend="--|--|--|-oo|-oo|--"/>nec circumfuso pendebat in aere tellus
 <lb n="13" rend="-oo|--|-oo|--|-oo|--"/>ponderibus librata suis, <rs n="lns. 13-14: nec bracchia longo / margine terrarum porrexerat Amphitrite" ana="body metaphor">nec bracchia longo
-<lb n="14" rend="-oo|--|--|-oo|--|--"/>margine terrarum porrexerat <persName>Amphitrite</persName></rs>;
+<lb n="14" rend="-oo|--|--|-oo|--|--"/>margine terrarum porrexerat <persName>Amphitrite
+</persName></rs>;
 <lb n="15" rend="-oo|--|--|--|-oo|--"/>utque erat et tellus illic et pontus et aer,
 <lb n="16" rend="-oo|-oo|--|--|-oo|--"/>sic erat instabilis tellus, innabilis unda,
 <lb n="17" rend="-oo|--|--|-oo|-oo|--"/>lucis egens aer; nulli sua forma manebat,
@@ -93,11 +94,14 @@ corpora prima, quod ex illis sunt omnia primis.</quote> </note>
 <lb n="30" rend="--|-oo|-oo|--|-oo|--"/>et pressa est gravitate sua; circumfluus umor
 <lb n="31" rend="-oo|--|-oo|-oo|-oo|--"/>ultima possedit solidumque coercuit orbem.
 <lb n="32" rend="-oo|-oo|--|-oo|-oo|--"/>Sic ubi dispositam <seg corresp="#ARTIFEX" xml:id="DEUS">quisquis</seg> fuit ille deorum
-<lb n="33" rend="-oo|-oo|--|-oo|-oo|--"/><rs n="ln. 33: congeriem secuit sectamque in membra coegit" ana="body metaphor">congeriem secuit sectamque in membra coegit,</rs>
+<lb n="33" rend="-oo|-oo|--|-oo|-oo|--"/><rs n="ln. 33: congeriem secuit sectamque in membra coegit
+" ana="body metaphor">congeriem secuit sectamque in membra coegit,</rs>
 <lb n="34" rend="-oo|--|--|--|-oo|--"/>principio terram, ne non aequalis ab omni
-<lb n="35" rend="-oo|--|-oo|-oo|-oo|--"/>parte foret, magni speciem glomeravit in orbis.
+<lb n="35" rend="-oo|--|-oo|-oo|-oo|--
+"/>parte foret, magni speciem glomeravit in orbis.
 <note type="commentary" place="bottom" anchored="false"><bibl>Wheeler (1995: 106)</bibl>
-<quote>Line 35 Note: "The verb glomero suggests the image of wool gathered into a ball, particularly if we remember the earlier idea of rudis indigestaque moles (cf. Line 9 Note and Wheeler 1995: 106).</quote></note></seg></ab></div>            
+<quote>Line 35 Note: "The verb glomero suggests the image of wool gathered into a ball, particularly if we remember the earlier idea of rudis indigestaque moles (cf. Line 9 Note and Wheeler 1995: 106).
+</quote></note></seg></ab></div>            
             <div type="apparatus">
                 </div>
             <div type="translation">
