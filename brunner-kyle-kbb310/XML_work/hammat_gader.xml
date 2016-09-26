@@ -83,13 +83,14 @@
                             </date>
                         </expan>        
                     <lb n="7"/><date>ἔτους τῆς </date>
-                        <expan><date>
+                        <date><expan>
                             κολων
                                 <ex>
                                     ίας
                                 </ex>
-                        </date>
+                        
                         </expan>
+                        </date>
                         <num value ="726"><date>ςκψ</date></num>
                         <date>, κατὰ</date>
                         <expan>
