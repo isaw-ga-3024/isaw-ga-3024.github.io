@@ -54,26 +54,33 @@
             <div type="edition" xml:space="preserve" met="-oo|-oo|-oo|-oo|-oo|--">
                 <ab>
 <seg xml:id="Chaos"><lb n="5" rend="-oo|--|--|-oo|-oo|--"/>Ante mare et terras et quod tegit omnia caelum 
-<lb n="6" rend="-oo|--|-oo|-oo|-oo|--"/><rs n="ln. 6: unus erat toto naturae vultus in orbe" ana="body metaphor">unus erat toto naturae vultus in orbe</rs>,
+<lb n="6" rend="-oo|--|-oo|-oo|-oo|--"/><rs n="6" ana="body metaphor">unus erat toto naturae vultus in orbe</rs>,
 <lb n="7" rend="--|-oo|-oo|--|-oo|--"/>quem dixere chaos: rudis indigestaque moles
 <lb n="8" rend="--|-oo|-oo|-oo|-oo|--"/>nec quicquam nisi pondus iners congestaque eodem
 <lb n="9" rend="-oo|--|--|-oo|-oo|--"/>non bene iunctarum discordia semina rerum.
 <note type="imitation" place="bottom" anchored="false"><bibl>Lucr. DRN 1.54-61</bibl>
-<quote>Line 9 Note: With semina rerum, Ovid loosely alludes to Lucretiuss. Cf. De Rerum Natura 1.54-6: 
-nam tibi de summa caeli ratione deumque
-disserere incipiam et rerum primordia pandam,
-unde omnis natura creet res, auctet alatque,
-quove eadem rursum natura perempta resolvat,
-quae nos materiem et genitalia corpora rebus
-reddunda in ratione vocare et semina rerum
-appellare suemus et haec eadem usurpare
-corpora prima, quod ex illis sunt omnia primis.</quote> </note>
+<quote> <l>nam tibi de summa caeli ratione deumque</l> 
+<l>disserere incipiam et rerum primordia pandam,</l> 
+<l>unde omnis natura creet res, auctet alatque,</l> 
+<l>quove eadem rursum natura perempta resolvat,</l> 
+<l>quae nos materiem et genitalia corpora rebus</l> 
+<l>reddunda in ratione vocare et <seg rend="bold">semina rerum</seg></l> 
+<l>appellare suemus et haec eadem usurpare</l> 
+<l>corpora prima, quod ex illis sunt omnia primis.</l></quote> </note>
+<note type="imitation" place="bottom" anchored="false"><bibl>Ov. AA 3.219-20</bibl>
+<quote><l>quae nunc nomen habent operosi signa Myronis,</l>
+<l>pondus iners quondam duraque massa fuit.</l></quote></note>.
 <note type="commentary" place="bottom" anchored="false"><bibl>Wheeler (1995: 105)</bibl>
-<quote>Line 9 Note: "Ovid makes a pun on iners, meaning both sluggish and lacking art, which clarifies the absence of ars in rudis indigestaque moles. The phrase pondus iners itself derives from Ars Amatoria, where Ovid describes the formless stone that is improved by the sculptor's art: 'quae nunc nomen habent operosi signa Myronis,/pondus iners quondam duraque massa fuit'(Ov. AA 3.219-20). What distinguishes chaos from cosmos, then, is the ameliorating influence of art" (Wheeler 1995: 105). </quote></note>.                    
+<quote>"Ovid makes a pun on <seg rend="italic">iners</seg>,meaning both sluggish and lacking art, which clarifies the absence of <seg rend="italic">ars</seg>
+in <seg rend="italic">rudis indigestaque moles</seg>. The phrase pondus iners itself derives from
+Ars Amatoria, where Ovid describes the formless stone that is improved
+by the sculptor's art: <bibl>Ov. AA 3.219-20</bibl><quote><seg rend="italic"><l>quae nunc nomen habent operosi signa Myronis,</l>
+<l>pondus iners quondam duraque massa fuit</l></seg>.</quote> What distinguishes 
+chaos from cosmos, then, is the ameliorating influence of art.</quote></note>.                    
 <lb n="10" rend="--|--|--|-oo|-oo|--"/>nullus adhuc mundo praebebat lumina <persName>Titan</persName>,
 <lb n="11" rend="-oo|--|-oo|--|-oo|--"/>nec nova crescendo reparabat cornua <persName>Phoebe</persName>,
 <lb n="12" rend="--|--|--|-oo|-oo|--"/>nec circumfuso pendebat in aere tellus
-<lb n="13" rend="-oo|--|-oo|--|-oo|--"/>ponderibus librata suis, <rs n="lns. 13-14: nec bracchia longo / margine terrarum porrexerat Amphitrite" ana="body metaphor">nec bracchia longo
+<lb n="13" rend="-oo|--|-oo|--|-oo|--"/>ponderibus librata suis, <rs n="13" ana="body metaphor">nec bracchia longo
 <lb n="14" rend="-oo|--|--|-oo|--|--"/>margine terrarum porrexerat <persName>Amphitrite</persName></rs>;
 <lb n="15" rend="-oo|--|--|--|-oo|--"/>utque erat et tellus illic et pontus et aer,
 <lb n="16" rend="-oo|-oo|--|--|-oo|--"/>sic erat instabilis tellus, innabilis unda,
@@ -93,23 +100,28 @@ corpora prima, quod ex illis sunt omnia primis.</quote> </note>
 <lb n="30" rend="--|-oo|-oo|--|-oo|--"/>et pressa est gravitate sua; circumfluus umor
 <lb n="31" rend="-oo|--|-oo|-oo|-oo|--"/>ultima possedit solidumque coercuit orbem.
 <lb n="32" rend="-oo|-oo|--|-oo|-oo|--"/>Sic ubi dispositam <seg corresp="#ARTIFEX" xml:id="DEUS">quisquis</seg> fuit ille deorum
-<lb n="33" rend="-oo|-oo|--|-oo|-oo|--"/><rs n="ln. 33: congeriem secuit sectamque in membra coegit" ana="body metaphor">congeriem secuit sectamque in membra coegit,</rs>
+<lb n="33" rend="-oo|-oo|--|-oo|-oo|--"/><rs n="33" ana="body metaphor">congeriem secuit sectamque in membra coegit,</rs>
 <lb n="34" rend="-oo|--|--|--|-oo|--"/>principio terram, ne non aequalis ab omni
-<lb n="35" rend="-oo|--|-oo|-oo|-oo|--"
-/>parte foret, magni speciem glomeravit in orbis.
+<lb n="35" rend="-oo|--|-oo|-oo|-oo|--"/>parte foret, magni speciem glomeravit in orbis.
 <note type="commentary" place="bottom" anchored="false"><bibl>Wheeler (1995: 106)</bibl>
-<quote>Line 35 Note: "The verb glomero suggests the image of wool gathered into a ball, particularly if we remember the earlier idea of rudis indigestaque moles (cf. Line 9 Note and Wheeler 1995: 106).
-</quote></note></seg></ab></div>            
+<quote>"The verb <seg rend="italic">glomero</seg> suggests the image of wool gathered into a ball, particularly if we
+remember the earlier idea of <seg rend="italic">rudis indigestaque moles</seg>. Comparison with the wool-gathering of Arachne, 
+<bibl>Ov. Met. 6.18-19</bibl><quote><seg rend="italic"><l>quae nunc nomen habent operosi signa Myronis,</l>
+<l>pondus iners quondam duraque massa fuit</l></seg>.</quote>, confirms this interpretation
+of <seg rend="italic">glomero</seg>.</quote></note></seg></ab></div>            
             <div type="apparatus">
-                </div>
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
             <div type="translation">
-                </div>
+                <p>translation(s)</p>
+            </div>
             <div type="commentary">
-                </div>
+                <p>commentary</p>
+            </div>
             <div type="bibliography">
-                <p>Anderson, W. (ed.). 1998. Ovid's MetamorphosesBooks 1-5. Norman.</p>
-                <p>Bailey, C. (ed.) 1920. Lucreti De Rerum Natura Libri Sex. Oxford.</p>
-                <p>Wheeler, S. 1995. Imago Mundi: Another View of the Creation in Ovids Metamorphoses. AJP 116: 95-121</p>
+                <p>Anderson, W. (ed.). 1998. <seg rend="italic">Ovid's</seg> Metamorphoses<seg rend="italic">Books 1-5</seg>. Norman.</p>
+                <p>Bailey, C. (ed.) 1920. <seg rend="italic"> Lucreti De Rerum Natura Libri Sex</seg>. Oxford.</p>
+                <p>Wheeler, S. 1995. <seg rend="italic">Imago Mundi</seg>: Another View of the Creation in Ovid's <seg rend="italic">Metamorphoses</seg>. <seg rend="italic"> AJP</seg> 116: 95-121</p>
             </div>
         </body>
     </text>

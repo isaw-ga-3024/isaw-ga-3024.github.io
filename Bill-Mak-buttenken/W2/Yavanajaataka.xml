@@ -53,8 +53,20 @@
         <body>
             <div type="edition">
                 <ab>
-                    <lb n="1"/>Greek or Latin (etc.) text here
-                </ab>
+                    <l n="1"> <lb/>sarvasya horāvidhisaṃgrahasya cakṣuḥ paraṃ yad vibudhā vadanti
+                        <lb/>samāsatas tad yavanopadeśād vakṣye 'tha dṛṣṭaṃ caritaṃ grahāṇām
+                    </l>
+                    <l n="2"> <lb/>yugaṃ mahat kecid uśanti sauraṃ sūkṣmaṃ ca tadvad grahaṇārtham ādyāḥ
+                        <lb/>tadāgamād bodhamitiprabhedād dṛṣṭeṣu gatyāsa samāsabuddhiḥ
+                    </l>
+                    <l n="3">
+                        <lb/>muner vasiṣṭhasya matānuvṛttyā keṣāṃ cid iṣṭaṃ vidhitatparāṇām
+                        <lb/>yugo ravīndvor yavanottamānāṃ ṣaṣṭiḥ śataṃ pañcayutaṃ samānām
+                    </l>
+              </ab>
+                <p>
+                    iha śāstre saṃbandhābhidheyaprayojanāni  bhavantīty ucyate - vācyavācakalakṣaṇaḥ saṃbandhaḥ / vācyo 'rtho vācakaḥ śabdaḥ /athavopāyopeyalakṣaṇaḥ saṃbandhaḥ / upāyasti vadaṃ śāstram upeyaṃ jñānam / athavā ābrahmādiviniḥsṛtaṃ vedāṅgam iti saṃbandhaḥ / anena śāstreṇa ca yad grahanakṣatrotthānāṃ śubhāśubhānāṃ divyāntarikṣabhaumānām utpātānāṃ phalajñānaṃ tad abhidheyam / jagataḥ śubhāśubhakathanaṃ prayojanaṃ samyagjñānān mokṣāvāptir iti ca prayojanam / kim ebhir uktair ity atrocyate - śrotṛṇāṃ saṃbandhābhidheyaprayojanakathanāc chāstraviṣaye śraddhā jāyata iti / tathā coktam atrārthe -
+                </p>
             </div>
             <div type="apparatus">
                 <p>external apparatus criticus (if applicable)</p>
