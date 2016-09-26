@@ -54,7 +54,7 @@
             <div type="edition" xml:space="preserve" xml:lang="grc">
                 <ab>
                     <lb n="1"/>᾿Επὶ 
-                        <persName type="foreign">᾿Αβδάλλα Μαάυια</persName>
+                        <persName type="Caliph">᾿Αβδάλλα Μαάυια</persName>
                         <rs type="Caliph">ἀμήρα</rs>
                     <lb n="2"/><rs type="Caliph">ἀλουμενὴν</rs> 
                         ἀπελ<supplied reason="omitted">ο</supplied>ύθη
@@ -87,10 +87,9 @@
                         <expan>
                             <date>
                             κολων</date>
-                                <date><ex>
+                                <ex>
                                     ίας
-                                </ex></date>
-                        
+                                </ex>
                         </expan>                        
                         <num value ="726"><date>ςκψ</date></num>
                         <date>, κατὰ</date>
