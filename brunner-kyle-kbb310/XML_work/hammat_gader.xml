@@ -75,22 +75,23 @@
                     <lb n="6"/><date>πέμπτῃ, ἡμέρᾳ δευτέρᾳ,</date>
                         <expan>
                             <date>
-                            ἰνδ
+                            ἰνδ</date>
+                            <date>
                             <ex>
                                 ικτιῶνος
                             </ex>
                             ς’
-                            </date>
+                            </date> 
                         </expan>        
                     <lb n="7"/><date>ἔτους τῆς </date>
-                        <date><expan>
-                            κολων
-                                <ex>
+                        <expan>
+                            <date>
+                            κολων</date>
+                                <date><ex>
                                     ίας
-                                </ex>
+                                </ex></date>
                         
-                        </expan>
-                        </date>
+                        </expan>                        
                         <num value ="726"><date>ςκψ</date></num>
                         <date>, κατὰ</date>
                         <expan>
