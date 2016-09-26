@@ -55,8 +55,8 @@
                 <ab>
                     <lb n="1"/>᾿Επὶ 
                         <persName type="foreign">᾿Αβδάλλα Μαάυια</persName>
-                        <rs type="Caliph">ἀμήρα
-                    <lb n="2"/>ἀλουμενὴν</rs> 
+                        <rs type="Caliph">ἀμήρα</rs>
+                    <lb n="2"/><rs type="Caliph">ἀλουμενὴν</rs> 
                         ἀπελ<supplied reason="omitted">ο</supplied>ύθη
                             <expan>
                                 <abbr>κ</abbr>
@@ -71,16 +71,16 @@
                         <rs type="governor">
                             συμβούλου
                         </rs>
-                        <date>, ἐν μηνὴ Δεκεμβρίῳ
-                    <lb n="6"/>πέμπτῃ, ἡμέρᾳ δευτέρᾳ, 
+                        <date>, ἐν μηνὴ Δεκεμβρίῳ</date>
+                    <lb n="6"/><date>πέμπτῃ, ἡμέρᾳ δευτέρᾳ, 
                         <expan>
                             ἰνδ
                             <ex>
                                 ικτιῶνος
                             </ex>
                             ς’
-                        </expan>        
-                    <lb n="7"/>ἔτους τῆς 
+                        </expan></date>        
+                    <lb n="7"/><date>ἔτους τῆς 
                         <expan>
                             κολων
                                 <ex>
@@ -94,8 +94,8 @@
                                 <ex>
                                     ς
                                 </ex>
-                        </expan>
-                    <lb n="8"/>ἔτους <num value="42">μβ’</num>
+                        </expan></date>
+                    <lb n="8"/><date>ἔτους <num value="42">μβ’</num>
                             </date>
                         , εἰς ἴασην τῶν νοσούν
                     <lb n="9"/>τῶν, σπουδῇ 
