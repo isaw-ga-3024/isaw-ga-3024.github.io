@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Sample of the Choephori Kommos</title>  
+                <title>Choephori Kommos</title>  
             </titleStmt>
             <publicationStmt>
                 <publisher>Clarendon Press</publisher>
@@ -15,7 +15,6 @@
                 <availability>
                     <ab>Copyright 1972, Oxford University Press</ab>
                 </availability>
-                <idno type="filename"></idno>
             </publicationStmt>
             <notesStmt>
                 <note source="http://stephanus.tlg.uci.edu">
@@ -35,13 +34,14 @@
                         The kommos of the Choephoroe is the longest extant choral lyric and plays an important role in Orestes' and Elektra's characterization in the play and trilogy.
                         The chorus whip up the so-far relatively placid Orestes and Elektra into killing their mother to avenge their father.
                         I am interested in how the chorus persuade Orestes and Elektra to kill their mother through their emotional manipulation.
-                        To that end, I have marked up the meter (rs met=""); the terms used for emotions (rs type="emotion") or organs of the body where emotions originate (rs type="organ"); and words that indicate an emotional circumstance such as "mourning" (rs type="emotioncirc").
+                        To that end, I have marked up the meter (rs met=""); the terms used for emotions (rs type="emotion") or organs of the body where emotions originate (rs type="organ"); words that indicate a circumstance which can be associated with negative emotions such as death, grief, pain (rs type="negative") and of positive emotions such as joy, happiness, and victory (rs type="positive"); and words that indicate "justice" (rs type="justice") or "injustice" (rs type="injustice") as according to the appraisal theory of the emotions, emotions as rational and evaluative judgments are a species of motives and are ultimately concerned with self-respect, dignity, and one's place in the world and hence with one's view of justice.
                         I have no idea if this is a useful markup, but I thought I'd give it a try.
                     </ab>
                 </interpretation>
                 <segmentation>
                     <ab>
                         The strophe and antistrophe structure represented in Page have been observed.
+                        Because of the nature of manuscript transmission for dramatic texts, the speaker attributions are cojectural, particularly in the kommos. It is hard to tell what lines Elektra speaks and what lines Orestes speaks. Nevertheless, I have marked up the text according to the OCT using the "resp" tag.
                         The meter of each line has been marked on each line according to West (Aeschyli Choephoroe. West, M. L. Stuttgart 1991.).
                         According to the TEI guidelines, '+' is for a stressed syllable and '-' for an unstressed so for Greek I've used '+' to indicate a 'long syllable' and '-' to indicate a 'short syllable'.
                         It is important for a metrical scheme to differntiate between (a) two shorts and (b) when a long has been resolved into two shorts, but I could not figure out how according to the guidelines to indicate this so I chose to use parentheses to indicate when a long has been resolved into two shorts, for example '(--)'.
@@ -56,9 +56,139 @@
             <div type="edition" xml:space="preserve">
                 <ab>
                     <lg type="chorallyric">
-                       <lg type="antistrophe" n="epsilon">
+                        <lg>
+                            <l>ἀλλ’ ὦ μεγάλαι Μοῖραι, Διόθεν</l>
+                            <l>τῆιδε τελευτᾶν,</l>
+                            <l>ἧι τὸ δίκαιον μεταβαίνει·</l>
+                            <l>ἀντὶ μὲν ἐχθρᾶς γλώσσης ἐχθρὰ</l>
+                            <l><lb n="310"/>γλῶσσα τελείσθω· τοὐφειλόμενον</l>
+                            <l>πράσσουσα Δίκη μέγ’ ἀυτεῖ</l>
+                            <l>ἀντὶ δὲ πληγῆς φονίας φονίαν</l>
+                            <l>πληγὴν τινέτω. δράσαντα παθεῖν</l>
+                            <l>τριγέρων μῦθος τάδε φωνεῖ</l>
+                        </lg>
+                        <lg type="strophe" n="alpha" resp="orestes">
+                            <l met="+--+--+-+"><lb n="315"/>ὦ πάτερ <rs type="negative">αἰνόπατερ</rs>, τί σοι</l>
+                            <l met="(--)-+-++">φάμενος ἢ τί ῥέξας</l>
+                            <l met="-+(--)--+-+">τύχοιμ’ ἄγκαθεν οὐρίσας</l>
+                            <l met="+--+-++">ἔνθα σ’ ἔχουσιν εὐναί;</l>
+                            <l met="-+--+-++">σκότωι φάος ἀντίμοι-</l>
+                            <l met="--+-++"><lb n="320"/><lb break="no"/>ρον, <rs type="emotion">χάριτες</rs> δ’ ὁμοίως</l>
+                            <l met="-++--+-+">κέκληνται <rs type="negative">γόος</rs> <rs type="positive">εὐκλεὴς</rs></l>
+                            <l met="+--+-++">†προσθοδόμοις† Ἀτρείδαις.</l>
+                        </lg>
+                        <lg type="strophe" n="beta" resp="chorus">
+                            <l met="-+-+-+-+-+-+">τέκνον, <rs type="organ">φρόνημα</rs> τοῦ θανόντος οὐ δαμά-</l>
+                            <l met="+-+--+-+"><lb n="325"/><lb break="no"/>ζει πυρὸς μαλερὰ γνάθος</l>
+                            <l met="+++--++">φαίνει δ’ ὕστερον <rs type="emotion">ὀργάς</rs></l>
+                            <l met="--+-+-++"><rs type="negative">ὀτοτύζεται</rs> δ’ ὁ θνήισκων</l>
+                            <l met="--+-+-++">ἀναφαίνεται δ’ ὁ βλάπτων,</l>
+                            <l met="--+-+-++">πατέρων δὲ καὶ τεκόντων </l>
+                            <l met="--+-+-++"><lb n="330"/><rs type="negative">γόος</rs> <rs type="justice">ἔνδικος</rs> ματεύει </l>
+                            <l met="-++--+-++">ποινὰν ἀμφιλαφῶς ταραχθείς</l>
+                        </lg>
+                        <lg type="antistrophe" n="alpha" resp="elektra">
+                            <l met="+--+--+-+">κλῦθί νυν, ὦ πάτερ, ἐν μέρει</l>
+                            <l met="(--)-+-++"><rs type="negative">πολυδάκρυτα</rs> <rs type="negative">πένθη</rs></l>
+                            <l met="-++--+-+">δίπαις τοί σ’ ἐπιτύμβιος</l>
+                            <l met="+--+-++"><lb n="335"/><rs type="negative">θρῆνος</rs> <rs type="negative">ἀναστενάζει</rs></l>
+                            <l met="-+--+-++">τάφος δ’ ἱκέτας δέδε-</l>
+                            <l met="--+-++"><lb break="no"/>κται φυγάδας θ’ ὁμοίως·</l>
+                            <l met="-++--+-+">τί τῶνδ’ εὖ, τί δ’ ἄτερ κακῶν;</l>
+                            <l met="+--+-++">οὐκ ἀτρίακτος ἄτα;</l>
+                        </lg>
+                        <lg resp="chorus">
+                            <l><lb n="340"/>ἀλλ’ ἔτ’ ἂν ἐκ τῶνδε θεὸς χρήιζων</l>
+                            <l>θείη κελάδους εὐφθογγοτέρους,</l>
+                            <l>ἀντὶ δὲ <rs type="negative">θρήνων</rs> ἐπιτυμβιδίων</l>
+                            <l><rs type="positive">παιὼν</rs> μελάθροις ἐν βασιλείοις</l>
+                            <l>νεοκρᾶτα φίλον κομίσειεν</l>
+                        </lg>
+                        <lg type="strophe" n="gamma" resp="orestes">
+                            <l met="+--+-+"><lb n="345"/>εἰ γὰρ ὑπ’ Ἰλίωι</l>
+                            <l met="+-+--+-+">πρός τινος Λυκίων, πάτερ,</l>
+                            <l met="-+++-+-++">δορίτμητος κατηναρίσθης</l>
+                            <l met="-+-++-+-++">λιπὼν ἂν εὔκλειαν ἐν δόμοισιν</l>
+                            <l met="-++-++">τέκνων τ’ ἐν κελεύθοις</l>
+                            <l met="-++-++"><lb n="350"/>ἐπιστρεπτὸν αἰῶ</l>
+                            <l met="++--+--++">κτίσας πολύχωστον ἂν εἶχες</l>
+                            <l met="-+--+-++">τάφον διαποντίου γᾶς</l>
+                            <l met="+--+-++">δώμασιν εὐφόρητον</l>
+                        </lg>
+                        <lg type="antistrophe" n="beta" resp="chorus">
+                            <l met="-+-+-+-+-+-+">φίλος φίλοισι τοῖς ἐκεῖ καλῶς θανοῦ-</l>
+                            <l met="+-+--+-+"><lb n="355"/><lb break="no"/>σιν, κατὰ χθονὸς ἐμπρέπων</l>
+                            <l met="+-+--++">σεμνότιμος ἀνάκτωρ</l>
+                            <l met="--+-+-++">πρόπολός τε τῶν μεγίστων</l>
+                            <l met="--+-+-++">χθονίων ἐκεῖ τυράννων</l>
+                            <l met="--+-+-++"><lb n="360"/>βασιλεὺς γὰρ ἦσθ’ ὄφρ’ ἔζης</l>
+                            <l met="--+-+-++">μόριμον λάχος †πιμπλάντων</l>
+                            <l met="-++--+-++">χεροῖν πεισίβροτόν τε βάκτρον†.</l>
+                        </lg>
+                        <lg type="antistrophe" n="gamma" resp="elektra">
+                            <l met="+--+-+">μηδ’ ὑπὸ Τρωίας</l>
+                            <l met="+-+--+-+">τείχεσι φθίμενος, πάτερ,</l>
+                            <l met="-+++-+-++"><lb n="365"/>μετ’ ἄλλωι δουρικμῆτι λαῶι</l>
+                            <l met="-+-++-+-++">παρὰ Σκαμάνδρου πόρον τεθάφθαι</l>
+                            <l met="-++-++">πάρος δ’ οἱ κτανόντες</l>
+                            <l met="-++-++">νιν οὕτως δαμῆναι</l>
+                            <l met="-+--+--++">/  \ θανατηφόρον αἶσαν</l>
+                            <l met="-+--+-++"><lb n="370"/>πρόσω τινὰ πυνθάνεσθαι</l>
+                            <l met="+--+-++">τῶνδε πόνων ἄπειρον</l>
+                        </lg>
+                        <lg resp="chorus">
+                            <l>ταῦτα μέν, ὦ παῖ, κρείσσονα χρυσοῦ,</l>
+                            <l>μεγάλης δὲ τύχης καὶ ὑπερβορέου</l>
+                            <l>μείζονα φωνεῖς· δύνασαι γάρ.</l>
+                            <l><lb n="375"/>ἀλλὰ διπλῆς γὰρ τῆσδε μαράγνης</l>
+                            <l>δοῦπος ἱκνεῖται· τῶν μὲν ἀρωγοὶ</l>
+                            <l>κατὰ γῆς ἤδη, τῶν δὲ κρατούντων </l>
+                            <l>χέρες οὐχ ὅσιαι †στυγερῶν τούτων </l>
+                            <l>παισὶ δὲ μᾶλλον γεγένηται†.</l>
+                        </lg>
+                        <lg type="strophe" n="delta" resp="orestes">
+                            <l met="+--+--+"><lb n="380"/>τοῦτο διαμπερὲς οὖς</l>
+                            <l met="+--+--+">ἵκεθ’ ἅπερ τε βέλος·</l>
+                            <l met="++-+-+++">Ζεῦ Ζεῦ, κάτωθεν ἀμπέμπειν</l>
+                            <l met="+--+-++">ὑστερόποινον ἄταν</l>
+                            <l met="-++--+-++">βροτῶν τλήμονι καὶ πανούργωι</l>
+                            <l met="+--+--+-++"><lb n="385"/>χειρί· τοκεῦσι δ’ ὅμως τελεῖται</l>
+                        </lg>
+                         <lg type="strophe" n="epsilon" resp="chorus">
+                             <l met="-+++-+-+-+">ἐφυμνῆσαι γένοιτό μοι πευ-</l>
+                             <l met="+--+-++"><lb break="no"/>κάεντ’ <rs type="negative">ὀλολυγμὸν</rs> ἀνδρὸς</l>
+                             <l met="+--+-++">θεινομένου γυναικός</l>
+                             <l met="+--+-++">τ’ ὀλλυμένας· τί γὰρ κεύ-</l>
+                             <l met="+--+-++"><lb n="390"/><lb break="no"/>θω <rs type="organ">φρενὸς</rs> οἷον ἔμπας</l>
+                             <l met="-++-++-++ ">ποτᾶται πάροιθ’; ἐκ δὲ πρώιρας</l>
+                             <l met="+--++--+">δριμὺς ἄηται <rs type="organ">κραδίας</rs></l>
+                             <l met="+-+-+-+"><rs type="organ"><rs type="emotion">θυμός</rs></rs>, ἔγκοτον <rs type="emotion">στύγος</rs>.</l>
+                         </lg>
+                        <lg type="antistrophe" n="delta" resp="elektra">
+                            <l met="+--+--+">καὶ πότ’ ἂν ἀμφιθαλὴς</l>
+                            <l met="+--+--+"><lb n="395"/>Ζεὺς ἐπὶ χεῖρα βάλοι</l>
+                            <l met="++-+-+++"><rs type="negative">φεῦ φεῦ</rs>, κάρανα δαΐξας;</l>
+                            <l met="+--+-++">πιστὰ γένοιτο χώραι. </l>
+                            <l met="-++--+-++"><rs type="justice">δίκαν</rs> δ’ ἐξ <rs type="injustice">ἀδίκων</rs> ἀπαιτῶ·</l>
+                            <l met="+--+--+-++">κλῦτε δὲ Γᾶ χθονίων τε τιμαί.</l>
+                        </lg>
+                        <lg resp="chorus">
+                            <l><lb n="400"/>ἀλλὰ <rs type="justice">νόμος</rs> μὲν φονίας σταγόνας</l>
+                            <l>χυμένας ἐς πέδον ἄλλο προσαιτεῖν</l>
+                            <l>αἷμα· βοᾶι γὰρ λοιγὸς <rs type="justice">Ἐρινὺν</rs></l>
+                            <l>παρὰ τῶν πρότερον φθιμένων ἄτην</l>
+                            <l>ἑτέραν ἐπάγουσαν ἐπ’ ἄτηι</l>
+                        </lg>
+                        <lg type="strophe" n="zeta" resp="orestes">
+                            <l met="-+++-+-+-+"><lb n="405"/>πόποι δᾶ νερτέρων τυραννίδες·</l>
+                            <l met="-(--)+-+-(--)+-+">πολυκρατεῖς ἴδεσθε φθιμένων Ἀραί,</l>
+                            <l met="-+-++-+-+-+">ἴδεσθ’ Ἀτρειδᾶν τὰ λοίπ’ ἀμηχάνως</l>
+                            <l met="-+-++-+-+-+">ἔχοντα καὶ δωμάτων ἄτιμα· πᾶι</l>
+                            <l met="+-+-++">τις τράποιτ’ ἄν, ὦ Ζεῦ;</l>
+                        </lg>
+                       <lg type="antistrophe" n="epsilon" resp="chorus">
                          <l met="-+++-+-+-+"><lb n="410"/>πέπαλται δαὖτέ μοι φίλον <rs type="organ">κῆρ</rs>.</l>
-                         <l met="+--+-++">τόνδε κλύουσαν <rs type="emotioncirc">οἶκτον</rs>·</l>
+                         <l met="+--+-++">τόνδε κλύουσαν <rs type="negative">οἶκτον</rs>·</l>
                          <l met="+--+|-++">καὶ τότε μὲν δύσελπις,</l>
                          <l met="+--+|-++"><rs type="organ">σπλάγχνα</rs> δέ μοι κελαινοῦ-</l>
                          <l met="+|--+-++"><lb break="no"/>ται πρὸς ἔπος κλυούσαι·</l>
@@ -66,58 +196,91 @@
                          <l met="+--++--+"><gap reason="lost">  </gap> ἀπέστασεν ἄχος</l>
                          <l met="+-+-+-+">πρὸς τὸ φανεῖσθαι μοι καλῶς. </l>
                        </lg>
-                       <lg type="antistrophe" n="zeta">
+                       <lg type="antistrophe" n="zeta" resp="elektra">
                          <l met="-+++-+-+-+">τί δ’ ἂν φάντες τύχοιμεν; ἦ τάπερ</l>
                          <l met="-(--)(--)-+-+(--)-+"><rs type="emotion">πάθομεν</rs> ἄχεα πρός γε τῶν τεκομένων;</l>
                          <l met="-+-++|-+-+-+"><lb n="420"/>πάρεστι σαίνειν, τὰ δ’ οὔτι θέλγεται·</l>
-                         <l met="-+-++-+">λύκος γὰρ ὥστ’ ὠμόφρων ἄσαντος ἐκ</l>
-                         <l met="-+-++-+-++">ματρός ἐστι <rs type="organ"><rs type="emotion">θυμός</rs></rs>.</l>
+                         <l met="-+-++-+-+-+">λύκος γὰρ ὥστ’ ὠμόφρων ἄσαντος ἐκ</l>
+                         <l met="+-+-++">ματρός ἐστι <rs type="organ"><rs type="emotion">θυμός</rs></rs>.</l>
                        </lg>
-                       <lg type="strophe" n="eta">
-                         <l met="-+-++|(--)-+-+-+">ἔκοψα <rs type="emotioncirc">κομμὸν</rs> Ἄριον ἔν τε Κισσίας</l>
-                         <l met="-+-+-+-+">νόμοις <rs type="emotioncirc">ἰηλεμιστρίας</rs>·</l>
+                       <lg type="strophe" n="eta" resp="chorus">
+                         <l met="-+-++|(--)-+-+-+">ἔκοψα <rs type="negative">κομμὸν</rs> Ἄριον ἔν τε Κισσίας</l>
+                         <l met="-+-+-+-+">νόμοις <rs type="negative">ἰηλεμιστρίας</rs>·</l>
                          <l met="-+-++|(--)-+-+-+"><lb n="425"/>ἀπρικτόπληκτα πολυπάλακτα δ’ ἦν ἰδεῖν</l>
                          <l met="-+-(--)-+-(--)-+-+">ἐπασσυτεροτριβῆ τὰ χερὸς ὀρέγματα</l>
                          <l met="-+-(--)-+|-+-+-+">ἄνωθεν ἀνέκαθεν, κτύπωι δ’ ἐπερρόθει</l>
                          <l met="-+-++|-+-+-+">κροτητὸν ἀμὸν καὶ πανάθλιον κάρα.</l>
                        </lg>
-                       <lg type="strophe" n="theta">
+                       <lg type="strophe" n="theta" resp="elektra">
                          <l met="-+-++-+">ἰὼ ἰὼ δαΐα</l>
-                         <l met="-+-++|+-+-+-+"><lb n="430"/>πάντολμε μᾶτερ, <rs type="emotioncirc">δαΐαις</rs> ἐν ἐκφοραῖς</l>
+                         <l met="-+-++|+-+-+-+"><lb n="430"/>πάντολμε μᾶτερ, <rs type="negative">δαΐαις</rs> ἐν ἐκφοραῖς</l>
                          <l met="-+-++-+">ἄνευ πολιτᾶν ἄνακτ’</l>
-                         <l met="-+-++-+">ἄνευ δὲ <rs type="emotioncirc">πενθημάτων</rs></l>
+                         <l met="-+-++-+">ἄνευ δὲ <rs type="negative">πενθημάτων</rs></l>
                          <l met="-+-++-+-++">ἔτλας ἀνοίμωκτον ἄνδρα θάψαι.</l>
                         </lg>
-                        <lg type="strophe" n="iota">
-                          <l met="-+-++|-+-++">τὸ πᾶν ἀτίμως ἔρεξας, <rs type="emotioncirc">οἴμοι</rs>,</l>
+                        <lg type="strophe" n="iota" resp="orestes">
+                          <l met="-+-++|-+-++">τὸ πᾶν ἀτίμως ἔρεξας, <rs type="negative">οἴμοι</rs>,</l>
                           <l met="-+-++-+-++"><lb n="435"/>πατρὸς δ’ ἀτίμωσιν ἆρα τείσεις</l>
                           <l met="-+-++-+">ἕκατι μὲν δαιμόνων,</l>
                           <l met="-+-++-+">ἕκατι δ’ ἀμᾶν χερῶν·</l>
                           <l met="-+-++-+-++">ἔπειτ’ ἐγὼ νοσφίσας <supplied reason="omitted">σ’</supplied> ὀλοίμαν.</l>
                         </lg>
-                        <lg type="antistrophe" n="iota">
+                        <lg type="antistrophe" n="iota" resp="chorus">
                           <l met="-+-++|-+-++">ἐμασχαλίσθη δέ γ’, ὡς τόδ’ εἰδῆις·</l>
                           <l met="-+-++-+-++"><lb n="440"/>ἔπρασσε δ’ ἅπερ νιν ὧδε θάπτει,</l>
                           <l met="-+-++-+">μόρον κτίσαι μωμένα</l>
                           <l met="-+-++-+">ἄφερτον αἰῶνι σῶι·</l>
                           <l met="-+-++-+-++">κλύεις πατρώιους δύας ἀτίμους.</l>
                         </lg>
-                        <lg type="antistrophe" n="eta">
+                        <lg type="antistrophe" n="eta" resp="elektra">
                           <l met="-+-+-|(--)-+-+-+">λέγεις πατρῶιον μόρον· ἐγὼ δ’ ἀπεστάτουν</l>
                           <l met="-+-+-|---+-+-+"><lb n="445"/>ἄτιμος, οὐδὲν ἀξία,</l>
                           <l met="-+-+-+-+">μυχῶι δ’ ἄφερκτος πολυσινοῦς κυνὸς δίκαν</l>
                           <l met="-+-+-|(--)-+-+-+">ἑτοιμότερα γέλωτος ἀνέφερον λίβη</l>
-                          <l met="-+-(--)-+|-+-+-+">χέουσα <rs type="emotioncirc">πολύδακρυν</rs> <rs type="emotioncirc">γόον</rs> κεκρυμμένα.</l>
+                          <l met="-+-(--)-+|-+-+-+">χέουσα <rs type="negative">πολύδακρυν</rs> <rs type="negative">γόον</rs> κεκρυμμένα.</l>
                           <l met="-+-++|-+-+-+"><lb n="450"/>τοιαῦτ’ ἀκούων <gap reason="lost">  </gap> ἐν <rs type="organ">φρεσὶν</rs> γράφου.</l>
                         </lg>
-                        <lg type="antistrophe" n="eta">
+                        <lg type="antistrophe" n="eta" resp="chorus">
                           <l met="-+-++-+"> <supplied reason="omitted">γράφου</supplied>, δι’ ὤτων δὲ συν-</l>
                           <l met="-+-+-|+-+-+-+"><lb break="no"/>τέτραινε μῦθον ἡσύχωι <rs type="organ">φρενῶν</rs> βάσει·</l>
                           <l met="-+-++-+">τὰ μὲν γὰρ οὕτως ἔχει,</l>
                           <l met="-+-++-+">τὰ δ’ αὐτὸς <rs type="emotion">ὄργα</rs> μαθεῖν·</l>
                           <l met="-+-++-+-++"><lb n="455"/>πρέπει δ’ ἀκάμπτωι μένει καθήκειν.</l>
-                        </lg>   
+                        </lg>  
+                        <lg type="strophe" n="kappa">
+                            <l met="-+-++-+-+-+" resp="orestes">σέ τοι λέγω, ξυγγενοῦ πάτερ φίλοις.</l>
+                            <l met="-+-++-+-+-+" resp="elektra">ἐγὼ δ’ ἐπιφθέγγομαι <rs type="negative">κεκλαυμένα</rs>. </l>
+                            <l met="-+-++-+-+-+" resp="chorus">στάσις δὲ πάγκοινος ἅδ’ ἐπιρροθεῖ·</l>
+                            <l met="-+-+-+-+" resp="chorus">ἄκουσον ἐς φάος μολών</l>
+                            <l met="+--+-++" resp="chorus"><lb n="460"/>ξὺν δὲ γενοῦ πρὸς ἐχθρούς</l>
+                        </lg>
+                        <lg type="antistrophe" n="kappa">
+                            <l met="-+-++-+-+-+" resp="orestes">Ἄρης Ἄρει ξυμβαλεῖ, <rs type="justice">Δίκαι</rs> <rs type="justice">Δίκα</rs>.</l>
+                            <l met="-+-++-+-+-+" resp="elektra">ἰὼ θεοί, κραίνετ’ <rs type="justice">ἐνδίκως</rs> <supplied reason="omitted">λιτάς</supplied>.</l>
+                            <l met="-+-++-+-+-+" resp="chorus">τρόμος μ’ ὑφέρπει κλύουσαν εὐγμάτων·</l>
+                            <l met="-+-+-+-+" resp="chorus">τὸ μόρσιμον μένει πάλαι,</l>
+                            <l met="+--+-++" resp="chorus"><lb n="465"/>εὐχομένοις δ’ ἂν ἔλθοι.</l>
+                        </lg>
+                        <lg type="strophe" n="lambda" resp="chorus">
+                            <l met="+--+-+">ὦ πόνος ἐγγενής,</l>
+                            <l met="+--+-++">καὶ παράμουσος ἄτας</l>
+                            <l met="+--+-++">αἱματόεσσα πλαγά,</l>
+                            <l met="-++--+-++">ἰὼ δύστον’ ἄφερτα κήδη,</l>
+                            <l met="-++--+-++"><lb n="470"/>ἰὼ δυσκατάπαυστον ἄλγος.</l>
+                         <lg type="antistrophe" n="lambda" resp="chorus">
+                             <l met="+--+-+">δώμασιν ἔμμοτον</l>
+                             <l met="+--+-++">τῶνδ’ ἄκος οὐκ ἀπ’ ἄλλων</l>
+                             <l met="+--+-++">ἔκτοθεν, ἀλλ’ ἀπ’ αὐτῶν,</l>
+                             <l met="-++--+-++">δι’ ὠμὰν ἔριν αἱματηράν·</l>
+                             <l met="-++--+-++"><lb n="475"/>θεῶν <supplied reason="omitted">τῶν</supplied> κατὰ γᾶς ὅδ’ ὕμνος.</l>
+                        </lg>
+                        <lg resp="chorus">
+                            <l>ἀλλὰ κλύοντες, μάκαρες χθόνιοι,</l>
+                            <l>τῆσδε κατευχῆς πέμπετ’ ἀρωγὴν</l>
+                            <l>παισὶν <rs type="organ">προφρόνως</rs> ἐπὶ νίκηι.</l>
+                        </lg>
                     </lg>
+                  </lg>
                 </ab>
             </div>
         </body>
