@@ -54,10 +54,9 @@
             <div type="edition" xml:space="preserve" xml:lang="grc">
                 <ab>
                     <lb n="1"/>᾿Επὶ 
-                    <foreign xml:lang="ar-grc">
-                        <persName>᾿Αβδάλλα Μαάυια</persName>
-                        <rs type="religious">ἀμήρα
-                    <lb n="2"/>ἀλουμενὴν</rs></foreign> 
+                        <persName type="Caliph">᾿Αβδάλλα Μαάυια</persName>
+                        <rs type="Caliph">ἀμήρα</rs>
+                    <lb n="2"/><rs type="Caliph">ἀλουμενὴν</rs> 
                         ἀπελ<supplied reason="omitted">ο</supplied>ύθη
                             <expan>
                                 <abbr>κ</abbr>
@@ -65,44 +64,47 @@
                             </expan> ἀνε
                     <lb n="3" break="no"/>νεώθη ὁ κλίβανος τῶν ἐνταῦ
                     <lb n="4" break="no"/>θα διὰ 
-                        <foreign xml:lang="ar-grc">
-                            <persName type="religious">Ἀβδάλλα</persName>
-                        </foreign> υἱοῦ 
-                        <foreign xml:lang="ar">
-                            <persName>Ἀβουασέμου</persName>
-                        </foreign>
+                            <persName type="local elite">Ἀβδάλλα</persName>
+                         υἱοῦ 
+                            <persName type="local elite">Ἀβουασέμου</persName>
                     <lb n="5"/>
                         <rs type="governor">
                             συμβούλου
                         </rs>
-                        , ἐν μηνὴ Δεκεμβρίῳ
-                    <lb n="6"/>πέμπτῃ, ἡμέρᾳ δευτέρᾳ, 
+                        <date>, ἐν μηνὴ Δεκεμβρίῳ</date>
+                    <lb n="6"/><date>πέμπτῃ, ἡμέρᾳ δευτέρᾳ,</date>
                         <expan>
-                            ἰνδ
+                            <date>
+                            ἰνδ</date>
+                            <date>
                             <ex>
                                 ικτιῶνος
                             </ex>
                             ς’
+                            </date> 
                         </expan>        
-                    <lb n="7"/>ἔτους τῆς 
+                    <lb n="7"/><date>ἔτους τῆς </date>
                         <expan>
-                            κολων
+                            <date>
+                            κολων</date>
                                 <ex>
                                     ίας
                                 </ex>
-                        </expan>
-                        <num value ="726">ςκψ</num>
-                        , κατὰ 
+                        </expan>                        
+                        <num value ="726"><date>ςκψ</date></num>
+                        <date>, κατὰ</date>
                         <expan>
+                            <date>
                             Ἀράβα
                                 <ex>
                                     ς
                                 </ex>
+                        </date>
                         </expan>
-                    <lb n="8"/>ἔτους <num value="42">μβ’</num>
+                    <lb n="8"/><date>ἔτους</date> <num value="42"><date>μβ’</date></num>                          
                         , εἰς ἴασην τῶν νοσούν
                     <lb n="9"/>τῶν, σπουδῇ 
-                                <persName>Ἰωάννου</persName> 
+                                <persName type="local elite">Ἰωάννου</persName> 
                                 <rs type="official">
                                     <expan>
                                    <abbr>μ</abbr>
