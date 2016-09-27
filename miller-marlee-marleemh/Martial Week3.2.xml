@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Liber Spectaculorum</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Rome</origPlace>
+                            <origDate>81</origDate>
+                        </origin>
+                        <provenance type="found"> Written for the inauguration of the Flavian Amphitheatre 
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab> 
+                    <l> Barbara <placeName type="monument">pyramidum</placeName> sileat miracula <placeName>Memphis,</placeName></l> 
+                    <l> <name type="foreign">Assyrius</name>iactet nec <placeName>Babylona</placeName> labor;</l>
+                    <l> nec <placeName>Triuiae</placeName> templo molles laudentur <name type="foreign">Iones</name>, </l>
+                    <l> dissimulet <placeName>Delon</placeName> cornibus ara frequens</l> 
+                    <l>aere nec uacuo pendentia <placeName type="monument">Mausolea</placeName></l>                             
+                    <l>laudibus inmodicis <name type=" foreign"> Cares </name>in astra ferant.</l>
+                    <l>Omnis <name  type="Emperor">Caesareo</name> cedit labor <placeName> ="monument">Amphitheatro,</placeName></l>
+                     <l>unum pro cunctis fama loquetur opus.</l>
+
+
+
+<l> Hic ubi sidereus propius uidet astra <placeName type="monument">Colossus</placeName> </l>
+    <l>et crescunt media pegmata celsa uia,</l> 
+<l>inuidiosa feri radiabant atria regis</l>
+   <l>  unaque iam tota stabat in urbe <placeName type= "monument"> domus</placeName>;</l>
+<l>hic ubi conspicui uenerabilis <placeName type="monument">Amphitheatri</placeName></l>                
+  <l> erigitur moles, <placeName type= "monument">stagna</placeName> <name>Neronis</name> erant;</l> 
+<l> hic ubi miramur uelocia munera <placeName type="monument">thermas</placeName>,</l>
+                <l>abstulerat miseris tecta ager;</l>
+                    <l><name>Claudia</name> diffusas ubi porticus explicat umbras,</l>
+<l>ultima pars aulae deficientis erat.</l>
+                    <l> Reddita <placeName>Roma</placeName> sibi est et sunt te preside, <name type="Emperor">Caesar</name></l>
+                    <l>deliciae populi, quae fuerant domini.</l>
+
+<l></l>                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>
