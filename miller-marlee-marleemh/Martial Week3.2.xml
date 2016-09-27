@@ -56,7 +56,7 @@
                     <l> dissimulet <placeName>Delon</placeName> cornibus ara frequens</l> 
                     <l>aere nec uacuo pendentia <placeName type="monument">Mausolea</placeName></l>                             
                     <l>laudibus inmodicis <name type=" foreign"> Cares </name>in astra ferant.</l>
-                    <l>Omnis <name  type="Emperor">Caesareo</name> cedit labor <placeName> ="monument">Amphitheatro,</placeName></l>
+                    <l>Omnis <name  type="Emperor">Caesareo</name> cedit labor <placeName type="monument">Amphitheatro</placeName></l>
                      <l>unum pro cunctis fama loquetur opus.</l>
 
 
