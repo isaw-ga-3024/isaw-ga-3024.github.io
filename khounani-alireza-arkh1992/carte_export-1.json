@@ -1,0 +1,651 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Shusha(n)/Susa/Seleucia ad Eulaeum/Shush-i er-Kar",
+                "custom_name": "",
+                "en_name": "Susa",
+                "gr_name": "",
+                "la_name": "Susa",
+                "featuretyp": "settlement",
+                "pid": "912936",
+                "timeperiod": "CUCEOML1ANCAAHHRRRTLLCASKISM",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    48.2537285,
+                    32.1887935
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Seleucia/Sliq Kharawta",
+                "custom_name": "",
+                "en_name": "Sliq Kharawta",
+                "gr_name": "",
+                "la_name": "Sliq Kharawta",
+                "featuretyp": "urban, settlement",
+                "pid": "894084",
+                "timeperiod": "HR",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.526321,
+                    33.101125
+                ]
+            },
+            "id": 1
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Seleucia ad Calycadnum/Tracheia",
+                "custom_name": "",
+                "en_name": "Tracheia",
+                "gr_name": "",
+                "la_name": "Tracheia",
+                "featuretyp": "settlement",
+                "pid": "648771",
+                "timeperiod": "HRL",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.915353,
+                    36.376809
+                ]
+            },
+            "id": 2
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Veh Ardashir/Coche/Mahoza/\u2018Seleucia\u2019",
+                "custom_name": "",
+                "en_name": "Veh Ardashir",
+                "gr_name": "",
+                "la_name": "Veh Ardashir",
+                "featuretyp": "urban, settlement",
+                "pid": "894178",
+                "timeperiod": "NAAHRRRTLLPC",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    45.159836,
+                    32.336299
+                ]
+            },
+            "id": 3
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Ja Nishin/Soloke?/Seleucia?/Surak?",
+                "custom_name": "",
+                "en_name": "Surak",
+                "gr_name": "",
+                "la_name": "Surak",
+                "featuretyp": "settlement",
+                "pid": "912870",
+                "timeperiod": "HRL",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.426712,
+                    30.987225
+                ]
+            },
+            "id": 4
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Seleucia/Claudioseleucia/Seleucia Sidera",
+                "custom_name": "",
+                "en_name": "Seleucia Sidera",
+                "gr_name": "",
+                "la_name": "Seleucia Sidera",
+                "featuretyp": "settlement",
+                "pid": "639098",
+                "timeperiod": "HRL",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.620667,
+                    37.897174
+                ]
+            },
+            "id": 5
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Antiochia/Col. Caesarea",
+                "custom_name": "",
+                "en_name": "Col. Caesarea",
+                "gr_name": "",
+                "la_name": "Col. Caesarea",
+                "featuretyp": "settlement",
+                "pid": "609307",
+                "timeperiod": "HRL",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.189167,
+                    38.306111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Nisibis/Antiochia",
+                "custom_name": "",
+                "en_name": "Nisibis",
+                "gr_name": "",
+                "la_name": "Nisibis",
+                "featuretyp": "settlement",
+                "pid": "874623",
+                "timeperiod": "HRL",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    41.214619,
+                    37.068635
+                ]
+            },
+            "id": 1
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Ourima/Antiochia ad Euphratem/Arulis",
+                "custom_name": "",
+                "en_name": "Ourima",
+                "gr_name": "",
+                "la_name": "Ourima",
+                "featuretyp": "settlement",
+                "pid": "658562",
+                "timeperiod": "HRL",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.86555,
+                    37.110367
+                ]
+            },
+            "id": 2
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Gerasa/Antiochia ad Chrysorhoam",
+                "custom_name": "",
+                "en_name": "Gerasa",
+                "gr_name": "",
+                "la_name": "Gerasa",
+                "featuretyp": "urban, settlement",
+                "pid": "678158",
+                "timeperiod": "HRLM",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.891455,
+                    32.281264
+                ]
+            },
+            "id": 3
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Jebel Khayabir/Alexandria?/Antiochia?/Spasinou Charax?/Karkh Maisan?/[Astarabad Ardashir]?",
+                "custom_name": "",
+                "en_name": "Spasinou Charax",
+                "gr_name": "",
+                "la_name": "Spasinou Charax",
+                "featuretyp": "urban, settlement",
+                "pid": "912872",
+                "timeperiod": "HRL",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    47.562804,
+                    30.8093425
+                ]
+            },
+            "id": 4
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Antiochia/Theoupolis",
+                "custom_name": "",
+                "en_name": "Theoupolis",
+                "gr_name": "Ἀντιόχεια ἡ Μεγάλη",
+                "la_name": "Theoupolis",
+                "featuretyp": "settlement",
+                "pid": "658381",
+                "timeperiod": "M1AHHRRRTLLPCEASMRCCIOE1LMM",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.165318,
+                    36.200663
+                ]
+            },
+            "id": 5
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Antiochia",
+                "custom_name": "",
+                "en_name": "Antiochia",
+                "gr_name": "",
+                "la_name": "Antiochia",
+                "featuretyp": "unlocated",
+                "pid": "554187",
+                "timeperiod": "H",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.260544,
+                    38.497356
+                ]
+            },
+            "id": 6
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Mallos/Antiochia ad Pyramum",
+                "custom_name": "",
+                "en_name": "Mallotis",
+                "gr_name": "",
+                "la_name": "Mallotis",
+                "featuretyp": "settlement",
+                "pid": "648702",
+                "timeperiod": "HR",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.4852,
+                    36.756188
+                ]
+            },
+            "id": 7
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Magarsa/Antiochia ad Pyramum",
+                "custom_name": "",
+                "en_name": "Magarsos",
+                "gr_name": "",
+                "la_name": "Magarsos",
+                "featuretyp": "settlement",
+                "pid": "648701",
+                "timeperiod": "HR",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.352439,
+                    36.5480143333
+                ]
+            },
+            "id": 8
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Antiochia Arabis/Antoninopolis/Tella/Constantia/Maximianopolis",
+                "custom_name": "",
+                "en_name": "Tella",
+                "gr_name": "",
+                "la_name": "Tella",
+                "featuretyp": "settlement",
+                "pid": "874324",
+                "timeperiod": "RL",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.7623773333,
+                    37.2323016667
+                ]
+            },
+            "id": 9
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Antiochia sub Libano",
+                "custom_name": "",
+                "en_name": "Antiochia sub Libano",
+                "gr_name": "",
+                "la_name": "Antiochia sub Libano",
+                "featuretyp": "unlocated",
+                "pid": "682526",
+                "timeperiod": "",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.4824165,
+                    33.1856996
+                ]
+            },
+            "id": 10
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Antiochia Tharmata/Arma",
+                "custom_name": "",
+                "en_name": "Arma",
+                "gr_name": "",
+                "la_name": "Arma",
+                "featuretyp": "unlocated",
+                "pid": "60420",
+                "timeperiod": "RL",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27,
+                    37.25
+                ]
+            },
+            "id": 11
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Alexandria/Antiochia/Merv",
+                "custom_name": "",
+                "en_name": "Merv",
+                "gr_name": "",
+                "la_name": "Merv",
+                "featuretyp": "wall, urban, settlement",
+                "pid": "961873",
+                "timeperiod": "CAHRLLM",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.1925,
+                    37.662778
+                ]
+            },
+            "id": 12
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Antiochia",
+                "custom_name": "",
+                "en_name": "Antiochia",
+                "gr_name": "",
+                "la_name": "Antiochia",
+                "featuretyp": "unlocated",
+                "pid": "897709",
+                "timeperiod": "R",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.5,
+                    32.5
+                ]
+            },
+            "id": 13
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Tarsus/Antiochia ad Cydnum",
+                "custom_name": "",
+                "en_name": "Tarsus",
+                "gr_name": "Αντιόχεια του Κύδνου",
+                "la_name": "Tarsus",
+                "featuretyp": "settlement",
+                "pid": "648789",
+                "timeperiod": "MM1EANMCAHHRRRTLLPCEASMRCCIOTE1OLM",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.891918,
+                    36.9131
+                ]
+            },
+            "id": 14
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Antiochia ad Cragum",
+                "custom_name": "",
+                "en_name": "Antiochia ad Cragum",
+                "gr_name": "",
+                "la_name": "Antiochia ad Cragum",
+                "featuretyp": "settlement",
+                "pid": "648560",
+                "timeperiod": "HRLM",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.42913835,
+                    36.15330295
+                ]
+            },
+            "id": 15
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Edessa/Antiochia ad Callirhoem",
+                "custom_name": "",
+                "en_name": "Justinopolis",
+                "gr_name": "Αντιόχεια η επί Καλλιρρόης",
+                "la_name": "Urhay",
+                "featuretyp": "settlement",
+                "pid": "658457",
+                "timeperiod": "PM1HHHRRRTLLPPCEAMERCCIMOEPOLOM",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.781432,
+                    37.1625575
+                ]
+            },
+            "id": 16
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Antiochia Tharmata",
+                "custom_name": "",
+                "en_name": "Antiochia Tharmata",
+                "gr_name": "",
+                "la_name": "Antiochia Tharmata",
+                "featuretyp": "unlocated",
+                "pid": "975462",
+                "timeperiod": "",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.750573,
+                    35.38256
+                ]
+            },
+            "id": 17
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Adana/Antiochia ad Sarum",
+                "custom_name": "",
+                "en_name": "Antiochia ad Sarum",
+                "gr_name": "",
+                "la_name": "Antiochia ad Sarum",
+                "featuretyp": "settlement, settlement-modern",
+                "pid": "648548",
+                "timeperiod": "MMNCAHHRRRTLLEASRCCIMOE1OLMOM",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.338677,
+                    36.986559
+                ]
+            },
+            "id": 18
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Antiochia ad Maeandrum",
+                "custom_name": "",
+                "en_name": "Antiochia ad Maeandrum",
+                "gr_name": "",
+                "la_name": "Antiochia ad Maeandrum",
+                "featuretyp": "settlement",
+                "pid": "638748",
+                "timeperiod": "H",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.548284,
+                    37.873542
+                ]
+            },
+            "id": 19
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "basename": "Antiochia Castellum",
+                "custom_name": "",
+                "en_name": "Antiochia Castellum",
+                "gr_name": "",
+                "la_name": "Antiochia Castellum",
+                "featuretyp": "fort",
+                "pid": "648559",
+                "timeperiod": "L",
+                "perseus_li": null,
+                "wiki_link": null,
+                "magnitude": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.992877,
+                    36.942744
+                ]
+            },
+            "id": 20
+        }
+    ]
+}
