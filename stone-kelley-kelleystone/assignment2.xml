@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Bacchae</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Euripides</authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Dionysos_thiasos_Louvre_MNE938.jpg/640px-Dionysos_thiasos_Louvre_MNE938.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                    <ab><title>The Bacchae</title>, by Euripides</ab>
+                    <p n="1">Dionysus:</p>
+                    <p n="2"><lb n="1"/>Lo! I am come to this land of <placeName>Thebes</placeName>, <persName>Dionysus'</persName> the son of <lb n="2"/><persName>Zeus</persName>, of whom on a day <persName>Semele</persName>, the daughter of <persName>Cadmus</persName>, was delivered <lb n="3"/>by a flash of lightning. I have put off the god and taken human shape, <lb n="4"/>and so present myself at <placeName>Dirce's</placeName> springs and the waters of <placeName>Ismenus</placeName>. <lb n="5"/>Yonder I see my mother's monument where the bolt slew her nigh her <lb n="6"/>house, and there are the ruins of her home smouldering with the heavenly <lb n="7"/>flame that blazeth still- <persName>Hera's</persName> deathless outrage on my mother. To <lb n="8"/><persName>Cadmus</persName> all praise I offer, because he keeps this spot hallowed, his <lb n="9"/>daughter's precinct, which my own hands have shaded round about with the <lb n="10"/>vine's clustering foliage. </p>
+                    <p n="3"><lb n="1"/><placeName>Lydia's</placeName> glebes, where gold abounds, and <placeName>Phrygia</placeName> have I left behind; <lb n="2"/>o'er <placeName>Persia's</placeName> sun-baked plains, by <placeName>Bactria's</placeName> walled towns and <placeName>Media's</placeName> <lb n="3"/>wintry clime have I advanced through <placeName>Arabia</placeName>, land of promise; and <lb n="4"/><placeName>Asia's</placeName> length and breadth, outstretched along the brackish sea, with <lb n="5"/>many a fair walled town, peopled with mingled race of Hellenes and <lb n="6"/>barbarians; and this is the first city in <placeName>Hellas</placeName> I have reached. There <lb n="7"/>too have I ordained dances and established my rites, that I might <lb n="8"/>manifest my godhead to men; but <placeName>Thebes</placeName> is the first city in the land <lb n="9"/>of <placeName>Hellas</placeName> that I have made ring with shouts of joy, girt in a fawn-skin, <lb n="10"/>with a thyrsus, my ivy-bound spear, in my hand; since my mother's <lb n="11"/>sisters, who least of all should have done it, denied that <persName>Dionysus</persName> <lb n="12"/>was the son of <persName>Zeus</persName>, saying that <persName>Semele</persName>, when she became a mother <lb n="13"/>by some mortal lover, tried to foist her sin on <persName>Zeus</persName>- a clever ruse <lb n="14"/>of <persName>Cadmus</persName>, which, they boldly asserted, caused <persName>Zeus</persName> to slay her for <lb n="15"/>the falsehood about the marriage. Wherefore these are they whom I <lb n="16"/>have driven frenzied from their homes, and they are dwelling on the <lb n="17"/>hills with mind distraught; and I have forced them to assume the dress <lb n="18"/>worn in my orgies, and all the women-folk of <persName>Cadmus</persName>' stock have I <lb n="19"/>driven raving from their homes, one and all alike; and there they <lb n="20"/>sit upon the roofless rocks beneath the green pine-trees, mingling <lb n="21"/>amongst the sons of <placeName>Thebes</placeName>. For this city must learn, however loth, <lb n="22"/>seeing that it is not initiated in my Bacchic rites, and I must take <lb n="23"/>up my mother's defence, by showing to mortals that the child she bore <lb n="24"/>to <persName>Zeus</persName> is a deity. Now <persName>Cadmus</persName> gave his sceptre and its privileges <lb n="25"/>to <persName>Pentheus</persName>, his daughter's child, who wages war 'gainst my divinity, <lb n="26"/>thrusting me away from his drink-offerings, and making no mention <lb n="27"/>of me in his prayers. Therefore will I prove to him and all the race <lb n="28"/>of <persName>Cadmus</persName> that I am a god. And when I have set all in order here, <lb n="29"/>I will pass hence to a fresh country, manifesting myself; but if the <lb n="30"/>city of <placeName>Thebes</placeName> in fury takes up arms and seeks to drive my votaries <lb n="31"/>from the mountain, I will meet them at the head of my frantic rout. <lb n="32"/>This is why I have assumed a mortal form, and put off my godhead to <lb n="33"/>take man's nature. </p>
+                    <p n="4"><lb n="1"/>O ye who left <placeName>Tmolus</placeName>, the bulwark of <placeName>Lydia</placeName>, ye women, my revel rout! <lb n="2"/>whom I brought from your foreign homes to be ever by my side and bear <lb n="3"/>me company, uplift the cymbals native to your Phrygian home, that <lb n="4"/>were by me and the great mother <persName>Rhea</persName> first devised, and march around <lb n="5"/>the royal halls of <placeName>Pentheus</placeName> smiting them, that the city of <placeName>Cadmus</placeName> <lb n="6"/>may see you; while I will seek <placeName>Cithaeron's</placeName> glens, there with my Bacchanals <lb n="7"/>to join the dance.</p>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

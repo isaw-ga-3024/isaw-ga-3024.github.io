@@ -53,20 +53,20 @@
         <body>
             <div type="edition">
                 <ab>
-                    <l rend="left-to-right"><lb n="1"/><hi rend="supraline"><rs type="titulature" key="sun">SOL2</rs></hi> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="labarna">IUDEX-LA</rs> <persName>MONS-tu</persName> <rs type="titulature" key="labarna">IUDEX-LA</rs> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="hero">HEROS</rs> <persName>HATTI+li</persName> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="hero">HEROS</rs> INFANS <persName>URBS+RA-li</persName> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="hero">HEROS</rs></l>
-                    <l rend="left-to-right"><lb n="2"/>tu-pi
-                        <lb n="3"/>wa-mu-a VIR2-*418-wa-<unclear>ni</unclear>-sa <placeName>LINGUA+CLAVUS-tu-sa-URBS</placeName> <unclear>POST</unclear>-a URBS-MI-a <rs type="titulature" key="labarna">IUDEX-LA-ti</rs>
-                        <lb n="4"/>wa-mu-a <persName>DEUS.TONITRUS</persName></l>
-                    <l rend="left-to-right"><lb n="5"/>NEG-wa a-sa-ta
-                        <lb n="6"/>REL-ti-pa-<damage>wa-<supplied reason="lost" cert="low">mu</supplied> VIA-<gap reason="lost" extent="unknown" unit="character"/> PRAE-<supplied reason="lost" cert="low">na-</supplied> <gap reason="lost" extent="unknown" unit="character"/>a+ra-<gap reason="lost" extent="unknown" unit="character"/>
-                        <lb n="7"/>a-<gap reason="lost" extent="unknown" unit="character"/> ta-<gap reason="lost" extent="unknown" unit="character"/></damage></l>
-                    <l rend="left-to-right"><lb n="8"/>PRAE-na <placeName>MONS-pa-tara</placeName> <unclear>pi</unclear>-i-ha
-                       <lb n="9"/><unclear>DARE.DARE</unclear>-nu-wa-ha
-                       <lb n="10"/>SCALPRUM-CRUS-<unclear>TERRA</unclear> i-zi-ha-zi
-                       <lb n="11"/>zi-ta-zi-pa-wa REGIO-ni-zi <rs type="titulature" key="great king">MAGNUS.REX-zi</rs> <placeName>HATTI-REGIO</placeName> a-mi-zi (VIR2)-ta-AVUS-zi NEG-a REL-i-sa-ha hwi-i-<damage>ta</damage>
-                       <lb n="12"/>mu-pa-wa-a <persName>DEUS.TONITRUS</persName> <rs type="titulature" key="lord">DOMINUS-na</rs> a-zi-ta
-                       <lb n="13"/>a-wa-zi-i REGIO-ni-i</l>
-                </ab>
+                    <l n="1"> <lb/>sarvasya horāvidhisaṃgrahasya cakṣuḥ paraṃ yad vibudhā vadanti
+                        <lb/>samāsatas tad yavanopadeśād vakṣye 'tha dṛṣṭaṃ caritaṃ grahāṇām
+                    </l>
+                    <l n="2"> <lb/>yugaṃ mahat kecid uśanti sauraṃ sūkṣmaṃ ca tadvad grahaṇārtham ādyāḥ
+                        <lb/>tadāgamād bodhamitiprabhedād dṛṣṭeṣu gatyāsa samāsabuddhiḥ
+                    </l>
+                    <l n="3">
+                        <lb/>muner vasiṣṭhasya matānuvṛttyā keṣāṃ cid iṣṭaṃ vidhitatparāṇām
+                        <lb/>yugo ravīndvor yavanottamānāṃ ṣaṣṭiḥ śataṃ pañcayutaṃ samānām
+                    </l>
+              </ab>
+                <p>
+                    iha śāstre saṃbandhābhidheyaprayojanāni  bhavantīty ucyate - vācyavācakalakṣaṇaḥ saṃbandhaḥ / vācyo 'rtho vācakaḥ śabdaḥ /athavopāyopeyalakṣaṇaḥ saṃbandhaḥ / upāyasti vadaṃ śāstram upeyaṃ jñānam / athavā ābrahmādiviniḥsṛtaṃ vedāṅgam iti saṃbandhaḥ / anena śāstreṇa ca yad grahanakṣatrotthānāṃ śubhāśubhānāṃ divyāntarikṣabhaumānām utpātānāṃ phalajñānaṃ tad abhidheyam / jagataḥ śubhāśubhakathanaṃ prayojanaṃ samyagjñānān mokṣāvāptir iti ca prayojanam / kim ebhir uktair ity atrocyate - śrotṛṇāṃ saṃbandhābhidheyaprayojanakathanāc chāstraviṣaye śraddhā jāyata iti / tathā coktam atrārthe -
+                </p>
             </div>
             <div type="apparatus">
                 <p>external apparatus criticus (if applicable)</p>

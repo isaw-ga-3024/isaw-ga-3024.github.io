@@ -1,0 +1,22 @@
+basename,custom_name,en_name,gr_name,la_name,featuretyp,pid,timeperiod,perseus_li,wiki_link,magnitude,lon,lat,greek_map
+Troas,,Troy,Τροία,Troas,region,550944,ACHR,,,1,26.3276048,39.9964584,
+Achilleion,,Achilleion,,Achilleion,settlement,550401,ACHR,,,1,26.1525,39.915,
+Lycia,,Lycia,Λυκία,Lycia,region,638965,CHR,,,1,29.1282355,36.512941,
+Pisidia,,Pisidia,,Pisidia,region,639060,C,,,1,30.75,37.25,
+Hierapolis,,Hierapolis,,Hierapolis,settlement,609403,RL,,,1,30.197699,38.461767,
+Ionia,,Ionia,,Ionia,region,550597,ACHRL,,,,26.9890005,38.0909935,1
+Gordion,,Vindia,,Vindia,"settlement, tumulus",609393,MACHRL,,,,31.988313,39.651996,1
+Bithynia,,Bithynia,Βιθυνία,Bithynia,region,511189,CHRL,,,,29.25,40.25,1
+Lydia,,Maionia,,Maionia,region,550701,ACHRL,,,,28.159216,38.746057,1
+Granicus River,,Granicus,,Granicus,river,511260,ACHRM,,,,27.2716339,40.30671,1
+Caria,,Karia,Καρία,Caria,region,599564,ACHRL,,,,27.425929777,37.0370402584,1
+Sardis (Bin Tepe),,Sardis,,Sardis,"settlement, tumulus",550867,M1EANCAHHRRRTLLLPEAMREM,,,,28.040286,38.488314,1
+Phrygia,,Phrygia,,Phrygia,region,609502,ACH,,,1,29.75,38.75,
+Aeolis,,Aeolis,,Aeolis,region,550406,ACHR,,,,26.753208,38.670353,1
+Gygaean Lake,,Talaimenis L.,,Talaimenis L.,lake,550556,ARM,,,,27.983474,38.614377,1
+Libyssa,,Libyssa,,Libyssa,settlement,511305,HRL,,,1,29.539812,40.769562,
+Koca Mutaf Tepe,,Alyattes,,Alyattes,tumulus,550428,A,,,,28.044921,38.572215,1
+Karnıyarık Tepe,,Gyges,,Gyges,tumulus,550557,AC,,,,27.9993374,38.56553335,1
+Pessinus,,Pessinous,,Pessinous,settlement,609500,HRL,,,,31.551393475,39.381063225,1
+Temenothyrai,,Temenouthyrai,,Temenouthyrai,settlement,609549,RL,,,,29.4104525,38.6794575,1
+Pergamon,,Pergamum,Πέργαμος,Pergamum,settlement,550812,MAMCAHHRRRTLLLEARCIMOE1OLM,,,,27.1839985,39.1317455,1

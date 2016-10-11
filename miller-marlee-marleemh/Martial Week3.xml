@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>title of document</title>
+                <title>Liber Spectaculorum</title>
             </titleStmt>
             <publicationStmt>
                 <authority></authority>
@@ -34,10 +34,10 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace>Place of origin</origPlace>
-                            <origDate>Date of origin</origDate>
+                            <origPlace>Rome</origPlace>
+                            <origDate>AD 81</origDate>
                         </origin>
-                        <provenance type="found"> Findspot and circumstances/context
+                        <provenance type="found"> Written for the inauguration of the Flavian Amphitheatre 
                         </provenance>
                         <provenance type="observed">Modern location(s) (if different from repository, above)
                         </provenance>
@@ -51,11 +51,37 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition">
-                <ab>
-                    <lb n="1"/>The longest, uninterrupted records of past climatic and environmental variability in Iran come from lake records in the north and west (Fig. 2.1). The long record from Urmia (Djamali et al. 2008), which spans the last 200,000 years, shows changes in vegetation through glacial-interglacial time scales, with glacials characterized by an upland steppe dominated by Artemisia and Poaceae and interglacial vegetation dominated by increased tree cover, including oak and juniper. Pollen evidence also suggests the last, Sahand, interglacial (equivalent to marine isotope stage 5e) was different in nature to the Holocene, possibly with milder winters and increased spring or summer rainfall (Djamali et al. 2006). There is also significant evidence of glacial activity in the Zagros although the exact age of this is unknown (Wright 1962; Brookes 1982).
-                </ab>
-            </div>
+            <div type="edition" xml:space="preserve">
+                <ab> </ab>
+                    <l> Barbara <placeName type="monument">pyramidum</placeName> sileat miracula <placeName>Memphis,</placeName></l> 
+                    <l> Assyrius iactet nec <placeName>Babylona</placeName> labor;</l>
+                    <l> nec Triuiae templo molles laudentur Iones,</l>
+                    <l> dissimulet <placeName>Delon</placeName> cornibus ara frequens</l> 
+                    <l>aere nec uacuo pendentia <placeName type="monument">Mausolea</placeName></l>                             
+                    <l>laudibus inmodicis Cares in astra ferant.</l>
+                    <l>Omnis <Persname type="Caesar">Caesareo</Persname> cedit labor <placeName ="monument">Amphitheatro,</placeName></l>
+                     <l>unum pro cunctis fama loquetur opus.</l>
+
+
+
+<l> Hic ubi sidereus propius uidet astra <placeName type="monument">Colossus</placeName> </l>
+    <l>et crescunt media pegmata celsa uia,</l> 
+<l>inuidiosa feri radiabant atria regis</l>
+   <l>  unaque iam tota stabat in urbe domus;</l>
+<l>hic ubi conspicui uenerabilis Amphitheatri</l>                
+  <l> erigitur moles, stagna <name>Neronis</name> erant;</l> 
+<l>hic ubi miramur uelocia munera thermas,</l>
+     <l>abstulerat miseris tecta superbus ager;</l>
+<l><name>Claudia</name> diffusas ubi porticus explicat umbras,</l>
+  <l>ultima pars aulae deficientis erat.</l>              
+<l>Reddita Roma sibi est et sunt te preside, <Persname type="Caesar">Caesar,</Persname></l>
+   <l> deliciae populi, quae fuerant domini.</l> 
+
+
+                </div> 
+        </body>
+        </ab> 
+
             <div type="apparatus">
                 <p>external apparatus criticus (if applicable)</p>
             </div>

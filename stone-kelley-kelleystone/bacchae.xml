@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>title of document</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                    <ab>The Bacchants, by Euripides</ab>
+                    <p n="1">Dionysus:</p>
+                    <p n="2">Lo! I am come to this land of Thebes, Dionysus' the son of Zeus, of whom on a day Semele, the daughter of Cadmus, was delivered by a flash of lightning. I have put off the god and taken human shape, and so present myself at Dirce's springs and the waters of Ismenus. Yonder I see my mother's monument where the bolt slew her nigh her house, and there are the ruins of her home smouldering with the heavenly flame that blazeth still-Hera's deathless outrage on my mother. To Cadmus all praise I offer, because he keeps this spot hallowed, his daughter's precinct, which my own hands have shaded round about with the vine's clustering foliage. </p>
+                    <p n="3">Lydia's glebes, where gold abounds, and Phrygia have I left behind; o'er Persia's sun-baked plains, by Bactria's walled towns and Media's wintry clime have I advanced through Arabia, land of promise; and Asia's length and breadth, outstretched along the brackish sea, with many a fair walled town, peopled with mingled race of Hellenes and barbarians; and this is the first city in Hellas I have reached. There too have I ordained dances and established my rites, that I might manifest my godhead to men; but Thebes is the first city in the land of Hellas that I have made ring with shouts of joy, girt in a fawn-skin, with a thyrsus, my ivy-bound spear, in my hand; since my mother's sisters, who least of all should have done it, denied that Dionysus was the son of Zeus, saying that Semele, when she became a mother by some mortal lover, tried to foist her sin on Zeus-a clever ruse of Cadmus, which, they boldly asserted, caused Zeus to slay her for the falsehood about the marriage. Wherefore these are they whom I have driven frenzied from their homes, and they are dwelling on the hills with mind distraught; and I have forced them to assume the dress worn in my orgies, and all the women-folk of Cadmus' stock have I driven raving from their homes, one and all alike; and there they sit upon the roofless rocks beneath the green pine-trees, mingling amongst the sons of Thebes. For this city must learn, however loth, seeing that it is not initiated in my Bacchic rites, and I must take up my mother's defence, by showing to mortals that the child she bore to Zeus is a deity. Now Cadmus gave his sceptre and its privileges to Pentheus, his daughter's child, who wages war 'gainst my divinity, thrusting me away from his drink-offerings, and making no mention of me in his prayers. Therefore will I prove to him and all the race of Cadmus that I am a god. And when I have set all in order here, I will pass hence to a fresh country, manifesting myself; but if the city of Thebes in fury takes up arms and seeks to drive my votaries from the mountain, I will meet them at the head of my frantic rout. This is why I have assumed a mortal form, and put off my godhead to take man's nature. </p>
+                    <p n="4">O ye who left Tmolus, the bulwark of Lydia, ye women, my revel rout! whom I brought from your foreign homes to be ever by my side and bear me company, uplift the cymbals native to your Phrygian home, that were by me and the great mother Rhea first devised, and march around the royal halls of Pentheus smiting them, that the city of Cadmus may see you; while I will seek Cithaeron's glens, there with my Bacchanals to join the dance.</p>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

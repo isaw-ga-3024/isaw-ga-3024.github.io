@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>title of document</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/>᾿Επὶ 
+                        <persName type="Caliph">᾿Αβδάλλα Μαάυια</persName>
+                        <rs type="Caliph">ἀμήρα</rs>
+                    <lb n="2"/><rs type="Caliph">ἀλουμενὴν</rs> 
+                        ἀπελ<supplied reason="omitted">ο</supplied>ύθη
+                            <expan>
+                                <abbr>κ</abbr>
+                                <ex>αὶ</ex>
+                            </expan> ἀνε
+                    <lb n="3" break="no"/>νεώθη ὁ κλίβανος τῶν ἐνταῦ
+                    <lb n="4" break="no"/>θα διὰ 
+                            <persName type="local elite">Ἀβδάλλα</persName>
+                         υἱοῦ 
+                            <persName type="local elite">Ἀβουασέμου</persName>
+                    <lb n="5"/>
+                        <rs type="governor">
+                            συμβούλου
+                        </rs>
+                        <date>, ἐν μηνὴ Δεκεμβρίῳ</date>
+                    <lb n="6"/><date>πέμπτῃ, ἡμέρᾳ δευτέρᾳ,</date>
+                        <expan>
+                            <date>
+                            ἰνδ</date>
+                            <date>
+                            <ex>
+                                ικτιῶνος
+                            </ex>
+                            ς’
+                            </date> 
+                        </expan>        
+                    <lb n="7"/><date>ἔτους τῆς </date>
+                        <expan>
+                            <date>
+                            κολων</date>
+                                <ex>
+                                    ίας
+                                </ex>
+                        </expan>                        
+                        <num value ="726"><date>ςκψ</date></num>
+                        <date>, κατὰ</date>
+                        <expan>
+                            <date>
+                            Ἀράβα
+                                <ex>
+                                    ς
+                                </ex>
+                        </date>
+                        </expan>
+                    <lb n="8"/><date>ἔτους</date> <num value="42"><date>μβ’</date></num>                          
+                        , εἰς ἴασην τῶν νοσούν
+                    <lb n="9"/>τῶν, σπουδῇ 
+                                <persName type="local elite">Ἰωάννου</persName> 
+                                <rs type="official">
+                                    <expan>
+                                   <abbr>μ</abbr>
+                                <ex>ειζοτέρου</ex>
+                                </expan>
+                                </rs>
+                    <placeName type="ancient">Γαδαρηνοῦ</placeName>                                        
+                </ab>
+                
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

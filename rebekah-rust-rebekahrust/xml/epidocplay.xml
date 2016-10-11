@@ -5,11 +5,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Gospel of Mark</title>
+                <title>title of document</title>
             </titleStmt>
             <publicationStmt>
-                <authority>Unknown</authority>
-                <idno type="filename">nt-epidoc.xml</idno>
+                <authority></authority>
+                <idno type="filename"></idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -35,11 +35,11 @@
                     <history>
                         <origin>
                             <origPlace>Place of origin</origPlace>
-                            <origDate>60 A.D.</origDate>
+                            <origDate>Date of origin</origDate>
                         </origin>
-                        <provenance type="found">Various
+                        <provenance type="found"> Findspot and circumstances/context
                         </provenance>
-                        <provenance type="observed">Various
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
                         </provenance>
                     </history>
                 </msDesc>
@@ -47,15 +47,23 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://new.rejesus.co.uk/images/area_uploads/the_passion/original_story.jpg"/>
+        <graphic url="photograph of text or monument"/>
     </facsimile>
     <text>
         <body>
             <div type="edition">
-                
-                <p>Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ [a]χριστοῦ.</p>
-                <p>]Καθὼς γέγραπται ἐν [c]τῷ Ἠσαΐᾳ τῷ προφήτῃ· [d]Ἰδοὺ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν [e]σου· 3 φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Ἑτοιμάσατε τὴν ὁδὸν κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ, 4 ἐγένετο Ἰωάννης [f]ὁ βαπτίζων ἐν τῇ [g]ἐρήμῳ κηρύσσων βάπτισμα μετανοίας εἰς ἄφεσιν ἁμαρτιῶν. 5 καὶ ἐξεπορεύετο πρὸς αὐτὸν πᾶσα ἡ Ἰουδαία χώρα καὶ οἱ Ἱεροσολυμῖται [h]πάντες, καὶ ἐβαπτίζοντο [i]ὑπ’ αὐτοῦ ἐν τῷ Ἰορδάνῃ ποταμῷ ἐξομολογούμενοι τὰς ἁμαρτίας αὐτῶν. 6 [j]καὶ ἦν ὁ Ἰωάννης ἐνδεδυμένος τρίχας καμήλου καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ, καὶ ἔσθων ἀκρίδας καὶ μέλι ἄγριον. 7 καὶ ἐκήρυσσεν λέγων· Ἔρχεται ὁ ἰσχυρότερός μου ὀπίσω μου, οὗ οὐκ εἰμὶ ἱκανὸς κύψας λῦσαι τὸν ἱμάντα τῶν ὑποδημάτων αὐτοῦ· 8 [k]ἐγὼ ἐβάπτισα [l]ὑμᾶς ὕδατι, αὐτὸς δὲ βαπτίσει ὑμᾶς [m]ἐν πνεύματι ἁγίῳ.</p>
-            
+                <ab>
+                    <l>ὦ φιλτάτη χείρ, φίλτατον δέ μοι στόμα</l>
+                    <l>καὶ σχῆμα καὶ πρόσωπον εὐγενὲς τέκνων</l>
+                    <l>εὐδαιμονοῖτον, ἀλλ’ ἐκεῖ· τὰ δ’ ἐνθάδε</l>
+                    <l>πατὴρ ἀφείλετ’· ὦ γλυκεῖα προσβολή,</l>
+                    <l><lb n="1075"/>ὦ μαλθακὸς χρὼς πνεῦμά θ’ ἥδιστον τέκνων.</l>
+                    <l>χωρεῖτε χωρεῖτ’· οὐκέτ’ εἰμὶ προσβλέπειν</l>
+                    <l>οἵα τε †πρὸς ὑμᾶς† ἀλλὰ νικῶμαι κακοῖς.</l>
+                    <l>καὶ μανθάνω μὲν οἷα δρᾶν μέλλω κακά,</l>
+                    <l>θυμὸς δὲ κρείσσων τῶν ἐμῶν βουλευμάτων,</l>
+                    <l><lb n="1080"/>ὅσπερ μεγίστων αἴτιος κακῶν βροτοῖς.</l>
+                </ab>
             </div>
             <div type="apparatus">
                 <p>external apparatus criticus (if applicable)</p>

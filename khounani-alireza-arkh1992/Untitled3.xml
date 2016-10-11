@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>title of document</title>
+                <title>The Parthian “Centralization”</title>
             </titleStmt>
             <publicationStmt>
                 <authority></authority>
@@ -47,25 +47,17 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="photograph of text or monument"/>
+        <graphic url="http://www.iranpoliticsclub.net/maps/images/076%20Parthian%20Empire%202%20Map.jpg"/>
+        <!-- Map of the Parthian Empire -->
+  
+        <graphic url="https://cdn.globalauctionplatform.com/fd16fcf5-be42-4a97-8c4f-a56700f6dc9d/e84a384f-7d8d-40b4-d906-6f83b7445271/540x360.jpg"></graphic>
+     
     </facsimile>
     <text>
         <body>
-            <div type="edition">
+            <div type="edition" xml:space="preserve">
                 <ab>
-                    <l rend="left-to-right"><lb n="1"/><hi rend="supraline"><rs type="titulature" key="sun">SOL2</rs></hi> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="labarna">IUDEX-LA</rs> <persName>MONS-tu</persName> <rs type="titulature" key="labarna">IUDEX-LA</rs> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="hero">HEROS</rs> <persName>HATTI+li</persName> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="hero">HEROS</rs> INFANS <persName>URBS+RA-li</persName> <rs type="titulature" key="great king">MAGNUS.REX</rs> <rs type="titulature" key="hero">HEROS</rs></l>
-                    <l rend="left-to-right"><lb n="2"/>tu-pi
-                        <lb n="3"/>wa-mu-a VIR2-*418-wa-<unclear>ni</unclear>-sa <placeName>LINGUA+CLAVUS-tu-sa-URBS</placeName> <unclear>POST</unclear>-a URBS-MI-a <rs type="titulature" key="labarna">IUDEX-LA-ti</rs>
-                        <lb n="4"/>wa-mu-a <persName>DEUS.TONITRUS</persName></l>
-                    <l rend="left-to-right"><lb n="5"/>NEG-wa a-sa-ta
-                        <lb n="6"/>REL-ti-pa-<damage>wa-<supplied reason="lost" cert="low">mu</supplied> VIA-<gap reason="lost" extent="unknown" unit="character"/> PRAE-<supplied reason="lost" cert="low">na-</supplied> <gap reason="lost" extent="unknown" unit="character"/>a+ra-<gap reason="lost" extent="unknown" unit="character"/>
-                        <lb n="7"/>a-<gap reason="lost" extent="unknown" unit="character"/> ta-<gap reason="lost" extent="unknown" unit="character"/></damage></l>
-                    <l rend="left-to-right"><lb n="8"/>PRAE-na <placeName>MONS-pa-tara</placeName> <unclear>pi</unclear>-i-ha
-                       <lb n="9"/><unclear>DARE.DARE</unclear>-nu-wa-ha
-                       <lb n="10"/>SCALPRUM-CRUS-<unclear>TERRA</unclear> i-zi-ha-zi
-                       <lb n="11"/>zi-ta-zi-pa-wa REGIO-ni-zi <rs type="titulature" key="great king">MAGNUS.REX-zi</rs> <placeName>HATTI-REGIO</placeName> a-mi-zi (VIR2)-ta-AVUS-zi NEG-a REL-i-sa-ha hwi-i-<damage>ta</damage>
-                       <lb n="12"/>mu-pa-wa-a <persName>DEUS.TONITRUS</persName> <rs type="titulature" key="lord">DOMINUS-na</rs> a-zi-ta
-                       <lb n="13"/>a-wa-zi-i REGIO-ni-i</l>
+                   
                 </ab>
             </div>
             <div type="apparatus">
@@ -83,3 +75,4 @@
         </body>
     </text>
 </TEI>
+
