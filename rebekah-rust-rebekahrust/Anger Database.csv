@@ -1,0 +1,524 @@
+word,lexical_reference_form,play,line_number,playwright,genre
+ὀργαῖς,ὀργή,ajax,640,sophocles,tragedy
+ὀργήν,ὀργή,ajax,777,sophocles,tragedy
+ὀργήν,ὀργή,ajax,1153,sophocles,tragedy
+ὀργαίνειν,ὀργή,trachiniae,552,sophocles,tragedy
+ὀργὴ,ὀργή,trachiniae,728,sophocles,tragedy
+ὀργὴν,ὀργή,trachiniae,933,sophocles,tragedy
+δύσοργος,ὀργή,trachiniae,1118,sophocles,tragedy
+ὀργάνειας,ὀργή,oedipus_tyrannus,335,sophocles,tragedy
+ὀργὴν,ὀργή,oedipus_tyrannus,337,sophocles,tragedy
+ὀργίζοιτ’,ὀργή,oedipus_tyrannus,339,sophocles,tragedy
+ὀργῆς,ὀργή,oedipus_tyrannus,344,sophocles,tragedy
+ὀργῆς,ὀργή,oedipus_tyrannus,345,sophocles,tragedy
+ὀργίζῃ,ὀργή,oedipus_tyrannus,364,sophocles,tragedy
+ὀργῇ,ὀργή,oedipus_tyrannus,405,sophocles,tragedy
+ὀργῇ,ὀργή,oedipus_tyrannus,524,sophocles,tragedy
+ὀργῆς,ὀργή,oedipus_tyrannus,807,sophocles,tragedy
+ὀργῇ,ὀργή,oedipus_tyrannus,1241,sophocles,tragedy
+ὀργῇ,ὀργή,philoctetes,368,sophocles,tragedy
+δύσοργος,ὀργή,philoctetes,377,sophocles,tragedy
+ὀργὴν,ὀργή,philoctetes,1309,sophocles,tragedy
+ὀργῆς,ὀργή,antigone,280,sophocles,tragedy
+ὀργὰς,ὀργή,antigone,356,sophocles,tragedy
+ὀργῆς,ὀργή,antigone,766,sophocles,tragedy
+ὀργά,ὀργή,antigone,875,sophocles,tragedy
+ὀργαῖς,ὀργή,antigone,956,sophocles,tragedy
+ὀργὰς,ὀργή,antigone,1200,sophocles,tragedy
+ὀργῆς,ὀργή,oedipus_at_colonus,411,sophocles,tragedy
+ὀργῇ,ὀργή,oedipus_at_colonus,855,sophocles,tragedy
+ὀργῆς,ὀργή,oedipus_at_colonus,905,sophocles,tragedy
+ὀργά,ὀργή,elektra,222,sophocles,tragedy
+ὀργὴν,ὀργή,elektra,369,sophocles,tragedy
+ὀργὴν,ὀργή,elektra,628,sophocles,tragedy
+ὀργὴν,ὀργή,elektra,1011,sophocles,tragedy
+ὀργὰν,ὀργή,elektra,1283,sophocles,tragedy
+πρόθυμος,θυμός,ajax,37,sophocles,tragedy
+προθυμίαν,θυμός,ajax,583,sophocles,tragedy
+ἀθυμῶ,θυμός,ajax,587,sophocles,tragedy
+θυμῶν,θυμός,ajax,718,sophocles,tragedy
+ὠμόθυμον,θυμός,ajax,885,sophocles,tragedy
+θυμῷ,θυμός,ajax,955,sophocles,tragedy
+θυμούμενος,θυμός,ajax,1018,sophocles,tragedy
+θυμὸν,θυμός,ajax,1124,sophocles,tragedy
+ἐνθυμίοις,θυμός,trachiniae,109,sophocles,tragedy
+θυμοφθορῶ,θυμός,trachiniae,142,sophocles,tragedy
+θυμοῦσθαι,θυμός,trachiniae,543,sophocles,tragedy
+ἐπιθυμεῖν,θυμός,trachiniae,617,sophocles,tragedy
+ἀθυμῶ,θυμός,trachiniae,666,sophocles,tragedy
+προθυμίαν,θυμός,trachiniae,669,sophocles,tragedy
+θυμός,θυμός,trachiniae,882,sophocles,tragedy
+θυμῷ,θυμός,trachiniae,1118,sophocles,tragedy
+προθυμῇ,θυμός,trachiniae,1119,sophocles,tragedy
+θυμός,θυμός,trachiniae,1134,sophocles,tragedy
+θυμοῦσθαι,θυμός,trachiniae,1230,sophocles,tragedy
+προθυμίας,θυμός,oedipus_tyrannus,48,sophocles,tragedy
+ἄθυμος,θυμός,oedipus_tyrannus,319,sophocles,tragedy
+θυμοῦ,θυμός,oedipus_tyrannus,244,sophocles,tragedy
+θυμοῦ,θυμός,oedipus_tyrannus,674,sophocles,tragedy
+ἐνθύμιον,θυμός,oedipus_tyrannus,739,sophocles,tragedy
+ἀθυμῶ,θυμός,oedipus_tyrannus,747,sophocles,tragedy
+προθυμία,θυμός,oedipus_tyrannus,838,sophocles,tragedy
+θυμοῦ,θυμός,oedipus_tyrannus,892,sophocles,tragedy
+θυμὸν,θυμός,oedipus_tyrannus,914,sophocles,tragedy
+θυμὸν,θυμός,oedipus_tyrannus,975,sophocles,tragedy
+θυμοῦσθαι,θυμός,philoctetes,323,sophocles,tragedy
+θυμὸν,θυμός,philoctetes,324,sophocles,tragedy
+δακέθυμος,θυμός,philoctetes,706,sophocles,tragedy
+θυμοῦ,θυμός,philoctetes,922,sophocles,tragedy
+ἀθυμίαν,θυμός,antigone,237,sophocles,tragedy
+θυμουμένους,θυμός,antigone,477,sophocles,tragedy
+θυμὸς,θυμός,antigone,493,sophocles,tragedy
+θυμοῦ,θυμός,antigone,718,sophocles,tragedy
+θυμῷ,θυμός,antigone,1085,sophocles,tragedy
+θυμὸν,θυμός,antigone,1088,sophocles,tragedy
+θυμὸν,θυμός,antigone,1097,sophocles,tragedy
+ἀθύμου,θυμός,antigone,1219,sophocles,tragedy
+θυμουμένῃ,θυμός,antigone,1254,sophocles,tragedy
+θυμός,θυμός,oedipus_at_colonus,434,sophocles,tragedy
+θυμὸν,θυμός,oedipus_at_colonus,438,sophocles,tragedy
+θυμὸς,θυμός,oedipus_at_colonus,592,sophocles,tragedy
+θυμῷ,θυμός,oedipus_at_colonus,659,sophocles,tragedy
+θυμούμενος,θυμός,oedipus_at_colonus,768,sophocles,tragedy
+θυμὸν,θυμός,oedipus_at_colonus,778,sophocles,tragedy
+θυμόν,θυμός,oedipus_at_colonus,874,sophocles,tragedy
+θυμοῦ,θυμός,oedipus_at_colonus,954,sophocles,tragedy
+θυμὸς,θυμός,oedipus_at_colonus,1193,sophocles,tragedy
+θυμοῦ,θυμός,oedipus_at_colonus,1198,sophocles,tragedy
+θυμοῦσθαι,θυμός,oedipus_at_colonus,1420,sophocles,tragedy
+θυμόν,θυμός,oedipus_at_colonus,1466,sophocles,tragedy
+πρόθυμος,θυμός,elektra,3,sophocles,tragedy
+θυμὸν,θυμός,elektra,26,sophocles,tragedy
+δυσθύμῳ,θυμός,elektra,218,sophocles,tragedy
+θυμὸς,θυμός,elektra,286,sophocles,tragedy
+θυμῷ,θυμός,elektra,331,sophocles,tragedy
+δύσθυμος,θυμός,elektra,550,sophocles,tragedy
+ἀθυμεῖς,θυμός,elektra,769,sophocles,tragedy
+ῥάθυμος,θυμός,elektra,958,sophocles,tragedy
+θυμοίμην,θυμός,elektra,1278,sophocles,tragedy
+θυμός,θυμός,elektra,1319,sophocles,tragedy
+θυμὸν,θυμός,elektra,1347,sophocles,tragedy
+μῆνιν,μῆνις,ajax,656,sophocles,tragedy
+μῆνις,μῆνις,ajax,757,sophocles,tragedy
+μηνίσας,μῆνις,trachiniae,274,sophocles,tragedy
+μῆνιν,μῆνις,oedipus_tyrannus,698,sophocles,tragedy
+μηνίσας,μῆνις,antigone,1177,sophocles,tragedy
+μηνίουσιν,μῆνις,oedipus_at_colonus,965,sophocles,tragedy
+μηνίεις,μῆνις,oedipus_at_colonus,1274,sophocles,tragedy
+μῆνιν,μῆνις,oedipus_at_colonus,1328,sophocles,tragedy
+μηνίσασα,μῆνις,elektra,570,sophocles,tragedy
+χόλῳ,"χόλος, χολή",ajax,41,sophocles,tragedy
+χόλου,"χόλος, χολή",ajax,744,sophocles,tragedy
+χόλον,"χόλος, χολή",trachiniae,269,sophocles,tragedy
+μελάγχολος,"χόλος, χολή",trachiniae,573,sophocles,tragedy
+ἐχόλωσεν,"χόλος, χολή",trachiniae,1035,sophocles,tragedy
+χόλον,"χόλος, χολή",philoctetes,328,sophocles,tragedy
+χολωθεὶς,"χόλος, χολή",philoctetes,374,sophocles,tragedy
+ὀξύχολος,"χόλος, χολή",antigone,955,sophocles,tragedy
+χολαὶ,"χόλος, χολή",antigone,1010,sophocles,tragedy
+χολωθείς,"χόλος, χολή",antigone,1235,sophocles,tragedy
+χόλον,"χόλος, χολή",elektra,176,sophocles,tragedy
+ὀργὰς,ὀργή,agamemnon,71,aeschylus,tragedy
+ὀργᾶι,ὀργή,agamemnon,215,aeschylus,tragedy
+περιόργωι,ὀργή,agamemnon,216,aeschylus,tragedy
+θυμοῦ,θυμός,agamemnon,48,aeschylus,tragedy
+θυμοφθόρον,θυμός,agamemnon,103,aeschylus,tragedy
+ἐπιθυμεῖν,θυμός,agamemnon,216,aeschylus,tragedy
+θυμῶι,θυμός,agamemnon,233,aeschylus,tragedy
+δηξίθυμον,θυμός,agamemnon,743,aeschylus,tragedy
+θυμός,θυμός,agamemnon,992,aeschylus,tragedy
+θυμαλγής,θυμός,agamemnon,1031,aeschylus,tragedy
+θυμώσομαι,θυμός,agamemnon,1069,aeschylus,tragedy
+θυμὸν,θυμός,agamemnon,1388,aeschylus,tragedy
+προθύμως,θυμός,agamemnon,1591,aeschylus,tragedy
+εὐθύμως,θυμός,agamemnon,1592,aeschylus,tragedy
+μῆνις,μῆνις,agamemnon,155,aeschylus,tragedy
+μῆνις,μῆνις,agamemnon,701,aeschylus,tragedy
+ὀργάς,ὀργή,choephoroe,326,aeschylus,tragedy
+ὄργα ,ὀργή,choephoroe,454,aeschylus,tragedy
+περιθύμως,θυμός,choephoroe,40,aeschylus,tragedy
+θυμός,θυμός,choephoroe,392,aeschylus,tragedy
+θυμός,θυμός,choephoroe,422,aeschylus,tragedy
+μῆνιν,μῆνις,choephoroe,294,aeschylus,tragedy
+χολῆς,"χόλος, χολή",choephoroe,184,aeschylus,tragedy
+ὀργὰς,ὀργή,eumenides,847,aeschylus,tragedy
+ὀργαῖς,ὀργή,eumenides,937,aeschylus,tragedy
+ὀργὰν,ὀργή,eumenides,981,aeschylus,tragedy
+ἐνθυμουμένην,θυμός,eumenides,222,aeschylus,tragedy
+ὀξύθυμον,θυμός,eumenides,705,aeschylus,tragedy
+θυμοῦσθαι,θυμός,eumenides,733,aeschylus,tragedy
+θυμῶι,θυμός,eumenides,738,aeschylus,tragedy
+ἀθύμους,θυμός,eumenides,770,aeschylus,tragedy
+θυμοῦσθε,θυμός,eumenides,801,aeschylus,tragedy
+ὑπερθύμως,θυμός,eumenides,823,aeschylus,tragedy
+θυμώμασιν,θυμός,eumenides,860,aeschylus,tragedy
+μηνίεται,μῆνις,eumenides,101,aeschylus,tragedy
+μῆνις,μῆνις,eumenides,234,aeschylus,tragedy
+μῆνις,μῆνις,eumenides,314,aeschylus,tragedy
+μῆνίν,μῆνις,eumenides,889,aeschylus,tragedy
+ὀργῆς,ὀργή,prometheus_bound,80,aeschylus,tragedy
+ὀργὴν,ὀργή,prometheus_bound,190,aeschylus,tragedy
+ὀργὰς,ὀργή,prometheus_bound,315,aeschylus,tragedy
+ὀργῆς,ὀργή,prometheus_bound,378,aeschylus,tragedy
+ὀργὴν,ὀργή,prometheus_bound,678,aeschylus,tragedy
+προθυμίας,θυμός,prometheus_bound,341,aeschylus,tragedy
+θυμὸν,θυμός,prometheus_bound,380,aeschylus,tragedy
+προθυμεῖσθαι,θυμός,prometheus_bound,381,aeschylus,tragedy
+ἀθυμεῖς,θυμός,prometheus_bound,474,aeschylus,tragedy
+θυμὸν,θυμός,prometheus_bound,538,aeschylus,tragedy
+προθυμῆι,θυμός,prometheus_bound,630,aeschylus,tragedy
+θυμῶι,θυμός,prometheus_bound,706,aeschylus,tragedy
+προθυμεῖσθ,θυμός,prometheus_bound,786,aeschylus,tragedy
+χόλον,"χόλος, χολή",prometheus_bound,29,aeschylus,tragedy
+χόλου,"χόλος, χολή",prometheus_bound,199,aeschylus,tragedy
+χόλον,"χόλος, χολή",prometheus_bound,370,aeschylus,tragedy
+χόλου,"χόλος, χολή",prometheus_bound,376,aeschylus,tragedy
+χολή,"χόλος, χολή",prometheus_bound,495,aeschylus,tragedy
+ὀργὴν,ὀργή,seven_against_thebes,678,aeschylus,tragedy
+θυμὸς,θυμός,seven_against_thebes,52,aeschylus,tragedy
+θυμὸν,θυμός,seven_against_thebes,507,aeschylus,tragedy
+ἄθυμον,θυμός,seven_against_thebes,616,aeschylus,tragedy
+θυμοπληθὴς,θυμός,seven_against_thebes,686,aeschylus,tragedy
+περιθύμους,θυμός,seven_against_thebes,724,aeschylus,tragedy
+θυμὸς,θυμός,persians,11,aeschylus,tragedy
+θυμόμαντις,θυμός,persians,224,aeschylus,tragedy
+εὐθύμου,θυμός,persians,372,aeschylus,tragedy
+θυμὸν,θυμός,persians,769,aeschylus,tragedy
+ὀργῆι ,ὀργή,suppliants,187,aeschylus,tragedy
+ὀργὰς,ὀργή,suppliants,763,aeschylus,tragedy
+θυμοῦ,θυμός,suppliants,447,aeschylus,tragedy
+θυμὸν,θυμός,suppliants,566,aeschylus,tragedy
+θυμηδέστατα,θυμός,suppliants,962,aeschylus,tragedy
+μῆνις,μῆνις,suppliants,162,aeschylus,tragedy
+μῆνις,μῆνις,suppliants,175,aeschylus,tragedy
+μηνεῖται,μῆνις,suppliants,266,aeschylus,tragedy
+ὀργῆι,ὀργή,helen,80,euripides,tragedy
+ὀργὰς,ὀργή,helen,1340,euripides,tragedy
+ὀργὰς,ὀργή,helen,1642,euripides,tragedy
+ὀργίζηι,ὀργή,helen,1646,euripides,tragedy
+προθυμίαι,θυμός,helen,717,euripides,tragedy
+θυμωσαμέναν,θυμός,helen,1343,euripides,tragedy
+πρόθυμος,θυμός,helen,1523,euripides,tragedy
+μῆνιν,μῆνις,helen,1355,euripides,tragedy
+χόλου,"χόλος, χολή",helen,442,euripides,tragedy
+ὀργαὶ,ὀργή,hippolytus,438,euripides,tragedy
+ὀργῆι ,ὀργή,hippolytus,689,euripides,tragedy
+ὀργῆς,ὀργή,hippolytus,900,euripides,tragedy
+εὐοργησίαι,ὀργή,hippolytus,1039,euripides,tragedy
+ὀργᾶς,ὀργή,hippolytus,1124,euripides,tragedy
+ὠργισμένος,ὀργή,hippolytus,1413,euripides,tragedy
+ὀργαὶ ,ὀργή,hippolytus,1418,euripides,tragedy
+προθυμίας,θυμός,hippolytus,285,euripides,tragedy
+πρόθυμός,θυμός,hippolytus,694,euripides,tragedy
+πρόθυμός,θυμός,hippolytus,1006,euripides,tragedy
+θυμός,θυμός,hippolytus,1087,euripides,tragedy
+θυμόν,θυμός,hippolytus,1114,euripides,tragedy
+θυμόν,θυμός,hippolytus,1328,euripides,tragedy
+προθυμίαι,θυμός,hippolytus,1329,euripides,tragedy
+προθυμίας,θυμός,hippolytus,1417,euripides,tragedy
+μανίω,μῆνις,hippolytus,1146,euripides,tragedy
+ῥαιθυμία,θυμός,cyclops,203,euripides,satyr
+προθυμία,θυμός,cyclops,449,euripides,satyr
+κεὐθύμει,θυμός,cyclops,530,euripides,satyr
+ὀργὰς,ὀργή,alcestis,771,euripides,tragedy
+ὀργαίνειν,ὀργή,alcestis,1106,euripides,tragedy
+προθυμίαν,θυμός,alcestis,51,euripides,tragedy
+θυμοῦ,θυμός,alcestis,829,euripides,tragedy
+ἐπιθυμῶ,θυμός,alcestis,867,euripides,tragedy
+προθυμίαν,θυμός,alcestis,1107,euripides,tragedy
+χολωθεὶς,"χόλος, χολή",alcestis,5,euripides,tragedy
+ὀργὰς,ὀργή,medea,121,euripides,tragedy
+ὀργισθῆι,ὀργή,medea,129,euripides,tragedy
+ὀργὰν,ὀργή,medea,176,euripides,tragedy
+ὀργὴν,ὀργή,medea,447,euripides,tragedy
+ὀργὰς,ὀργή,medea,456,euripides,tragedy
+ὀργὴ,ὀργή,medea,520,euripides,tragedy
+ὀργῆς,ὀργή,medea,615,euripides,tragedy
+ὀργὰς,ὀργή,medea,638,euripides,tragedy
+ὀργὰς,ὀργή,medea,870,euripides,tragedy
+ὀργὰς,ὀργή,medea,909,euripides,tragedy
+ὀργάς,ὀργή,medea,1150,euripides,tragedy
+ὀργὰς,ὀργή,medea,1172,euripides,tragedy
+θυμὸν,θυμός,medea,8,euripides,tragedy
+δυσθυμουμένηι,θυμός,medea,91,euripides,tragedy
+θυμῶι,θυμός,medea,108,euripides,tragedy
+πρόθυμον,θυμός,medea,178,euripides,tragedy
+ῥαιθυμίαν,θυμός,medea,218,euripides,tragedy
+θυμουμένην,θυμός,medea,271,euripides,tragedy
+θυμὸς,θυμός,medea,310,euripides,tragedy
+ὀξύθυμος,θυμός,medea,319,euripides,tragedy
+θυμουμένων,θυμός,medea,455,euripides,tragedy
+πρόθυμος,θυμός,medea,485,euripides,tragedy
+θυμὸν,θυμός,medea,640,euripides,tragedy
+δυσθυμίας,θυμός,medea,691,euripides,tragedy
+πρόθυμός,θυμός,medea,720,euripides,tragedy
+θυμῶι,θυμός,medea,865,euripides,tragedy
+θυμοῦ,θυμός,medea,879,euripides,tragedy
+θυμουμένη,θυμός,medea,883,euripides,tragedy
+θυμέ,θυμός,medea,1056,euripides,tragedy
+θυμὸς,θυμός,medea,1079,euripides,tragedy
+πρόθυμον,θυμός,medea,1146,euripides,tragedy
+θυμοῦ,θυμός,medea,1152,euripides,tragedy
+χόλου,"χόλος, χολή",medea,94,euripides,tragedy
+χόλον,"χόλος, χολή",medea,99,euripides,tragedy
+χόλον,"χόλος, χολή",medea,172,euripides,tragedy
+χόλον,"χόλος, χολή",medea,590,euripides,tragedy
+χόλος,"χόλος, χολή",medea,898,euripides,tragedy
+χόλον,"χόλος, χολή",medea,1150,euripides,tragedy
+χόλος,"χόλος, χολή",medea,1266,euripides,tragedy
+προθυμίαν,θυμός,heraclidae,410,euripides,tragedy
+πρόθυμον,θυμός,heraclidae,425,euripides,tragedy
+προθύμωι,θυμός,heraclidae,550,euripides,tragedy
+πρόθυμος,θυμός,heraclidae,577,euripides,tragedy
+θυμος,θυμός,heraclidae,616,euripides,tragedy
+πρόθυμος,θυμός,heraclidae,731,euripides,tragedy
+θυμὸς,θυμός,heraclidae,925,euripides,tragedy
+πρόθυμον,θυμός,heraclidae,1010,euripides,tragedy
+μῆνιν,μῆνις,heraclidae,762,euripides,tragedy
+ὀργῆς,ὀργή,andromache,668,euripides,tragedy
+προθυμίαι,θυμός,andromache,561,euripides,tragedy
+ὀξυθυμῆι,θυμός,andromache,689,euripides,tragedy
+ὀξυθυμίας,θυμός,andromache,728,euripides,tragedy
+θυμούμενος,θυμός,andromache,742,euripides,tragedy
+θυμουμένων,θυμός,andromache,742,euripides,tragedy
+θυμὸς,θυμός,andromache,1072,euripides,tragedy
+προθυμίαι,θυμός,andromache,1252,euripides,tragedy
+‘πιθυμίαν,θυμός,andromache,1281,euripides,tragedy
+θυμουμένωι,θυμός,hecuba,299,euripides,tragedy
+πρόθυμος,θυμός,hecuba,307,euripides,tragedy
+θυμουμένοις,θυμός,hecuba,403,euripides,tragedy
+προθυμῆι,θυμός,hecuba,564,euripides,tragedy
+θυμῶι,θυμός,hecuba,1055,euripides,tragedy
+πρόθυμος,θυμός,hecuba,1202,euripides,tragedy
+χόλον,"χόλος, χολή",hecuba,118,euripides,tragedy
+ὀργὴν,ὀργή,suppliants,1050,euripides,tragedy
+θυμούμενος,θυμός,suppliants,476,euripides,tragedy
+θυμὸν,θυμός,suppliants,480,euripides,tragedy
+θυμῶι,θυμός,suppliants,556,euripides,tragedy
+θυμοῦσθαι,θυμός,suppliants,581,euripides,tragedy
+δυσθυμίαν,θυμός,suppliants,696,euripides,tragedy
+ὀργὴν,ὀργή,elektra,1110,euripides,tragedy
+θυμὸν,θυμός,elektra,176,euripides,tragedy
+πρόθυμος,θυμός,elektra,395,euripides,tragedy
+θυμόν,θυμός,elektra,578,euripides,tragedy
+ἀθυμεῖς,θυμός,elektra,831,euripides,tragedy
+θυμοῦται ,θυμός,elektra,1115,euripides,tragedy
+θυμουμένη,θυμός,elektra,1118,euripides,tragedy
+μῆνιν,μῆνις,elektra,1261,euripides,tragedy
+χολῆς,"χόλος, χολή",elektra,828,euripides,tragedy
+ὀργὰς,ὀργή,herakles,276,euripides,tragedy
+πρόθυμ’,θυμός,herakles,114,euripides,tragedy
+θυμούμενοι,θυμός,herakles,277,euripides,tragedy
+πρόθυμός,θυμός,herakles,310,euripides,tragedy
+προθυμία,θυμός,herakles,310,euripides,tragedy
+πρόθυμος,θυμός,herakles,325,euripides,tragedy
+ἀθυμία,θυμός,herakles,552,euripides,tragedy
+ἐνθύμιον,θυμός,herakles,722,euripides,tragedy
+θυμόν,θυμός,herakles,1211,euripides,tragedy
+θυμούμενος,θυμός,herakles,1246,euripides,tragedy
+χόλος,"χόλος, χολή",herakles,840,euripides,tragedy
+ὀργὰς,ὀργή,trojans,53,euripides,tragedy
+πρόθυμά,θυμός,trojans,355,euripides,tragedy
+προθυμίαν,θυμός,trojans,689,euripides,tragedy
+χολώσεται,"χόλος, χολή",trojans,735,euripides,tragedy
+ὀργὴ,ὀργή,iphigenia_at_taurus,987,euripides,tragedy
+προθυμία,θυμός,iphigenia_at_taurus,616,euripides,tragedy
+πρόθυμος,θυμός,iphigenia_at_taurus,910,euripides,tragedy
+πρόθυμον,θυμός,iphigenia_at_taurus,989,euripides,tragedy
+θυμουμένη,θυμός,iphigenia_at_taurus,993,euripides,tragedy
+πρόθυμον,θυμός,iphigenia_at_taurus,1023,euripides,tragedy
+θυμοῦ,θυμός,iphigenia_at_taurus,1474,euripides,tragedy
+θυμοῦμαι,θυμός,iphigenia_at_taurus,1478,euripides,tragedy
+μῆνιν,μῆνις,iphigenia_at_taurus,1272,euripides,tragedy
+χόλον,"χόλος, χολή",iphigenia_at_taurus,1439,euripides,tragedy
+πρόθυμος,θυμός,ion,46,euripides,tragedy
+δυσθυμῆι,θυμός,ion,255,euripides,tragedy
+προθυμία,θυμός,ion,1109,euripides,tragedy
+πρόθυμα,θυμός,ion,1173,euripides,tragedy
+προθυμία,θυμός,ion,1211,euripides,tragedy
+ἐνθύμιόν,θυμός,ion,1347,euripides,tragedy
+προθυμίαι,θυμός,ion,1385,euripides,tragedy
+θυμοῦ,θυμός,phoenissiae,454,euripides,tragedy
+θυμωθεὶς,θυμός,phoenissiae,461,euripides,tragedy
+προθυμία,θυμός,phoenissiae,589,euripides,tragedy
+προθυμίαν,θυμός,phoenissiae,902,euripides,tragedy
+προθυμίαι ,θυμός,phoenissiae,1430,euripides,tragedy
+θυμουμένην,θυμός,phoenissiae,1448,euripides,tragedy
+ἐκπροθυμῆι,θυμός,phoenissiae,1678,euripides,tragedy
+προθυμίας,θυμός,phoenissiae,1683,euripides,tragedy
+προθυμῆι,θυμός,phoenissiae,1709,euripides,tragedy
+ὀργὴ,ὀργή,orestes,490,euripides,tragedy
+ὀργὴν,ὀργή,orestes,696,euripides,tragedy
+ὀργὴν,ὀργή,orestes,1630,euripides,tragedy
+ἀθυμήσαντ’,θυμός,orestes,296,euripides,tragedy
+θυμὸς,θυμός,orestes,702,euripides,tragedy
+προθυμίας,θυμός,orestes,708,euripides,tragedy
+θυμούμενος,θυμός,orestes,751,euripides,tragedy
+θυμωθεὶς,θυμός,orestes,765,euripides,tragedy
+ὀξυθύμου,θυμός,orestes,1198,euripides,tragedy
+πρόθυμος,θυμός,orestes,1629,euripides,tragedy
+ὀργῆι,ὀργή,bacchae,51,euripides,tragedy
+ὀργὰν,ὀργή,bacchae,537,euripides,tragedy
+εὐοργησίαν,ὀργή,bacchae,641,euripides,tragedy
+ὀργῆι,ὀργή,bacchae,647,euripides,tragedy
+ὀργῆς,ὀργή,bacchae,758,euripides,tragedy
+ὀργᾶι,ὀργή,bacchae,997,euripides,tragedy
+ὀργὰς,ὀργή,bacchae,1348,euripides,tragedy
+ἀθυμίαν,θυμός,bacchae,610,euripides,tragedy
+θυμὸν,θυμός,bacchae,620,euripides,tragedy
+τοὐξύθυμον,θυμός,bacchae,671,euripides,tragedy
+θυμοῦσθαι,θυμός,bacchae,673,euripides,tragedy
+θυμούμενοι,θυμός,bacchae,743,euripides,tragedy
+θυμούμενος,θυμός,bacchae,794,euripides,tragedy
+πρόθυμος,θυμός,bacchae,829,euripides,tragedy
+πρόθυμον,θυμός,bacchae,912,euripides,tragedy
+προθυμίας,θυμός,bacchae,1101,euripides,tragedy
+ὀργῆς,ὀργή,iphigenia_at_aulis,335,euripides,tragedy
+ὀργισθῆις,ὀργή,iphigenia_at_aulis,631,euripides,tragedy
+ὀργισθῆις,ὀργή,iphigenia_at_aulis,637,euripides,tragedy
+θυμὸν,θυμός,iphigenia_at_aulis,125,euripides,tragedy
+θυμὸς,θυμός,iphigenia_at_aulis,919,euripides,tragedy
+θυμουμένην,θυμός,iphigenia_at_aulis,1369,euripides,tragedy
+προθυμίας,θυμός,iphigenia_at_aulis,1371,euripides,tragedy
+χόλον,"χόλος, χολή",iphigenia_at_aulis,1609,euripides,tragedy
+πρόθυμος,θυμός,rhesus,63,euripides,tragedy
+προθυμίαν,θυμός,rhesus,667,euripides,tragedy
+θυμὸν,θυμός,rhesus,786,euripides,tragedy
+μηνίων,μῆνις,rhesus,494,euripides,tragedy
+ὀργῆς,ὀργή,frogs,700,aristophanes,comedy
+ὀργὴν,ὀργή,frogs,844,aristophanes,comedy
+ὀργῆς,ὀργή,frogs,855,aristophanes,comedy
+ὀργήν,ὀργή,frogs,856,aristophanes,comedy
+ὀργὴν,ὀργή,frogs,998,aristophanes,comedy
+ἐνεθυμήθης,θυμός,frogs,40,aristophanes,comedy
+ἐπεθύμησας,θυμός,frogs,62,aristophanes,comedy
+προθύμως,θυμός,frogs,203,aristophanes,comedy
+ἐπιθυμῶν,θυμός,frogs,360,aristophanes,comedy
+θυμοῖ,θυμός,frogs,584,aristophanes,comedy
+ἐπιθυμοῦμεν,θυμός,frogs,895,aristophanes,comedy
+θυμὸς,θυμός,frogs,995,aristophanes,comedy
+θυμοῦμαι,θυμός,frogs,1006,aristophanes,comedy
+θυμοὺς,θυμός,frogs,1017,aristophanes,comedy
+ἐπιθυμεῖν,θυμός,frogs,1026,aristophanes,comedy
+χολή,"χόλος, χολή",frogs,4,aristophanes,comedy
+χόλον,"χόλος, χολή",frogs,814,aristophanes,comedy
+ὀργίσῃ,ὀργή,wasps,223,aristophanes,comedy
+ὀργὴν,ὀργή,wasps,243,aristophanes,comedy
+ὀργίσῃ,ὀργή,wasps,202,aristophanes,comedy
+ὀργῆς,ὀργή,wasps,424,aristophanes,comedy
+ὤργισεν,ὀργή,wasps,425,aristophanes,comedy
+ὠργισμένοι,ὀργή,wasps,431,aristophanes,comedy
+ὀργὴν,ὀργή,wasps,560,aristophanes,comedy
+ὀργῆς,ὀργή,wasps,574,aristophanes,comedy
+ὀργὴν,ὀργή,wasps,646,aristophanes,comedy
+ὀργὴν,ὀργή,wasps,727,aristophanes,comedy
+ὀργῆς,ὀργή,wasps,883,aristophanes,comedy
+ὀργήν,ὀργή,wasps,1030,aristophanes,comedy
+ὀργῆς,ὀργή,wasps,1083,aristophanes,comedy
+ἐπιθυμῶ,θυμός,wasps,5,aristophanes,comedy
+ἐπιθυμεῖτ’,θυμός,wasps,86,aristophanes,comedy
+θυμὸν,θυμός,wasps,383,aristophanes,comedy
+τοὐξύθυμον,θυμός,wasps,406,aristophanes,comedy
+ὀξυθύμων,θυμός,wasps,455,aristophanes,comedy
+θυμὸν,θυμός,wasps,650,aristophanes,comedy
+ὀξυθυμηθεῖσά,θυμός,wasps,501,aristophanes,comedy
+θυμὸν,θυμός,wasps,567,aristophanes,comedy
+ἐπιθυμεῖ,θυμός,wasps,1016,aristophanes,comedy
+θυμὸν,θυμός,wasps,1082,aristophanes,comedy
+ὀξύθυμόν,θυμός,wasps,1105,aristophanes,comedy
+ἐπιθυμεῖν,θυμός,wasps,1125,aristophanes,comedy
+προθυμοῦμαί,θυμός,wasps,1173,aristophanes,comedy
+χολήν,"χόλος, χολή",wasps,403,aristophanes,comedy
+ὀργῆς,ὀργή,lysistrata,505,aristophanes,comedy
+ὀργῇ,ὀργή,lysistrata,550,aristophanes,comedy
+ὠργισμένων,ὀργή,lysistrata,687,aristophanes,comedy
+ὀργῆς,ὀργή,lysistrata,1023,aristophanes,comedy
+ὀργῶντας,ὀργή,lysistrata,1113,aristophanes,comedy
+κἀπιθυμοῖεν,θυμός,lysistrata,152,aristophanes,comedy
+ἐπιθυμῶ,θυμός,lysistrata,486,aristophanes,comedy
+γλυκύθυμος,θυμός,lysistrata,551,aristophanes,comedy
+ἀθυμεῖν,θυμός,lysistrata,709,aristophanes,comedy
+χολὴν,"χόλος, χολή",lysistrata,465,aristophanes,comedy
+ὀξυθυμεῖσθαι,θυμός,thesmophoriazusae,466,aristophanes,comedy
+θυμούμεθα,θυμός,thesmophoriazusae,518,aristophanes,comedy
+ἐπιθυμεῖ,θυμός,thesmophoriazusae,798,aristophanes,comedy
+προθύμως,θυμός,thesmophoriazusae,982,aristophanes,comedy
+προθύμως,θυμός,thesmophoriazusae,978,aristophanes,comedy
+ἐπιτυμεῖς,θυμός,thesmophoriazusae,1123,aristophanes,comedy
+ἐπιτυμεῖς,θυμός,thesmophoriazusae,1135,aristophanes,comedy
+χολήν,"χόλος, χολή",thesmophoriazusae,468,aristophanes,comedy
+ὑπερχολῶ,"χόλος, χολή",thesmophoriazusae,691,aristophanes,comedy
+ὀργισθέντες,ὀργή,peace,204,aristophanes,comedy
+ὀργῆς,ὀργή,peace,613,aristophanes,comedy
+ὀργὴν,ὀργή,peace,659,aristophanes,comedy
+ὀργήν,ὀργή,peace,752,aristophanes,comedy
+ἐπιθυμεῖν,θυμός,peace,12,aristophanes,comedy
+προθύμως,θυμός,peace,301,aristophanes,comedy
+προθύμως,θυμός,peace,379,aristophanes,comedy
+προθύμως,θυμός,peace,417,aristophanes,comedy
+προθύμως,θυμός,peace,437,aristophanes,comedy
+ἐπιθυμῶν,θυμός,peace,444,aristophanes,comedy
+ἐπιθυμεῖ,θυμός,peace,448,aristophanes,comedy
+προθυμοῦντ’,θυμός,peace,480,aristophanes,comedy
+ὁμοθυμαδὸν,θυμός,peace,484,aristophanes,comedy
+ἐπιθυμεῖτε,θυμός,peace,506,aristophanes,comedy
+προθυμοῦ,θυμός,peace,510,aristophanes,comedy
+θυμὸς,θυμός,peace,559,aristophanes,comedy
+ἐπιθυμῶ,θυμός,peace,569,aristophanes,comedy
+βορβοροθύμους,θυμός,peace,753,aristophanes,comedy
+προθύμως,θυμός,peace,906,aristophanes,comedy
+χολή,"χόλος, χολή",peace,66,aristophanes,comedy
+ἐπιθυμῶ,θυμός,clouds,322,aristophanes,comedy
+ἐπιθυμήσας,θυμός,clouds,412,aristophanes,comedy
+ἐπιθυμεῖς,θυμός,clouds,416,aristophanes,comedy
+ἐπιθυμῶ,θυμός,clouds,433,aristophanes,comedy
+ἐπιθυμεῖς,θυμός,clouds,435,aristophanes,comedy
+προθύμως,θυμός,clouds,501,aristophanes,comedy
+ἐπιθυμῶ,θυμός,clouds,656,aristophanes,comedy
+γλυκύθυμος,θυμός,clouds,705,aristophanes,comedy
+ἐνθυμούμενος,θυμός,clouds,820,aristophanes,comedy
+κἀπεθύμουν,θυμός,clouds,1036,aristophanes,comedy
+θυμὸν,θυμός,clouds,1369,aristophanes,comedy
+χολῶσιν,"χόλος, χολή",clouds,833,aristophanes,comedy
+ὀργήν,ὀργή,knights,41,aristophanes,comedy
+ὀργὰς,ὀργή,knights,537,aristophanes,comedy
+ὀργισθέντ’,ὀργή,knights,993,aristophanes,comedy
+θυμὸς,θυμός,knights,570,aristophanes,comedy
+ὀξύθυμος,θυμός,knights,706,aristophanes,comedy
+θυμέ,θυμός,knights,1194,aristophanes,comedy
+ἀκράχολος,"χόλος, χολή",knights,41,aristophanes,comedy
+εὐόργου,ὀργή,wealth,61,aristophanes,comedy
+ἐπιθυμεῖ,θυμός,wealth,195,aristophanes,comedy
+πρόθυμος,θυμός,wealth,209,aristophanes,comedy
+προθύμως,θυμός,wealth,257,aristophanes,comedy
+προθύμως,θυμός,wealth,282,aristophanes,comedy
+προθύμως,θυμός,wealth,324,aristophanes,comedy
+ἐπιθυμοῦντες,θυμός,wealth,492,aristophanes,comedy
+ἐπεθύμουν,θυμός,wealth,675,aristophanes,comedy
+μελαγχολῶντ’,"χόλος, χολή",wealth,12,aristophanes,comedy
+μελαγχολᾷς,"χόλος, χολή",wealth,366,aristophanes,comedy
+μελαγχολᾶν,"χόλος, χολή",wealth,903,aristophanes,comedy
+ὀργῆς,ὀργή,birds,383,aristophanes,comedy
+ὀργὴν,ὀργή,birds,402,aristophanes,comedy
+ὀργῶ,ὀργή,birds,462,aristophanes,comedy
+ἐπιθυμεῖ,θυμός,birds,78,aristophanes,comedy
+θυμὸν,θυμός,birds,401,aristophanes,comedy
+ἐπιθυμῇ,θυμός,birds,984,aristophanes,comedy
+ὁμοθυμαδὸν,θυμός,birds,1015,aristophanes,comedy
+κἀπιθυμῶ,θυμός,birds,1345,aristophanes,comedy
+ἐπιθυμῶ,θυμός,birds,1352,aristophanes,comedy
+μελαγχολῶν,"χόλος, χολή",birds,14,aristophanes,comedy
+ὀργίζεται,ὀργή,ecclesiazusae,202,aristophanes,comedy
+ἐνθυμουμένοις,θυμός,ecclesiazusae,138,aristophanes,comedy
+ἐπιθυμήσουσιν,θυμός,ecclesiazusae,234,aristophanes,comedy
+ἐντεθύμηται,θυμός,ecclesiazusae,262,aristophanes,comedy
+ἐπιθυμήσῃ,θυμός,ecclesiazusae,611,aristophanes,comedy
+ἐπιθυμήσῃ,θυμός,ecclesiazusae,618,aristophanes,comedy
+ἐπιθυμεῖς,θυμός,ecclesiazusae,804,aristophanes,comedy
+ἐπιθυμῇ,θυμός,ecclesiazusae,1016,aristophanes,comedy
+ἐπιθυμῇ,θυμός,ecclesiazusae,1018,aristophanes,comedy
+μελαγχολᾶν,"χόλος, χολή",ecclesiazusae,251,aristophanes,comedy
+ὀργῇ,ὀργή,acharnians,530,aristophanes,comedy
+θυμὸν,θυμός,acharnians,353,aristophanes,comedy
+θυμέ,θυμός,acharnians,483,aristophanes,comedy
+ἐπιθυμοῦντες,θυμός,acharnians,644,aristophanes,comedy
