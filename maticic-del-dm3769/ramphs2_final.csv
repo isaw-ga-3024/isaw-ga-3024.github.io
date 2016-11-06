@@ -1,0 +1,223 @@
+,Amphitheater_id,date_built,pleiades_region,minRegionDate,maxRegionDate,built_after_founding
+0,pompeiiAmphitheater,-70,Pompeii,-750.0,2100.0,680.0
+1,cumaeAmphitheater,-70,Cumae/Kyme (Campanian),-750.0,640.0,680.0
+2,pozzuoliEarlyAmphitheater,-70,Dikaiarcheia/Puteoli,-750.0,2100.0,680.0
+3,paestumAmphitheater,-70,Poseidonia/Paestum,-750.0,2100.0,680.0
+4,avellaAmphitheater,-70,Abella,-330.0,640.0,260.0
+5,ferentoAmphitheater,-70,Lucus Feroniae,-550.0,640.0,480.0
+6,sutriumAmphitheatre,-70,Sutrium,-550.0,640.0,480.0
+7,telesiaAmphitheatre,-70,Telesia,-330.0,640.0,260.0
+8,antiochAmphitheater,-70,Antiochia/Theoupolis,-1750.0,2100.0,1680.0
+9,beneventoAmphitheater,-70,Beneventum/Maleventum,-330.0,2100.0,260.0
+10,calviRisortaAmphitheater,-70,Cales,-550.0,640.0,480.0
+11,capuaRepublicanAmphitheater,-70,Capua,-750.0,640.0,680.0
+12,liternoAmphitheater,-70,Liternum,-330.0,640.0,260.0
+13,teanoAmphitheater,-70,Tusculum,-750.0,2100.0,680.0
+14,suessaAruncaAmphitheater,-70,Suessa Aurunca,-750.0,640.0,680.0
+15,altripaldaAmphitheater,-70,Abellinum,-330.0,640.0,260.0
+16,compsaAmphitheater,-70,Compsa,-550.0,640.0,480.0
+17,corinthAmphitheater,-49,Corinthus/Korinthos,-750.0,2100.0,701.0
+18,carmonaAmphitheater,-49,Carmo,-750.0,2100.0,701.0
+19,espejoAmphitheater,-49,Ucubi/Col. Claritas Iulia,-330.0,300.0,281.0
+20,meridaAmphitheater,-27,Emerita Augusta,-30.0,2100.0,3.0
+21,conimbrigaAmphitheater,-27,Conimbriga,-750.0,640.0,723.0
+22,syracuseAmphitheater,-27,Syracusae/Syrakousai,-750.0,2100.0,723.0
+23,rusellaeAmphitheater,-27,Rusellae,-750.0,2100.0,723.0
+24,luceriaNoukeriaAmphitheater,-27,Luceria/Noukeria (Apoulon),-550.0,2100.0,523.0
+25,cimiezAmphitheater,-27,Cemenelum,-330.0,2100.0,303.0
+26,veronaAmphitheatre,-27,Verona,-30.0,640.0,3.0
+27,albaFucensAmphitheater,-27,Alba Fucens,-330.0,2100.0,303.0
+28,cherchellAmphitheater,-27,Iol Caesarea,-550.0,2100.0,523.0
+29,pulaAmphitheater,-27,Pola,-330.0,2100.0,303.0
+30,paduaAmphitheater,-27,Patavium,-750.0,2100.0,723.0
+31,anconaAmphitheater,-27,Ancon(a),-550.0,640.0,523.0
+32,statiliusTaurusAmphitheater,-27,Roma,-750.0,2100.0,723.0
+33,augustaBagiennorumAmphitheater,-27,Augusta Bagiennorum,-330.0,640.0,303.0
+34,aostaAmphitheater,-27,Augusta Praetoria,-30.0,2100.0,3.0
+35,faleriiNoviAmphitheater,-27,Falerii,-330.0,640.0,303.0
+36,carnuntumMilitaryAmphitheater,1,Carnuntum,-30.0,640.0,31.0
+37,empuriesAmphitheater,1,Emporiae,-750.0,640.0,751.0
+38,scylletiumScolaciumAmphitheater,1,Scylletium/Scolacium,-550.0,1453.0,551.0
+39,cordobaAmphitheater,1,Corduba/Col. Patricia,-330.0,2100.0,331.0
+40,lillebonnAmphitheater,1,Iuliobona,-30.0,2100.0,31.0
+41,milanAmphitheater,1,Mediolan(i)um,-550.0,2100.0,551.0
+42,sanVittorinoAmphitheater,1,Amiternum,-330.0,640.0,331.0
+43,senlisAmphitheater,1,Augustomagus,-30.0,2100.0,31.0
+44,minturnaeAmphitheater,1,Minturnae,-330.0,640.0,331.0
+45,ludusMagnusArena,50,Roma,-750.0,2100.0,800.0
+46,nijmegenAmphitheater,50,Batavodurum/(Ulpia) Noviomagus,-30.0,2100.0,80.0
+47,carnuntumLudus,50,Carnuntum,-30.0,640.0,80.0
+48,catiniaAmphitheater,50,Katane/Catina,-750.0,2100.0,800.0
+49,lunaAmphitheater,50,Luna,-330.0,2100.0,380.0
+50,cassinoAmphitheater,50,Casinum,-330.0,2100.0,380.0
+51,flaviaSolvaAmphitheater,50,Flavia Solva,-30.0,2100.0,80.0
+52,octodurusForumClaudiiVallensiumAmphitheater,50,Octodurus/Forum Claudii Vallensium,-330.0,2100.0,380.0
+53,cyreneAmphitheater,50,Cyrene,-750.0,2100.0,800.0
+54,libarnaAmphitheater,50,Libarna,-550.0,640.0,600.0
+55,charterhouseAmphitheater,50,Ischalis?,-30.0,2100.0,80.0
+56,scythopolisNysaAmphitheater,50,Scythopolis/Nysa,-750.0,640.0,800.0
+57,carthagoNovaAmphitheater,50,Carthago Nova/Col. Urbs Iulia,-330.0,640.0,380.0
+58,virunumAmphitheater,50,Virunum,-30.0,2100.0,80.0
+59,carsulaeAmphitheater,50,Carsulae,-330.0,640.0,380.0
+60,florenceAmphitheater,50,Florentia,-30.0,2100.0,80.0
+61,ocriculumAmphitheater,50,Ocriculum,-750.0,2100.0,800.0
+62,lixusAmphitheater,50,Lixus,-750.0,640.0,800.0
+63,larinumAmphitheater,50,Larinum,-750.0,2100.0,800.0
+64,allifaeAmphitheater,50,Al(l)ifae,-330.0,640.0,380.0
+65,hydataHypsitanaForumTraianiAmphitheatre,50,Hydata Hypsitana/Forum Traiani,-30.0,2100.0,80.0
+66,luccaAmphitheater,50,Luca,-330.0,2100.0,380.0
+67,hispellumAmphitheatre,50,Hispellum,-330.0,640.0,380.0
+68,aquincumCivilAmphitheater,50,Aquincum,-30.0,2100.0,80.0
+69,aquincumMilitaryAmphitheater,50,Aquincum,-30.0,2100.0,80.0
+70,aldburoughAmphitheater,50,Isurium,-30.0,2100.0,80.0
+71,perigueuxAmphitheatre,50,Vesunna,-30.0,2100.0,80.0
+72,cividateCamunoAmphitheater,50,*Civitas Camunnorum,-30.0,640.0,80.0
+73,grumentoAmphitheater,50,Grumentum,-750.0,2100.0,800.0
+74,tiburAmphitheater,50,Tibur,-750.0,640.0,800.0
+75,caerleonAmphitheater,50,Isca,-30.0,2100.0,80.0
+76,saintesAmphitheatre,50,Mediolanum,-30.0,2100.0,80.0
+77,assisiAmphitheatre,50,Asisium,-550.0,2100.0,600.0
+78,mactarisAmphitheater,50,Mactaris,-330.0,640.0,380.0
+79,miciaAmphitheater,50,Micia,-30.0,300.0,80.0
+80,anazarbusAmphitheater,50,Anazarbos/Caesarea/Ioustin(ian)oupolis,-330.0,2100.0,380.0
+81,cyzicusAmphitheater,50,Cyzicus,-1200.0,2000.0,1250.0
+82,salamisAmphitheater,50,Salamis/Konstantia,-750.0,640.0,800.0
+83,paphosAmphitheater,50,(Nea) Paphos,-550.0,640.0,600.0
+84,caerwentAmphitheater,50,Venta,-30.0,640.0,80.0
+85,tomen-y-murAmphitheater,50,Tomen y mur,-30.0,300.0,80.0
+86,thaenaeAmphitheater,50,Thaenae,-330.0,640.0,380.0
+87,susaAmphitheater,50,Segusio,-330.0,2100.0,380.0
+88,ivreaAmphitheater,50,Eporedia,-30.0,2100.0,80.0
+89,ptolemaisAmphitheater,50,Ptolemais/Barkes Limen,-750.0,640.0,800.0
+90,toulouseAmphitheater,50,Tolosa,-330.0,2100.0,380.0
+91,caparraAmphitheater,50,Capera,-30.0,640.0,80.0
+92,poitiersAmphitheater,50,Limonum,-330.0,2100.0,380.0
+93,reimsAmphitheater,50,Durocortorum,-330.0,2100.0,380.0
+94,rodezAmphitheater,50,Segodunum,-330.0,2100.0,380.0
+95,aquileiaAmphitheater,50,Aquileia,-330.0,1453.0,380.0
+96,lecceAmphitheater,50,Lupia(e),-330.0,2100.0,380.0
+97,sanBenedettoDeiMarsiAmphitheater,50,Marruvium,-330.0,2100.0,380.0
+98,monteleoneAmphitheater,50,Trebula Mutuesca,-330.0,640.0,380.0
+99,ascoliPicenoAmphitheater,50,Asculum,-550.0,2100.0,600.0
+100,beziersAmphitheater,50,Col. Baeterrae,-330.0,2100.0,380.0
+101,agenAmphitheater,50,Aginnum,-30.0,2100.0,80.0
+102,meauxAmphitheater,50,Iatinon/Fixtuinum,-30.0,2100.0,80.0
+103,chartresAmphitheater,50,Autricum,-30.0,2100.0,80.0
+104,caistorStEdmundAmphitheater,50,Venta,-30.0,640.0,80.0
+105,nyonAmphitheater,50,Col. Iulia Equestris/Noviodunum,-330.0,2100.0,380.0
+106,burnumAmphitheater,50,Burnum,-330.0,640.0,380.0
+107,skikdaAmphitheater,50,Rusicade/Thapsus,-330.0,640.0,380.0
+108,bostraAmphitheater,50,Bostra/Col. Nova Traiana Alexandriana,-1344.0,2000.0,1394.0
+109,stMarcelAmphitheater,50,*Argentomagus,-30.0,2100.0,80.0
+110,albegnaAmphitheater,50,Album Ingaunum/Albingaunum,-30.0,2100.0,80.0
+111,aquinoAmphitheater,50,Aquinum,-330.0,640.0,380.0
+112,bourgesAmphitheater,50,Avaricum/Biturigae,-330.0,2100.0,380.0
+113,chassenonAmphitheater,50,Cas(s)inomagus,-30.0,2100.0,80.0
+114,drevantAmphitheater,50,Derventum,-330.0,2100.0,380.0
+115,bekaltaAmphitheater,50,Thapsus,-330.0,640.0,380.0
+116,sidiBouArkoubAmphitheater,50,Thimisua,-330.0,640.0,380.0
+117,pupputAmphitheater,50,Pupput,-330.0,640.0,380.0
+118,siccaVeneriaAmphitheater,50,Sicca Veneria,-330.0,640.0,380.0
+119,thibariAmphitheater,50,Thibari,-330.0,640.0,380.0
+120,montbouyGallRomanAmphitheater,50,Montbouy,-30.0,2100.0,80.0
+121,hisaryaAmphitheater,50,Diocletianopolis,-30.0,640.0,80.0
+122,carpisAmphitheater,50,Carpi(s),-330.0,640.0,380.0
+123,altinumAmphitheater,50,Altinum,-550.0,640.0,600.0
+124,imolaAmphitheater,50,Forum Cornelii,-30.0,2100.0,80.0
+125,venosaAmphitheater,50,Venusia,-330.0,640.0,380.0
+126,teramoAmphitheater,50,Interamnia Praetuttiorum,-750.0,2100.0,800.0
+127,bevanaAmphitheater,50,Mevania,-330.0,640.0,380.0
+128,sinuessaAmphitheater,50,Sinues(s)a/Sinope,-330.0,2100.0,380.0
+129,djerbaAmphitheater,50,Meninge,-330.0,640.0,380.0
+130,todiAmphitheater,50,Tusculum,-750.0,2100.0,800.0
+131,henchirDuomaAmphitheater,50,Uchi Maius,-330.0,640.0,380.0
+132,ainToungaAmphitheater,50,Thignica,-330.0,1453.0,380.0
+133,vastoAmphitheater,50,Histonium,-550.0,640.0,600.0
+134,suasaAmphitheater,50,Suasa,-330.0,640.0,380.0
+135,pollenzoAmphitheater,50,Pollentia,-30.0,640.0,80.0
+136,vercelliAmphitheater,50,Vercellae,-550.0,2100.0,600.0
+137,sanGiovanniAmphitheater,50,Fabrateria Nova,-330.0,300.0,380.0
+138,megiddoAmphitheater,50,Legio/Caporcotani/Maximianopolis,-30.0,640.0,80.0
+139,yorkAmphitheater,50,Eburacum,-30.0,640.0,80.0
+140,barcelonaAmphitheater,50,Col. Barcino,-30.0,2100.0,80.0
+141,istanbulAmphitheater,50,Byzantium,-750.0,640.0,800.0
+142,reggioEmiliaAmphitheater,50,Regium Lepidum,-30.0,2100.0,80.0
+143,leptisMagnaAmphitheater,54,Neapolis/Lepcis Magna,-750.0,640.0,804.0
+144,arlesAmphitheater,69,Theline/Col. Arelate/Constantina,-750.0,2100.0,819.0
+145,romeFlavianAmphitheater,69,Roma,-750.0,2100.0,819.0
+146,newsteadAmphitheater,69,Trimontium,-30.0,300.0,99.0
+147,pozzuoliFlavianAmphitheater,69,Dikaiarcheia/Puteoli,-750.0,2100.0,819.0
+148,segobrigaAmphitheater,69,Segobriga,-330.0,2100.0,399.0
+149,parisAmphitheater,69,Lutetia,-330.0,2100.0,399.0
+150,nimesAmphitheater,69,Nemausus,-550.0,2100.0,619.0
+151,chesterAmphitheater,69,Deva,-30.0,640.0,99.0
+152,arezzoAmphitheater,69,Arretium,-750.0,2100.0,819.0
+153,londonAmphitheatre,69,Londinium/Augusta,-30.0,2100.0,99.0
+154,urbisagliaAmphitheater,69,Urbs Salvia,-330.0,640.0,399.0
+155,vindonissaAmphitheater,69,Vindonissa,-330.0,2100.0,399.0
+156,frejusAmphitheater,69,Col. Forum Iulii,-330.0,2100.0,399.0
+157,thevesteAmphitheater,69,Theveste,-330.0,640.0,399.0
+158,terminiImereseAmphitheater,69,Thermae Himeraeae,-550.0,2100.0,619.0
+159,bolsenaAmphitheater,69,Volsinii,-330.0,640.0,399.0
+160,narbonneAmphitheater,69,Col. Narbo Martius,-750.0,2100.0,819.0
+161,capuaImperialAmphitheater,69,Capua,-750.0,640.0,819.0
+162,chichesterAmphitheater,69,Noviomagus,-30.0,2100.0,99.0
+163,metzAmphitheater,75,Divodurum?,-30.0,300.0,105.0
+164,lyonAmphitheater,100,Col. Lugdunum,-550.0,2100.0,650.0
+165,eleutheropolisAmphitheater,100,Beth Govrin/Eleutheropolis,-30.0,640.0,130.0
+166,carthageAmphitheater,100,Carthago,-750.0,2100.0,850.0
+167,porolissumAmphitheater,100,Porolissum,-30.0,300.0,130.0
+168,carnuntumCivilianAmphitheater,100,Carnuntum,-30.0,640.0,130.0
+169,tarragonaAmphitheater,100,Col. Tarraco,-550.0,2100.0,650.0
+170,cagliariAmphitheater,100,Caralis,-750.0,2100.0,850.0
+171,italicaAmphitheater,100,Italica,-330.0,640.0,430.0
+172,viminaciumAmphitheater,100,Viminacium,-30.0,2100.0,130.0
+173,gennesAmphitheater,100,*Geinum,-30.0,640.0,130.0
+174,bordeauxAmphitheater,100,Burdigala,-30.0,2100.0,130.0
+175,oudnaAmphitheater,100,Uthina,-30.0,640.0,130.0
+176,sarmizegetusaAmphitheatre,100,Ulpia Traiana Sarmizegetusa,-30.0,300.0,130.0
+177,salonaAmphitheatre,100,Salona,-330.0,2100.0,430.0
+178,durresAmphitheatre,100,Dyrr(h)achium/Epidamnos,-750.0,640.0,850.0
+179,lambaesisAmphitheater,100,Lambaesis,-30.0,2100.0,130.0
+180,cirencesterAmphitheater,100,Corinium,-30.0,640.0,130.0
+181,thysdrusSmallAmphitheater,100,Thysdrus,-330.0,2100.0,430.0
+182,gortynAmphitheater,100,Gortyn(a),-750.0,640.0,850.0
+183,leptiminusAmphitheater,100,Lepti Minus,-330.0,640.0,430.0
+184,caesareaAmphitheater,100,Stratonos Pyrgos/Caesarea,-330.0,2100.0,430.0
+185,pergamumAmphitheater,100,Pergamum,-1750.0,2000.0,1850.0
+186,sabrathaAmphitheater,100,Abrotonum/Sabratha,-750.0,640.0,850.0
+187,carmarthenAmphitheater,100,*Moridunum,-30.0,640.0,130.0
+188,sbeitlaAmphitheater,100,Sufetula,-30.0,640.0,130.0
+189,trierAmphitheater,100,Col. Augusta Treverorum,-30.0,2100.0,130.0
+190,besanconAmphitheater,100,Vesontio,-330.0,2100.0,430.0
+191,limogesAmphitheater,100,Augustoritum,-30.0,2100.0,130.0
+192,amiensAmphitheater,100,Samarobriva Ambianorum,-330.0,2100.0,430.0
+193,seressiAmphitheater,100,*Seressi,-30.0,640.0,130.0
+194,chemtouAmphitheater,100,Simitthu,-330.0,2100.0,430.0
+195,genzanoPrivateAmphitheater,100,Antonini,-30.0,640.0,130.0
+196,ainHedjahAmphitheater,100,Agbia,-30.0,640.0,130.0
+197,uticaAmphitheater,100,Utica,-750.0,640.0,850.0
+198,tebourbaAmphitheater,100,Thuburbi Minus,-330.0,2100.0,430.0
+199,hencherElKasbatAmphitheater,100,Thuburbo Maius,-330.0,640.0,430.0
+200,hencherZembraAmphitheater,100,Uluzibbira,-330.0,640.0,430.0
+201,botriaAmphitheater,100,Acholla,-330.0,640.0,430.0
+202,portusOvalStructure,100,Portus,-30.0,2100.0,130.0
+203,mesarafeltaAmphitheater,100,Mesarfelta,-30.0,640.0,130.0
+204,tigavaCastraAmphitheater,100,Tigava Castra,-30.0,300.0,130.0
+205,tusculumAmphitheater,100,Tusculum,-750.0,2100.0,850.0
+206,hadrianVillaAmphitheater,117,Villa Hadriani,-330.0,640.0,447.0
+207,gemellaeAmphitheater,117,Gemellae,-30.0,640.0,147.0
+208,toursAmphitheater,117,Caesarodunum,-30.0,2100.0,147.0
+209,riminiAmphitheater,117,Ariminum,-550.0,640.0,667.0
+210,colAugustaRauricaAmphitheatre,150,Col. Augusta Raurica,-330.0,2100.0,480.0
+211,tipasaAmphitheater,150,Tipasa,-550.0,640.0,700.0
+212,bullaRegiaAmphitheater,150,Bulla Regia,-330.0,640.0,480.0
+213,duraEuroposAmphitheater,193,Dura,-330.0,640.0,523.0
+214,romeAmphitheatrumCastrense,193,Roma,-750.0,2100.0,943.0
+215,marcianopolisAmphitheater,193,Marcianopolis,-30.0,640.0,223.0
+216,bararusAmphitheater,193,Bararus,-30.0,640.0,223.0
+217,castraAlbanaAmphitheater,193,Castra Albana,-30.0,640.0,223.0
+218,grandHalfAmphitheater,200,Grannum,-30.0,2100.0,230.0
+219,thysdrusAmphitheater,235,Thysdrus,-330.0,2100.0,565.0
+220,sophiaAmphitheater,235,Serdica,-30.0,2100.0,265.0
+221,aphrodisiasAmphitheater,300,Aphrodisias,-550.0,640.0,850.0
