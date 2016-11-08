@@ -53,8 +53,8 @@
             <div type="edition">
                     <ab>
                     <lb/><supplied reason="lost">Ἔ</supplied>δοξεν <unclear reason="damage">τ</unclear>ῆι <rs type="citizen_body" key="βουλή">βουλῆι</rs> καὶ τῶι<rs type="citizen_body" key="δῆμος"><w part="I"> δ<unclear reason="damage">ήμ</unclear><supplied reason="lost" extent="9-10">ωι </supplied></w></rs><orig>τη</orig><supplied reason="lost" extent="5"/><orig>ι</orig> Μα-
-                    <lb/><supplied reason="lost">ρσ</supplied><unclear reason="damage">ύ</unclear>ου τοῦ <persName type="aphrodisian"><name reg="Ἀπολλώνιος">Ἀπολλωνίου</name></persName> τοῦ <persName type="aphrodisian"><name reg="Μάρσιος">Μαρσύ<unclear reason="damage">ου</unclear></name></persName> <rs type="official" key="γραμματεὺς τοῦ δήμου"><unclear reason="damage">γ</unclear>ρα<unclear reason="damage">μμα</unclear>τέως δήμου</rs> καὶ
-                    <lb/><supplied reason="lost" extent="1"/><orig>αυ</orig> <rs type="official" key="ἐπὶ τῆς χώρας στρατηγός">ἐπὶ τῆς χώρας στρατηγοῦ</rs>· ἐπεὶ Ἑρμογένης <persName type="aphrodisian"><name reg="Ἡφαιστίων">Ἡφαιστίωνος</name></persName>
+                    <lb/><supplied reason="lost">ρσ</supplied><unclear reason="damage">ύ</unclear>ου τοῦ <persName type="aphrodisian"><name nymRef="Ἀπολλώνιος">Ἀπολλωνίου</name></persName> τοῦ <persName type="aphrodisian"><name nymRef="Μάρσιος">Μαρσύ<unclear reason="damage">ου</unclear></name></persName> <rs type="official" key="γραμματεὺς τοῦ δήμου"><unclear reason="damage">γ</unclear>ρα<unclear reason="damage">μμα</unclear>τέως δήμου</rs> καὶ
+                    <lb/><supplied reason="lost" extent="1"/><orig>αυ</orig> <rs type="official" key="ἐπὶ τῆς χώρας στρατηγός">ἐπὶ τῆς χώρας στρατηγοῦ</rs>· ἐπεὶ Ἑρμογένης <persName type="aphrodisian"><name nymRef="Ἡφαιστίων">Ἡφαιστίωνος</name></persName>
                     <lb n="4"/><unclear reason="damage">Θ</unclear>εόδοτος, <rs type="family_tradition" key="πρῶτοι καὶ ἐνδοξότατοι πολείται">τῶν πρώτων καὶ ἐνδοξοτάτων πολειτῶν</rs>, προγόνων
                     <lb/>ὑπάρχων τῶν μεγίστων καὶ συνεκτικότων τὸν <rs type="citizen_body" key="δῆμος">δῆμον</rs> καὶ ἐν ἀ-
                     <lb/><unclear reason="damage">ρ</unclear>ετῆι καὶ φιλοδοξίαις καὶ ἐπανγελίαις πλείσταις καὶ τοῖς καλ-
@@ -77,7 +77,7 @@
                     <lb/><unclear reason="damage">θ</unclear>αι αὐτοῦ· δεδόχθαι τῇ <rs type="citizen_body" key="βουλή">βουλῇ</rs> καὶ τῶι <rs type="citizen_body" key="δῆμος">δήμωι</rs> ἐπῃνῆσθαι αὐτὸν καὶ μετηλ-
                     <lb n="24"/><unclear reason="damage">λα</unclear>χότα καὶ στεφανωθῆναι ὑπὸ τῆς <rs type="citizen_body" key="βουλή">βουλῆς</rs> καὶ τοῦ <rs type="citizen_body" key="δῆμος">δήμου</rs>
                     <lb/><space quantity="3" unit="character"/>στεφάνωι ἀριστήωι ἀπὸ χρυσῶν ἑκατόν·<space quantity="12" unit="character"/>
-                    <lb/><space quantity="4" unit="character"/><persName type="aphrodisian"><name reg="Ἑρμογένης Θεόδοτος"><persName type="aphrodisian"><name reg="Ἡφαιστίων">Ἡφαιστίωνος</name></persName> Θεόδοτε</name></persName>, χαῖρε<space quantity="10" unit="character"/>
+                    <lb/><space quantity="4" unit="character"/><persName type="aphrodisian"><name nymRef="Ἑρμογένης Θεόδοτος"><persName type="aphrodisian"><name nymRef="Ἡφαιστίων">Ἡφαιστίωνος</name></persName> Θεόδοτε</name></persName>, χαῖρε<space quantity="10" unit="character"/>
                     </ab>
             </div>
             <div type="apparatus">
