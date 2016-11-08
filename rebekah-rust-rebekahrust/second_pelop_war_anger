@@ -1,0 +1,98 @@
+,play,line_number,lexical_reference_form,playwright,date
+0,philoctetes,323,θυμός,sophocles,409.0
+1,philoctetes,324,θυμός,sophocles,409.0
+2,philoctetes,706,θυμός,sophocles,409.0
+3,philoctetes,922,θυμός,sophocles,409.0
+4,philoctetes,328,"χόλος, χολή",sophocles,409.0
+5,philoctetes,374,"χόλος, χολή",sophocles,409.0
+6,philoctetes,368,ὀργή,sophocles,409.0
+7,philoctetes,377,ὀργή,sophocles,409.0
+8,philoctetes,1309,ὀργή,sophocles,409.0
+9,helen,717,θυμός,euripides,412.0
+10,helen,1343,θυμός,euripides,412.0
+11,helen,1523,θυμός,euripides,412.0
+12,helen,1355,μῆνις,euripides,412.0
+13,helen,442,"χόλος, χολή",euripides,412.0
+14,helen,80,ὀργή,euripides,412.0
+15,helen,1340,ὀργή,euripides,412.0
+16,helen,1642,ὀργή,euripides,412.0
+17,helen,1646,ὀργή,euripides,412.0
+18,phoenissiae,454,θυμός,euripides,410.0
+19,phoenissiae,461,θυμός,euripides,410.0
+20,phoenissiae,589,θυμός,euripides,410.0
+21,phoenissiae,902,θυμός,euripides,410.0
+22,phoenissiae,1430,θυμός,euripides,410.0
+23,phoenissiae,1448,θυμός,euripides,410.0
+24,phoenissiae,1678,θυμός,euripides,410.0
+25,phoenissiae,1683,θυμός,euripides,410.0
+26,phoenissiae,1709,θυμός,euripides,410.0
+27,orestes,296,θυμός,euripides,408.0
+28,orestes,702,θυμός,euripides,408.0
+29,orestes,708,θυμός,euripides,408.0
+30,orestes,751,θυμός,euripides,408.0
+31,orestes,765,θυμός,euripides,408.0
+32,orestes,1198,θυμός,euripides,408.0
+33,orestes,1629,θυμός,euripides,408.0
+34,orestes,490,ὀργή,euripides,408.0
+35,orestes,696,ὀργή,euripides,408.0
+36,orestes,1630,ὀργή,euripides,408.0
+37,bacchae,610,θυμός,euripides,405.0
+38,bacchae,620,θυμός,euripides,405.0
+39,bacchae,671,θυμός,euripides,405.0
+40,bacchae,673,θυμός,euripides,405.0
+41,bacchae,743,θυμός,euripides,405.0
+42,bacchae,794,θυμός,euripides,405.0
+43,bacchae,829,θυμός,euripides,405.0
+44,bacchae,912,θυμός,euripides,405.0
+45,bacchae,1101,θυμός,euripides,405.0
+46,bacchae,51,ὀργή,euripides,405.0
+47,bacchae,537,ὀργή,euripides,405.0
+48,bacchae,641,ὀργή,euripides,405.0
+49,bacchae,647,ὀργή,euripides,405.0
+50,bacchae,758,ὀργή,euripides,405.0
+51,bacchae,997,ὀργή,euripides,405.0
+52,bacchae,1348,ὀργή,euripides,405.0
+53,iphigenia_at_aulis,125,θυμός,euripides,405.0
+54,iphigenia_at_aulis,919,θυμός,euripides,405.0
+55,iphigenia_at_aulis,1369,θυμός,euripides,405.0
+56,iphigenia_at_aulis,1371,θυμός,euripides,405.0
+57,iphigenia_at_aulis,1609,"χόλος, χολή",euripides,405.0
+58,iphigenia_at_aulis,335,ὀργή,euripides,405.0
+59,iphigenia_at_aulis,631,ὀργή,euripides,405.0
+60,iphigenia_at_aulis,637,ὀργή,euripides,405.0
+61,frogs,40,θυμός,aristophanes,405.0
+62,frogs,62,θυμός,aristophanes,405.0
+63,frogs,203,θυμός,aristophanes,405.0
+64,frogs,360,θυμός,aristophanes,405.0
+65,frogs,584,θυμός,aristophanes,405.0
+66,frogs,895,θυμός,aristophanes,405.0
+67,frogs,995,θυμός,aristophanes,405.0
+68,frogs,1006,θυμός,aristophanes,405.0
+69,frogs,1017,θυμός,aristophanes,405.0
+70,frogs,1026,θυμός,aristophanes,405.0
+71,frogs,4,"χόλος, χολή",aristophanes,405.0
+72,frogs,814,"χόλος, χολή",aristophanes,405.0
+73,frogs,700,ὀργή,aristophanes,405.0
+74,frogs,844,ὀργή,aristophanes,405.0
+75,frogs,855,ὀργή,aristophanes,405.0
+76,frogs,856,ὀργή,aristophanes,405.0
+77,frogs,998,ὀργή,aristophanes,405.0
+78,lysistrata,152,θυμός,aristophanes,411.0
+79,lysistrata,486,θυμός,aristophanes,411.0
+80,lysistrata,551,θυμός,aristophanes,411.0
+81,lysistrata,709,θυμός,aristophanes,411.0
+82,lysistrata,465,"χόλος, χολή",aristophanes,411.0
+83,lysistrata,505,ὀργή,aristophanes,411.0
+84,lysistrata,550,ὀργή,aristophanes,411.0
+85,lysistrata,687,ὀργή,aristophanes,411.0
+86,lysistrata,1023,ὀργή,aristophanes,411.0
+87,lysistrata,1113,ὀργή,aristophanes,411.0
+88,thesmophoriazusae,466,θυμός,aristophanes,411.0
+89,thesmophoriazusae,518,θυμός,aristophanes,411.0
+90,thesmophoriazusae,798,θυμός,aristophanes,411.0
+91,thesmophoriazusae,978,θυμός,aristophanes,411.0
+92,thesmophoriazusae,982,θυμός,aristophanes,411.0
+93,thesmophoriazusae,1123,θυμός,aristophanes,411.0
+94,thesmophoriazusae,1135,θυμός,aristophanes,411.0
+95,thesmophoriazusae,468,"χόλος, χολή",aristophanes,411.0
+96,thesmophoriazusae,691,"χόλος, χολή",aristophanes,411.0
