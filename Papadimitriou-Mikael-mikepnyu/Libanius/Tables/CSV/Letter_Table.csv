@@ -1,0 +1,11 @@
+Letter_ID,Date_Min,Date_Max,Destination,Recipient_ID,Carrier_ID
+0399,355,355,Constantinople,001,
+0560,357,357,Constantinople,001,001
+0156,360,360,Phoenicia,001,002
+0158,360,360,Palestina Prima,002,
+0159,360,360,Phoenicia,001,
+0166,360,360,Phoenicia,001,
+0175,360,360,Phoenicia,001,003
+1460,363,363,Phoenicia,001,004
+0838,363,363,,003,
+1357,363,363,Apamea,004,
