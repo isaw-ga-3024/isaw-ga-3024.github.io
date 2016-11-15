@@ -1,52 +1,52 @@
-﻿id	inscription_num	action	fulldescription	quality	quality_greek	of_what	of_what_greek	to_whom	to_whom_greek
-aphro000440	IAph2007 8.113	benefaction	dedication1			"theater, block of seats"	τὴν κερκεῖδα	Aphrodite	Ἀφροδίτ̣ῃ
-aphro000440	IAph2007 8.113	benefaction	dedication1			"theater, block of seats"	τὴν κερκεῖδα	Augusti	θεοῖς Σεβαστοῖς
-aphro000440	IAph2007 8.113	benefaction	dedication1			"theater, block of seats"	τὴν κερκεῖδα	People	τῶι Δήμωι
-aphro000440	IAph2007 8.113	benefaction	dedication1			"theater, vaults"	τὰς ψελίδας	Aphrodite	Ἀφροδίτ̣ῃ
-aphro000440	IAph2007 8.113	benefaction	dedication1			"theater, vaults"	τὰς ψελίδας	Augusti	θεοῖς Σεβαστοῖς
-aphro000440	IAph2007 8.113	benefaction	dedication1			"theater, vaults"	τὰς ψελίδας	People	τῶι Δήμωι
-aphro000440	IAph2007 8.113	benefaction	dedication1			"theater, the third bank of seats in the auditorium"	τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου 	Aphrodite	Ἀφροδίτ̣ῃ
-aphro000440	IAph2007 8.113	benefaction	dedication1			"theater, the third bank of seats in the auditorium"	τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου 	Augusti	θεοῖς Σεβαστοῖς
-aphro000440	IAph2007 8.113	benefaction	dedication1			"theater, the third bank of seats in the auditorium"	τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου 	People	τῶι Δήμωι
-aphro000440	IAph2007 8.113	characterization1	dedication1	ambitious	φιλόδοξος 				
-aphro000440	IAph2007 8.113	characterization2	dedication1	lover of the city	φιλόπολις 				
-aphro001383	IAph2007 8.113	benefaction	dedication1			"theater, block of seats"	τὴν κερκεῖδα	Aphrodite	Ἀφροδίτ̣ῃ
-aphro001383	IAph2007 8.113	benefaction	dedication1			"theater, block of seats"	τὴν κερκεῖδα	Augusti	θεοῖς Σεβαστοῖς
-aphro001383	IAph2007 8.113	benefaction	dedication1			"theater, block of seats"	τὴν κερκεῖδα	People	τῶι Δήμωι
-aphro001383	IAph2007 8.113	benefaction	dedication1			"theater, vaults"	τὰς ψελίδας	Aphrodite	Ἀφροδίτ̣ῃ
-aphro001383	IAph2007 8.113	benefaction	dedication1			"theater, vaults"	τὰς ψελίδας	Augusti	θεοῖς Σεβαστοῖς
-aphro001383	IAph2007 8.113	benefaction	dedication1			"theater, vaults"	τὰς ψελίδας	People	τῶι Δήμωι
-aphro001383	IAph2007 8.113	benefaction	dedication1			"theater, the third bank of seats in the auditorium"	τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου 	Aphrodite	Ἀφροδίτ̣ῃ
-aphro001383	IAph2007 8.113	benefaction	dedication1			"theater, the third bank of seats in the auditorium"	τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου 	Augusti	θεοῖς Σεβαστοῖς
-aphro001383	IAph2007 8.113	benefaction	dedication1			"theater, the third bank of seats in the auditorium"	τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου 	People	τῶι Δήμωι
-aphro000956	IAph2007 8.113	benefaction	dedication2			"theater, the third bank of seats in the auditorium"	 τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου 	Aphrodite	Ἀφροδίτ̣ῃ
-aphro000956	IAph2007 8.114	benefaction	dedication2			"theater, the third bank of seats in the auditorium"	 τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου 	Augusti	θεοῖς Σεβαστοῖς
-aphro000956	IAph2007 8.115	benefaction	dedication2			"theater, the third bank of seats in the auditorium"	 τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου 	People	τῶι Δήμωι
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
+﻿id,inscription_num,action,fulldescription,quality,quality_greek,of_what,of_what_greek,to_whom,to_whom_greek
+aphro000440,IAph2007 8.113,benefaction,dedication1,,,"theater, block of seats",τὴν κερκεῖδα,Aphrodite,Ἀφροδίτ̣ῃ
+aphro000440,IAph2007 8.113,benefaction,dedication1,,,"theater, block of seats",τὴν κερκεῖδα,Augusti,θεοῖς Σεβαστοῖς
+aphro000440,IAph2007 8.113,benefaction,dedication1,,,"theater, block of seats",τὴν κερκεῖδα,People,τῶι Δήμωι
+aphro000440,IAph2007 8.113,benefaction,dedication1,,,"theater, vaults",τὰς ψελίδας,Aphrodite,Ἀφροδίτ̣ῃ
+aphro000440,IAph2007 8.113,benefaction,dedication1,,,"theater, vaults",τὰς ψελίδας,Augusti,θεοῖς Σεβαστοῖς
+aphro000440,IAph2007 8.113,benefaction,dedication1,,,"theater, vaults",τὰς ψελίδας,People,τῶι Δήμωι
+aphro000440,IAph2007 8.113,benefaction,dedication1,,,"theater, the third bank of seats in the auditorium",τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου ,Aphrodite,Ἀφροδίτ̣ῃ
+aphro000440,IAph2007 8.113,benefaction,dedication1,,,"theater, the third bank of seats in the auditorium",τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου ,Augusti,θεοῖς Σεβαστοῖς
+aphro000440,IAph2007 8.113,benefaction,dedication1,,,"theater, the third bank of seats in the auditorium",τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου ,People,τῶι Δήμωι
+aphro000440,IAph2007 8.113,characterization1,dedication1,ambitious,φιλόδοξος ,,,,
+aphro000440,IAph2007 8.113,characterization2,dedication1,lover of the city,φιλόπολις ,,,,
+aphro001383,IAph2007 8.113,benefaction,dedication1,,,"theater, block of seats",τὴν κερκεῖδα,Aphrodite,Ἀφροδίτ̣ῃ
+aphro001383,IAph2007 8.113,benefaction,dedication1,,,"theater, block of seats",τὴν κερκεῖδα,Augusti,θεοῖς Σεβαστοῖς
+aphro001383,IAph2007 8.113,benefaction,dedication1,,,"theater, block of seats",τὴν κερκεῖδα,People,τῶι Δήμωι
+aphro001383,IAph2007 8.113,benefaction,dedication1,,,"theater, vaults",τὰς ψελίδας,Aphrodite,Ἀφροδίτ̣ῃ
+aphro001383,IAph2007 8.113,benefaction,dedication1,,,"theater, vaults",τὰς ψελίδας,Augusti,θεοῖς Σεβαστοῖς
+aphro001383,IAph2007 8.113,benefaction,dedication1,,,"theater, vaults",τὰς ψελίδας,People,τῶι Δήμωι
+aphro001383,IAph2007 8.113,benefaction,dedication1,,,"theater, the third bank of seats in the auditorium",τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου ,Aphrodite,Ἀφροδίτ̣ῃ
+aphro001383,IAph2007 8.113,benefaction,dedication1,,,"theater, the third bank of seats in the auditorium",τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου ,Augusti,θεοῖς Σεβαστοῖς
+aphro001383,IAph2007 8.113,benefaction,dedication1,,,"theater, the third bank of seats in the auditorium",τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου ,People,τῶι Δήμωι
+aphro000956,IAph2007 8.113,benefaction,dedication2,,,"theater, the third bank of seats in the auditorium", τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου ,Aphrodite,Ἀφροδίτ̣ῃ
+aphro000956,IAph2007 8.114,benefaction,dedication2,,,"theater, the third bank of seats in the auditorium", τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου ,Augusti,θεοῖς Σεβαστοῖς
+aphro000956,IAph2007 8.115,benefaction,dedication2,,,"theater, the third bank of seats in the auditorium", τὸ τρίτ̣ον διάζωμα τοῦ θεάτρου ,People,τῶι Δήμωι
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
