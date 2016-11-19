@@ -110,7 +110,7 @@
             
         
             
-            <style> #map_02fc21637d194c9195a6c52876324118 {
+            <style> #map_9ff32a8c8ab5484f8ef467168149c2d8 {
                 position : relative;
                 width : 100.0%;
                 height: 100.0%;
@@ -126,7 +126,7 @@
             
         
             
-            <div class="folium-map" id="map_02fc21637d194c9195a6c52876324118" ></div>
+            <div class="folium-map" id="map_9ff32a8c8ab5484f8ef467168149c2d8" ></div>
         
         
         
@@ -140,7 +140,7 @@
             var northEast = L.latLng(90, 180);
             var bounds = L.latLngBounds(southWest, northEast);
 
-            var map_02fc21637d194c9195a6c52876324118 = L.map('map_02fc21637d194c9195a6c52876324118', {
+            var map_9ff32a8c8ab5484f8ef467168149c2d8 = L.map('map_9ff32a8c8ab5484f8ef467168149c2d8', {
                                            center:[38,20],
                                            zoom: 5,
                                            maxBounds: bounds,
@@ -151,7 +151,7 @@
         
         
             
-            var tile_layer_d06f51c120a940ca9d481423db3ab73b = L.tileLayer(
+            var tile_layer_477cb9615dcb462aa683b9dfe0d42d0f = L.tileLayer(
                 'http://{s}.tile.openstreetmap.se/hydda/base/{z}/{x}/{y}.png',
                 {
                     maxZoom: 18,
@@ -159,330 +159,1014 @@
                     attribution: 'Tiles courtesy of <a href="http://openstreetmap.se/" target="_blank">OpenStreetMap Sweden</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
                     detectRetina: false
                     }
-                ).addTo(map_02fc21637d194c9195a6c52876324118);
+                ).addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
 
         
         
             
 
-            var marker_67b6f891d0a5433a809f0eefef0a0d3d = L.marker(
+            var marker_5db29858fe724e9dafcce4625971281e = L.marker(
+                [31.1982456667,29.9079146667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_deb53c1d8eb04902b928c416d23c6d1c = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5db29858fe724e9dafcce4625971281e.setIcon(icon_deb53c1d8eb04902b928c416d23c6d1c);
+            
+        
+            
+            var popup_e56894d07510405a84f72f228a653584 = L.popup({maxWidth: '300'});
+
+            
+                var html_17db227d4af14120bdc62d49dcbeadcd = $('         <div id="html_17db227d4af14120bdc62d49dcbeadcd"                 style="width: 100.0%; height: 100.0%;">                 Alexandria, 1 Letter : F1230</div>                 ')[0];
+                popup_e56894d07510405a84f72f228a653584.setContent(html_17db227d4af14120bdc62d49dcbeadcd);
+            
+
+            marker_5db29858fe724e9dafcce4625971281e.bindPopup(popup_e56894d07510405a84f72f228a653584);
+
+            
+        
+        
+            
+
+            var marker_59e73da952344f3d87cfd837448ba23b = L.marker(
                 [35.49124165,36.401565925],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_02fc21637d194c9195a6c52876324118);
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
             
         
             
 
-                var icon_d48465f1351944a6bc78a51ad8068d6c = L.AwesomeMarkers.icon({
+                var icon_c08faae8e1164ab7b2814446fd432f5d = L.AwesomeMarkers.icon({
                     icon: 'pushpin',
                     iconColor: 'white',
                     markerColor: 'blue',
                     prefix: 'glyphicon',
                     extraClasses: 'fa-rotate-0'
                     });
-                marker_67b6f891d0a5433a809f0eefef0a0d3d.setIcon(icon_d48465f1351944a6bc78a51ad8068d6c);
+                marker_59e73da952344f3d87cfd837448ba23b.setIcon(icon_c08faae8e1164ab7b2814446fd432f5d);
             
         
             
-            var popup_9410867ef7614e7a8e43aafc6e411165 = L.popup({maxWidth: '300'});
+            var popup_b5e0e5359fc24bcc8c48f087ad4a26a7 = L.popup({maxWidth: '300'});
 
             
-                var html_1066888c75184322b95336f7057ad232 = $('         <div id="html_1066888c75184322b95336f7057ad232"                 style="width: 100.0%; height: 100.0%;">                 Apamea, 1 Letter : F1357</div>                 ')[0];
-                popup_9410867ef7614e7a8e43aafc6e411165.setContent(html_1066888c75184322b95336f7057ad232);
+                var html_af349211a0b64ae693a6691213d0b13f = $('         <div id="html_af349211a0b64ae693a6691213d0b13f"                 style="width: 100.0%; height: 100.0%;">                 Apamea, 1 Letter : F1357</div>                 ')[0];
+                popup_b5e0e5359fc24bcc8c48f087ad4a26a7.setContent(html_af349211a0b64ae693a6691213d0b13f);
             
 
-            marker_67b6f891d0a5433a809f0eefef0a0d3d.bindPopup(popup_9410867ef7614e7a8e43aafc6e411165);
+            marker_59e73da952344f3d87cfd837448ba23b.bindPopup(popup_b5e0e5359fc24bcc8c48f087ad4a26a7);
 
             
         
         
             
 
-            var marker_10bd640ac7fc464b900e9625fb11bb85 = L.marker(
-                [41.00746276,28.96060984],
+            var marker_ff8a55ee776a42088673296efabcbe29 = L.marker(
+                [39.5,40.5],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_02fc21637d194c9195a6c52876324118);
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
             
         
             
 
-                var icon_cd1b1347cbaa42329397a1d48f10a147 = L.AwesomeMarkers.icon({
+                var icon_a993968766784756afbfedabe0daf6bc = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ff8a55ee776a42088673296efabcbe29.setIcon(icon_a993968766784756afbfedabe0daf6bc);
+            
+        
+            
+            var popup_5aeaafa6687644bdb645a224f0fa14f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_4e6d3a36dfb4430d95f624d72bde2cf7 = $('         <div id="html_4e6d3a36dfb4430d95f624d72bde2cf7"                 style="width: 100.0%; height: 100.0%;">                 Armenia, 1 Letter : F656</div>                 ')[0];
+                popup_5aeaafa6687644bdb645a224f0fa14f4.setContent(html_4e6d3a36dfb4430d95f624d72bde2cf7);
+            
+
+            marker_ff8a55ee776a42088673296efabcbe29.bindPopup(popup_5aeaafa6687644bdb645a224f0fa14f4);
+
+            
+        
+        
+            
+
+            var marker_e8cf50087a7244549930cb2936ee0813 = L.marker(
+                [41.0197239167,31.5016350833],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_a710fa94f45745a89bcf6b6c23ff775d = L.AwesomeMarkers.icon({
                     icon: 'pushpin',
                     iconColor: 'white',
                     markerColor: 'purple',
                     prefix: 'glyphicon',
                     extraClasses: 'fa-rotate-0'
                     });
-                marker_10bd640ac7fc464b900e9625fb11bb85.setIcon(icon_cd1b1347cbaa42329397a1d48f10a147);
+                marker_e8cf50087a7244549930cb2936ee0813.setIcon(icon_a710fa94f45745a89bcf6b6c23ff775d);
             
         
             
-            var popup_bf60a3eaf642451c9a16b9bd7cfe5d7c = L.popup({maxWidth: '300'});
+            var popup_f9b7c249d0b14d8fae431d9ab5fc3802 = L.popup({maxWidth: '300'});
 
             
-                var html_ccfb8feb67ce453c9e2c2c46260f54dc = $('         <div id="html_ccfb8feb67ce453c9e2c2c46260f54dc"                 style="width: 100.0%; height: 100.0%;">                 Constantinople, 2 Letters</div>                 ')[0];
-                popup_bf60a3eaf642451c9a16b9bd7cfe5d7c.setContent(html_ccfb8feb67ce453c9e2c2c46260f54dc);
+                var html_70ea0ed661234a2ebb10df5d8852b1e2 = $('         <div id="html_70ea0ed661234a2ebb10df5d8852b1e2"                 style="width: 100.0%; height: 100.0%;">                 Bithynia, 2 Letters</div>                 ')[0];
+                popup_f9b7c249d0b14d8fae431d9ab5fc3802.setContent(html_70ea0ed661234a2ebb10df5d8852b1e2);
             
 
-            marker_10bd640ac7fc464b900e9625fb11bb85.bindPopup(popup_bf60a3eaf642451c9a16b9bd7cfe5d7c);
+            marker_e8cf50087a7244549930cb2936ee0813.bindPopup(popup_f9b7c249d0b14d8fae431d9ab5fc3802);
 
             
         
         
             
 
-            var marker_44dd0a41afae477a96caa08363b0753c = L.marker(
-                [41.00746276,28.96060984],
+            var marker_dcfab20e01244ceaaa0d97472306867e = L.marker(
+                [41.0197239167,31.5016350833],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_02fc21637d194c9195a6c52876324118);
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
             
         
             
 
-                var icon_1674e89a1bc548df8ab6ca39690d4ebc = L.AwesomeMarkers.icon({
+                var icon_57235f86df6f4c8da83e4aed08c6f874 = L.AwesomeMarkers.icon({
                     icon: 'pushpin',
                     iconColor: 'white',
                     markerColor: 'purple',
                     prefix: 'glyphicon',
                     extraClasses: 'fa-rotate-0'
                     });
-                marker_44dd0a41afae477a96caa08363b0753c.setIcon(icon_1674e89a1bc548df8ab6ca39690d4ebc);
+                marker_dcfab20e01244ceaaa0d97472306867e.setIcon(icon_57235f86df6f4c8da83e4aed08c6f874);
             
         
             
-            var popup_4e35018594924ce197c4fbc1ee6099e5 = L.popup({maxWidth: '300'});
+            var popup_7d20efc7dbfc4d8cb60db2d480677248 = L.popup({maxWidth: '300'});
 
             
-                var html_f1210fb5c57e428fa3f74d3ce4627131 = $('         <div id="html_f1210fb5c57e428fa3f74d3ce4627131"                 style="width: 100.0%; height: 100.0%;">                 Constantinople, 2 Letters</div>                 ')[0];
-                popup_4e35018594924ce197c4fbc1ee6099e5.setContent(html_f1210fb5c57e428fa3f74d3ce4627131);
+                var html_6939988c527e4a0a9b551488e6945976 = $('         <div id="html_6939988c527e4a0a9b551488e6945976"                 style="width: 100.0%; height: 100.0%;">                 Bithynia, 2 Letters</div>                 ')[0];
+                popup_7d20efc7dbfc4d8cb60db2d480677248.setContent(html_6939988c527e4a0a9b551488e6945976);
             
 
-            marker_44dd0a41afae477a96caa08363b0753c.bindPopup(popup_4e35018594924ce197c4fbc1ee6099e5);
+            marker_dcfab20e01244ceaaa0d97472306867e.bindPopup(popup_7d20efc7dbfc4d8cb60db2d480677248);
 
             
         
         
             
 
-            var marker_fda06dce1b864a6eb13ffe392f5a3bb7 = L.marker(
+            var marker_c44b56ba42de49bea3620e88121ca300 = L.marker(
+                [39.25,35.75],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_3153db3685294e9f97452f41809c7dee = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c44b56ba42de49bea3620e88121ca300.setIcon(icon_3153db3685294e9f97452f41809c7dee);
+            
+        
+            
+            var popup_1d6c75af726d42bea760c8beda0c54c8 = L.popup({maxWidth: '300'});
+
+            
+                var html_c6546cb7226a48ff85e3eb9ea1df701c = $('         <div id="html_c6546cb7226a48ff85e3eb9ea1df701c"                 style="width: 100.0%; height: 100.0%;">                 Cappadocia, 4 Letters</div>                 ')[0];
+                popup_1d6c75af726d42bea760c8beda0c54c8.setContent(html_c6546cb7226a48ff85e3eb9ea1df701c);
+            
+
+            marker_c44b56ba42de49bea3620e88121ca300.bindPopup(popup_1d6c75af726d42bea760c8beda0c54c8);
+
+            
+        
+        
+            
+
+            var marker_89e36e74316b4f2ba16a740a5eb99518 = L.marker(
+                [39.25,35.75],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_a5c55efe82d94fffabd1e84874c0c1a2 = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_89e36e74316b4f2ba16a740a5eb99518.setIcon(icon_a5c55efe82d94fffabd1e84874c0c1a2);
+            
+        
+            
+            var popup_6523ca495ec4477699b8ab79ad4fb6bd = L.popup({maxWidth: '300'});
+
+            
+                var html_a72391b8d3ee4fc9bf6bdacc025446df = $('         <div id="html_a72391b8d3ee4fc9bf6bdacc025446df"                 style="width: 100.0%; height: 100.0%;">                 Cappadocia, 4 Letters</div>                 ')[0];
+                popup_6523ca495ec4477699b8ab79ad4fb6bd.setContent(html_a72391b8d3ee4fc9bf6bdacc025446df);
+            
+
+            marker_89e36e74316b4f2ba16a740a5eb99518.bindPopup(popup_6523ca495ec4477699b8ab79ad4fb6bd);
+
+            
+        
+        
+            
+
+            var marker_1f187fbbe87d4746b8cc7b5ce243935f = L.marker(
+                [39.25,35.75],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_0770da85e34e4610998d621fae44d2fa = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1f187fbbe87d4746b8cc7b5ce243935f.setIcon(icon_0770da85e34e4610998d621fae44d2fa);
+            
+        
+            
+            var popup_9d52d3f09dff4171ad59fb6339364489 = L.popup({maxWidth: '300'});
+
+            
+                var html_c06136e65aa84b62905ac799dbab60e4 = $('         <div id="html_c06136e65aa84b62905ac799dbab60e4"                 style="width: 100.0%; height: 100.0%;">                 Cappadocia, 4 Letters</div>                 ')[0];
+                popup_9d52d3f09dff4171ad59fb6339364489.setContent(html_c06136e65aa84b62905ac799dbab60e4);
+            
+
+            marker_1f187fbbe87d4746b8cc7b5ce243935f.bindPopup(popup_9d52d3f09dff4171ad59fb6339364489);
+
+            
+        
+        
+            
+
+            var marker_4908f2afdff949158abf3f89c0906000 = L.marker(
+                [39.25,35.75],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_1a9efbd723664d008eaba103a697f8d4 = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4908f2afdff949158abf3f89c0906000.setIcon(icon_1a9efbd723664d008eaba103a697f8d4);
+            
+        
+            
+            var popup_407210d2cc0941ceb6a6da62702eed13 = L.popup({maxWidth: '300'});
+
+            
+                var html_126e2249e7554f3194f42209ac8cf110 = $('         <div id="html_126e2249e7554f3194f42209ac8cf110"                 style="width: 100.0%; height: 100.0%;">                 Cappadocia, 4 Letters</div>                 ')[0];
+                popup_407210d2cc0941ceb6a6da62702eed13.setContent(html_126e2249e7554f3194f42209ac8cf110);
+            
+
+            marker_4908f2afdff949158abf3f89c0906000.bindPopup(popup_407210d2cc0941ceb6a6da62702eed13);
+
+            
+        
+        
+            
+
+            var marker_673dbe6109cd4bfeab61a9ae0d202719 = L.marker(
+                [36.25,33.25],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_ae253853d6ba417b8d3069a5235e5a7e = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_673dbe6109cd4bfeab61a9ae0d202719.setIcon(icon_ae253853d6ba417b8d3069a5235e5a7e);
+            
+        
+            
+            var popup_61188eed04374d1ca57dec1d8abba3fd = L.popup({maxWidth: '300'});
+
+            
+                var html_a4d63c28fb4043fca8596668ba30ad9b = $('         <div id="html_a4d63c28fb4043fca8596668ba30ad9b"                 style="width: 100.0%; height: 100.0%;">                 Cilicia, 1 Letter : F1411</div>                 ')[0];
+                popup_61188eed04374d1ca57dec1d8abba3fd.setContent(html_a4d63c28fb4043fca8596668ba30ad9b);
+            
+
+            marker_673dbe6109cd4bfeab61a9ae0d202719.bindPopup(popup_61188eed04374d1ca57dec1d8abba3fd);
+
+            
+        
+        
+            
+
+            var marker_072de1b585254ddc8e1d198b8a3e5aa7 = L.marker(
+                [41.00746276,28.96060984],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_0c7c4aec9d4c4f038296af031bb659e5 = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_072de1b585254ddc8e1d198b8a3e5aa7.setIcon(icon_0c7c4aec9d4c4f038296af031bb659e5);
+            
+        
+            
+            var popup_2e90dd6725ff42baa12ea7b775e208b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_7dbbf9255aba40498cc3837fa86d03e9 = $('         <div id="html_7dbbf9255aba40498cc3837fa86d03e9"                 style="width: 100.0%; height: 100.0%;">                 Constantinople, 2 Letters</div>                 ')[0];
+                popup_2e90dd6725ff42baa12ea7b775e208b5.setContent(html_7dbbf9255aba40498cc3837fa86d03e9);
+            
+
+            marker_072de1b585254ddc8e1d198b8a3e5aa7.bindPopup(popup_2e90dd6725ff42baa12ea7b775e208b5);
+
+            
+        
+        
+            
+
+            var marker_c7221d947c6f4d41a627ca1f2e0ab3bc = L.marker(
+                [41.00746276,28.96060984],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_3b61870d4eaf4dd898e984b25cd6f415 = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c7221d947c6f4d41a627ca1f2e0ab3bc.setIcon(icon_3b61870d4eaf4dd898e984b25cd6f415);
+            
+        
+            
+            var popup_31b878c4d88141aba6de60d0fcf6ef1d = L.popup({maxWidth: '300'});
+
+            
+                var html_7bca47f2f73145c1918dbd2f18a67829 = $('         <div id="html_7bca47f2f73145c1918dbd2f18a67829"                 style="width: 100.0%; height: 100.0%;">                 Constantinople, 2 Letters</div>                 ')[0];
+                popup_31b878c4d88141aba6de60d0fcf6ef1d.setContent(html_7bca47f2f73145c1918dbd2f18a67829);
+            
+
+            marker_c7221d947c6f4d41a627ca1f2e0ab3bc.bindPopup(popup_31b878c4d88141aba6de60d0fcf6ef1d);
+
+            
+        
+        
+            
+
+            var marker_ea56622c7a9a4bd4a97229c5f5c55c42 = L.marker(
+                [37.5,32.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_9f9012a67f6742529170450003d04f13 = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ea56622c7a9a4bd4a97229c5f5c55c42.setIcon(icon_9f9012a67f6742529170450003d04f13);
+            
+        
+            
+            var popup_6f74d50b6892453797e742629c090e0b = L.popup({maxWidth: '300'});
+
+            
+                var html_a7c6266830884ed4b4389cc25376aeac = $('         <div id="html_a7c6266830884ed4b4389cc25376aeac"                 style="width: 100.0%; height: 100.0%;">                 Galatia, 8 Letters</div>                 ')[0];
+                popup_6f74d50b6892453797e742629c090e0b.setContent(html_a7c6266830884ed4b4389cc25376aeac);
+            
+
+            marker_ea56622c7a9a4bd4a97229c5f5c55c42.bindPopup(popup_6f74d50b6892453797e742629c090e0b);
+
+            
+        
+        
+            
+
+            var marker_b91b028afc47497a975216307fb16427 = L.marker(
+                [37.5,32.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_3f5a83419f0f494aacd2b91bd1cc507c = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b91b028afc47497a975216307fb16427.setIcon(icon_3f5a83419f0f494aacd2b91bd1cc507c);
+            
+        
+            
+            var popup_74dc081d4c004a22b2feb6cb605b2e21 = L.popup({maxWidth: '300'});
+
+            
+                var html_78b86cfeb15a49d9b4cdbabf24605a76 = $('         <div id="html_78b86cfeb15a49d9b4cdbabf24605a76"                 style="width: 100.0%; height: 100.0%;">                 Galatia, 8 Letters</div>                 ')[0];
+                popup_74dc081d4c004a22b2feb6cb605b2e21.setContent(html_78b86cfeb15a49d9b4cdbabf24605a76);
+            
+
+            marker_b91b028afc47497a975216307fb16427.bindPopup(popup_74dc081d4c004a22b2feb6cb605b2e21);
+
+            
+        
+        
+            
+
+            var marker_624a4e126a5d40ed9f06c71a9eb0ecd8 = L.marker(
+                [37.5,32.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_e06039db03b84e67adc8a5217021b954 = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_624a4e126a5d40ed9f06c71a9eb0ecd8.setIcon(icon_e06039db03b84e67adc8a5217021b954);
+            
+        
+            
+            var popup_db808d349ce34e21abeec5fae5555775 = L.popup({maxWidth: '300'});
+
+            
+                var html_af7a253bb7e84e89b644151b82180ceb = $('         <div id="html_af7a253bb7e84e89b644151b82180ceb"                 style="width: 100.0%; height: 100.0%;">                 Galatia, 8 Letters</div>                 ')[0];
+                popup_db808d349ce34e21abeec5fae5555775.setContent(html_af7a253bb7e84e89b644151b82180ceb);
+            
+
+            marker_624a4e126a5d40ed9f06c71a9eb0ecd8.bindPopup(popup_db808d349ce34e21abeec5fae5555775);
+
+            
+        
+        
+            
+
+            var marker_39f007b9b56444699c2907cf270855c5 = L.marker(
+                [37.5,32.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_9043fc5196ca4db9988830b730d76350 = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_39f007b9b56444699c2907cf270855c5.setIcon(icon_9043fc5196ca4db9988830b730d76350);
+            
+        
+            
+            var popup_89754f65ace641bab81252c37bec6b1d = L.popup({maxWidth: '300'});
+
+            
+                var html_8cf4cb77f5964a6c9fe4556cf88cc8ec = $('         <div id="html_8cf4cb77f5964a6c9fe4556cf88cc8ec"                 style="width: 100.0%; height: 100.0%;">                 Galatia, 8 Letters</div>                 ')[0];
+                popup_89754f65ace641bab81252c37bec6b1d.setContent(html_8cf4cb77f5964a6c9fe4556cf88cc8ec);
+            
+
+            marker_39f007b9b56444699c2907cf270855c5.bindPopup(popup_89754f65ace641bab81252c37bec6b1d);
+
+            
+        
+        
+            
+
+            var marker_bc776c4a69114ea08cf8598edd8d2ea5 = L.marker(
+                [37.5,32.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_509b123c9c57446190885192d9d66790 = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bc776c4a69114ea08cf8598edd8d2ea5.setIcon(icon_509b123c9c57446190885192d9d66790);
+            
+        
+            
+            var popup_193f9ba249484b32b59b93ce30c89f02 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b17fa90234342dbb53ee54226c0bebe = $('         <div id="html_8b17fa90234342dbb53ee54226c0bebe"                 style="width: 100.0%; height: 100.0%;">                 Galatia, 8 Letters</div>                 ')[0];
+                popup_193f9ba249484b32b59b93ce30c89f02.setContent(html_8b17fa90234342dbb53ee54226c0bebe);
+            
+
+            marker_bc776c4a69114ea08cf8598edd8d2ea5.bindPopup(popup_193f9ba249484b32b59b93ce30c89f02);
+
+            
+        
+        
+            
+
+            var marker_70e84294c3ef473697d5e77cc4e4b849 = L.marker(
+                [37.5,32.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_7691d7e1b51c4769a071a6049bb71306 = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_70e84294c3ef473697d5e77cc4e4b849.setIcon(icon_7691d7e1b51c4769a071a6049bb71306);
+            
+        
+            
+            var popup_e7e3f69a850747be934b7530e53971ed = L.popup({maxWidth: '300'});
+
+            
+                var html_2b20e897bf6c4fa3aa8fa3dba15cdd9d = $('         <div id="html_2b20e897bf6c4fa3aa8fa3dba15cdd9d"                 style="width: 100.0%; height: 100.0%;">                 Galatia, 8 Letters</div>                 ')[0];
+                popup_e7e3f69a850747be934b7530e53971ed.setContent(html_2b20e897bf6c4fa3aa8fa3dba15cdd9d);
+            
+
+            marker_70e84294c3ef473697d5e77cc4e4b849.bindPopup(popup_e7e3f69a850747be934b7530e53971ed);
+
+            
+        
+        
+            
+
+            var marker_ef5f53a0707b4b69a45066799f6c627e = L.marker(
+                [37.5,32.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_d62903a6f1f64bf7bd565c8538465cfa = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ef5f53a0707b4b69a45066799f6c627e.setIcon(icon_d62903a6f1f64bf7bd565c8538465cfa);
+            
+        
+            
+            var popup_5ba42c96fdfc4d41aa9f4ab3567fb3d2 = L.popup({maxWidth: '300'});
+
+            
+                var html_aa34eb17ffd14e9387aefcf2f8073edc = $('         <div id="html_aa34eb17ffd14e9387aefcf2f8073edc"                 style="width: 100.0%; height: 100.0%;">                 Galatia, 8 Letters</div>                 ')[0];
+                popup_5ba42c96fdfc4d41aa9f4ab3567fb3d2.setContent(html_aa34eb17ffd14e9387aefcf2f8073edc);
+            
+
+            marker_ef5f53a0707b4b69a45066799f6c627e.bindPopup(popup_5ba42c96fdfc4d41aa9f4ab3567fb3d2);
+
+            
+        
+        
+            
+
+            var marker_d8cf69cc83bb4fbbbbbd7d1a17bd8ace = L.marker(
+                [37.5,32.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_9d98550d2993410f9f2dcdbad3142052 = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d8cf69cc83bb4fbbbbbd7d1a17bd8ace.setIcon(icon_9d98550d2993410f9f2dcdbad3142052);
+            
+        
+            
+            var popup_1c4c87fb9a5145c5804bcd330ccd2d88 = L.popup({maxWidth: '300'});
+
+            
+                var html_18b9c495d1c0489bbb64c1c06aec1256 = $('         <div id="html_18b9c495d1c0489bbb64c1c06aec1256"                 style="width: 100.0%; height: 100.0%;">                 Galatia, 8 Letters</div>                 ')[0];
+                popup_1c4c87fb9a5145c5804bcd330ccd2d88.setContent(html_18b9c495d1c0489bbb64c1c06aec1256);
+            
+
+            marker_d8cf69cc83bb4fbbbbbd7d1a17bd8ace.bindPopup(popup_1c4c87fb9a5145c5804bcd330ccd2d88);
+
+            
+        
+        
+            
+
+            var marker_ecf959042db84c47b49b6ec06cc57514 = L.marker(
                 [31.25,34.75],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_02fc21637d194c9195a6c52876324118);
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
             
         
             
 
-                var icon_ff7372b34e8c49ed9a7f0bf5f817eb40 = L.AwesomeMarkers.icon({
+                var icon_780426b6b11c46c3863f613d24533827 = L.AwesomeMarkers.icon({
                     icon: 'pushpin',
                     iconColor: 'white',
                     markerColor: 'blue',
                     prefix: 'glyphicon',
                     extraClasses: 'fa-rotate-0'
                     });
-                marker_fda06dce1b864a6eb13ffe392f5a3bb7.setIcon(icon_ff7372b34e8c49ed9a7f0bf5f817eb40);
+                marker_ecf959042db84c47b49b6ec06cc57514.setIcon(icon_780426b6b11c46c3863f613d24533827);
             
         
             
-            var popup_e1adca5bbc2b4b63bc817d890c2b4cdd = L.popup({maxWidth: '300'});
+            var popup_4e7e36269fb34b218e990827c34b97e8 = L.popup({maxWidth: '300'});
 
             
-                var html_df6a059f09594d698ba59bd738b99719 = $('         <div id="html_df6a059f09594d698ba59bd738b99719"                 style="width: 100.0%; height: 100.0%;">                 Palestina Prima, 1 Letter : F158</div>                 ')[0];
-                popup_e1adca5bbc2b4b63bc817d890c2b4cdd.setContent(html_df6a059f09594d698ba59bd738b99719);
+                var html_45b6380028cf4985bb55934942f3fe68 = $('         <div id="html_45b6380028cf4985bb55934942f3fe68"                 style="width: 100.0%; height: 100.0%;">                 Palestina Prima, 1 Letter : F158</div>                 ')[0];
+                popup_4e7e36269fb34b218e990827c34b97e8.setContent(html_45b6380028cf4985bb55934942f3fe68);
             
 
-            marker_fda06dce1b864a6eb13ffe392f5a3bb7.bindPopup(popup_e1adca5bbc2b4b63bc817d890c2b4cdd);
+            marker_ecf959042db84c47b49b6ec06cc57514.bindPopup(popup_4e7e36269fb34b218e990827c34b97e8);
 
             
         
         
             
 
-            var marker_a2cd4bbd40874db3b7a5228c18dc6494 = L.marker(
+            var marker_4bc0c8bc1e0445c99f80dd23df179b5b = L.marker(
+                [31.928333000000002,35.238333000000004],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_00fadbf09d1648b5a90838ee653b8f7e = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4bc0c8bc1e0445c99f80dd23df179b5b.setIcon(icon_00fadbf09d1648b5a90838ee653b8f7e);
+            
+        
+            
+            var popup_5c2427dca0ae4be688bd82c41764517a = L.popup({maxWidth: '300'});
+
+            
+                var html_46870ba1e78247cfb4f2522bb8f23aad = $('         <div id="html_46870ba1e78247cfb4f2522bb8f23aad"                 style="width: 100.0%; height: 100.0%;">                 Palestine, 1 Letter : F315</div>                 ')[0];
+                popup_5c2427dca0ae4be688bd82c41764517a.setContent(html_46870ba1e78247cfb4f2522bb8f23aad);
+            
+
+            marker_4bc0c8bc1e0445c99f80dd23df179b5b.bindPopup(popup_5c2427dca0ae4be688bd82c41764517a);
+
+            
+        
+        
+            
+
+            var marker_f2c7e36eda1746caa208572bf9de1155 = L.marker(
                 [33.25,35.25],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_02fc21637d194c9195a6c52876324118);
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
             
         
             
 
-                var icon_02a00d0abc9749c0b736054f39d20bd3 = L.AwesomeMarkers.icon({
+                var icon_70a82defcece4f249f454e371a562485 = L.AwesomeMarkers.icon({
                     icon: 'pushpin',
                     iconColor: 'white',
                     markerColor: 'red',
                     prefix: 'glyphicon',
                     extraClasses: 'fa-rotate-0'
                     });
-                marker_a2cd4bbd40874db3b7a5228c18dc6494.setIcon(icon_02a00d0abc9749c0b736054f39d20bd3);
+                marker_f2c7e36eda1746caa208572bf9de1155.setIcon(icon_70a82defcece4f249f454e371a562485);
             
         
             
-            var popup_bfe34e5d35a049959d3a2a7ffb5572cc = L.popup({maxWidth: '300'});
+            var popup_b4ff94b9f59842c2bfd8a820fae14195 = L.popup({maxWidth: '300'});
 
             
-                var html_4da5289242164197b44715866236f9a2 = $('         <div id="html_4da5289242164197b44715866236f9a2"                 style="width: 100.0%; height: 100.0%;">                 Phoenicia, 5 Letters</div>                 ')[0];
-                popup_bfe34e5d35a049959d3a2a7ffb5572cc.setContent(html_4da5289242164197b44715866236f9a2);
+                var html_de829cc1db97447c8bf722bea425cd5c = $('         <div id="html_de829cc1db97447c8bf722bea425cd5c"                 style="width: 100.0%; height: 100.0%;">                 Phoenicia, 5 Letters</div>                 ')[0];
+                popup_b4ff94b9f59842c2bfd8a820fae14195.setContent(html_de829cc1db97447c8bf722bea425cd5c);
             
 
-            marker_a2cd4bbd40874db3b7a5228c18dc6494.bindPopup(popup_bfe34e5d35a049959d3a2a7ffb5572cc);
+            marker_f2c7e36eda1746caa208572bf9de1155.bindPopup(popup_b4ff94b9f59842c2bfd8a820fae14195);
 
             
         
         
             
 
-            var marker_2a42ff01d63b4200899b7325e00d96b9 = L.marker(
+            var marker_8669037bddcf46c6b338b501c5fa2d3e = L.marker(
                 [33.25,35.25],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_02fc21637d194c9195a6c52876324118);
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
             
         
             
 
-                var icon_1c98374681cb45b99a7f9a98c6fc9553 = L.AwesomeMarkers.icon({
+                var icon_c31da4a894ac48f7beed93bae4d404ba = L.AwesomeMarkers.icon({
                     icon: 'pushpin',
                     iconColor: 'white',
                     markerColor: 'red',
                     prefix: 'glyphicon',
                     extraClasses: 'fa-rotate-0'
                     });
-                marker_2a42ff01d63b4200899b7325e00d96b9.setIcon(icon_1c98374681cb45b99a7f9a98c6fc9553);
+                marker_8669037bddcf46c6b338b501c5fa2d3e.setIcon(icon_c31da4a894ac48f7beed93bae4d404ba);
             
         
             
-            var popup_318759a5e6e14a9ca134ef662614d49d = L.popup({maxWidth: '300'});
+            var popup_d15cf7d66c1846bf9062b2bc71a361ef = L.popup({maxWidth: '300'});
 
             
-                var html_f39fb43a62a8483da6f82888406b7ca5 = $('         <div id="html_f39fb43a62a8483da6f82888406b7ca5"                 style="width: 100.0%; height: 100.0%;">                 Phoenicia, 5 Letters</div>                 ')[0];
-                popup_318759a5e6e14a9ca134ef662614d49d.setContent(html_f39fb43a62a8483da6f82888406b7ca5);
+                var html_5c1424cedf6548e0a016809c20040b77 = $('         <div id="html_5c1424cedf6548e0a016809c20040b77"                 style="width: 100.0%; height: 100.0%;">                 Phoenicia, 5 Letters</div>                 ')[0];
+                popup_d15cf7d66c1846bf9062b2bc71a361ef.setContent(html_5c1424cedf6548e0a016809c20040b77);
             
 
-            marker_2a42ff01d63b4200899b7325e00d96b9.bindPopup(popup_318759a5e6e14a9ca134ef662614d49d);
+            marker_8669037bddcf46c6b338b501c5fa2d3e.bindPopup(popup_d15cf7d66c1846bf9062b2bc71a361ef);
 
             
         
         
             
 
-            var marker_aac52e6fc3244fe6b50a2e2aa43be5f1 = L.marker(
+            var marker_1c1c8a98b26d467a9fe6d0c424bbfa77 = L.marker(
                 [33.25,35.25],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_02fc21637d194c9195a6c52876324118);
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
             
         
             
 
-                var icon_6523b5cb48cc409ca1fba5617fd32789 = L.AwesomeMarkers.icon({
+                var icon_82c010344f194c23af2fa1d16f526cd7 = L.AwesomeMarkers.icon({
                     icon: 'pushpin',
                     iconColor: 'white',
                     markerColor: 'red',
                     prefix: 'glyphicon',
                     extraClasses: 'fa-rotate-0'
                     });
-                marker_aac52e6fc3244fe6b50a2e2aa43be5f1.setIcon(icon_6523b5cb48cc409ca1fba5617fd32789);
+                marker_1c1c8a98b26d467a9fe6d0c424bbfa77.setIcon(icon_82c010344f194c23af2fa1d16f526cd7);
             
         
             
-            var popup_3bcd374525ec467788dc44ea2c6e512d = L.popup({maxWidth: '300'});
+            var popup_d08a8e6db9f4425c9166d2d2987c357f = L.popup({maxWidth: '300'});
 
             
-                var html_034bb588c2f147c9895baecbb65a59ce = $('         <div id="html_034bb588c2f147c9895baecbb65a59ce"                 style="width: 100.0%; height: 100.0%;">                 Phoenicia, 5 Letters</div>                 ')[0];
-                popup_3bcd374525ec467788dc44ea2c6e512d.setContent(html_034bb588c2f147c9895baecbb65a59ce);
+                var html_49dc6c5e6c2d426c9bce4b815b60005e = $('         <div id="html_49dc6c5e6c2d426c9bce4b815b60005e"                 style="width: 100.0%; height: 100.0%;">                 Phoenicia, 5 Letters</div>                 ')[0];
+                popup_d08a8e6db9f4425c9166d2d2987c357f.setContent(html_49dc6c5e6c2d426c9bce4b815b60005e);
             
 
-            marker_aac52e6fc3244fe6b50a2e2aa43be5f1.bindPopup(popup_3bcd374525ec467788dc44ea2c6e512d);
+            marker_1c1c8a98b26d467a9fe6d0c424bbfa77.bindPopup(popup_d08a8e6db9f4425c9166d2d2987c357f);
 
             
         
         
             
 
-            var marker_f20f3767709b48d8ab2220250ecb87bb = L.marker(
+            var marker_87ac4f1e49cf4918afd3931f2ba146f3 = L.marker(
                 [33.25,35.25],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_02fc21637d194c9195a6c52876324118);
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
             
         
             
 
-                var icon_ec2593a0ae0141899d7348c216406e36 = L.AwesomeMarkers.icon({
+                var icon_bbe52a685f7c4c209f8f9c9d80a00c95 = L.AwesomeMarkers.icon({
                     icon: 'pushpin',
                     iconColor: 'white',
                     markerColor: 'red',
                     prefix: 'glyphicon',
                     extraClasses: 'fa-rotate-0'
                     });
-                marker_f20f3767709b48d8ab2220250ecb87bb.setIcon(icon_ec2593a0ae0141899d7348c216406e36);
+                marker_87ac4f1e49cf4918afd3931f2ba146f3.setIcon(icon_bbe52a685f7c4c209f8f9c9d80a00c95);
             
         
             
-            var popup_a6c86d383b844cbe8b05faf9804bcd1a = L.popup({maxWidth: '300'});
+            var popup_ae60a8bb592b49c699c6c472e603ad4c = L.popup({maxWidth: '300'});
 
             
-                var html_593067c137da40e79187dd3616612604 = $('         <div id="html_593067c137da40e79187dd3616612604"                 style="width: 100.0%; height: 100.0%;">                 Phoenicia, 5 Letters</div>                 ')[0];
-                popup_a6c86d383b844cbe8b05faf9804bcd1a.setContent(html_593067c137da40e79187dd3616612604);
+                var html_81898d9301e04362bdea02915ab944ad = $('         <div id="html_81898d9301e04362bdea02915ab944ad"                 style="width: 100.0%; height: 100.0%;">                 Phoenicia, 5 Letters</div>                 ')[0];
+                popup_ae60a8bb592b49c699c6c472e603ad4c.setContent(html_81898d9301e04362bdea02915ab944ad);
             
 
-            marker_f20f3767709b48d8ab2220250ecb87bb.bindPopup(popup_a6c86d383b844cbe8b05faf9804bcd1a);
+            marker_87ac4f1e49cf4918afd3931f2ba146f3.bindPopup(popup_ae60a8bb592b49c699c6c472e603ad4c);
 
             
         
         
             
 
-            var marker_62ba104484704b448046ae53ce1c786c = L.marker(
+            var marker_80c118f723754f3e942832136cb42195 = L.marker(
                 [33.25,35.25],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(map_02fc21637d194c9195a6c52876324118);
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
             
         
             
 
-                var icon_912e7238100f41418f2bbb41602d9fa7 = L.AwesomeMarkers.icon({
+                var icon_3e2006eceeff43fcbbbc6523e2a445ba = L.AwesomeMarkers.icon({
                     icon: 'pushpin',
                     iconColor: 'white',
                     markerColor: 'red',
                     prefix: 'glyphicon',
                     extraClasses: 'fa-rotate-0'
                     });
-                marker_62ba104484704b448046ae53ce1c786c.setIcon(icon_912e7238100f41418f2bbb41602d9fa7);
+                marker_80c118f723754f3e942832136cb42195.setIcon(icon_3e2006eceeff43fcbbbc6523e2a445ba);
             
         
             
-            var popup_f409c1c706024cae8c36fcc911c01460 = L.popup({maxWidth: '300'});
+            var popup_1193b8a30c624f93ae081a93b06be9d2 = L.popup({maxWidth: '300'});
 
             
-                var html_da5b2dfd6b3f4f9b8dcf16da2d72de5a = $('         <div id="html_da5b2dfd6b3f4f9b8dcf16da2d72de5a"                 style="width: 100.0%; height: 100.0%;">                 Phoenicia, 5 Letters</div>                 ')[0];
-                popup_f409c1c706024cae8c36fcc911c01460.setContent(html_da5b2dfd6b3f4f9b8dcf16da2d72de5a);
+                var html_2d60086dd5cd437abab44797fc4ee8bd = $('         <div id="html_2d60086dd5cd437abab44797fc4ee8bd"                 style="width: 100.0%; height: 100.0%;">                 Phoenicia, 5 Letters</div>                 ')[0];
+                popup_1193b8a30c624f93ae081a93b06be9d2.setContent(html_2d60086dd5cd437abab44797fc4ee8bd);
             
 
-            marker_62ba104484704b448046ae53ce1c786c.bindPopup(popup_f409c1c706024cae8c36fcc911c01460);
+            marker_80c118f723754f3e942832136cb42195.bindPopup(popup_1193b8a30c624f93ae081a93b06be9d2);
+
+            
+        
+        
+            
+
+            var marker_263a9e880afe4d19ae715099e301f604 = L.marker(
+                [36.914956,34.898228],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_9ff32a8c8ab5484f8ef467168149c2d8);
+            
+        
+            
+
+                var icon_d0c2f82ceb184d8088508fa2083aebf5 = L.AwesomeMarkers.icon({
+                    icon: 'pushpin',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_263a9e880afe4d19ae715099e301f604.setIcon(icon_d0c2f82ceb184d8088508fa2083aebf5);
+            
+        
+            
+            var popup_24f6f8f949654652aa94c4af88ce020f = L.popup({maxWidth: '300'});
+
+            
+                var html_e8588fa61f534a8682c3d07fa81539d1 = $('         <div id="html_e8588fa61f534a8682c3d07fa81539d1"                 style="width: 100.0%; height: 100.0%;">                 Tarsus, 1 Letter : F1392</div>                 ')[0];
+                popup_24f6f8f949654652aa94c4af88ce020f.setContent(html_e8588fa61f534a8682c3d07fa81539d1);
+            
+
+            marker_263a9e880afe4d19ae715099e301f604.bindPopup(popup_24f6f8f949654652aa94c4af88ce020f);
 
             
         
