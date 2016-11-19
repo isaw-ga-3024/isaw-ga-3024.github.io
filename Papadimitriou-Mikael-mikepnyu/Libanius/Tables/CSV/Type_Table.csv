@@ -4,4 +4,4 @@ Type_ID,Name,Description
 003,Personal,A letter whose purpose is to maintain his relationship with the recipient and/or discuss personal issues with him.
 004,Favour,A letter whose purpose is to obtain a favour from the recipient.
 005,Municipal,A letter that deals with issues related to the City Council and/or the Decurions.
-006,Introduction,A letter that introduces an individual to another for another purpose than obtaining a position in the administration.
+006,Introduction/Reference,A letter that introduces an individual to another for another purpose than obtaining a position in the administration.

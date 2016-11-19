@@ -1,6 +1,11 @@
 Carrier_ID,Carrier_Name,PLRE_ID,BLZG_ID
-1,Majorinus,,
-2,Auxentius,,Auxentius v
-3,Bassus,,Bassus ii
-4,Marius,Marius 1,
-0,None,,
+000,None,,
+001,Majorinus,,
+002,Auxentius,,Auxentius v
+003,Bassus,,Bassus ii
+004,Marius,Marius 1,
+005,Themistius,Themistius 2,
+006,Domitius Modestus,,
+007,Encratius,,
+008,Maximus,Maximus 19,
+009,Eusebius,Eusebius 40,
