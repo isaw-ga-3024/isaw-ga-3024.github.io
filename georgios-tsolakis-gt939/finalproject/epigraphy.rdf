@@ -1,0 +1,38 @@
+@prefix ns0: <http://aph/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://aph/ids/0000490>
+  a <http://aph/vocab/person> ;
+  ns0:name "Artemidoros" .
+
+<http://aph/ids/0001383>
+  a ns0:person ;
+  ns0:name "Kaikos Papias" ;
+  ns0:has-father <http://aph/ids/0000490> .
+
+<http://aph/ids/0000440>
+  a ns0:person ;
+  ns0:name "Aristokles Molossos" ;
+  ns0:has-father <http://aph/ids/0000490>, <http://aph/ids/0000440> .
+
+<http://aph/ids/0000956>
+  a ns0:person ;
+  ns0:name "Ermas Molossos" ;
+  ns0:has-father <http://aph/ids/0000440> .
+
+<http://aph/ids/a000013>
+  a ns0:person ;
+  ns0:name "anonymous" ;
+  ns0:has-father <http://aph/ids/0000440> .
+
+ns0:has-father
+  a rdfs:Property ;
+  rdfs:label "Has father" .
+
+ns0:name
+  a rdfs:Property ;
+  rdfs:label "Name" .
+
+ns0:person
+  a rdfs:Class ;
+  rdfs:label "Person" .

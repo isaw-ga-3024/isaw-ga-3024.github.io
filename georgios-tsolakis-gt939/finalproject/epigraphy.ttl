@@ -1,39 +1,38 @@
-@prefix : <http://api.stardog.com/> .
-@prefix aphid: <http://aph/ids/> .
-@prefix aphvocab: <http://aph/vocab/> .
-@prefix rdfs: <http://aph/rdfs/> .
+@prefix aphid:		<http://aph/ids/> .
+@prefix aphvocab:	<http://aph/vocab/> .
+@prefix rdf:		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:		<http://www.w3.org/2000/01/rdf-schema#> .
 
 {
 aphid:0000490 a aphvocab:person ;
 	aphvocab:name "Artemidoros" .
-		  
+
 aphid:0001383 a aphvocab:person ;
-    aphvocab:name "Kaikos Papias" ;
-    aphvocab:has-father aphid:0000490 . 
-		  
+	aphvocab:name "Kaikos Papias" ;
+	aphvocab:has-father aphid:0000490 . 
+
 aphid:0000440 a aphvocab:person ;
-    aphvocab:name "Aristokles Molossos" ;
-    aphvocab:has-father aphid:0000490 .
+	aphvocab:name "Aristokles Molossos" ;
+	aphvocab:has-father aphid:0000490 .
 
 aphid:0000956 a aphvocab:person ;
-    aphvocab:name "Ermas Molossos" ;
-    aphvocab:has-father aphid:0000440 .          
-          
+	aphvocab:name "Ermas Molossos" ;
+	aphvocab:has-father aphid:0000440 .
+
 aphid:a000013 a aphvocab:person ;
-    aphvocab:name "anonymous" ;
-    aphvocab:has-father aphid:0000440 .  
-          
+	aphvocab:name "anonymous" ;
+	aphvocab:has-father aphid:0000440 .
+
 aphid:0000440 a aphvocab:person ;
-    aphvocab:name "Aristokles Molossos" ;
-    aphvocab:has-father aphid:0000440 .          
-          
+	aphvocab:name "Aristokles Molossos" ;
+	aphvocab:has-father aphid:0000440 .
+
 aphvocab:has-father a rdfs:Property ;
 	rdfs:label "Has father" .
 
-aphvocab:name a rdfs:Prperty ;
-    rdfs:label "Name" .
+aphvocab:name a rdfs:Property ;
+	rdfs:label "Name" .
 
 aphvocab:person a rdfs:Class ;
 	rdfs:label "Person" .
-}     
-  
+}
