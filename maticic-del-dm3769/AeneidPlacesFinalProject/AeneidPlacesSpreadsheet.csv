@@ -82,6 +82,6 @@ Pleiades_ID,Name,Line,Order_in_text,AeneasPath,Gods,WheresAeneas,GodVisiting,Nou
 550595,Pergamos,651,81,,,Carthage,,nominative,,,"ornatus_Argivae_Helenae,_quos_illa_Mycenis,_Pergama_cum_peteret_inconcessosque_hymenaeos,extulerat", ,,,
 314921,Carthage,678,82,,,Carthage,,adjective,urbs,,regius_accitu_cari_genitoris_ad_urbem_Sidoniam_puer_ire_parat,,,,
 570186,Cythera,680,83,,,Carthage,,nominative,,alta,hunc_ego_sopitum_somno_super_alta_Cythera_aut_super_Idalium_sacrata_sede_recondam,VenustoCupid,,,
-707498,Idalium (Cyprus?) ,681,84,,,Carthage,,nominative,,,hunc_ego_sopitum_somno_super_alta_Cythera_aut_super_Idalium_sacrata_sede_recondam,VenustoCupid,,,
-707498,Idalium (Cyprus?) ,693,85,,5,Carthage,VenusVisits,genitive_singular,lucus,,dea_tollit_in_alto_Idaliae_lucos_[Ascanius],,,,
+707498,Idalium(Cyprus?) ,681,84,,,Carthage,,nominative,,,hunc_ego_sopitum_somno_super_alta_Cythera_aut_super_Idalium_sacrata_sede_recondam,VenustoCupid,,,
+707498,Idalium(Cyprus?) ,693,85,,5,Carthage,VenusVisits,genitive_singular,lucus,,dea_tollit_in_alto_Idaliae_lucos_[Ascanius],,,,
 550595,Troy,730,86,,,Carthage,,nominative,,,Troiaque_profectis_esse_velis_,,,,
