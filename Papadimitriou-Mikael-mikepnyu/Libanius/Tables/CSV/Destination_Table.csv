@@ -1,16 +1,16 @@
-Destination_ID,Pleiades_ID
-Constantinople,520998
-Phoenicia,678334
-Palestina Prima,687995
-Apamea,668335
-Tarsus,648789
-Cilicia,658440
-Galatia,991393
-Cappadocia,628949
-Armenia,874350
-Alexandria,727070
-Bithynia,511189
-Palestine,687934
-Egypt,981503
-Euphratensis,1001934
-Arabia,746711
+Destination_ID,Type,Pleiades_ID
+Constantinople,City,520998
+Phoenicia,Region,678334
+Palestina Prima,Region,687995
+Apamea,City,668335
+Tarsus,City,648789
+Cilicia,Region,658440
+Galatia,Region,991393
+Cappadocia,Region,628949
+Armenia,Region,874350
+Alexandria,City,727070
+Bithynia,Region,511189
+Palestine,Region,687934
+Egypt,Region,981503
+Euphratensis,Region,1001934
+Arabia,Region,746711
