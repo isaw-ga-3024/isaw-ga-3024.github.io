@@ -91,8 +91,8 @@ Pleiades_ID,Name,Poem,Book,Line,AeneasPath,Gods,WheresAeneas,GodVisiting,Noun_or
 432900,Latium,Aeneid,1,265,,,Libya,,nominative,latio,,,Jupiter
 432900,Latium,Aeneid,1,554,,,Carthage,,nominative,latiumque,,,Ilioneus
 432900,Latium,Aeneid,10,58,,,,,noun,latium,,,Venus_to_council
-22959,Laurentium,Aeneid,10,635,,2,Latium,,adjective,laurentia,castra,,
-22959,Laurentium,Aeneid,10,671,,,Latium,,adjective,laurentis,muros_aut_castra,,turnus_prayer
+432900,Laurentium,Aeneid,10,635,,2,Latium,,adjective,laurentia,castra,,
+432900,Laurentium,Aeneid,10,671,,,Latium,,adjective,laurentis,muros_aut_castra,,turnus_prayer
 422960,Lavinium,Aeneid,1,2,,,,,adjective,lavinia,litora,,
 422960,Lavinium,Aeneid,1,258,,,Libya,,genitive_singular,lavini,urbs_et_moenia,,Jupiter
 422960,Lavinium,Aeneid,1,270,,,Libya,,genitive_singular,lavini,sedes,,Jupiter
