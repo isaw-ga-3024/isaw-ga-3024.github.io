@@ -35,7 +35,7 @@ Pleiades_ID,Name,Poem,Book,Line,AeneasPath,Gods,WheresAeneas,GodVisiting,Noun_or
 187588,TimavusMouth,Aeneid,Aeneid_1,244,,,Libya,,genitive_singular,timavi,fons,,Venus,DirectSpeech
 393473,Padua,Aeneid,Aeneid_1,247,,,Libya,,genitive_singular,patavi,urbs,,Venus,DirectSpeech
 1052,Italy,Aeneid,Aeneid_1,252,,,Libya,,adjective,italis,orae,,Venus,DirectSpeech
-422960,Lavinium,Aeneid,Aeneid_1,258,,,Libya,,genitive_singular,lavini,urbs_et_moenia,,Jupiter,DirectSpeech
+422960,Lavinium,Aeneid,Aeneid_1,258,,,Libya,,genitive_singular,lavini,urbsetmoenia,,Jupiter,DirectSpeech
 1052,Italy,Aeneid,Aeneid_1,263,,,Libya,,nominative,italia,,,Jupiter,DirectSpeech
 432900,Latium,Aeneid,Aeneid_1,265,,,Libya,,nominative,latio,,,Jupiter,DirectSpeech
 422960,Lavinium,Aeneid,Aeneid_1,270,,,Libya,,genitive_singular,lavini,sedes,,Jupiter,DirectSpeech
