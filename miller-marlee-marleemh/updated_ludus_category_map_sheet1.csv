@@ -3,14 +3,14 @@ cartodb_id,the_geom,pleiades_id,founder_emperor,date,chronology,evidence,country
 ,Second Century AD ,Textual Reference ,Algeria ,Gemellae,Gemellae.Ludus,34.6359905,5.522823,Gemellae Ludus
 24,0101000020E61000001D1F2DCE18E23B40D2FF722D5A314440,https://pleiades.stoa.org/places/511218,,"Uncertain"
 ,Republican,Textual Reference ,Turkey ,Cyzicus , Cyzicus.Ludus ,40.3855645,27.883191,Cyzicus Ludus
-25,0101000020E61000001C5F7B66496022404ED367075CBB4640,https://pleiades.stoa.org/places/383801,,"Uncertain
-","Uncertain
-",Textual Reference ,Italy ,Gallia Transpadana ,Transpadana.Ludus,45.463746,9.18806,Gallia Transpadana Ludus
-26,0101000020E6100000CF65EE4A60F336409885B86A85514440,https://pleiades.stoa.org/places/491741,,"Uncertain
+25,0101000020E61000001C5F7B66496022404ED367075CBB4640,https://pleiades.stoa.org/places/383801,,"Uncertain"
+,Uncertain
+,Textual Reference ,Italy ,Gallia Transpadana ,Transpadana.Ludus,45.463746,9.18806,Gallia Transpadana Ludus
+26,0101000020E6100000CF65EE4A60F336409885B86A85514440,https://pleiades.stoa.org/places/491741,,"Uncertain"
 ,Uncertain,Textual Reference ,Greece,"Thessalonica
 ",Thessalonike.Ludus ,40.63688406,22.95068806,Thessalonica Ludus
-27,0101000020E610000027AEF8C0ED684040ECAE81E73DFB4340,https://pleiades.stoa.org/places/619103 ,,"Uncertain
-",Uncertain,Textual Reference ,"Turkey
+27,0101000020E610000027AEF8C0ED684040ECAE81E73DFB4340,https://pleiades.stoa.org/places/619103 ,,"Uncertain"
+,Uncertain,Textual Reference ,"Turkey
 ,Ancyra,Ancyra.Ludus ,39.96282667,32.81975567,Ancyra Ludus
 6,0101000020E61000009E4143FF04672840DB6D179AEB344640,https://pleiades.stoa.org/places/393480 ,Julius Caesar ,-49,Caesarian ,Textual Reference ,Italy ,Ravenna,Ravenna.Ludus,44.41344,12.20121,Ludus at Ravenna
 5,0101000020E61000005B5F24B4E56C2C40E1EEACDD768D4440,https://pleiades.stoa.org/places/432754  ,Gnaeus Cornelius Lentulus Batiatus/Vatia ,-73,Republican ,Textual Reference ,Italy ,Capua,Capua.Ludus,41.10519,14.21269,Ludus of Gn. C. Lentulus Batiatus at Capua
