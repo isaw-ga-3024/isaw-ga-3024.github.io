@@ -2,25 +2,25 @@ cartodb_id,the_geom,pleiades_id,founder_emperor,date,chronology,evidence,country
 19,0101000020E6100000ED629AE95E1716408908FF2268514140,https://pleiades.stoa.org/places/334553,,"Uncertain
 ",Second Century AD ,Textual Reference ,Algeria ,Gemellae,Gemellae.Ludus,34.6359905,5.522823,Gemellae Ludus
 24,0101000020E61000001D1F2DCE18E23B40D2FF722D5A314440,https://pleiades.stoa.org/places/511218,,"Uncertain
-",Republican  ,Textual Reference ,Turkey ,Cyzicus ,Cyzicus.Ludus ,40.3855645,27.883191,Cyzicus Ludus
+",Republican  ,Textual Reference ,Turkey,Cyzicus ,Cyzicus.Ludus ,40.3855645,27.883191,Cyzicus Ludus
 26,0101000020E6100000CF65EE4A60F336409885B86A85514440,https://pleiades.stoa.org/places/491741,,"Uncertain
 ",Uncertain,Textual Reference ,Greece,"Thessalonica
 ",Thessalonike.Ludus ,40.63688406,22.95068806,Thessalonica Ludus
 25,0101000020E61000001C5F7B66496022404ED367075CBB4640,https://pleiades.stoa.org/places/383801,,Uncertain,"Uncertain
-",Textual Reference ,Italy ,Gallia Transpadana ,Transpadana.Ludus,45.463746,9.18806,Gallia Transpadana Ludus
+",Textual Reference ,Italy,Gallia Transpadana ,Transpadana.Ludus,45.463746,9.18806,Gallia Transpadana Ludus
 27,0101000020E610000027AEF8C0ED684040ECAE81E73DFB4340,https://pleiades.stoa.org/places/619103 ,,Uncertain,Uncertain,Textual Reference ,"Turkey
 ",Ancyra,Ancyra.Ludus ,39.96282667,32.81975567,Ancyra Ludus
 6,0101000020E61000009E4143FF04672840DB6D179AEB344640,https://pleiades.stoa.org/places/393480 ,Julius Caesar ,-49,Caesarian ,Textual Reference ,Italy ,Ravenna,Ravenna.Ludus,44.41344,12.20121,Ludus at Ravenna
 5,0101000020E61000005B5F24B4E56C2C40E1EEACDD768D4440,https://pleiades.stoa.org/places/432754  ,Gnaeus Cornelius Lentulus Batiatus/Vatia ,-73,Republican ,Textual Reference ,Italy ,Capua,Capua.Ludus,41.10519,14.21269,Ludus of Gn. C. Lentulus Batiatus at Capua
 9,0101000020E6100000D5B0DF13EBF82840F38E537424F24440,http://pleiades.stoa.org/places/423025,,"Uncertain
-",Julio-Claudian ,Textual Reference ,Italy ,Roma,Ludus.Aemilius ,41.8917375,12.4861685,"Ludus Aemilius
+",Julio-Claudian ,Textual Reference ,Italy,Roma,Ludus.Aemilius ,41.8917375,12.4861685,"Ludus Aemilius
 "
 11,0101000020E6100000D5B0DF13EBF82840F38E537424F24440,http://pleiades.stoa.org/places/423025,Caligula ,"Uncertain
-",Julio-Claudian ,Textual Reference ,Italy ,Roma ,Rome.Ludus.Private ,41.8917375,12.4861685,Ludus of Caligula 
+",Julio-Claudian ,Textual Reference ,Italy,Roma ,Rome.Ludus.Private ,41.8917375,12.4861685,Ludus of Caligula 
 12,0101000020E6100000880FECF82F5027403A07CF84269D4640,https://pleiades.stoa.org/places/393382,,"Uncertain
-",Julio-Claudian ,Textual Reference ,Italy ,Ateste ,Ateste.Ludus ,45.227738,11.656616,Ateste Ludus
+",Julio-Claudian ,Textual Reference ,Italy,Ateste ,Ateste.Ludus ,45.227738,11.656616,Ateste Ludus
 13,0101000020E61000006749BA45E4C82940E3D7383073EB4440,https://pleiades.stoa.org/places/423013,Private Citizen,"Uncertain
-",Julio Claudian ,Textual Reference ,Italy ,Praeneste ,Praeneste.Ludus,41.83945277,12.89236658,Praeneste Ludus
+",Julio Claudian ,Textual Reference ,Italy,Praeneste ,Praeneste.Ludus,41.83945277,12.89236658,Praeneste Ludus
 14,0101000020E6100000693587186DE83D403E396D3AC0323F40,https://pleiades.stoa.org/places/727070,Augustus ,"Uncertain
 ",Julio Claudian ,Textual Reference ,Egypt ,Alexandria ,Alexandria.Ludus ,31.19824567,29.90791467,Alexandria Ludus
 15,0101000020E61000005063AD67292F3B40FE073F0ED6904340,https://pleiades.stoa.org/places/550812,Marcus Aurelius ,"Uncertain
@@ -47,7 +47,7 @@ cartodb_id,the_geom,pleiades_id,founder_emperor,date,chronology,evidence,country
 7,0101000020E61000002F3201BF46FA2C4023111AC1C65F4440,https://pleiades.stoa.org/places/568496340,,62,Julio-Claudian ,Archaeological Remains ,Italy ,Pompeii ,Pompeii.Ludus.Big,40.748253,14.488821,"Large Ludus at Pompeii
 "
 8,0101000020E61000003B40E6B974FA2C404916491EFC5F4440,https://pleiades.stoa.org/places/568496340,,"Uncertain
-",Republican ,Archaeological Remains ,Italy ,Pompeii ,Pompeii.Ludus.Small,40.74988154,14.4891718,"Small Ludus at Pompeii
+",Republican ,Archaeological Remains ,Italy,Pompeii ,Pompeii.Ludus.Small,40.74988154,14.4891718,"Small Ludus at Pompeii
 "
 16,0101000020E61000009679ABAE43D930409AEFE0270E0E4840,https://pleiades.stoa.org/places/128376,,"Uncertain
 ",Second Century AD,Archaeological Remains ,Austria ,Carnuntum ,Carnuntum.Ludus ,48.109807,16.848689,Carnuntum Ludus
