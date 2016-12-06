@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body>  
+Alexandria 
+Julio Claudian 		
+Augustus 
+
+ 
+CIL X 1685 = ILS 1397 
+L(ucius) Bovius L(uci) f(ilius) L(uci) n(epos) Fal(erna) Celer IIvir q(uaestor) augur praef(ectus) 
+fabr(um) trib(unus) milit(um) leg(ionis) III Cyr(enaicae) procur(ator) ludi famil(iarum) glad(iatoriarum) Caesaris  Alexandreae ad Aegyptum 
+adlectus inter selectos ab Imp(eratore) Caes(are) Aug(usto)  sibi 
+et  Sextiae L(uci) f(iliae) Nerulae uxori optimae cum qua a pueritia sine offensa vixit annis XXXI.; 
+
+Leipzig 57.6-11 
+[ όνομα]  σθεις … [ε] ις  επιμελειαν και κατασκενην και κατακομιδην δημοσιω[ν] 
+
+ιματιων λυδου μονομαχων     
+
+
+</body>
+
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>title of document</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <ab>
+                    <lb n="1"/>Greek or Latin (etc.) text here
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
