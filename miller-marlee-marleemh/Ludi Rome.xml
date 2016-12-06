@@ -55,13 +55,13 @@
         <body>
             <div type="edition" xml:space="preserve">
                 <ab>
-                    <lb n="1"/> <persName type="founder/emperor">Domitianus</persName> imp. ann. XVII m. V d. V. congiarum dedit ter X LXXV.  
+                   <persName type="founder/emperor">Domitianus</persName> imp. ann. XVII m. V d. V. congiarum dedit ter X LXXV.  
                     hoc imp. multae operae publicae fabricatae sunt: 
                     atria VII, horrea piperataria ubi modo est basilica Constantiniana et horrea Vespasiani, 
                     templum Castorum et Minervae, portam Capenam, gentem Flaviam, Divorum, Iseum et Serapeum,
-                    Minervam Chalcidicam, Odium, Minuciam veterem, stadium, et thermas Titianas et Traianas, 
-                    amphitheatrum usque ad clypea, templum Vespasiani et Titi, Capitolium, senatum, 
-                    <Placename type="ludus">ludos IIII</Placename>, Palatium, metam sudantem et Penteum. occisus Palatio. 
+                     Minervam Chalcidicam, Odium, Minuciam veterem, stadium, et thermas Titianas et Traianas, 
+                    amphitheatrum usque ad clypea, templum Vespasiani et Titi, Capitolium, senatum,
+                     <placeName type="ludus">ludos IIII </placeName>, Palatium, metam sudantem et Penteum. occisus Palatio. 
                 </ab>
             </div>
             <div type="apparatus">
@@ -82,88 +82,9 @@
 </TEI>
 
 
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>CIL 6.9572</title>
-            </titleStmt>
-            <publicationStmt>
-                <authority></authority>
-                <idno type="filename"></idno>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>museum/archive</repository>
-                        <idno>inventory number</idno>
-                    </msIdentifier>
-                    <physDesc>
-                        <objectDesc>
-                            <supportDesc>
-                                <support> Ludus Magnus: large gladiatorial training school, Rome  (likely to include <material/>
-                                    and <objectType/> information, <dimensions/>, etc.)</support>
-                            </supportDesc>
-                            <layoutDesc>
-                                <layout>description of text field/campus</layout>
-                            </layoutDesc>
-                        </objectDesc>
-                        <handDesc>
-                            <handNote>description of letters, possibly including <height>letter-heights</height>
-                            </handNote>
-                        </handDesc>
-                    </physDesc>
-                    <history>
-                        <origin>
-                            <origPlace>Place of origin</origPlace>
-                            <origDate>Date of origin</origDate>
-                        </origin>
-                        <provenance type="found"> Findspot and circumstances/context
-                        </provenance>
-                        <provenance type="observed">Modern location(s) (if different from repository, above)
-                        </provenance>
-                    </history>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <facsimile>
-        <graphic url="http://formaurbis.stanford.edu/fragment.php?record=22"</graphic> 
-        <graphic url="http://www.the-colosseum.net/images/ludmagn.jpg" </graphic>
-        <graphic url="http://2.bp.blogspot.com/-7RfaqwW0aXc/TtgC3GThwoI/AAAAAAAAEeg/7La-5U7eVPg/s1600/Rome+2011+721.JPG"></graphic>
-    </facsimile>
-    <text>
-        <body>
-            <div type="edition" xml:space="preserve">
-                <ab>
-                                <lb n="1"/> D(is) M(anibus) 
-                                <lb n="2"/>TIB(erius) CL(audius) HERACLES LIB(ertus) CL(audio)
-                                <lb n="3"/> <persName type="related person" subtype="medico">DEMETRIO MED(ic)O</persName>  
-                                <lb n="4"/> <lPlacename type="ludus">L(udi) M(agni)</lPlacename>
-                                <lb n="5"/> PATRONO BENE MERENTI   </ab>
-            </div>
-            <div type="apparatus">
-                <p>external apparatus criticus (if applicable)</p>
-            </div>
-            <div type="translation">
-                <p>translation(s)</p>
-            </div>
-            <div type="commentary">
-                <p>commentary</p>
-            </div>
-            <div type="bibliography">
-                <p> See Colini, A. M., and L. Cozza. Ludus Magnus. A cura di A. M. Colini e L. Cozza. Monte dei paschi di Siena, 1962.</p>
-            </div>
-        </body>
-    </text>
-</TEI>
 
 
-
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding ="UTF-8"?> 
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
@@ -219,14 +140,14 @@
             <div type="edition" xml:space="preserve">
                 <ab>
                     <lb n="1"/>D(is) M(anibus)
-                    <lb n="1"/>Priori 
-                    <lb n="1"/><persname type ="gladiator">retiario</persname>
-                    <lb n="1"/> <placeName type="ludus">lud(i) mag(ni)</placeName>
-                    <lb n="1"/>Iuvenis 
-                    <lb n="1"/> <persname type ="gladiator">murmillo</persname>
-                    <lb n="1"/><placeName type="ludus">lud(i) mag(ni)</placeName> 
-                    <lb n="1"/>conv(i)ctori 
-                    <lb n="1"/>b(ene) m(erenti) f(ecit) 
+                    <lb n="2"/>Priori 
+                    <lb n="3"/><persname type ="gladiator">retiario</persname>
+                    <lb n="4"/> <placeName type="ludus">lud(i) mag(ni)</placeName>
+                    <lb n="5"/>Iuvenis 
+                    <lb n="6"/> <persname type ="gladiator">murmillo</persname>
+                    <lb n="7"/><placeName type="ludus">lud(i) mag(ni)</placeName> 
+                    <lb n="8"/>conv(i)ctori 
+                    <lb n="9"/>b(ene) m(erenti) f(ecit) 
                 </ab>
             </div>
             <div type="apparatus">
@@ -246,7 +167,7 @@
 </TEI>
 
 
-?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
@@ -335,6 +256,89 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+<teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title>CIL 6.9572</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support> Ludus Magnus: large gladiatorial training school, Rome  (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+      <graphic url="http://formaurbis.stanford.edu/fragment.php?record=22"></graphic> 
+        <graphic url="http://www.the-colosseum.net/images/ludmagn.jpg"></graphic>
+        <graphic url="http://2.bp.blogspot.com/-7RfaqwW0aXc/TtgC3GThwoI/AAAAAAAAEeg/7La-5U7eVPg/s1600/Rome+2011+721.JPG"></graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/> D(is) M(anibus)                                 
+                    <lb n="2"/>TIB(erius) CL(audius) HERACLES LIB(ertus) CL(audio)                               
+                    <lb n="3"/> <persName type="related person" subtype="medico">DEMETRIO MED(ic)O</persName>                                   
+                    <lb n="4"/> <lPlacename type="ludus">L(udi) M(agni)</lPlacename>                                 
+                    <lb n="5"/> PATRONO BENE MERENTI   </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p> Text sourced from The Chronography of 354 AD. Part 16: Chronicle of the City of Rome. MGH Chronica Minora I (1892), pp. 143-148. 
+                    Also see Colini, A. M., and L. Cozza. Ludus Magnus. A cura di A. M. Colini e L. Cozza. Monte dei paschi di Siena, 1962.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -386,13 +390,13 @@
         <body>
             <div type="edition" xml:space="preserve">
                 <ab>
-                    <lb n="1"/> <persName type="founder/emperor">Domitianus</persName> imp. ann. XVII m. V d. V. congiarum dedit ter X LXXV.  
+                    <p> <persName type="founder/emperor">Domitianus</persName> imp. ann. XVII m. V d. V. congiarum dedit ter X LXXV.  
                     hoc imp. multae operae publicae fabricatae sunt: 
                     atria VII, horrea piperataria ubi modo est basilica Constantiniana et horrea Vespasiani, 
                     templum Castorum et Minervae, portam Capenam, gentem Flaviam, Divorum, Iseum et Serapeum,
                     Minervam Chalcidicam, Odium, Minuciam veterem, stadium, et thermas Titianas et Traianas, 
                     amphitheatrum usque ad clypea, templum Vespasiani et Titi, Capitolium, senatum, 
-                    <Placename type="ludus">ludos IIII </Placename>, Palatium, metam sudantem et Penteum. occisus Palatio. 
+                    <Placename type="ludus">ludos IIII </Placename>, Palatium, metam sudantem et Penteum. occisus Palatio. </p>
                 </ab>
             </div>
             <div type="apparatus">
@@ -413,7 +417,6 @@
 </TEI>
 
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
@@ -468,9 +471,9 @@
         <body>
             <div type="edition">
                 <ab>
-                    <lb n="1"/><persname type="founder/emperor">Aemilium</persname> circa <placename type ="ludus">ludum</placename> faber imus et unguis exprimet et mollis imitabitur aere capillos,
+                    <p</lb><persname type="founder/emperor">Aemilium</persname> circa <placename type ="ludus">ludum</placename> faber imus et unguis exprimet et mollis imitabitur aere capillos,
                             infelix operis summa, quia ponere totum nesciet; 
-                           <persname type="founder/emperor">Aemilii Laepidi</persname> <placename type ="ludus">ludus gladiatorius</placename> fuit, quod nunc Polycleti balineum est.  
+                           <persname type="founder/emperor">Aemilii Laepidi</persname> <placename type ="ludus">ludus gladiatorius</placename> fuit, quod nunc Polycleti balineum est.</p>  
                 </ab>
             </div>
             <div type="apparatus">
@@ -619,13 +622,13 @@
         <body>
             <div type="edition" xml:space="preserve">
                 <ab>
-                    <lb n="1"/> <persName type="founder/emperor">Domitianus</persName> imp. ann. XVII m. V d. V. congiarum dedit ter X LXXV.  
+                    <p> <persName type="founder/emperor">Domitianus</persName> imp. ann. XVII m. V d. V. congiarum dedit ter X LXXV.  
                     hoc imp. multae operae publicae fabricatae sunt: 
                     atria VII, horrea piperataria ubi modo est basilica Constantiniana et horrea Vespasiani, 
                     templum Castorum et Minervae, portam Capenam, gentem Flaviam, Divorum, Iseum et Serapeum,
                     Minervam Chalcidicam, Odium, Minuciam veterem, stadium, et thermas Titianas et Traianas, 
                     amphitheatrum usque ad clypea, templum Vespasiani et Titi, Capitolium, senatum, 
-                    <Placename type="ludus">ludos IIII</Placename> , Palatium, metam sudantem et Penteum. occisus Palatio. 
+                    <Placename type="ludus">ludos IIII</Placename> , Palatium, metam sudantem et Penteum. occisus Palatio. </p>
                 </ab>
             </div>
             <div type="apparatus">
@@ -702,13 +705,13 @@
         <body>
             <div type="edition" xml:space="preserve">
                 <ab>
-                    <lb n="1"/> <persName type="founder/emperor">Domitianus</persName> imp. ann. XVII m. V d. V. congiarum dedit ter X LXXV.  
+                    <p> <persName type="founder/emperor">Domitianus</persName> imp. ann. XVII m. V d. V. congiarum dedit ter X LXXV.  
                     hoc imp. multae operae publicae fabricatae sunt: 
                     atria VII, horrea piperataria ubi modo est basilica Constantiniana et horrea Vespasiani, 
                     templum Castorum et Minervae, portam Capenam, gentem Flaviam, Divorum, Iseum et Serapeum,
                     Minervam Chalcidicam, Odium, Minuciam veterem, stadium, et thermas Titianas et Traianas, 
                     amphitheatrum usque ad clypea, templum Vespasiani et Titi, Capitolium, senatum, 
-                    <Placename type="ludus">ludos IIII</Placename> , Palatium, metam sudantem et Penteum. occisus Palatio. 
+                    <Placename type="ludus">ludos IIII</Placename> , Palatium, metam sudantem et Penteum. occisus Palatio. </p>
                 </ab>
             </div>
             <div type="apparatus">
@@ -785,11 +788,10 @@
         <body>
             <div type="edition">
                 <ab>
-                    <lb n="1"/> <persname type ="gladiator">XX gladiatorum</persname> in <persname type ="founder/emperor">Gai</persname> <placename type='ludus'> principis ludo </placename> fuere, 
+                    <p> <persName type ="gladiator">XX gladiatorum</persName> in <persName type ="founder/emperor">Gai</persName> <placeName type='ludus'> principis ludo </placeName> fuere, 
                                 in iis duo omnino qui contra comminationem aliquam non coniverent, et ob id invicti. 
                                 tantae hoc difficultatis est homini. 
-                                plerisque vero naturale ut nictari non cessent, quos pavidiores accepimus.
-
+                                plerisque vero naturale ut nictari non cessent, quos pavidiores accepimus.</p>
                 </ab>
             </div>
             <div type="apparatus">
@@ -864,12 +866,12 @@
         <body>
             <div type="edition">
                 <ab>
-                    <lb n="1"/>Auctione proposita reliquias omnium spectaculorum subiecit ac uenditauit, 
+                    <p>Auctione proposita reliquias omnium spectaculorum subiecit ac uenditauit, 
                             exquirens per se pretia et usque eo extendens,
                             ut quidam immenso coacti quaedam emere ac bonis exuti uenas sibi inciderent. 
                             nota res est, Aponio Saturnino inter subsellia dormitante,
                             monitum a <persname type ="founder/emperor">Gaio</persname> praeconem ne praetorium uirum crebro capitis motu nutantem sibi praeteriret, 
-                            nec licendi finem factum, quoad <persname type ="gladiator"> tredecim gladiatores</persname> sestertium nonagies ignoranti addicerentur.
+                            nec licendi finem factum, quoad <persname type ="gladiator"> tredecim gladiatores</persname> sestertium nonagies ignoranti addicerentur.</p>
                 </ab>
             </div>
             <div type="apparatus">
