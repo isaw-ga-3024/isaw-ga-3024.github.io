@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chronography of 354 AD, Part 16: Chronicle of the City of Rome, Domitian</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support> Ludus Matutinus: Venationes gladiatorial training school, Rome  (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+      <graphic url="http://formaurbis.stanford.edu/fragment.php?record=22"></graphic> 
+        <graphic url="http://www.the-colosseum.net/images/ludmagn.jpg"></graphic>
+        <graphic url="http://2.bp.blogspot.com/-7RfaqwW0aXc/TtgC3GThwoI/AAAAAAAAEeg/7La-5U7eVPg/s1600/Rome+2011+721.JPG"></graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/> <persName type="founder/emperor">Domitianus</persName> imp. ann. XVII m. V d. V. congiarum dedit ter X LXXV.  
+                    hoc imp. multae operae publicae fabricatae sunt: 
+                    atria VII, horrea piperataria ubi modo est basilica Constantiniana et horrea Vespasiani, 
+                    templum Castorum et Minervae, portam Capenam, gentem Flaviam, Divorum, Iseum et Serapeum,
+                    Minervam Chalcidicam, Odium, Minuciam veterem, stadium, et thermas Titianas et Traianas, 
+                    amphitheatrum usque ad clypea, templum Vespasiani et Titi, Capitolium, senatum, 
+                    <Placename type="ludus">ludos</Placename> IIII, Palatium, metam sudantem et Penteum. occisus Palatio. 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p> Text sourced from The Chronography of 354 AD. Part 16: Chronicle of the City of Rome. MGH Chronica Minora I (1892), pp. 143-148. 
+                    </p>
+            </div>
+        </body>
+    </text>
+</TEI>
