@@ -1,0 +1,427 @@
+
+R version 3.3.2 (2016-10-31) -- "Sincere Pumpkin Patch"
+Copyright (C) 2016 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library("igraph") # Imports basic network visualization library
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+> library("visNetwork") # Imports the "jiggly" network with html capabilities
+
+Attaching package: ‘visNetwork’
+
+The following object is masked from ‘package:igraph’:
+
+    %>%
+
+> library("network") # more fancy network visualization
+network: Classes for Relational Data
+Version 1.13.0 created on 2015-08-31.
+copyright (c) 2005, Carter T. Butts, University of California-Irvine
+                    Mark S. Handcock, University of California -- Los Angeles
+                    David R. Hunter, Penn State University
+                    Martina Morris, University of Washington
+                    Skye Bender-deMoll, University of Washington
+ For citation information, type citation("network").
+ Type help("network-package") to get started.
+
+
+Attaching package: ‘network’
+
+The following objects are masked from ‘package:igraph’:
+
+    %c%, %s%, add.edges, add.vertices, delete.edges,
+    delete.vertices, get.edge.attribute, get.edges,
+    get.vertex.attribute, is.bipartite, is.directed,
+    list.edge.attributes, list.vertex.attributes,
+    set.edge.attribute, set.vertex.attribute
+
+> 
+> # Here we import our csv files as our data set of nodes and edges
+> nodes <- read.csv("nodes.csv", header = T, as.is = T) %>%
++     edges <- read.csv("edges.csv", header = T, as.is = T)
+Error in read.csv("nodes.csv", header = T, as.is = T) %>% edges <- read.csv("edges.csv",  : 
+  target of assignment expands to non-language object
+> 
+> # Then we attach them to a network string called "net". This network will also be directed
+> 
+> net <- graph_from_data_frame(d=edges, vertices=nodes, directed=T)
+Error in as.data.frame.default(d) : 
+  cannot coerce class ""function"" to a data.frame
+> library("igraph") # Imports basic network visualization library
+> library("visNetwork") # Imports the "jiggly" network with html capabilities
+> library("network") # more fancy network visualization
+> nodes <- read.csv("nodes.csv", header = T, as.is = T) %>%
++     edges <- read.csv("edges.csv", header = T, as.is = T)
+Error in read.csv("nodes.csv", header = T, as.is = T) %>% edges <- read.csv("edges.csv",  : 
+  target of assignment expands to non-language object
+> nodes <- read.csv("nodes.csv", header = T, as.is = T) %>%edges <- read.csv("edges.csv", header = T, as.is = T)
+Error in read.csv("nodes.csv", header = T, as.is = T) %>% edges <- read.csv("edges.csv",  : 
+  target of assignment expands to non-language object
+> nodes <- read.csv("nodes.csv", header = T, as.is = T) %>%
++ edges <- read.csv("edges.csv", header = T, as.is = T)
+Error in read.csv("nodes.csv", header = T, as.is = T) %>% edges <- read.csv("edges.csv",  : 
+  target of assignment expands to non-language object
+> nodes <- read.csv("nodes.csv", header = T, as.is = T)
+>     edges <- read.csv("edges.csv", header = T, as.is = T)
+> net <- graph_from_data_frame(d=edges, vertices=nodes, directed=T
++ 
++ 
++ net
+Error: unexpected symbol in:
+"
+net"
+> net <- graph_from_data_frame(d=edges, vertices=nodes, directed=T
++ 
++ sklf
+Error: unexpected symbol in:
+"
+sklf"
+> net <- graph_from_data_frame(d=edges, vertices=nodes, directed=T)
+> plot(net)
+> V(net)$Rank
+ [1] "Official"      "Official"      "Treasurer"    
+ [4] "Resident"      "Symmachos"     "Sahib al-Ma'a"
+ [7] "Official"      "Symmachos"     "Sahib al-Ma'a"
+[10] "Village"       "Sahib"         "Amir"         
+[13] "Sahib"         "Official"      "Official"     
+[16] "Resident"      "Resident"      "Sahib"        
+[19] "Symmachos"     "Symmachos"     "Official"     
+> colrs <- c("gray50", "tomato", "white", "orange", "yellow", "deepskyblue", "blue", "green", "purple")
+> nodecolor = as.character(nodes$Rank[match(V(net)$Rank,nodes$ID)])
+> nodecolor=gsub(colrs, nodecolor)
+Error in gsub(colrs, nodecolor) : 
+  argument "x" is missing, with no default
+> nodecolor = gsub("Sahib", "orange", V(net)$color)
+> nodecolor = gsub("Amir", "Red", V(net)$color)
+> nodecolor = gsub("Official", "deepskyblue", V(net)$color)
+> nodecolor = gsub("Symmachos", "green", V(net)$color)
+> nodecolor = gsub("Treasurer", "tomago", V(net)$color)
+> nodecolor = gsub("Sahib al-Ma'a", "purple", V(net)$color)
+> nodecolor = gsub("Resident", "white", V(net)$color)
+> nodecolor = gsub("Village", "yellow", V(net)$color)
+> plot(net, vertex.col)
+Error in plot.default(0, 0, type = "n", xlab = xlab, ylab = ylab, xlim = xlim,  : 
+  object 'vertex.col' not found
+> plot(net, vertex.color = nodecolor, layout=layout.fruchterman.reingold)
+> V(net)$Rank
+ [1] "Official"      "Official"      "Treasurer"    
+ [4] "Resident"      "Symmachos"     "Sahib al-Ma'a"
+ [7] "Official"      "Symmachos"     "Sahib al-Ma'a"
+[10] "Village"       "Sahib"         "Amir"         
+[13] "Sahib"         "Official"      "Official"     
+[16] "Resident"      "Resident"      "Sahib"        
+[19] "Symmachos"     "Symmachos"     "Official"     
+> V(net)$color <- colrs[match(v(net)$Rank, nodes$ID)]
+Error in match(v(net)$Rank, nodes$ID) : could not find function "v"
+> V(net)$color <- colrs[match(V(net)$Rank, nodes$ID)]
+> plot(net, vertex.color = colrs)
+> V(net)$color = clusters(net)$Rank
+Error in `V<-`(`*tmp*`, value = 1:21) : invalid indexing
+> data <- toVisNetworkData(net)
+> visNetwork(nodes = data$nodes, edges = data$edges, width = "200%", height = "500px")
+> nodes$shape <- "dot"
+> nodes$shadow <- TRUE
+> nodes$title <- nodes$ID
+> nodes$borderWidth <-2
+> nodes$color.background <- c("gray50", "tomato", "white", "orange", "yellow", "deepskyblue", "blue", "green", "purple")[nodes$Rank]
+> visNetwork(nodes, edges, width = "400%", height = "1000px")
+> visNetwork(nodes = data$nodes, edges=data$edges, width = "400%", height = "1000px")
+> visOptions(highlightNearest = TRUE,
++            selectedBy = "Rank")
+Error in match(x, table, nomatch = 0L) : 
+  argument "graph" is missing, with no default
+> visNetwork(nodes = data$nodes, edges=data$edges, width = "400%", height = "1000px") %>%
++ visOptions(highlightNearest = TRUE,
++            +            selectedBy = "Rank")
+Error: unexpected '=' in:
+"visOptions(highlightNearest = TRUE,
+           +            selectedBy ="
+> visOptions(highlightNearest = TRUE, selectedBy = "Rank")
+Error in match(x, table, nomatch = 0L) : 
+  argument "graph" is missing, with no default
+> visNetwork(nodes = data$nodes, edges=data$edges, width = "400%", height = "1000px") %>%
++ visOptions(highlightNearest = TRUE, selectedBy = "Rank")
+> visNetwork(nodes = data$nodes, edges=data$edges, width = "400%", height = "1000px") %>%
++     + visOptions(highlightNearest = TRUE, selectedBy = "Rank",
++                  selectedBy = "Location",)
+Error in visOptions(highlightNearest = TRUE, selectedBy = "Rank", selectedBy = "Location",  : 
+  formal argument "selectedBy" matched by multiple actual arguments
+> visNetwork(nodes = data$nodes, edges=data$edges, width = "400%", height = "1000px") %>%
++     +     + visOptions(highlightNearest = TRUE, selectedBy = "Rank",
++                        +                  selectedBy = "Location",
+Error: unexpected '=' in:
+"    +     + visOptions(highlightNearest = TRUE, selectedBy = "Rank",
+                       +                  selectedBy ="
+>                        nodesIdSelection = TRUE) %>%
+Error: unexpected ')' in "                       nodesIdSelection = TRUE)"
+> visNetwork(nodes = data$nodes, edges=data$edges, width = "400%", height = "1000px") %>%
++     +     +     + visOptions(highlightNearest = TRUE, selectedBy = "Rank", "Location")
+Error in visOptions(highlightNearest = TRUE, selectedBy = "Rank", "Location") : 
+  graph must be a visNetwork or a visNetworkProxy object
+> visNetwork(nodes = data$nodes, edges=data$edges, width = "400%", height = "1000px") %>%
++ visOptions(highlightNearest = TRUE, selectedBy = "Rank", "Location")
+> visNetwork(nodes = data$nodes, edges=data$edges, width = "400%", height = "1000px") %>%visOptions(highlightNearest = TRUE, selectedBy = "Rank", "Location")
+> visNetwork(nodes = data$nodes, edges=data$edges, width = "400%", height = "1000px") %>%
++     + visOptions(highlightNearest = TRUE, selectedBy = "Rank", selectedBy = "Location")
+Error in visOptions(highlightNearest = TRUE, selectedBy = "Rank", selectedBy = "Location") : 
+  formal argument "selectedBy" matched by multiple actual arguments
+> visNetwork(nodes = data$nodes, edges=data$edges, width = "400%", height = "1000px") %>%
++     + visOptions(highlightNearest = TRUE, selectedBy = "Rank",
++                  nodesIdSelection = TRUE) %>%
++ visPhysics(stabilization = FALSE)
+Error in match(x, table, nomatch = 0L) : 
+  argument "graph" is missing, with no default
+> visNetwork(nodes = data$nodes, edges=data$edges, width = "400%", height = "1000px") %>%
++     +     + visOptions(highlightNearest = TRUE, selectedBy = "Rank",
++                        +                  nodesIdSelection = TRUE)
+Error: unexpected '=' in:
+"    +     + visOptions(highlightNearest = TRUE, selectedBy = "Rank",
+                       +                  nodesIdSelection ="
+> visNetwork(nodes = data$nodes, edges=data$edges, width = "400%", height = "1000px") %>%
++     visOptions(highlightNearest = TRUE, selectedBy = "Rank", nodesIdSelection = TRUE)
+> visNetwork(nodes = data$nodes, edges=data$edges, width = "100%", height = "700px") %>%
++     +     visOptions(highlightNearest = TRUE, selectedBy = "Rank", nodesIdSelection = TRUE)
+Error in match(x, table, nomatch = 0L) : 
+  argument "graph" is missing, with no default
+> visNetwork(nodes = data$nodes, edges=data$edges, width = "100%", height = "700px") %>%
++     visOptions(highlightNearest = TRUE, selectedBy = "Rank", nodesIdSelection = TRUE)
+> visNetwork(nodes = data$nodes, edges=data$edges, width = "100%", height = "700px") %>%
++     visOptions(highlightNearest = TRUE, selectedBy = "Rank", nodesIdSelection = TRUE) %>%
++     visInteraction(navigationButtons = TRUE)
+> nodes = data$nodes
+> edges = data$edges
+> visNetwork(nodes, edges)
+> V(net)
++ 21/21 vertices, named:
+ [1] Abd Allah b. As'ad       b. Abi Muslim            Yazid b. 'Ali            Khalid                   Peter the Symmachos     
+ [6] Juzayy                   Yazid                    Anonymous Symmachos      Rashid                   People of Narmuda       
+[11] Qarina                   Anonymous Amir           Najid b. Muslim          Abu (missing)            Awn b. Nafi'            
+[16] so and so son of ....man two sons of Da'ud        Jarid b. As'ad           George the Symmachos     Abu Dawud               
+[21] Nadhir b. 'Abd al-Rahman
+> nodes$shape <- "dot"
+> nodes$shadow <- TRUE
+> nodes$borderWidth <- 2
+> edges$color <- "gray"
+> edges$arrows <- "to"
+> edges$smooth <- TRUE
+> edges$shadow <- FALSE
+> visNetwork(nodes, edges)
+> visNetwork(nodes, edges, width = "100%", height = "700px") %>%
++     visOptions(
++         highlightNearest = TRUE, #highlights edges connected to node
++         selectedBy = "Rank", #brings up dialog box to select nodes based on a node Attribute
++         nodesIdSelection = TRUE) %>% #brings up a dialog box to select nodes based on ID
++     visInteraction(navigationButtons = TRUE) #adds webpage controls
+> nodes$color.border <- "black"
+> nodes.color.highlight.background <- "orange"
+> nodes.color.highlight.border <- "darkred"
+> visNetwork(nodes, edges, width = "100%", height = "700px") %>%
++     visOptions(
++         highlightNearest = TRUE, #highlights edges connected to node
++         selectedBy = "Rank", #brings up dialog box to select nodes based on a node Attribute
++         nodesIdSelection = TRUE) %>% #brings up a dialog box to select nodes based on ID
++     visInteraction(navigationButtons = TRUE) #adds webpage controls
+> edge$label <-edge$Citation
+Error in edge$Citation : object of type 'closure' is not subsettable
+> edge$label <- edge$Citation
+Error in edge$Citation : object of type 'closure' is not subsettable
+> title = paste("Citation", edges$Citation)
+> visNetwork(nodes, edges, width = "100%", height = "700px") %>%
++     +     visOptions(
++         +         highlightNearest = TRUE, #highlights edges connected to node
+Error: unexpected '=' in:
+"    +     visOptions(
+        +         highlightNearest ="
+>         +         selectedBy = "Rank", #brings up dialog box to select nodes based on a node Attribute
+Error: unexpected ',' in "        +         selectedBy = "Rank","
+>         +         nodesIdSelection = TRUE) %>% #brings up a dialog box to select nodes based on ID
+Error: unexpected ')' in "        +         nodesIdSelection = TRUE)"
+>     +     visInteraction(navigationButtons = TRUE) #adds webpage controls
+Error in match(x, table, nomatch = 0L) : 
+  argument "graph" is missing, with no default
+> visNetwork(nodes, edges, width = "100%", height = "700px") %>%
++     visOptions(
++         highlightNearest = TRUE, #highlights edges connected to node
++         selectedBy = "Rank", #brings up dialog box to select nodes based on a node Attribute
++         nodesIdSelection = TRUE) %>% #brings up a dialog box to select nodes based on ID
++     visInteraction(navigationButtons = TRUE) #adds webpage controls
+> ?visEdges
+> ?visNetwork
+> visEdges(title = paste("Citation", edges$Citation))
+Error in match(x, table, nomatch = 0L) : 
+  argument "graph" is missing, with no default
+> visEdges(data, title = paste("Citation", edges$Citation))
+Error in visEdges(data, title = paste("Citation", edges$Citation)) : 
+  graph must be a visNetwork or a visNetworkProxy object
+> data <- toVisNetworkData(net)
+> edges <- data$edges(arrows = c("to"))
+Error: attempt to apply non-function
+> edges <- data$edges
+> head(edges)
+             from                 to         Date            Citation Languages.in.Use Letter.Type     Keywords Scribe
+1 Najid b. Muslim Abd Allah b. As'ad c. 730-50 CE  P.Mich.inv.5558(1)           Arabic    Personal                    
+2  Anonymous Amir    Najid b. Muslim c. 730-50 CE  P.Mich.inv.5558(1)           Arabic    Personal                    
+3   Yazid b. 'Ali    Najid b. Muslim c. 730-50 CE  P.Mich.inv.5558(1)           Arabic    Personal                    
+4 Najid b. Muslim Abd Allah b. As'ad c. 730-50 CE    P.Mich.inv. 5629           Arabic  Tax Demand   Ø¨Ù‚Ø§ÙŠØ§       
+5  Anonymous Amir    Najid b. Muslim c. 730-50 CE P.Vindob. A P 11045           Arabic  Tax Demand Ø§Ù„ÙƒØ³ÙˆØ©       
+6 Najid b. Muslim Abd Allah b. As'ad c. 730-50 CE P.Vindob. A P 11045           Arabic  Tax Demand              Humran
+> visNetwork(nodes, edges, width = "100%", height = "700px") %>%
++     visEdges(shadow=c(FALSE),
++              arrows = c("to"),
++              title = paste("Citation", edges$Citation)
++     )%>%
++     visOptions(
++         highlightNearest = TRUE, #highlights edges connected to node
++         selectedBy = "Rank", #brings up dialog box to select nodes based on a node Attribute
++         nodesIdSelection = TRUE) %>% #brings up a dialog box to select nodes based on ID
++     visInteraction(navigationButtons = TRUE) #adds webpage controls
+> nodes <- data$nodes
+> visNetwork(nodes, edges, width = "100%", height = "700px") %>%
++     visEdges(shadow=c(FALSE),
++              arrows = c("to"),
++              title = paste("Citation", edges$Citation)
++     )%>%
++     visOptions(
++         highlightNearest = TRUE, #highlights edges connected to node
++         selectedBy = "Rank", #brings up dialog box to select nodes based on a node Attribute
++         nodesIdSelection = TRUE) %>% #brings up a dialog box to select nodes based on ID
++     visInteraction(navigationButtons = TRUE) #adds webpage controls
+> visNetwork(nodes, edges)
+> visNetwork(nodes, edges, width = "100%", height = "700px") %>%
++     visEdges(arrows = c("to"),
++              title = paste("Citation", edges$Citation)
++     )%>%
++     visOptions(
++         highlightNearest = TRUE, #highlights edges connected to node
++         selectedBy = "Rank", #brings up dialog box to select nodes based on a node Attribute
++         nodesIdSelection = TRUE) %>% #brings up a dialog box to select nodes based on ID
++     visInteraction(navigationButtons = TRUE) #adds webpage controls
+> visNetwork(nodes, edges, width = "100%") %>%
++     visEdges(arrows = "to",
++              title = paste("Citation", edges$Citation))
+> visNetwork(nodes, edges)
+> visNetwork(nodes, edges) %>%
++ visEdges(arrows = "to",
++          title = paste("Citation", 1:40))
+> visNetwork(nodes, edges) %>%
++ visEdges(arrows = "to")
+> visNetwork(nodes, edges) %>%
++     visEdges(title = edges$Citation)
+> edges$Citation
+ [1] "P.Mich.inv.5558(1)"       "P.Mich.inv.5558(1)"       "P.Mich.inv.5558(1)"       "P.Mich.inv. 5629"        
+ [5] "P.Vindob. A P 11045"      "P.Vindob. A P 11045"      "P.Mich.inv. 5624"         "P.Mich.inv. 5624"        
+ [9] "P.Mich.inv. 5578(1)"      "P.Mich.inv. 5578(1)"      "P.Vindob. A P 11253"      "P.Vindob. A P 11253"     
+[13] "P.Mich.inv. 5627"         "P.Mich.inv. 5627"         "P.Mich.inv. 5558(2)"      "P.Mich.inv 5578(3)"      
+[17] "P.Mich.inv 5578(3)"       "P.Mich.inv 5578(5)a"      "P.Mich.inv 5578(5)b"      "P.Mich.inv 5578(5)b"     
+[21] "P.Mich.inv 5578(7)"       "P.Mich.inv 5578(6)"       "P.Mich.inv 5578(6)"       "P.Mich.inv 5610"         
+[25] "P.Mich.inv 5610"          "P.Mich.inv 5610"          "P.Mich.inv 5613(b)"       "P.Mich.inv 5613(b)"      
+[29] "P.Mich.inv 5613(b)"       "P.Mich.inv 5613(b)"       "P.Mich.inv 5613(b)"       "P.Mich.inv 5613(b)"      
+[33] "P.Mich.inv 5625(a)"       "P.Mich.inv 5625(a)"       "P.Mich.inv 5625(a)"       "P.Mich.inv 5625(a)"      
+[37] "P.Mich.inv 5625(a)"       "P.Mich.inv 5625(a)"       "P.Mich.inv 5625(a)"       "P.Mich.inv 5620"         
+[41] "P.Mich.inv 5620"          "P.Mich.inv 5620"          "P.Princeton AM 133995(8)" "P.Mich.inv 5619"         
+[45] "P.Mich.inv 5619"          "P.Vindob. A P 11252"      "P.Vindob. A P 11252"      "P.Vindob. A P 11252"     
+[49] "P.Mich.inv 5613(a)"       "P.Mich.inv 5613(a)"       "P.Mich.inv 5632"          "P.Mich.inv 5578(9)"      
+[53] "P.Mich.inv 5578(9)"       "P.Mich.inv 5578(9)"       "P.Mich.inv 5578(9)"       "P.Mich.inv 5578(9)"      
+> visNetwork(nodes, edges) %>%
++     + visEdges(title = paste("Citation")
++ 
++ asdf
+Error: unexpected symbol in:
+"
+asdf"
+> visNetwork(nodes, edges) %>%
++     + visEdges(title = paste("Citation")
++ print
+Error: unexpected symbol in:
+"    + visEdges(title = paste("Citation")
+print"
+> edges$title <- paste("Citation:", edges$Citation)
+> head(edges)
+             from                 to         Date            Citation Languages.in.Use Letter.Type     Keywords Scribe
+1 Najid b. Muslim Abd Allah b. As'ad c. 730-50 CE  P.Mich.inv.5558(1)           Arabic    Personal                    
+2  Anonymous Amir    Najid b. Muslim c. 730-50 CE  P.Mich.inv.5558(1)           Arabic    Personal                    
+3   Yazid b. 'Ali    Najid b. Muslim c. 730-50 CE  P.Mich.inv.5558(1)           Arabic    Personal                    
+4 Najid b. Muslim Abd Allah b. As'ad c. 730-50 CE    P.Mich.inv. 5629           Arabic  Tax Demand   Ø¨Ù‚Ø§ÙŠØ§       
+5  Anonymous Amir    Najid b. Muslim c. 730-50 CE P.Vindob. A P 11045           Arabic  Tax Demand Ø§Ù„ÙƒØ³ÙˆØ©       
+6 Najid b. Muslim Abd Allah b. As'ad c. 730-50 CE P.Vindob. A P 11045           Arabic  Tax Demand              Humran
+                          title
+1  Citation: P.Mich.inv.5558(1)
+2  Citation: P.Mich.inv.5558(1)
+3  Citation: P.Mich.inv.5558(1)
+4    Citation: P.Mich.inv. 5629
+5 Citation: P.Vindob. A P 11045
+6 Citation: P.Vindob. A P 11045
+> visNetwork(nodes, edges)
+ visNetwork(nodes, edges)
+> visNetwork(nodes, edges, width = "100%", height = "700px") %>%
++     visEdges(shadow=c(FALSE),
++              arrows = c("to"),
++     )%>%
++     visOptions(
++         highlightNearest = TRUE, #highlights edges connected to node
++         selectedBy = "Rank", #brings up dialog box to select nodes based on a node Attribute
++         nodesIdSelection = TRUE) %>% #brings up a dialog box to select nodes based on ID
++     visInteraction(navigationButtons = TRUE) #adds webpage controls
+> edges$Location
+NULL
+> nodes$Location
+ [1] "Medinat al-Fayyum" "Medinat al-Fayyum" "Fustat"            "Qa'yah"            "Medinat al-Fayyum" "Medinat Madi"     
+ [7] "Medinat al-Fayyum" "Medinat al-Fayyum" "Medinat Madi"      "Narmuda"           "Nuwayra"           "Fustat"           
+[13] "Medinat al-Fayyum" "Medinat al-Fayyum" "Medinat al-Fayyum" "Medinat al-Fayyum" "Medinat al-Fayyum" "Medinat al-Fayyum"
+[19] "Medinat al-Fayyum" "Medinat al-Fayyum" "Medinat al-Fayyum"
+> nodes$borderWidth <- 2
+> visNetwork(nodes, edges, width = "100%", height = "700px") %>%
++     visEdges(shadow=c(FALSE),
++              arrows = c("to"),
++     )%>%
++     visOptions(
++         highlightNearest = TRUE, #highlights edges connected to node
++         selectedBy = "Rank", #brings up dialog box to select nodes based on a node Attribute
++         nodesIdSelection = TRUE) %>% #brings up a dialog box to select nodes based on ID
++     visInteraction(navigationButtons = TRUE) #adds webpage controls
+> visNetwork(nodes, edges, width = "100%", height = "700px") %>%
++     visEdges(shadow=c(FALSE),
++              arrows = c("to"),
++     )%>%
++     visOptions(
++         highlightNearest = TRUE, #highlights edges connected to node
++         selectedBy = "Rank", #brings up dialog box to select nodes based on a node Attribute
++         nodesIdSelection = TRUE) %>% #brings up a dialog box to select nodes based on ID
++     visInteraction(navigationButtons = TRUE) #adds webpage controls %>%
+> visHierarchicalLayout()
+Error in match(x, table, nomatch = 0L) : 
+  argument "graph" is missing, with no default
+> ceb <- cluster_edge_betweenness(net)
+> dendPlot(ceb, mode="hclust")
+> plot(ceb, net)
+> plot(ceb, net, edge.arrow.size=.4, edge.curved=.1, 
++      vertex.label.color="black", layout=layout_nicely)
+> deg.dist <- degree_distribution(net, cumulative=T, mode="all")
+> plot(x=0:max(deg), y=1-deg.dist, pch=19, cex=1.2, col="orange",
++      xlab = "Degree", ylab="Cumulative Frequency")
+Error in plot(x = 0:max(deg), y = 1 - deg.dist, pch = 19, cex = 1.2, col = "orange",  : 
+  object 'deg' not found
+> deg <- degree(net, mode="all")
+> plot(x=0:max(deg), y=1-deg.dist, pch=19, cex=1.2, col="orange", xlab = "Degree", ylab="Cumulative Frequency")
