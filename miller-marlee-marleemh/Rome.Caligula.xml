@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
-
-
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
@@ -56,7 +53,7 @@
         <body>
             <div type="edition">
                 <ab>
-                    <lb n="1"/> XX gladiatorum in <persname type ="founder/emperor">Gai</persname> <placename type='ludus'> principis ludo </placename> fuere, 
+                    <lb n="1"/> XX gladiatorum in <persName type ="founder/emperor">Gai</persName> <placeName type='ludus'> principis ludo </placeName> fuere, 
                                 in iis duo omnino qui contra comminationem aliquam non coniverent, et ob id invicti. 
                                 tantae hoc difficultatis est homini. 
                                 plerisque vero naturale ut nictari non cessent, quos pavidiores accepimus.
@@ -78,5 +75,3 @@
         </body>
     </text>
 </TEI>
-
-
