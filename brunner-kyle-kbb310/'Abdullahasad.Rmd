@@ -1,0 +1,186 @@
+---
+title: "Network of 'Abd Allah b. As'ad"
+author: "Kyle"
+date: "December 19, 2016"
+output: html_document
+---
+```{r}
+
+# Here we are importing our R libraries that we will be using
+# for the Arabic Papyri Network Project
+
+library('igraph')
+library('visNetwork')
+
+```
+## Importing our data
+
+```{r}
+# here we are importing our csv files that have our papyri data
+nodes <- read.csv('nodes.csv', header = T, as.is = T)
+edges <- read.csv('edges.csv', header = T, as.is = T)
+```
+
+
+```{r}
+#This creates our base network and dumps our node and edge data into one place
+net <-graph_from_data_frame(d = edges, vertices = nodes, directed = TRUE)
+
+```
+## Print our Nodes
+```{r}
+V(net)
+
+```
+## Print our Edges
+```{r}
+E(net)
+```
+## Attributes
+```{r}
+# With R we can assign attributes to your nodes and edges.
+# To make sure these attributes were properly assigned, we can
+# Print them just like our edges and nodes
+
+E(net)$Citation
+V(net)$Rank
+
+```
+## Plotting our network
+```{r}
+# R has an integrated plotting library that is pretty intuitive. 
+# This is different from Python where we had to import the matplotlib
+# Library in tandem with other Python libraries
+
+plot(net, edge.arrow.size = .4,
+          edge.curved =.1,
+          vertex.label.color = "black",
+          layout = layout_components) #There are other layout options that I will show next
+
+```
+```{r}
+# We can also produce multiple network visualizations as rows and columns
+
+par(mfrow=c(2,2), mar=c(0,0,0,0)) # plots 4 figures as 2 x 2
+
+plot(net, edge.arrow.size = .4, edge.curved =.1,
+     vertex.label.color = "black", layout = layout_with_fr)
+plot(net, edge.arrow.size = .4, edge.curved =.1,
+     vertex.label.color = "black", layout = layout_on_sphere)
+plot(net, edge.arrow.size = .4, edge.curved =.1,
+     vertex.label.color = "black", layout = layout_as_star)
+plot(net, edge.arrow.size = .4, edge.curved =.1,
+     vertex.label.color = "black", layout = layout_on_grid)
+
+
+```
+```{r}
+# Let's add some more!
+
+layouts <- grep("^layout_", ls("package:igraph"), value=TRUE)[-1]
+layouts <- layouts[!grepl("bipartite|merge|norm|sugiyama|tree", layouts)]
+
+par(mfrow=c(3,3), mar=c(1,1,1,1))
+for (layout in layouts) {
+  print(layout)
+  l <-do.call(layout, list(net))
+  plot(net, vertex.label = NA, edge.arrow.mode=0, layout=l, main=layout)
+#I removed the node label here to make it not as messy. 
+    }
+```
+
+## Visualizing Statistics
+
+
+```{r}
+deg <- degree(net, mode="all") #defining our "Kevin Bacon" factor
+# We can make a histogram for our degrees
+deg.dist <- degree_distribution(net, cumulative=T, mode="all")
+plot(x=0:max(deg), y=1-deg.dist, pch=19, cex=1.2, col="blue",
+     xlab="Degree", ylab="Cumulative Frequency")
+```
+
+```{r}
+ceb <-cluster_edge_betweenness(net)
+# Creating a Dendrogram
+dendPlot(ceb, mode="hclust")
+# Let's see the same dendrogram, but
+# highlighted in network view
+plot(ceb, net,edge.arrow.size = .4,
+          edge.curved =.1,
+          vertex.label.color = "black",
+          layout = layout_components)
+```
+
+
+## Using visNetwork for Visualization
+
+```{r}
+# With visNetwork, we can great an interactive
+# visualization of our Papyri network
+# that can allow the user to query different
+# attributes related to the papyri to highlight
+# the different relationships between social actors
+
+# Here we import our network from our igraph library
+# and create a new network in the visNetwork library
+data <- toVisNetworkData(net)
+nodes2 = data$nodes
+edges2 = data$edges
+
+# Basic command for visualization. Play with it!!
+visNetwork(nodes2, edges2)
+
+```
+
+```{r}
+
+# Let's add some bells and whistles to this 
+# visualization, and try to get the most out of it.
+
+nodes2$shape <- "dot"
+nodes2$shadow <- TRUE
+nodes2$borderWidth <- 2
+edges2$color <- "gray"
+edges2$arrows <- "to"
+edges2$smooth <- TRUE
+edges2$shadow <- FALSE
+edges2$title <- paste("Citation", edges2$Citation) #This creates a popup with the citation
+
+visNetwork(nodes2, edges2, width = "100%", height="700px") %>%
+  visEdges(shadow=c(FALSE),
+           arrows=c("to")
+           )%>%
+  visOptions(highlightNearest=TRUE,
+             selectedBy = "Rank",
+             nodesIdSelection = TRUE) %>%
+  visInteraction(navigationButtons = TRUE)
+```
+
+```{r}
+# Sadly, I haven't been able to figure out how to add
+# multiple attributes to be searched and/or highlighted, etc.
+# so, let's change things up a bit from the last visualization.
+
+nodes2$shape <- "dot"
+nodes2$shadow <- TRUE
+nodes2$borderWidth <- 2
+nodes2$color <-"gold"
+edges2$color <- "black"
+edges2$arrows <- "to"
+edges2$smooth <- TRUE
+edges2$shadow <- FALSE
+edges2$title <- paste("Letter Type:", edges2$Letter.Type) #This creates a popup with the Type of Letter
+
+visNetwork(nodes2, edges2, width = "100%", height="700px") %>%
+  visEdges(shadow=c(FALSE),
+           arrows=c("to")
+           )%>%
+  visOptions(highlightNearest=TRUE,
+             selectedBy = "Location", # changed this to Location
+             nodesIdSelection = TRUE) %>%
+  visInteraction(navigationButtons = TRUE)
+```
+
+
+
