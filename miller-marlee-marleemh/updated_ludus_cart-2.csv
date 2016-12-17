@@ -1,0 +1,55 @@
+cartodb_id,the_geom,pleiades_id,founder_emperor,date,chronology,evidence,country_modern,city_town_ancient,id,latitude,longitude,label,control_operation
+6,0101000020E61000009E4143FF04672840DB6D179AEB344640,https://pleiades.stoa.org/places/393480 ,Julius Caesar ,-49,Caesarian ,Textual Reference ,Italy,Ravenna,Ravenna.Ludus,44.41344,12.20121,Ludus at Ravenna of G. Julius Caesar,"Imperial, but Private"
+19,0101000020E6100000ED629AE95E1716408908FF2268514140,https://pleiades.stoa.org/places/334553,Unknown,"Uncertain
+",Second Century AD ,Textual Reference ,Algeria ,Gemellae,Gemellae.Ludus,34.6359905,5.522823,Gemellae Ludus,Imperial
+27,0101000020E610000027AEF8C0ED684040ECAE81E73DFB4340,https://pleiades.stoa.org/places/619103 ,Unknown,Uncertain,Uncertain,Textual Reference ,Turkey,Ancyra,Ancyra.Ludus ,39.96282667,32.81975567,Ancyra Ludus,Imperial
+26,0101000020E6100000CF65EE4A60F336409885B86A85514440,https://pleiades.stoa.org/places/491741,Unknown,"Uncertain
+",Uncertain,Textual Reference ,Greece,"Thessalonica
+",Thessalonike.Ludus ,40.63688406,22.95068806,Thessalonica Ludus,Imperial
+25,0101000020E61000001C5F7B66496022404ED367075CBB4640,https://pleiades.stoa.org/places/383801,Unknown,Uncertain,"Uncertain
+",Textual Reference ,Italy,Gallia Transpadana ,Transpadana.Ludus,45.463746,9.18806,Gallia Transpadana Ludus,Private
+24,0101000020E61000001D1F2DCE18E23B40D2FF722D5A314440,https://pleiades.stoa.org/places/511218,Unknown,"Uncertain
+",Republican  ,Textual Reference ,Turkey ,Cyzicus ,Cyzicus.Ludus ,40.3855645,27.883191,Cyzicus Ludus,Imperial
+5,0101000020E61000005B5F24B4E56C2C40E1EEACDD768D4440,https://pleiades.stoa.org/places/432754  ,Gnaeus Cornelius Lentulus Batiatus/Vatia ,-73,Republican ,Textual Reference ,Italy,Capua,Capua.Ludus,41.10519,14.21269,Ludus of Gn. C. Lentulus Batiatus at Capua,Private
+20,0101000020E6100000ABE16C848F7B3040E9096C4A09C54540,https://pleiades.stoa.org/places/197488,Unknown,"Uncertain
+",Second Century AD ,Textual Reference ,Croatia,Solin ,Salon.Ludus ,43.53934603,16.48265865,Salin Ludus,Private
+10,0101000020E61000005B5F24B4E56C2C40E1EEACDD768D4440,https://pleiades.stoa.org/places/432754  ,C. Aurelius Scaurus ,-105,Republican ,Textual Reference ,Italy,Capua ,Capua.Ludus.Second,41.10519,14.21269,Ludus of C.Aurelius Scaurus at Capua,Private
+21,0101000020E6100000C4C3E6A92FB12B402D9CDEA46D6F4640,https://pleiades.stoa.org/places/197448,Unknown,"Uncertain
+",Julio-Claudian ,Textual Reference ,Croatia,Pola ,Pola.Ludus ,44.87053357,13.84606677,Pola Ludus,Private
+22,0101000020E610000051F7E03984FD2540C5A5CFB37EB84640,https://pleiades.stoa.org/places/383816,Unknown,Uncertain,Julio-Claudian ,Textual Reference ,Italy,Verona ,Verona.Ludus ,45.44136665,10.99514943,Verona Ludus,Private
+11,0101000020E6100000D5B0DF13EBF82840F38E537424F24440,http://pleiades.stoa.org/places/423025,Caligula ,"Uncertain
+",Julio-Claudian ,Textual Reference ,Italy,Roma ,Rome.Ludus.Caligula,41.8917375,12.4861685,Ludus of Caligula ,"Imperial, but Private"
+12,0101000020E6100000880FECF82F5027403A07CF84269D4640,https://pleiades.stoa.org/places/393382,Unknown,"Uncertain
+",Julio-Claudian ,Textual Reference ,Italy,Ateste ,Ateste.Ludus ,45.227738,11.656616,Ateste Ludus,Private
+23,0101000020E6100000A1FBCD1F2EF4F7BF4289E0C9B82F4A40,https://pleiades.stoa.org/places/878157790,Unknown,"Uncertain
+",First  Century AD ,"Archaeological Remains, Constested ID ",England ,Lunt,Baginton.Ludus ,52.3728268,-1.4971143,Lunt Ludus,Imperial
+13,0101000020E61000006749BA45E4C82940E3D7383073EB4440,https://pleiades.stoa.org/places/423013,Private Citizen,"Uncertain
+",Julio-Claudian ,Textual Reference ,Italy,Praeneste ,Praeneste.Ludus,41.83945277,12.89236658,Praeneste Ludus,Private
+14,0101000020E6100000693587186DE83D403E396D3AC0323F40,https://pleiades.stoa.org/places/727070,Augustus ,"Uncertain
+",Julio-Claudian ,Textual Reference ,Egypt ,Alexandria ,Alexandria.Ludus ,31.19824567,29.90791467,Alexandria Ludus,Imperial
+15,0101000020E61000005063AD67292F3B40FE073F0ED6904340,https://pleiades.stoa.org/places/550812,Marcus Aurelius ,"Uncertain
+",Second Century AD,Textual Reference ,Turkey,Pergamum ,Pergamum.Ludus ,39.13153246,27.18422554,"Pergamum Ludus
+",Imperial
+17,0101000020E6100000E9263108AC0C334039D6C56D34C84740,https://pleiades.stoa.org/places/197130,Unknown,"Uncertain
+",Second Century AD ,"Archaeological Remains, Constested ID ",Hungary ,Aquincum ,Aquincum.Ludus ,47.5641,19.0495,Aquincum Ludus,Imperial
+9,0101000020E6100000D5B0DF13EBF82840F38E537424F24440,http://pleiades.stoa.org/places/423025,Unknown,"Uncertain
+",Julio-Claudian ,Textual Reference ,Italy,Roma,Ludus.Aemilius ,41.8917375,12.4861685,"Ludus Aemilius
+",Private
+8,0101000020E61000003B40E6B974FA2C404916491EFC5F4440,https://pleiades.stoa.org/places/568496340,Unknown,"Uncertain
+",Republican ,Archaeological Remains ,Italy,Pompeii ,Pompeii.Ludus.Small,40.74988154,14.4891718,"Small Ludus at Pompeii
+",Private
+7,0101000020E61000002F3201BF46FA2C4023111AC1C65F4440,https://pleiades.stoa.org/places/568496340,Unknown,62,Julio-Claudian ,Archaeological Remains ,Italy,Pompeii ,Pompeii.Ludus.Big,40.748253,14.488821,"Large Ludus at Pompeii
+",Private
+16,0101000020E61000009679ABAE43D930409AEFE0270E0E4840,https://pleiades.stoa.org/places/128376,Unknown,"Uncertain
+",Second Century AD,Archaeological Remains ,Austria ,Carnuntum ,Carnuntum.Ludus ,48.109807,16.848689,Carnuntum Ludus,Imperial
+1,0101000020E610000002BB9A3C65FD2840A089B0E1E9F14440,http://pleiades.stoa.org/places/423025,Domitian ,81-96,Flavian,Archaeological Remains ,Italy,Roma,Ludus.Magnus ,41.88995,12.494913,"Ludus Magnus
+","Imperial
+"
+2,0101000020E6100000632B685A62FD28404D86E3F90CF24440,http://pleiades.stoa.org/places/423025,Domitian ,81-96,Flavian,Textual Reference ,Italy,Roma,Ludus.Dacicus,41.891021,12.494891,"Ludus Dacicus
+",Imperial
+18,0101000020E6100000F0A65B7688071940D6390664AFBE4140,https://pleiades.stoa.org/places/334570,Unknown,"Uncertain
+",First  Century AD ,Textual Reference ,Algeria ,Lambaesis,Lambaesis.Ludus,35.4897275,6.2573565,Lambaesis Ludus,Imperial
+3,0101000020E61000002785798F33FD284076543541D4F14440,http://pleiades.stoa.org/places/423025,Domitian ,81-96 ,Flavian,"Archaeological Remains, Constested ID ",Italy,Roma,Ludus.Matutinus ,41.88929,12.494534,"Ludus Matutinus
+",Imperial
+28,0101000020E61000005B5F24B4E56C2C40E1EEACDD768D4440,https://pleiades.stoa.org/places/432754  ,Julius Caesar ,-49,Caesarian ,Textual Reference ,Italy,Capua,Capua.Ludus.Caesaer ,41.10519,14.21269,Ludus of G. Julius Caesar at Capua ,"Imperial, but Private"
+4,0101000020E610000084D382177DFD28406C425A63D0F14440,http://pleiades.stoa.org/places/423025,Domitian ,81-96 ,Flavian,Textual Reference ,Italy,Roma ,Ludus.Gallicus,41.889172,12.495095,Ludus Gallicus,Imperial
