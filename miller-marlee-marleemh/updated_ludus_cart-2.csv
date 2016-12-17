@@ -16,7 +16,7 @@ cartodb_id,the_geom,pleiades_id,founder_emperor,date,chronology,evidence,country
 ",Julio-Claudian ,Textual Reference ,Croatia,Pola ,Pola.Ludus ,44.87053357,13.84606677,Pola Ludus,Private
 22,0101000020E610000051F7E03984FD2540C5A5CFB37EB84640,https://pleiades.stoa.org/places/383816,Unknown,Uncertain,Julio-Claudian ,Textual Reference ,Italy,Verona ,Verona.Ludus ,45.44136665,10.99514943,Verona Ludus,Private
 11,0101000020E6100000D5B0DF13EBF82840F38E537424F24440,http://pleiades.stoa.org/places/423025,Caligula ,"Uncertain
-",Julio-Claudian ,Textual Reference ,Italy,Roma ,Rome.Ludus.Caligula,41.8917375,12.4861685,Ludus of Caligula ,"Imperial, but Private"
+",Julio-Claudian ,Textual Reference ,Italy,Roma,Rome.Ludus.Caligula,41.8917375,12.4861685,Ludus of Caligula ,"Imperial, but Private"
 12,0101000020E6100000880FECF82F5027403A07CF84269D4640,https://pleiades.stoa.org/places/393382,Unknown,"Uncertain
 ",Julio-Claudian ,Textual Reference ,Italy,Ateste ,Ateste.Ludus ,45.227738,11.656616,Ateste Ludus,Private
 23,0101000020E6100000A1FBCD1F2EF4F7BF4289E0C9B82F4A40,https://pleiades.stoa.org/places/878157790,Unknown,"Uncertain
@@ -40,4 +40,4 @@ cartodb_id,the_geom,pleiades_id,founder_emperor,date,chronology,evidence,country
 18,0101000020E6100000F0A65B7688071940D6390664AFBE4140,https://pleiades.stoa.org/places/334570,Unknown,"Uncertain",First  Century AD ,Textual Reference ,Algeria ,Lambaesis,Lambaesis.Ludus,35.4897275,6.2573565,Lambaesis Ludus,Imperial
 3,0101000020E61000002785798F33FD284076543541D4F14440,http://pleiades.stoa.org/places/423025,Domitian ,81-96 ,Flavian,"Archaeological Remains, Constested ID ",Italy,Roma,Ludus.Matutinus ,41.88929,12.494534,Ludus Matutinus,Imperial
 28,0101000020E61000005B5F24B4E56C2C40E1EEACDD768D4440,https://pleiades.stoa.org/places/432754  ,Julius Caesar ,-49,Caesarian ,Textual Reference ,Italy,Capua,Capua.Ludus.Caesaer ,41.10519,14.21269,Ludus of G. Julius Caesar at Capua ,"Imperial, but Private"
-4,0101000020E610000084D382177DFD28406C425A63D0F14440,http://pleiades.stoa.org/places/423025,Domitian ,81-96 ,Flavian,Textual Reference ,Italy,Roma ,Ludus.Gallicus,41.889172,12.495095,Ludus Gallicus,Imperial
+4,0101000020E610000084D382177DFD28406C425A63D0F14440,http://pleiades.stoa.org/places/423025,Domitian ,81-96 ,Flavian,Textual Reference ,Italy,Roma,Ludus.Gallicus,41.889172,12.495095,Ludus Gallicus,Imperial
