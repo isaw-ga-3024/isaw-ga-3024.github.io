@@ -14,7 +14,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>museum/archive</repository>
+                        <repository>Historian</repository>
                         <idno>inventory number</idno>
                     </msIdentifier>
                     <physDesc>
@@ -53,8 +53,8 @@
         <body>
             <div type="edition">
                 <ab>
-                    <lb n="1"/> Per idem tempus<persName type ="gladiator">gladiatores</persName> apud oppidum <placeName type ="ludus">Praeneste</placeName> temptata eruptione praesidio militis, qui custos adesset, 
-coerciti sunt, iam <persName type ="related person" subtype ="famous">Spartacum</persName> et vetera mala rumoribus ferente populo, ut est novarum rerum cupiens pavidusque. 
+                    <lb n="1"/> Per idem tempus<persName type ="gladiator">gladiatores</persName> apud oppidum <placeName type ="locus">Praeneste</placeName> temptata eruptione praesidio militis, qui custos adesset, 
+coerciti sunt, iam <persName type ="related person" subtype ="famous" subtype="gladiator">Spartacum</persName> et vetera mala rumoribus ferente populo, ut est novarum rerum cupiens pavidusque. 
 nec multo post clades rei navalis accipitur, non bello (quippe haud alias tam immota pax), 
 sed certum ad diem in Campaniam redire classem Nero iusserat, non exceptis maris casibus. 
 ergo gubernatores, quamvis saeviente pelago, a Formiis movere; 
