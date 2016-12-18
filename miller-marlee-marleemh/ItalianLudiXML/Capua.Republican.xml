@@ -58,7 +58,7 @@
                     <lb n="1"/> Armorum tractandorum meditatio a <Persname type ="related person">P. Rutilio consule</Persname> 
                     Cn. Malli collega militibus est tradita:
                     is enim nullius ante se imperatoris exemplum secutus 
-                ex <placename type =ludus">ludo <persname type ='related person' subtype ='founder/emperor'>C. Aureli Scauri</persname> doctoribus gladiatorum</placename>arcessitis uitandi 
+                ex <placeName type ="ludus">ludo</placeName> <persName type ="related person" subtype ='founder/emperor'>C. Aureli Scauri</persName> <persName type= "employee">doctoribus gladiatorum</persName> arcessitis uitandi 
                 atque inferendi ictus subtiliorem rationem legionibus ingenerauit uirtutemque arti et rursus artem uirtuti miscuit, 
                 ut illa impetu huius fortior, haec illius scientia cautior fieret. 
                 </ab>
