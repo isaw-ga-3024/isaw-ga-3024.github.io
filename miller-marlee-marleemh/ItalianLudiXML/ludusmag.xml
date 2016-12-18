@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chronography of 354 AD, Part 16: Chronicle of the City of Rome, Domitian</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support> Ludus Magnus: large gladiatorial training school, Rome  (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+      <graphic url="http://formaurbis.stanford.edu/fragment.php?record=22"></graphic> 
+        <graphic url="http://www.the-colosseum.net/images/ludmagn.jpg"></graphic>
+        <graphic url="http://2.bp.blogspot.com/-7RfaqwW0aXc/TtgC3GThwoI/AAAAAAAAEeg/7La-5U7eVPg/s1600/Rome+2011+721.JPG"></graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                   <persName type="founder/emperor">Domitianus</persName> imp. ann. XVII m. V d. V. congiarum dedit ter X LXXV.  
+                    hoc imp. multae operae publicae fabricatae sunt: 
+                    atria VII, horrea piperataria ubi modo est basilica Constantiniana et horrea Vespasiani, 
+                    templum Castorum et Minervae, portam Capenam, gentem Flaviam, Divorum, Iseum et Serapeum,
+                     Minervam Chalcidicam, Odium, Minuciam veterem, stadium, et thermas Titianas et Traianas, 
+                    amphitheatrum usque ad clypea, templum Vespasiani et Titi, Capitolium, senatum,
+                     <placeName type="ludus">ludos IIII </placeName>, Palatium, metam sudantem et Penteum. occisus Palatio. 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p> Text sourced from The Chronography of 354 AD. Part 16: Chronicle of the City of Rome. MGH Chronica Minora I (1892), pp. 143-148. 
+                    Also see Colini, A. M., and L. Cozza. Ludus Magnus. A cura di A. M. Colini e L. Cozza. Monte dei paschi di Siena, 1962.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIL VI 10169, ILS 5124, EAOR-01, 86</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support> (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""</graphic> 
+    </facsimile>
+    <text> 
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>D(is) M(anibus)
+                    <lb n="1"/>Priori 
+                    <lb n="1"/>retiario 
+                    <lb n="1"/> <placeName type="ludus">lud(i) mag(ni)</placeName>
+                    <lb n="1"/>Iuvenis 
+                    <lb n="1"/>murmillo 
+                    <lb n="1"/><placeName type="ludus">lud(i) mag(ni)</placeName> 
+                    <lb n="1"/>conv(i)ctori 
+                    <lb n="1"/>b(ene) m(erenti) f(ecit) 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p></p>
+            </div>
+        </body>
+    </text>
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIL VI 10164</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support> Ludus Magnus: large gladiatorial training school, Rome  (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Via Appia
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://formaurbis.stanford.edu/fragment.php?record=22"</graphic> 
+        <graphic url="http://www.the-colosseum.net/images/ludmagn.jpg" </graphic>
+        <graphic url="http://2.bp.blogspot.com/-7RfaqwW0aXc/TtgC3GThwoI/AAAAAAAAEeg/7La-5U7eVPg/s1600/Rome+2011+721.JPG"></graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>Dis Manibus 
+                    <lb n= "2"/>Corneliae Frontiae 
+                    <lb n= "3"/>Vixit annis XVI m (ensibus) VII
+                    <lb n= "4"/><persName type="related person" subtype="master">M(arcus) Ulpius Aug (usti) lib (ertus) Callistus
+                    <lb n= "5"/>Pater praepositus armamentario </persName>
+                    <lb n= "6"/> <placeName type ='ludus'>Ludi Magni</placeName>et Flavia Nice conixus 
+                    <lb n= "7"/>Sanctissima fecerunt sibi
+                    <lb n= "8"/>Libteris libtertabusq(ue) posterisq (ue) eor (um) 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>Gravestone of Cornelia Frontina</p>
+            </div>
+            <div type="bibliography">
+                <p> 
+                    Also see Colini, A. M., and L. Cozza. Ludus Magnus. A cura di A. M. Colini e L. Cozza. Monte dei paschi di Siena, 1962.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+<teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title>CIL 6.9572</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support> Ludus Magnus: large gladiatorial training school, Rome  (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+      <graphic url="http://formaurbis.stanford.edu/fragment.php?record=22"></graphic> 
+        <graphic url="http://www.the-colosseum.net/images/ludmagn.jpg"></graphic>
+        <graphic url="http://2.bp.blogspot.com/-7RfaqwW0aXc/TtgC3GThwoI/AAAAAAAAEeg/7La-5U7eVPg/s1600/Rome+2011+721.JPG"></graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/> D(is) M(anibus)                                 
+                    <lb n="2"/>TIB(erius) CL(audius) HERACLES LIB(ertus) CL(audio)                               
+                    <lb n="3"/> <persName type="related person" subtype="medico">DEMETRIO MED(ic)O</persName>                                   
+                    <lb n="4"/> <lPlacename type="ludus">L(udi) M(agni)</lPlacename>                                 
+                    <lb n="5"/> PATRONO BENE MERENTI   </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p> Text sourced from The Chronography of 354 AD. Part 16: Chronicle of the City of Rome. MGH Chronica Minora I (1892), pp. 143-148. 
+                    Also see Colini, A. M., and L. Cozza. Ludus Magnus. A cura di A. M. Colini e L. Cozza. Monte dei paschi di Siena, 1962.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+

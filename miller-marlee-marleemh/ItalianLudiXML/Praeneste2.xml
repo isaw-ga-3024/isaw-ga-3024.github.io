@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tacitus, Annales, 15.46 </title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Praeneste Ludus (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <ab>
+                    <lb n="1"/> Per idem tempus<persName type ="gladiator">gladiatores</persName> apud oppidum <placeName type ="ludus">Praeneste</placeName> temptata eruptione praesidio militis, qui custos adesset, 
+coerciti sunt, iam <persName type ="related person" subtype ="famous">Spartacum</persName> et vetera mala rumoribus ferente populo, ut est novarum rerum cupiens pavidusque. 
+nec multo post clades rei navalis accipitur, non bello (quippe haud alias tam immota pax), 
+sed certum ad diem in Campaniam redire classem Nero iusserat, non exceptis maris casibus. 
+ergo gubernatores, quamvis saeviente pelago, a Formiis movere; 
+et gravi Africo, dum promunturium Miseni superare contendunt, 
+Cumanis litoribus impacti triremium plerasque et minora navigia passim amiserunt.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+<persName type="related person" subtype="famous">Σπάρτακος</persName> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

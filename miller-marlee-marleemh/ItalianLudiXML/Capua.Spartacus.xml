@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Appian,Ῥωμαικά (Historia Romana)	, Bellum Civilium 1.14</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>School of Gnaeus Cornelius Lentulus Batiatus/Vatia, Capua (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <ab>
+                    <lb n="1"/>τοῦ δ᾽αὐτοῦ χρόνου περὶ τὴν Ἰταλίαν μονομάχων ἐς θέας ἐν <placename>Καπύῃ τρεφομένων</placename>, 
+                        <persname type="related person" subtype="famous" >Σπάρτακος</persname> Θρᾲξ ἀνήρ, ἐστρατευμένος ποτὲ Ῥωμαίοις, 
+                        ἐκ δὲ αἰχμαλωσίας καὶ πράσεως ἐν τοῖς μονομάχοις ὤν, 
+                        ἔπεισεν αὐτῶν ἐς ἑβδομήκοντα ἄνδρας μάλιστα κινδυνεῦσαι περὶ ἐλευθερίας μᾶλλον ἢ θέας ἐπιδείξεως 
+                        καὶ βιασάμενος σὺν αὐτοῖς τοὺς φυλάσσοντας ἐξέδραμε:
+                        καί τινων ὁδοιπόρων ξύλοις καὶ ξιφιδίοις ὁπλισάμενος ἐς τὸ Βέσβιον ὄρος ἀνέφυγεν,
+                        ἔνθα πολλοὺς ἀποδιδράσκοντας οἰκέτας καί τινας ἐλευθέρους ἐκ τῶν ἀγρῶν ὑποδεχόμενος ἐλῄστευε τὰ ἐγγύς, 
+                        ὑποστρατήγους ἔχων Οἰνόμαόν τε καὶ Κρίξον μονομάχους.  
+
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
