@@ -14,7 +14,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>museum/archive</repository>
+                        <repository>CIL; ILS; EAOR</repository>
                         <idno>inventory number</idno>
                     </msIdentifier>
                     <physDesc>
@@ -52,15 +52,15 @@
         <body>
             <div type="edition" xml:space="preserve">
                 <ab>
-                    <lb n="1"/>D(is) M(anibus)
-                    <lb n="1"/>Priori 
-                    <lb n="1"/>retiario 
-                    <lb n="1"/> <placeName type="ludus">lud(i) mag(ni)</placeName>
-                    <lb n="1"/>Iuvenis 
-                    <lb n="1"/>murmillo 
-                    <lb n="1"/><placeName type="ludus">lud(i) mag(ni)</placeName> 
-                    <lb n="1"/>conv(i)ctori 
-                    <lb n="1"/>b(ene) m(erenti) f(ecit) 
+                    <l n="1"/>D(is) M(anibus)
+                    <l n="2"/>Priori 
+                    <l n="3"/><persName type="gladiator">retiario </persName> 
+                    <l n="4"/> <placeName type="ludus">lud(i) mag(ni)</placeName>
+                    <l n="5"/>Iuvenis 
+                    <l n="6"/><persName type="gladiator">murmillo </persName> 
+                    <l n="7"/><placeName type="ludus">lud(i) mag(ni)</placeName> 
+                    <l n="8"/>conv(i)ctori 
+                    <l n="9"/>b(ene) m(erenti) f(ecit) 
                 </ab>
             </div>
             <div type="apparatus">
