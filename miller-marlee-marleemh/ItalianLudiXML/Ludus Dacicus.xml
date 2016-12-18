@@ -15,7 +15,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>museum/archive</repository>
+                        <repository>Historian</repository>
                         <idno>inventory number</idno>
                     </msIdentifier>
                     <physDesc>
@@ -62,7 +62,7 @@
                     templum Castorum et Minervae, portam Capenam, gentem Flaviam, Divorum, Iseum et Serapeum,
                     Minervam Chalcidicam, Odium, Minuciam veterem, stadium, et thermas Titianas et Traianas, 
                     amphitheatrum usque ad clypea, templum Vespasiani et Titi, Capitolium, senatum, 
-                    <Placename type="ludus">ludos</Placename> IIII, Palatium, metam sudantem et Penteum. occisus Palatio. 
+                    <placeName type="ludus">ludos IIII</placeName>, Palatium, metam sudantem et Penteum. occisus Palatio. 
                 </ab>
             </div>
             <div type="apparatus">
