@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> Appian,Ῥωμαικά (Historia Romana)	, Bellum Civile 1.14</title>
+                <title> Appian,Ῥωμαικά (Historia Romana), Bellum Civile 1.14</title>
             </titleStmt>
             <publicationStmt>
                 <authority></authority>
@@ -54,8 +54,8 @@
         <body>
             <div type="edition">
                 <ab>
-                    <lb n="1"/>τοῦ δ᾽αὐτοῦ χρόνου περὶ τὴν Ἰταλίαν μονομάχων ἐς θέας ἐν <placename type ="locus">Καπύῃ τρεφομένων</placename>, 
-                        <persname type="related person" subtype="famous;gladiator" >Σπάρτακος</persname> Θρᾲξ ἀνήρ, ἐστρατευμένος ποτὲ Ῥωμαίοις, 
+                    <lb n="1"/>τοῦ δ᾽αὐτοῦ χρόνου περὶ τὴν Ἰταλίαν μονομάχων ἐς θέας ἐν <placeName type ="locus">Καπύῃ τρεφομένων</placeName>, 
+                        <persName type="related person" subtype="famous;gladiator" >Σπάρτακος</persName> Θρᾲξ ἀνήρ, ἐστρατευμένος ποτὲ Ῥωμαίοις, 
                         ἐκ δὲ αἰχμαλωσίας καὶ πράσεως ἐν τοῖς μονομάχοις ὤν, 
                         ἔπεισεν αὐτῶν ἐς ἑβδομήκοντα ἄνδρας μάλιστα κινδυνεῦσαι περὶ ἐλευθερίας μᾶλλον ἢ θέας ἐπιδείξεως 
                         καὶ βιασάμενος σὺν αὐτοῖς τοὺς φυλάσσοντας ἐξέδραμε:
