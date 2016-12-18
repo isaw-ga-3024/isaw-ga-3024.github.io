@@ -6,11 +6,11 @@ cartodb_id,the_geom,pleiades_id,founder_emperor,date,chronology,evidence,country
 26,0101000020E6100000CF65EE4A60F336409885B86A85514440,https://pleiades.stoa.org/places/491741,Unknown,"Uncertain
 ",Uncertain,Textual Reference ,Greece,"Thessalonica",Thessalonike.Ludus ,40.63688406,22.95068806,Thessalonica Ludus,Imperial
 25,0101000020E61000001C5F7B66496022404ED367075CBB4640,https://pleiades.stoa.org/places/383801,Unknown,Uncertain,"Uncertain",Textual Reference ,Italy,Gallia Transpadana ,Transpadana.Ludus,45.463746,9.18806,Gallia Transpadana Ludus,Private
-24,0101000020E61000001D1F2DCE18E23B40D2FF722D5A314440,https://pleiades.stoa.org/places/511218,Unknown,"Uncertain",Republican  ,Textual Reference ,Turkey ,Cyzicus ,Cyzicus.Ludus ,40.3855645,27.883191,Cyzicus Ludus,Imperial
-5,0101000020E61000005B5F24B4E56C2C40E1EEACDD768D4440,https://pleiades.stoa.org/places/432754  ,Gnaeus Cornelius Lentulus Batiatus/Vatia ,-73,Republican ,Textual Reference ,Italy,Capua,Capua.Ludus,41.10519,14.21269,Ludus of Gn. C. Lentulus Batiatus at Capua,Private
+24,0101000020E61000001D1F2DCE18E23B40D2FF722D5A314440,https://pleiades.stoa.org/places/511218,Unknown,"Uncertain",Republican,Textual Reference ,Turkey ,Cyzicus ,Cyzicus.Ludus ,40.3855645,27.883191,Cyzicus Ludus,Imperial
+5,0101000020E61000005B5F24B4E56C2C40E1EEACDD768D4440,https://pleiades.stoa.org/places/432754  ,Gnaeus Cornelius Lentulus Batiatus/Vatia ,-73,Republican,Textual Reference ,Italy,Capua,Capua.Ludus,41.10519,14.21269,Ludus of Gn. C. Lentulus Batiatus at Capua,Private
 20,0101000020E6100000ABE16C848F7B3040E9096C4A09C54540,https://pleiades.stoa.org/places/197488,Unknown,"Uncertain
 ",Second Century AD ,Textual Reference ,Croatia,Solin ,Salon.Ludus ,43.53934603,16.48265865,Salin Ludus,Private
-10,0101000020E61000005B5F24B4E56C2C40E1EEACDD768D4440,https://pleiades.stoa.org/places/432754  ,C. Aurelius Scaurus ,-105,Republican ,Textual Reference ,Italy,Capua ,Capua.Ludus.Second,41.10519,14.21269,Ludus of C.Aurelius Scaurus at Capua,Private
+10,0101000020E61000005B5F24B4E56C2C40E1EEACDD768D4440,https://pleiades.stoa.org/places/432754  ,C. Aurelius Scaurus ,-105,Republican,Textual Reference ,Italy,Capua ,Capua.Ludus.Second,41.10519,14.21269,Ludus of C.Aurelius Scaurus at Capua,Private
 21,0101000020E6100000C4C3E6A92FB12B402D9CDEA46D6F4640,https://pleiades.stoa.org/places/197448,Unknown,"Uncertain
 ",Julio-Claudian ,Textual Reference ,Croatia,Pola ,Pola.Ludus ,44.87053357,13.84606677,Pola Ludus,Private
 22,0101000020E610000051F7E03984FD2540C5A5CFB37EB84640,https://pleiades.stoa.org/places/383816,Unknown,Uncertain,Julio-Claudian ,Textual Reference ,Italy,Verona ,Verona.Ludus ,45.44136665,10.99514943,Verona Ludus,Private
@@ -37,6 +37,6 @@ cartodb_id,the_geom,pleiades_id,founder_emperor,date,chronology,evidence,country
 1,0101000020E610000002BB9A3C65FD2840A089B0E1E9F14440,http://pleiades.stoa.org/places/423025,Domitian ,81-96,Flavian,Archaeological Remains ,Italy,Roma,Ludus.Magnus ,41.88995,12.494913,Ludus Magnus,"Imperial"
 2,0101000020E6100000632B685A62FD28404D86E3F90CF24440,http://pleiades.stoa.org/places/423025,Domitian ,81-96,Flavian,Textual Reference ,Italy,Roma,Ludus.Dacicus,41.891021,12.494891,Ludus Dacicus,"Imperial"
 18,0101000020E6100000F0A65B7688071940D6390664AFBE4140,https://pleiades.stoa.org/places/334570,Unknown,"Uncertain",First  Century AD ,Textual Reference ,Algeria ,Lambaesis,Lambaesis.Ludus,35.4897275,6.2573565,Lambaesis Ludus,Imperial
-3,0101000020E61000002785798F33FD284076543541D4F14440,http://pleiades.stoa.org/places/423025,Domitian ,81-96 ,Flavian,"Archaeological Remains, Constested ID ",Italy,Roma ,Ludus.Matutinus ,41.88929,12.494534,Ludus Matutinus,Imperial
+3,0101000020E61000002785798F33FD284076543541D4F14440,http://pleiades.stoa.org/places/423025,Domitian ,81-96 ,Flavian,"Archaeological Remains, Constested ID ",Italy,Roma,Ludus.Matutinus ,41.88929,12.494534,Ludus Matutinus,Imperial
 28,0101000020E61000005B5F24B4E56C2C40E1EEACDD768D4440,https://pleiades.stoa.org/places/432754  ,Julius Caesar ,-49,Caesarian ,Textual Reference ,Italy,Capua,Capua.Ludus.Caesaer ,41.10519,14.21269,Ludus of G. Julius Caesar at Capua ,"Imperial, but Private"
 4,0101000020E610000084D382177DFD28406C425A63D0F14440,http://pleiades.stoa.org/places/423025,Domitian ,81-96 ,Flavian,Textual Reference ,Italy,Roma,Ludus.Gallicus,41.889172,12.495095,Ludus Gallicus,Imperial
