@@ -37,7 +37,7 @@ Pleiades_ID,Name,Place_Type,In_Italy,Poem,Book,Line,AeneasPath,Gods,WheresAeneas
 432900,Latium,Region,Italy,Aeneid,Aeneid_10,58,,,Caere,,noun,latium,,Venus,DirectSpeech
 432900,Latium,Region,Italy,Aeneid,Aeneid_10,300,2,,Latium,,adjective,iliacis,campis,,Aeneas
 422959,Laurentum,City/Settlement,Italy,Aeneid,Aeneid_10,635,,2,Latium,,adjective,laurentia,castra,,Secondary
-422959,Laurentum,City/Settlement,Italy,Aeneid,Aeneid_10,671,,,Latium,,adjective,laurentis,muros_aut_castra,Turnus,DirectSpeech
+422959,Laurentum,City/Settlement,Italy,Aeneid,Aeneid_10,671,,,Latium,,adjective,laurentis,muros,Turnus,DirectSpeech
 422959,Laurentum,City/Settlement,Italy,Aeneid,Aeneid_9,367,,,Caere,,,,,,Secondary
 422960,Lavinium,Region,Italy,Aeneid,Aeneid_1,2,,,Introduction,,adjective,lavinia,litora,,Secondary
 422960,Lavinium,Region,Italy,Aeneid,Aeneid_1,258,,,Libya,,genitive_singular,lavini,urbsetmoenia,Jupiter,DirectSpeech
