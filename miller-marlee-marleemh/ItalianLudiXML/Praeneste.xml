@@ -14,7 +14,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>museum/archive</repository>
+                        <repository>CIL</repository>
                         <idno>inventory number</idno>
                     </msIdentifier>
                     <physDesc>
@@ -53,18 +53,18 @@
         <body>
             <div type="edition">
                 <ab>
-                    <lb n="1"/><persName type="founder_emperor" subtype = "private_citizen">Cn. Voesio</persName>
-Cn. fii. Apro 
-quaestori, aedili, Ilviro, 
-flamioi divi  Aug.,  Vlviro 
-Augustali, curatori annon. (triennio  continuo, curat. muneris publici' gladiatori III*, 
-quot is tempore honorum cu}rarumque suarum, plenissimo  
-munificentiae studio, voluptatib. 
-et utilitatibus po- puli plurima 
-contulerit, <placeName type = "ludus">ludum etiam gladi
-atorium</placeName> et spoliar.* solo empto I sua pecunia exstructum publice op
-tulerit; cuius meritis postu- lante populo 
-statuam publice poni placuit. D.d
+                    <l n="1"/> <persName type="founder_emperor" subtype = "private_citizen">Cn. Voesio</persName>
+<l n="2"/>Cn. fii. Apro 
+<l n="3"/>quaestori, aedili, Ilviro, 
+<l n="4"/>flamioi divi  Aug.,  Vlviro 
+<l n="5"/>Augustali, curatori annon. (triennio  continuo, curat. muneris publici' gladiatori III*, 
+<l n="6"/>quot is tempore honorum cu}rarumque suarum, plenissimo  
+<l n="7"/>munificentiae studio, voluptatib. 
+<l n="8"/>et utilitatibus po- puli plurima 
+<l n="9"/>contulerit, <placeName type = "ludus">ludum etiam gladi
+<l n="10"/>atorium</placeName> et spoliar.* solo empto I sua pecunia exstructum publice op
+<l n="11"/>tulerit; cuius meritis postu- lante populo 
+<l n="12"/>statuam publice poni placuit. D.d
                 </ab>
             </div>
             <div type="apparatus">
