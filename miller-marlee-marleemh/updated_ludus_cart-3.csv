@@ -1,6 +1,6 @@
 cartodb_id,the_geom,pleiades_id,founder_emperor,date,chronology,evidence,country_modern,city_town_ancient,id,latitude,longitude,label,control_operation
 6,0101000020E61000009E4143FF04672840DB6D179AEB344640,https://pleiades.stoa.org/places/393480 ,Julius Caesar ,-49,Caesarian ,Textual Reference ,Italy,Ravenna,Ravenna.Ludus,44.41344,12.20121,Ludus at Ravenna of G. Julius Caesar,"Imperial, but Private"
-27,0101000020E610000027AEF8C0ED684040ECAE81E73DFB4340,https://pleiades.stoa.org/places/619103 ,Unknown,Uncertain,Uncertain,Textual Reference ,Turkey,Ancyra,Ancyra.Ludus ,39.96282667,32.81975567,Ancyra Ludus,Imperial
+27,0101000020E610000027AEF8C0ED684040ECAE81E73DFB4340,https://pleiades.stoa.org/places/619103,Unknown,Uncertain,Uncertain,Textual Reference ,Turkey,Ancyra,Ancyra.Ludus ,39.96282667,32.81975567,Ancyra Ludus,Imperial
 26,0101000020E6100000CF65EE4A60F336409885B86A85514440,https://pleiades.stoa.org/places/491741,Unknown,"Uncertain
 ",Uncertain,Textual Reference ,Greece,"Thessalonica
 ",Thessalonike.Ludus ,40.63688406,22.95068806,Thessalonica Ludus,Imperial
