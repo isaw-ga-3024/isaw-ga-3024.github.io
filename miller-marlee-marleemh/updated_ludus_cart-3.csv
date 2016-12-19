@@ -4,7 +4,7 @@ cartodb_id,the_geom,pleiades_id,founder_emperor,date,chronology,evidence,country
 26,0101000020E6100000CF65EE4A60F336409885B86A85514440,https://pleiades.stoa.org/places/491741,Unknown ,Uncertain,Uncertain,Textual Reference ,Greece,"Thessalonica
 ",Thessalonike.Ludus ,40.63688406,22.95068806,Thessalonica Ludus,Imperial
 25,0101000020E61000001C5F7B66496022404ED367075CBB4640,https://pleiades.stoa.org/places/383801,Unknown ,Uncertain,Uncertain,Textual Reference ,Italy,Gallia Transpadana ,Transpadana.Ludus,45.463746,9.18806,Gallia Transpadana Ludus,Private
-5,0101000020E61000005B5F24B4E56C2C40E1EEACDD768D4440,https://pleiades.stoa.org/places/432754  ,Gnaeus Cornelius Lentulus Batiatus/Vatia ,-73,Republican,Textual Reference ,Italy,Capua,Capua.Ludus,41.10519,14.21269,Ludus of Gn. C. Lentulus Batiatus at Capua,Private
+5,0101000020E61000005B5F24B4E56C2C40E1EEACDD768D4440,https://pleiades.stoa.org/places/432754,Gnaeus Cornelius Lentulus Batiatus/Vatia ,-73,Republican,Textual Reference ,Italy,Capua,Capua.Ludus,41.10519,14.21269,Ludus of Gn. C. Lentulus Batiatus at Capua,Private
 19,0101000020E6100000ED629AE95E1716408908FF2268514140,https://pleiades.stoa.org/places/334553,Unknown ,Uncertain",Second Century AD,Textual Reference ,Algeria ,Gemellae,Gemellae.Ludus,34.6359905,5.522823,Gemellae Ludus,Imperial
 24,0101000020E61000001D1F2DCE18E23B40D2FF722D5A314440,https://pleiades.stoa.org/places/511218,Unknown ,Uncertain,Republican,Textual Reference ,Turkey ,Cyzicus ,Cyzicus.Ludus ,40.3855645,27.883191,Cyzicus Ludus,Imperial
 20,0101000020E6100000ABE16C848F7B3040E9096C4A09C54540,https://pleiades.stoa.org/places/197488,Unknown ,Uncertain,Second Century AD ,Textual Reference ,Croatia,Solin ,Salon.Ludus ,43.53934603,16.48265865,Salin Ludus,Private
