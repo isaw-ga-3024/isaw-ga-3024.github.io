@@ -14,7 +14,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>CIL</repository>
+<repository> Corpus Inscriptionum Latinarum: Inscription, Funerary</repository>
                         <idno>inventory number</idno>
                     </msIdentifier>
                     <physDesc>
@@ -47,7 +47,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="photograph of text or monument"/>
+        <graphic url="https://commons.wikimedia.org/wiki/Corpus_Inscriptionum_Latinarum,_Vol_XIV#/media/File:The_National_Archeological_Museum_Of_Palestrina_8.JPG"/>
     </facsimile>
     <text>
         <body>
