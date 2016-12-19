@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIL X 1685;  CIL XI 95,3; ILS 1397</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository> Corpus Inscriptionum Latinarum; Inscriptiones Latinae Selectae : Inscription, Funerary </repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Alexandrian Gladiatorial School<material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Pozzuoli</origPlace>
+                            <origDate>Augustan</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <ab>
+                    <lb n="1"/> <persName type = "employee" subtype= "procurator">(ucius) Bovius L(uci) f(ilius) L(uci) n(epos) Fal(erna) Celer  
+                       <lb n="2"/>  IIvir q(uaestor) augur 
+                       <lb n="3"/>   praef(ectus) fabr(um) trib(unus) milit(um) leg(ionis) III Cyr(enaicae)  
+                       <lb n="4"/>  procur(ator) ludi <persName type ="gladiator">famil(iarum) glad(iatoriarum) Caesaris  </persName> 
+                       <lb n="5"/>  <placeName type ="locus">Alexandreae ad Aegyptum</placeName></persName> adlectus 
+                    <lb n="6"/>  interselectos ab <persName type ="founder/emperor">Imp(eratore) Caes(are) Aug(usto) </persName> 
+                   <lb n="7"/>  sibi et
+                  <lb n="8"/> Sextiae L(uci) f(iliae) Nerulae uxori 
+                 <lb n="9"/>   optimae cum qua a pueritia  
+                 <lb n="10"/>  sine offensa vixit annis XXXI.; 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>Earliest known example of known procurator of procurator for a familia gladiatoria for imperial games</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
