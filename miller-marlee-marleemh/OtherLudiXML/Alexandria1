@@ -1,0 +1,120 @@
+ 
+Leipzig 57.6-11 
+[ όνομα]  σθεις … [ε] ις  επιμελειαν και κατασκενην και κατακομιδην δημοσιω[ν] 
+
+ιματιων λυδου μονομαχων     
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>	P.Lips. 1 57 R; HGV P.Lips. 1 57 R; Trismegistos: 22366 </title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>	Leipzig, Universität  </repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Alexandrian Gladiatorial School<material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Hermopolis</origPlace>
+                            <origDate> 261 AD</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <ab>
+[- ca.13 -]ω[  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣]  ̣
+[- ca.10 -]ῳ ὀφφικιαλίῳ
+[- ca.10 -] vac. ?
+[Αὐρ(ήλιος) Ἀχιλλε]ὺ̣ς̣
+[ἀναγραφ(όμενος) ἐ]πʼ ἀμφό̣δ̣(ου) π̣[όλ(εως)] ἀπηλ(ιώτου)
+[ὀνομα(?)]σ̣θεὶς ὑπὸ τῶν τῆς
+πό[λεως τ]ότε γενομέ(νων) γραμμ-
+ατέων [ε]ἰς ἐπιμέλειαν
+καὶ κατα̣σ̣κευὴν καὶ κα-
+τακομιδὴν δημοσίω(ν)
+ἱματίων λούδου μο-
+νομάχων τοῦ διεληλ(υθότος)
+ζ̣ ἔτους τῆς πρὸ ταύ[τ]ης βασι-
+λείας ὀνύω τὴν τῶ[ν]
+Κυρίων <persName type ="gladiator">ἡμῶν Μακρινι-
+ανοῦ </persName> καὶ Κυήτ[ο]υ Σε-
+βαστῶν τύχην κατε-
+νεγκεῖν εἰς [τ]ὴ(ν) λ[α]μπρα-
+<placeName tyep="locus">την Ἀλεξάνδ(ρειαν)</placeName> καὶ παρα-
+δώσειν ἐν τῷ Ἐπεὶφ
+μη̣νὶ τοῦ ἐνεστῶ-
+τος α (ἔτους) τῷ ὀφφικίῳ
+τοῦ κρατίσ[το]υ δι-
+καιοδότου ἢ( οἷς
+ἐὰν κελευσθῶ
+τὸ ἐπιβάλλον τῇ
+πόλει (τρίτον(?)) μέρος χιτ̣ώ̣νων
+μὲν ζεύγ(η) ρ̣μ̣ζ, παριωλων ζεύγ̣(η)   ̣
+καὶ συ̣ριῶν πζ ὑ̣(πὲρ) τοῦ δ[ι]ελη-
+λυθ[ό]τος ζ̣ (ἔτους), καὶ τῆς πα̣ρα̣δ̣ό̣σεως
+κομιεῖν με τῇ σῇ ἐ̣  ̣[  ̣  ̣  ̣]  ̣ιᾳ
+τὰ ἐξ ἔθους γράμματα ἢ ἔνο-
+χος εἴην τᾷ θείῳ ὅρκῳ καὶ
+ἐπερωτηθεὶς ὡμολόγησα.
+(ἔτους) α Αὐτοκρατόρων Καισάρω(ν)
+Τίτου Φουλουίο[υ] Ἰουνί[ο]υ
+Μακριαν[ο]ῦ καὶ Τίτου Φουλουί[ου]
+Ἰουιουν[ί]ο[υ] Κυήτου Εὐσεβῶν
+Εὐτυχῶν Σεβαστῶν Φαμενὼθ ι.
+Αὐ(ρήλιος) Ἀχιλ(λεὺς) ὤ[μοσ]α τὸν προκείμενο(ν)
+ὅρκον κ[(αὶ) κατ]άξω κ(αὶ) παρα[δώσω] ὡς
+vac. ? [πρόκ]ετε. 
+                       
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
