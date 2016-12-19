@@ -14,7 +14,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>CIL</repository>
+                        <repository>Corpus Inscriptionae Latinae</repository>
                         <idno>inventory number</idno>
                     </msIdentifier>
                     <physDesc>
@@ -56,7 +56,7 @@
                     <lb n="1"/>...]
                     <lb n="2"/>Eeutychus 
                     <lb n="3"/>[c]ustos horrei 
-                    <lb n="4"/>[q]ui fuit ad <Placename type="ludus">ludum G[al(licam)]</Placename>
+                    <lb n="4"/>[q]ui fuit ad <placeName type="ludus">ludum G[al(licam)]</placeName>
                 </ab>
             </div>
             <div type="apparatus">
