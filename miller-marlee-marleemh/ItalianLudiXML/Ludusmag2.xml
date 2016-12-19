@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>CIL VI 10169, ILS 5124, EAOR-01, 86</title>
+                <title>CIL VI 10169, ILS 5124</title>
             </titleStmt>
             <publicationStmt>
                 <authority></authority>
@@ -14,7 +14,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>CIL; ILS; EAOR</repository>
+                        <repository>Corpus Inscriptionum Latinarum; Inscriptiones Latinae Selectae: Inscription, Funerary </repository>
                         <idno>inventory number</idno>
                     </msIdentifier>
                     <physDesc>
