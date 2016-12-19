@@ -18,8 +18,8 @@ cartodb_id,the_geom,pleiades_id,founder_emperor,date,chronology,evidence,country
 17,0101000020E6100000E9263108AC0C334039D6C56D34C84740,https://pleiades.stoa.org/places/197130,Unknown ,Uncertain,Second Century AD,"Archaeological Remains, Constested ID ",Hungary ,Aquincum ,Aquincum.Ludus ,47.5641,19.0495,Aquincum Ludus,Imperial
 15,0101000020E61000005063AD67292F3B40FE073F0ED6904340,https://pleiades.stoa.org/places/550812,Marcus Aurelius ,Uncertain,Second Century AD,Textual Reference ,Turkey,Pergamum ,Pergamum.Ludus ,39.13153246,27.18422554,"Pergamum Ludus",Imperial
 9,0101000020E6100000D5B0DF13EBF82840F38E537424F24440,http://pleiades.stoa.org/places/423025,Unknown ,Uncertain,Julio-Claudian ,Textual Reference ,Italy,Roma,Ludus.Aemilius ,41.8917375,12.4861685,"Ludus Aemilius",Private
-1,0101000020E610000002BB9A3C65FD2840A089B0E1E9F14440,http://pleiades.stoa.org/places/423025,Domitian ,81-96,Flavian,Archaeological Remains ,Italy,Roma,Ludus.Magnus ,41.88995,12.494913,"Ludus Magnus","Imperial
-"
+1,0101000020E610000002BB9A3C65FD2840A089B0E1E9F14440,http://pleiades.stoa.org/places/423025,Domitian ,81-96,Flavian,Archaeological Remains ,Italy,Roma,Ludus.Magnus ,41.88995,12.494913,"Ludus Magnus",Imperial
+
 2,0101000020E6100000632B685A62FD28404D86E3F90CF24440,http://pleiades.stoa.org/places/423025,Domitian ,81-96,Flavian,Textual Reference ,Italy,Roma,Ludus.Dacicus,41.891021,12.494891,"Ludus Dacicus",Imperial
 7,0101000020E61000002F3201BF46FA2C4023111AC1C65F4440,https://pleiades.stoa.org/places/568496340,Unknown ,62,Julio-Claudian ,Archaeological Remains ,Italy,Pompeii ,Pompeii.Ludus.Big,40.748253,14.488821,"Large Ludus at Pompeii
 ",Private
