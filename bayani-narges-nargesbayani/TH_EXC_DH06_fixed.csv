@@ -1,4 +1,4 @@
-Point,square_id,x_start,y_start,depth,Date,date_id
+Point,square_id,x,y,depth,Date,date_id
 DH_06_NW_start,DH_06,3,2,-0.9,08/18/1932,2
 DH_06_NE_start,DH_06,4,2,-0.9,08/18/1932,2
 DH_06_SE_start,DH_06,4,1,-0.6,08/18/1932,2
